@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web System</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", "Malgun Gothic", sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+      color: #1f2937;
+    }
+
+    /* ---------- Sidebar ---------- */
+    .sidebar {
+      width: 240px;
+      min-width: 240px;
+      background: #1a2332;
+      color: #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .sidebar .logo {
+      padding: 22px 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      border-bottom: 1px solid #2c374a;
+      letter-spacing: 0.5px;
+    }
+
+    .sidebar nav {
+      flex: 1;
+      padding: 16px 0;
+      overflow-y: auto;
+    }
+
+    .sidebar nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 14px;
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+
+    .sidebar nav a:hover {
+      background: #232e42;
+      color: #ffffff;
+    }
+
+    .sidebar nav a.active {
+      background: #232e42;
+      border-left-color: #3b82f6;
+      color: #ffffff;
+    }
+
+    .sidebar nav a .icon {
+      width: 18px;
+      text-align: center;
+    }
+
+    .sidebar .settings {
+      border-top: 1px solid #2c374a;
+      padding: 10px 0;
+    }
+
+    /* ---------- Main content ---------- */
+    .main {
+      flex: 1;
+      height: 100%;
+      overflow: auto;
+      background: #f3f4f6;
+    }
+
+    .main .topbar {
+      padding: 18px 28px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .main .topbar h1 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .main .content {
+      padding: 28px;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 130px);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    .hero svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .hero .caption {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      padding: 18px 24px;
+      background: linear-gradient(to top, rgba(0,0,0,0.55), rgba(0,0,0,0));
+      color: #fff;
+    }
+
+    .hero .caption h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .hero .caption p {
+      font-size: 13px;
+      opacity: 0.85;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">My Web System</div>
+
+    <nav>
+      <a href="#" class="active"><span class="icon">🏠</span> 대시보드</a>
+      <a href="#"><span class="icon">🏭</span> 설비 현황</a>
+      <a href="#"><span class="icon">🔔</span> 알람</a>
+      <a href="#"><span class="icon">📊</span> 리포트</a>
+      <a href="#"><span class="icon">👤</span> 사용자 관리</a>
+    </nav>
+
+    <div class="settings">
+      <a href="#"><span class="icon">⚙️</span> 세팅</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <h1>대시보드</h1>
+    </div>
+
+    <div class="content">
+      <div class="hero">
+        <svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#7a95b8"/>
+              <stop offset="60%" stop-color="#b7c6da"/>
+              <stop offset="100%" stop-color="#dfe4ea"/>
+            </linearGradient>
+            <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#4b5563"/>
+              <stop offset="100%" stop-color="#374151"/>
+            </linearGradient>
+          </defs>
+
+          <rect x="0" y="0" width="1200" height="700" fill="url(#sky)"/>
+          <rect x="0" y="520" width="1200" height="180" fill="url(#ground)"/>
+
+          <!-- distant buildings -->
+          <g opacity="0.5" fill="#8b97a8">
+            <rect x="40" y="360" width="60" height="180"/>
+            <rect x="120" y="400" width="45" height="140"/>
+            <rect x="980" y="380" width="55" height="160"/>
+            <rect x="1060" y="410" width="70" height="130"/>
+          </g>
+
+          <!-- main factory building -->
+          <g>
+            <rect x="230" y="340" width="420" height="200" fill="#5b6b7d"/>
+            <rect x="230" y="340" width="420" height="16" fill="#3f4c5c"/>
+            <g fill="#c9d3dc" opacity="0.85">
+              <rect x="260" y="380" width="34" height="46"/>
+              <rect x="320" y="380" width="34" height="46"/>
+              <rect x="380" y="380" width="34" height="46"/>
+              <rect x="440" y="380" width="34" height="46"/>
+              <rect x="500" y="380" width="34" height="46"/>
+              <rect x="560" y="380" width="34" height="46"/>
+              <rect x="260" y="450" width="34" height="46"/>
+              <rect x="320" y="450" width="34" height="46"/>
+              <rect x="380" y="450" width="34" height="46"/>
+              <rect x="440" y="450" width="34" height="46"/>
+              <rect x="500" y="450" width="34" height="46"/>
+              <rect x="560" y="450" width="34" height="46"/>
+            </g>
+          </g>
+
+          <!-- smokestacks -->
+          <g fill="#4b5b6d">
+            <rect x="300" y="200" width="36" height="145"/>
+            <rect x="360" y="150" width="36" height="195"/>
+            <rect x="420" y="230" width="36" height="115"/>
+          </g>
+          <g fill="#374151">
+            <rect x="296" y="192" width="44" height="12"/>
+            <rect x="356" y="142" width="44" height="12"/>
+            <rect x="416" y="222" width="44" height="12"/>
+          </g>
+
+          <!-- smoke -->
+          <g fill="#e5e7eb" opacity="0.55">
+            <ellipse cx="378" cy="120" rx="30" ry="18"/>
+            <ellipse cx="400" cy="95" rx="38" ry="22"/>
+            <ellipse cx="430" cy="70" rx="46" ry="26"/>
+          </g>
+
+          <!-- crane -->
+          <g stroke="#f59e0b" stroke-width="6" fill="none" stroke-linecap="round">
+            <line x1="760" y1="540" x2="760" y2="260"/>
+            <line x1="760" y1="270" x2="960" y2="270"/>
+            <line x1="760" y1="270" x2="700" y2="230"/>
+            <line x1="960" y1="270" x2="960" y2="330"/>
+            <line x1="700" y1="530" x2="820" y2="290"/>
+          </g>
+          <circle cx="760" cy="264" r="6" fill="#f59e0b"/>
+
+          <!-- storage tanks -->
+          <g>
+            <ellipse cx="880" cy="520" rx="60" ry="12" fill="#324153"/>
+            <rect x="820" y="420" width="120" height="100" fill="#7a8b9d"/>
+            <ellipse cx="880" cy="420" rx="60" ry="12" fill="#8fa0b2"/>
+            <ellipse cx="1010" cy="530" rx="50" ry="10" fill="#324153"/>
+            <rect x="960" y="450" width="100" height="80" fill="#6b7d90"/>
+            <ellipse cx="1010" cy="450" rx="50" ry="10" fill="#7f92a5"/>
+          </g>
+
+          <!-- ground pipes -->
+          <g stroke="#2f3b48" stroke-width="10" fill="none" stroke-linecap="round">
+            <path d="M 650 545 L 820 545"/>
+            <path d="M 940 500 L 960 500"/>
+          </g>
+
+          <!-- foreground fence -->
+          <g stroke="#232b35" stroke-width="4" opacity="0.6">
+            <line x1="0" y1="560" x2="1200" y2="560"/>
+            <line x1="20" y1="520" x2="20" y2="560"/>
+            <line x1="80" y1="520" x2="80" y2="560"/>
+            <line x1="140" y1="520" x2="140" y2="560"/>
+            <line x1="1080" y1="520" x2="1080" y2="560"/>
+            <line x1="1140" y1="520" x2="1140" y2="560"/>
+          </g>
+        </svg>
+
+        <div class="caption">
+          <h2>산업 현장 현황</h2>
+          <p>실시간 설비 및 공정 모니터링</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
