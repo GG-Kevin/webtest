@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RemoteAssist</string>
+    <string name="accessibility_service_description">부모-자녀 간 승인된 원격 지원 세션 동안에만 화면 탭·스와이프·텍스트 입력을 대신 수행합니다.</string>
+</resources>
