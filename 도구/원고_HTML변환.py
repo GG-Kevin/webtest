@@ -7,7 +7,8 @@ def convert(md_path: str) -> str:
     body = src[i:j if j > 0 else len(src)].strip()
     body = re.sub(r'\n---\s*\n##\s*$', '', body).rstrip().rstrip('#').rstrip().rstrip('-').rstrip()
 
-    LINK = 'color:#1a6b4f;border-bottom:1px solid #b7d6c9;text-decoration:none;'
+    LINK = ('color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;'
+            'text-decoration:none;padding-bottom:1px;')
     CODE = 'background:#f1f3f5;padding:1px 5px;border-radius:3px;font-size:.93em;'
 
     def inline(t):
