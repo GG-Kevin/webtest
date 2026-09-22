@@ -78,7 +78,7 @@
 
 <h2 id="y7" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">7. 환전·엔화예금, 타이밍이 궁금하다면</h2>
 
-<p style="line-height:1.85;margin:0 0 18px;">이 글은 환전이나 투자 타이밍을 권유하는 글이 아니지만, 실제로 많이 찾아보시는 정보 두 가지는 정리해둡니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">실제로 많이 찾아보시는 정보 두 가지를 정리해둡니다.</p>
 
 <div style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">
 일본 여행 환전 &rarr; 출발 1~2주 전 나눠서 환전하는 방법이 흔히 권장됩니다. 인천공항 환전소는 시중은행 앱보다 통상 1~2%포인트 비싼 것으로 알려져 있습니다.<br>
@@ -89,6 +89,6 @@
 
 <p style="margin:36px 0 0;padding:18px 20px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;font-size:0.92em;line-height:1.8;color:#4a5568;">
 <strong>안내</strong><br>
-본 글은 2026년 9월 9일 조사 시점 기준으로 작성됐으며, 환율·금리 등 모든 수치는 실시간으로 바뀌는 스냅샷입니다. 6번 절의 BOJ 회의 결과만 9월 18일 발표 원문 기준으로 갱신했습니다. 캐리트레이드 청산의 국내 증시 영향에 대한 전망은 전문가마다 엇갈리므로, 실제 판단 전 최신 환율과 여러 분석을 함께 확인하시기 바랍니다.<br><br>
+6번 절의 BOJ 회의 결과만 9월 18일 발표 원문 기준으로 갱신했습니다. 캐리트레이드 청산의 국내 증시 영향에 대한 전망은 전문가마다 엇갈리므로, 실제 판단 전 최신 환율과 여러 분석을 함께 확인하시기 바랍니다.<br><br>
 <span style="color:#718096;">최종 수정일: 2026. 9. 22.</span>
 </p></div>

@@ -109,6 +109,6 @@
 
 <p style="margin:36px 0 0;padding:18px 20px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;font-size:0.92em;line-height:1.8;color:#4a5568;">
 <strong>안내</strong><br>
-특정 종목의 매수·매도나 청약 참여를 권유하지 않습니다. 신주인수권증서 거래 기간, 신주 상장 일정, 할인율 등 세부 조건은 기업과 증자 건마다 다르므로, 실제 판단 전 해당 기업의 증자 공시 원문과 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener nofollow">DART</a>·<a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a> 공시를 직접 확인하시기 바랍니다.<br><br>
+신주인수권증서 거래 기간, 신주 상장 일정, 할인율 등 세부 조건은 기업과 증자 건마다 다르므로, 실제 판단 전 해당 기업의 증자 공시 원문과 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener nofollow">DART</a>·<a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a> 공시를 직접 확인하시기 바랍니다.<br><br>
 <span style="color:#718096;">최종 수정일: 2026. 9. 22.</span>
 </p></div>
