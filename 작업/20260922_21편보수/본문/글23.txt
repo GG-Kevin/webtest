@@ -83,30 +83,7 @@
 <div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">기준 미달 &rarr; <b>관리종목 지정</b>(경고)<br />&rarr; 일정 기간 내 기준 회복 실패 시 <b>상장폐지 사유 발생</b><br />&rarr; <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/13">형식적 요건이냐 실질심사냐</a>에 따라 절차 분기<br />&rarr; 최종 결정 시 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/6">정리매매</a> 후 상장폐지</div>
 <p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">즉 36개 종목이 전부 상장폐지되는 건 아닙니다. 주가나 시가총액을 회복하면 관리종목에서 벗어날 수 있습니다. 다만 그 &ldquo;회복&rdquo; 조건이 이번에 함께 강화됐다는 게 문제인데, 5번 절에서 다룹니다. 관리종목으로 지정된 뒤에도 <b>매매 자체는 계속 가능합니다.</b> 다만 신용거래 제한, 대용증권 불가 등 제약이 붙고, 지정 사실 자체가 악재로 받아들여져 주가가 크게 하락하는 경우가 많습니다.</p>
 <h2 id="q4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 진짜 고비는 2027년 1월입니다</h2>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">여기가 이 글에서 가장 중요한 부분입니다. 지금의 시가총액 기준은 <b>최종 목표치가 아니라 중간 단계</b>입니다. 예정된 일정은 다음과 같습니다.</p>
-<div style="overflow-x: auto; margin: 0 0 22px;">
-<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 440px;" data-ke-align="alignLeft">
-<tbody>
-<tr style="background: #2d3748; color: #fff;">
-<th style="padding: 12px; text-align: left;">시점</th>
-<th style="padding: 12px; text-align: left;">코스피</th>
-<th style="padding: 12px; text-align: left;">코스닥</th>
-</tr>
-<tr>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2026년 7월 1일 (현재)</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">300억원</td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">200억원</td>
-</tr>
-<tr style="background: #fff5f5;">
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>2027년 1월 1일 (예정)</b></td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>500억원</b></td>
-<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>300억원</b></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">코스피는 <b>300억에서 500억으로 67% 상향</b>, 코스닥은 <b>200억에서 300억으로 50% 상향</b>됩니다. 지금은 기준을 아슬아슬하게 넘고 있어 관리종목을 피한 종목이라도, 내년 1월에는 그대로 기준 미달로 바뀔 수 있다는 뜻입니다.</p>
-<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16">정리하면 <b>현재 시가총액이 코스피 500억, 코스닥 300억에 못 미치는 종목은 모두 잠재적 대상</b>입니다. 8월에 지정된 36개는 첫 번째 파도였고, 2027년 1월에는 훨씬 넓은 그물이 쳐집니다. 본인이 보유한 종목의 시가총액을 지금 기준이 아니라 <b>내년 기준으로 미리 재보셔야</b> 하는 이유입니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">여기가 이 글에서 가장 중요한 부분입니다. 지금의 시가총액 기준은 최종 목표치가 아니라 중간 단계입니다. 코스피는 67%, 코스닥은 50%가 <a href="https://moneyproducer.co.kr/2" style="color:#2b6cb0;">2027년 1월 1일에 한 번 더 오르고, 그 날짜와 금액은 이미 정해져 있습니다</a>. 8월에 지정된 36개는 첫 번째 파도였고, 그때는 훨씬 넓은 그물이 쳐집니다. 보유 종목의 시가총액을 오늘 기준이 아니라 <b>내년 기준으로</b> 미리 재보셔야 하는 이유입니다.</p>
 <h2 id="q5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 빠져나오는 것도 어려워졌습니다</h2>
 <p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이번 개편에서 함께 바뀐 것이 <b>관리종목 탈출 요건</b>입니다. 기준을 회복하는 조건이 다음과 같이 강화됐습니다.</p>
 <div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">탈출 조건: <b>90거래일 중 &lsquo;연속 45거래일&rsquo; 이상</b> 기준 상회</div>
@@ -116,13 +93,6 @@
 <p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">물론 이는 <b>&ldquo;상장폐지 대상&rdquo;, 즉 심사 대상에 오르는 숫자</b>이지 실제 퇴출 확정 종목 수가 아닙니다. 그럼에도 이 전망이 의미하는 바는 분명합니다 &mdash; 부실기업 퇴출 속도를 높이겠다는 정책 방향이 숫자로 확인되고 있다는 것입니다.</p>
 <h2 id="q7" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">7. 내 종목이 위험한지 확인하는 법</h2>
 <p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">뉴스에 나온 종목만 확인해서는 부족합니다. 보유 종목을 직접 점검하는 순서는 다음과 같습니다.</p>
-<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>① 주가 확인</b> &mdash; 최근 30거래일 종가가 계속 1,000원 아래였는지<br /><b>② 시가총액 확인</b> &mdash; 현재 기준(코스피 300억&middot;코스닥 200억)과 <b>내년 기준(500억&middot;300억)</b> 둘 다 대조<br /><b>③ 공시 확인</b> &mdash; <a style="color: #2b6cb0;" href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a>에서 종목 검색 후 &lsquo;관리종목 지정&rsquo; 공시 유무<br /><b>④ 다른 요건 점검</b> &mdash; <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/14">완전자본잠식</a>, <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/15">공시벌점</a> 등 나머지 요건도 함께 확인</div>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">특히 <b>②번에서 내년 기준으로도 재보는 것</b>이 핵심입니다. 지금 코스닥 종목의 시가총액이 250억이라면 현재 기준(200억)은 통과하지만 내년 기준(300억)에는 미달합니다. 즉 <b>오늘은 안전해 보여도 내년 1월에 곧바로 대상이 되는 구간</b>이 존재합니다. 이 구간에 있는 종목을 미리 파악해두는 것이 이 글에서 드리는 가장 실용적인 조언입니다.</p>
-<h2 id="q8" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">8. 자주 묻는 질문</h2>
-<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">관리종목으로 지정되면 주식을 팔 수 없나요?</h3>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">아닙니다. 관리종목도 매매는 가능합니다. 다만 신용거래 제한, 대용증권 불가 등 제약이 생기고, 지정 사실 자체가 악재로 받아들여져 주가가 크게 하락하는 경우가 많습니다.</p>
-<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">주가가 1,000원을 넘으면 바로 해제되나요?</h3>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">아닙니다. 5번 절에서 설명한 대로 90거래일 중 연속 45거래일 이상 기준을 상회해야 합니다. 하루 이틀 반등으로는 해제되지 않습니다.</p>
-<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">2027년 기준 상향은 확정된 건가요?</h3>
-<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">현행 규정상 2027년 1월 1일 시행이 예정된 일정입니다. 다만 제도 시행 과정에서 일정이나 세부 내용이 조정될 가능성은 남아 있으므로, 실제 판단 전에는 한국거래소 공지로 최종 확인하시는 것이 정확합니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>① 주가 확인</b> &mdash; 최근 30거래일 종가가 계속 1,000원 아래였는지<br /><b>② 시가총액 확인</b> &mdash; 현재 기준(코스피 300억&middot;코스닥 200억)과 <b>내년 기준(500억&middot;300억)</b> 둘 다 대조<br /><b>③ 공시 확인</b> &mdash; <a style="color: #2b6cb0;" href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a>에서 종목 검색 후 &lsquo;관리종목 지정&rsquo; 공시 유무<br /><b>④ 다른 요건 점검</b> &mdash; <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/13">완전자본잠식&middot;공시벌점</a> 등 나머지 요건도 함께 확인</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">특히 <b>②번에서 내년 기준으로도 재보는 것</b>이 핵심입니다. 즉 <b>오늘은 안전해 보여도 내년 1월에 곧바로 대상이 되는 구간</b>이 존재합니다. 이 구간에 있는 종목을 미리 파악해두는 것이 이 글에서 드리는 가장 실용적인 조언입니다. 다만 2027년 1월 1일 시행은 현행 규정상 예정된 일정이고, 제도 시행 과정에서 일정이나 세부 내용이 조정될 가능성은 남아 있으므로 실제 판단 전에는 한국거래소 공지로 최종 확인하시는 것이 정확합니다.</p>
 <p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />본문에 언급된 종목은 <b>한국거래소가 관리종목으로 지정했다는 사실을 보도를 통해 확인한 것</b>이며, 필자의 평가나 전망이 아닙니다. 지정 현황 수치와 종목명은 2026년 8월 12~13일 시점 기준이고 <b>전체 36개 명단이 아니므로</b>, 이후 지정&middot;해제로 변동되었을 수 있습니다. 개별 종목의 현재 상태와 전체 명단은 반드시 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a>의 관리종목 현황 및 공시 원문으로 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 9. 15.</span></p></div>
