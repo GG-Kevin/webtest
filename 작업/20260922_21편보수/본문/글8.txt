@@ -1,0 +1,101 @@
+<div class="contents_style"><p style="line-height: 1.9; margin: 0 0 22px; font-size: 1.05em;" data-ke-size="size16">9월 15일까지였던 <b>2026년 상반기 반기신청 접수는 끝났습니다.</b> 지금 이 글을 찾아오셨다면 남은 길은 둘 중 하나입니다 &mdash; 이미 낸 신청이 어떻게 처리되는지, 또는 이번에 놓쳤다면 다음 기회가 언제인지.</p>
+<p style="margin: 0 0 24px; padding: 18px 20px; background: #f4f6f8; border-left: 4px solid #2b6cb0; border-radius: 4px; line-height: 1.75;" data-ke-size="size16"><b>핵심 요약</b> 2026년 <b>상반기 소득분 반기신청(9월 1일~9월 15일)은 접수가 마감됐습니다.</b><br />반기신청은 <b>근로소득자만</b> 선택 가능하고, 사업소득&middot;종교인소득이 있으면 정기신청만 가능합니다.<br />반기신청은 예상액의 일부를 <b>미리 받고</b>, 나머지는 다음 해 정산 때 받는 구조입니다.<br /><span style="color: #c53030;">이번 신청을 놓쳤다면</span>, 하반기 소득분 반기신청은 2027년 3월, 정기신청은 2027년 5~6월에 다시 열립니다.</p>
+<h2 id="w1" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">1. 반기신청과 정기신청, 뭐가 다른가</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">근로장려금은 한 해 소득을 기준으로 다음 해에 지급하는 것이 원칙입니다. 이 원칙대로만 받는 방식이 <b>정기신청</b>이고, 소득이 생기는 반년마다 미리 나눠 받는 방식이 <b>반기신청</b>입니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 480px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left; width: 24%;">구분</th>
+<th style="padding: 12px; text-align: left;">정기신청</th>
+<th style="padding: 12px; text-align: left;">반기신청</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">대상 소득</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">근로&middot;사업&middot;종교인소득</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>근로소득만</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">신청 시기</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">다음 해 5~6월 (연 1회)</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9월, 다음 해 3월 (연 2회)</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">지급 방식</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">확정액 한 번에</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>예상액 일부 선지급 + 정산</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">받는 시점</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">소득 발생 후 약 8개월 뒤</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">소득 발생 후 <b>약 3~4개월 뒤</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 상반기(1~6월) 소득을 기준으로 한 반기신청은 <b>9월 1일부터 9월 15일까지 접수했습니다.</b> 하반기(7~12월) 소득분은 2027년 3월에 별도로 신청합니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16"><b>근로소득만 있다면 매년 반기신청을 선택할 수 있고, 특정 반기만 신청하고 다른 반기는 정기신청으로 넘기는 것도 가능합니다.</b> 다만 같은 소득에 대해 반기신청과 정기신청을 중복으로 받을 수는 없습니다.</p>
+<h2 id="w2" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">2. 왜 두 제도가 같이 있나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">근로장려금의 원래 취지는 저소득 근로자의 생계를 지원하는 것입니다. 그런데 정기신청 방식대로면 <b>2026년 초에 일을 시작한 사람이 지원금을 받는 시점은 2027년 여름</b>입니다. 생계가 어려운 시점과 실제로 돈이 들어오는 시점 사이에 1년 넘는 공백이 생깁니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">반기신청은 이 공백을 줄이기 위해 만들어졌습니다. 1년을 다 채우고 정산하는 대신, <b>반년 치 소득이 집계되는 대로 예상액의 일부를 먼저 지급</b>합니다. 다만 반기신청은 사업소득&middot;종교인소득처럼 소득 파악이 늦게 확정되는 경우까지 반영하기 어려워, <b>매달 소득이 비교적 명확히 잡히는 근로소득자로 대상을 한정</b>했습니다.</p>
+<h2 id="w3" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">3. 나는 반기신청을 할 수 있나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">반기신청 가능 여부를 가르는 기준은 <b>소득의 종류</b>입니다.</p>
+<ul style="line-height: 1.9; margin: 0 0 18px; padding-left: 20px;" data-ke-list-type="disc">
+<li><b>가능</b> &mdash; 근로소득만 있는 경우 (일용근로소득 제외)</li>
+<li><b>불가능</b> &mdash; 사업소득이나 종교인소득이 섞여 있는 경우. 이 경우 정기신청만 가능합니다</li>
+</ul>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">근로장려금은 근로소득이 있는 저소득 가구를 지원하는 제도이므로, <b>신청 대상 기간에 근로소득이 있어야 합니다.</b> 소득이 아예 없는 경우는 이 제도의 대상이 아닙니다. 프리랜서 소득은 대부분 사업소득으로 분류되므로 반기신청 대상이 아니며, 이 경우 다음 해 정기신청 기간에 신청해야 합니다. 다만 프리랜서 업무 형태에 따라 근로소득으로 분류되는 경우도 있으므로, 원천징수영수증상 소득 구분을 먼저 확인하는 것이 정확합니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">소득 종류를 만족해도 <b>가구 소득과 재산이 일정 기준 이하</b>여야 합니다. 이 기준액은 가구 형태(단독&middot;홑벌이&middot;맞벌이)에 따라 다르고 <b>매년 조정</b>됩니다. 정확한 본인 자격은 홈택스의 근로장려금 <b>모의계산(자가진단)</b>으로 확인하는 것이 가장 정확합니다. 이 글에서 구체적인 소득&middot;재산 기준 금액을 단정해 적지 않는 이유이기도 합니다. 연도별로 바뀌는 숫자를 잘못 옮기면 &ldquo;나는 대상이 아니다&rdquo;라고 지레 포기하거나 반대로 헛수고를 하게 됩니다.</p>
+<div style="margin: 0 0 22px;">
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #2b6cb0; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">1</div>
+<div style="flex: 1; line-height: 1.8;"><b>홈택스 접속</b><br /><a style="color: #2b6cb0;" href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">hometax.go.kr</a>로 들어갑니다. PC 브라우저 또는 손택스(홈택스 앱) 모두 가능합니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #2b6cb0; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">2</div>
+<div style="flex: 1; line-height: 1.8;"><b>로그인</b><br />공동인증서(구 공인인증서), 금융인증서, 또는 간편인증(카카오&middot;네이버&middot;통신사 인증 등) 중 하나로 로그인합니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #2b6cb0; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">3</div>
+<div style="flex: 1; line-height: 1.8;"><b>모의계산 메뉴 진입</b><br />상단 메뉴에서 <b>장려금&middot;연말정산&middot;기부금 &rarr; 근로장려금&middot;자녀장려금</b> 항목을 찾습니다. <b>모의계산(자가진단)</b> 메뉴가 함께 있습니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #2b6cb0; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">4</div>
+<div style="flex: 1; line-height: 1.8;"><b>대상 여부&middot;예상 금액 확인</b><br />가구 형태, 소득, 재산 정보를 입력하면 반기신청 대상인지와 예상 지급액이 바로 나옵니다.</div>
+</div>
+</div>
+<p style="margin: 0 0 22px; font-size: 0.88em; color: #718096; line-height: 1.7;" data-ke-size="size16">메뉴 명칭과 위치는 홈택스 개편 시점에 따라 조금씩 바뀔 수 있습니다. 화면에 &ldquo;근로장려금&rdquo;으로 검색하면 더 빠르게 찾을 수 있습니다.</p>
+<h2 id="w4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 반기신청이 유리한 경우, 불리한 경우</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">신청 가능하다고 해서 무조건 반기신청이 유리한 것은 아닙니다. 이 판단은 <b>다음 기회(하반기 반기신청 2027년 3월, 정기신청 2027년 5~6월)</b>를 고를 때도 그대로 적용됩니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">반기신청이 유리한 경우</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">지금 당장 생활비가 급한 경우입니다. 정기신청보다 <b>훨씬 빨리</b> 돈을 받을 수 있습니다. 소득이 매달 비교적 일정한 경우에도 반기신청이 낫습니다. 예상액과 실제 확정액의 차이가 작아서, 나중에 정산 과정에서 조정될 금액도 적기 때문입니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">정기신청이 나을 수 있는 경우</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">소득이 들쭉날쭉한 경우입니다. 반기신청은 <b>상반기 소득만 보고 미리 예상액을 지급</b>하므로, 하반기에 소득이 갑자기 늘면 이미 받은 금액이 정산 때 <b>환수</b>될 수 있습니다. 소득 변동이 큰 편이라면 1년 치를 다 채우고 확정된 금액을 한 번에 받는 정기신청이 정산 리스크가 적습니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">반기신청은 <b>예상액</b>을 미리 주는 것이므로, 다음 해 정산에서 실제 확정액과 차이가 나면 조정됩니다. 실제 소득이 예상보다 낮았다면 차액을 <b>추가로 받고</b>, 예상보다 높았다면 이미 받은 금액 중 일부를 <b>돌려줘야</b> 할 수 있습니다.</p>
+<h2 id="w5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 이번 마감을 놓쳤다면 &mdash; 다음 신청 방법</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이번 반기신청(9월 1일~15일)을 놓쳤다면 <b>이 소득분에 대한 반기신청 기회는 사라집니다.</b> 하지만 완전히 끝난 것은 아닙니다. <b>다음 해 정기신청(5~6월)</b> 때 해당 연도 전체 소득을 합쳐서 신청하면 됩니다. 반기로 나눠 받는 대신 정기신청으로 한 번에 받는 셈입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">다음 반기신청(2027년 3월, 하반기 소득분)이나 정기신청(2027년 5~6월)에 신청할 때는 <b>홈택스 홈페이지, 홈택스 앱(손택스), ARS 전화</b> 중 편한 방법으로 하면 됩니다. 국세청에서 안내 대상자에게는 개별 안내문이 발송되지만, <b>안내문을 못 받았어도 요건에 맞으면 직접 신청할 수 있습니다.</b></p>
+<div style="margin: 22px 0;">
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #1c3d5a; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">1</div>
+<div style="flex: 1; line-height: 1.8;"><b>안내문 확인 (선택)</b><br />국세청이 대상자로 파악한 경우 문자나 우편으로 개별 안내가 옵니다. 안내문의 <b>개별인증번호</b>가 있으면 신청이 더 간단해집니다. 안내문이 없어도 3번 절차의 <a style="color: #2b6cb0;" href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">홈택스</a> 모의계산에서 대상 여부를 직접 확인하면 됩니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #1c3d5a; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">2</div>
+<div style="flex: 1; line-height: 1.8;"><b>신청 채널 선택</b><br />&bull; <a style="color: #2b6cb0;" href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">홈택스</a> 웹사이트<br />&bull; 손택스(홈택스 모바일 앱)<br />&bull; ARS 전화(안내문에 적힌 개별인증번호가 있는 경우 더 간편)<br />세 가지 중 편한 방법을 고르면 됩니다. 결과는 동일합니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #1c3d5a; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">3</div>
+<div style="flex: 1; line-height: 1.8;"><b>본인 인증 후 신청서 작성</b><br /><a style="color: #2b6cb0;" href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">홈택스</a>에 로그인한 상태로 근로장려금 반기신청 메뉴에 들어가면, 상반기 소득&middot;가구 정보가 일부 자동으로 채워집니다. 나머지 정보를 확인&middot;입력합니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid #e2e8f0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #1c3d5a; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">4</div>
+<div style="flex: 1; line-height: 1.8;"><b>제출</b><br />입력 내용을 확인하고 제출합니다. 접수 완료 화면이나 문자로 접수 여부를 확인할 수 있습니다.</div>
+</div>
+<div style="display: flex; gap: 14px; padding: 16px 0;">
+<div style="flex: 0 0 32px; height: 32px; border-radius: 50%; background: #1c3d5a; color: #fff; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">5</div>
+<div style="flex: 1; line-height: 1.8;"><b>지급 확인</b><br />제출 후 심사를 거쳐 지급됩니다. 지급 여부와 금액은 다시 <a style="color: #2b6cb0;" href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">홈택스</a> 마이페이지 또는 지급 계좌 입금 내역으로 확인합니다.</div>
+</div>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">신청했는데 <b>홈택스 시스템에서 요건 미충족으로 안내되면</b> 그 시점에서는 지급되지 않습니다. 소득이나 재산 상황이 바뀌었다면 다음 신청 시기에 다시 확인해볼 수 있습니다. 재산 요건은 매년 6월 1일 기준으로 판단하는 항목도 있어, 신청 시점과 판단 기준일이 다를 수 있다는 점도 참고하시기 바랍니다.</p>
+<p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />개별 세무&middot;복지 상담을 대체하지 않습니다. 근로장려금의 소득&middot;재산 기준액과 지급 비율은 매년 조정되고 가구 형태에 따라 달라지므로, 본인의 정확한 자격과 예상 금액은 반드시 <a href="https://hometax.go.kr" target="_blank" rel="noopener nofollow">홈택스</a> 모의계산으로 직접 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 9. 22.</span></p></div>
