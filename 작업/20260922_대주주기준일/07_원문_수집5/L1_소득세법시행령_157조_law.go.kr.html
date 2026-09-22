@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />    
+  <!-- 레이아웃 관련 CSS -->      
+  <!-- 레이아웃 관련 CSS //--> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.min.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/common/common.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/common/drag_search.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/common/CookieUtil.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.loadmask.min.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/common/jquery-custom.js?Time=1790084295"></script> 
+  <!-- 레이아웃 관련 JS --> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery-ui.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery-ui_2017.min.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.layout-latest.min.js?Time=1790084295"></script> 
+  <script type="text/javascript" src="/LSW/js/common/layout.js?Time=1790084295"></script> 
+  <!-- 레이아웃 관련 JS //-->  
+  <script type="text/javascript">
+        var webRoot = '/LSW';
+    </script> 
+  <link rel="shortcut icon" type="text/css" href="/LSW/images/ico_favorites.ico" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/common.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/js/jquery/jquery.loadmask.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/js/jquery/layout-default-latest.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/layout.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/board.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/ui_2017.css?Time=1790084295" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/fonts.css?Time=1790084295" />
+  <link rel="shortcut icon" type="text/css" href="/ico_favorites.ico" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/ext-all.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/content.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/common-ex.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/commonForLs.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/xtheme-layer.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/xtheme-lsHst.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/ext_all_ex.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/xtheme-lsOutput.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lsw/xtheme-ls.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/js/jquery/jquery.loadmask.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/js/jquery/layout-default-latest.css" />
+  <link rel="stylesheet" type="text/css" href="/LSW/css/lumLsLinkPop.css" />
+  <style type="text/css">
+        .ui-layout-pane {
+            padding: 0;
+            background:	#EEE;
+        }
+        .ui-layout-west {
+            background:	#CFC;
+        }
+        .ui-layout-center {
+            background:	#FFC;
+            padding:	0; /* IMPORTANT - remove padding so pane can 'collapse' to 0-width */
+        }
+
+        .ui-layout-west > .ui-layout-center {
+            background:	#CFC;
+        }
+
+        .ui-layout-west > .ui-layout-south {
+            background:	#AFE;
+        }
+        .ui-layout-pane { border-width: 0; }
+        .ui-layout-north { border-bottom-width:	1px; }
+        .ui-layout-south { border-top-width: 1px; }
+        .ui-layout-resizer-west {
+            border-width: 0;
+            border-left: 2px solid #b4b4b4;
+            background-color:white;
+        }
+        .ui-layout-toggler {
+            border: 0;
+            background-color:#fff
+        }
+        .ui-layout-toggler-west-closed {
+            background-image: url("./images/button/leslidev7_2.gif");
+            background-color:white;
+            background-repeat: no-repeat;
+        }
+        .ui-layout-toggler-west-open {
+            background-image: url("./images/button/leslidev7_1.gif");
+            background-color:white;
+            background-repeat: no-repeat;
+        }
+    </style>
+  <title>연계정보</title>
+ </head> 
+ <body id="bodyId">                 
+  <script type="text/javascript" src="/LSW/js/common/common.js"></script> 
+  <script type="text/javascript" src="/LSW/js/common/common-ex.js"></script> 
+  <script type="text/javascript" src="/LSW/js/common/autocom.js"></script> 
+  <script type="text/javascript" src="/LSW/js/common/xmlHttpUtil.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/ls.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/lsLink.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/lsJo.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/lsPopLayer.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/lsOutPutJoNew.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.loadmask.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery-ui.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.layout-latest.js"></script> 
+  <script type="text/javascript" src="/LSW/js/jquery/jquery.print.js"></script> 
+  <script type="text/javascript" src="/LSW/js/ls/lumLsLinkPop.js"></script>    
+  <div class="outer-north" id="topMenu"> 
+   <input id="lsId" value="" type="hidden" /> 
+   <input id="lsThdCmpCls" value="" type="hidden" /> 
+   <input id="joNo" value="" type="hidden" /> 
+   <input type="hidden" id="lsBdyChrCls" value="010202" /> 
+   <!--배치 생성 완료   ** 2017국가법령정보 통합서비스 사업 **  <<20170909>> 추가 --> 
+   <input id="firstRlatLsId" value="003956" type="hidden" /> 
+   <div class="div-top-container" id="top-container"> 
+    <div class="div-top" id="pop_top"> 
+     <div style="float:left;margin-left:10px;color:#fff;font-size:14px;font-weight:bolder;line-height:36px;">
+      연계정보
+     </div> 
+     <div style="float:right;margin-right:10px;"> 
+      <a href="www.law.go.kr" target="_blank"><img src="/LSW/images/common/poplogo.gif" alt="법제처 국가법령정보센터" title="법제처 국가법령정보센터가 새창으로 열립니다." /></a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="div-message-container" id="message-container"> 
+    <div id="massageDiv" class="div-message"> 
+     <!-- <span>자동생성한 정보입니다, 참고용으로 사용하시기 바랍니다.</span> --> 
+    </div> 
+    <div id="saveAndPrintBtn" class="div-print"> 
+     <label for="keyword" class="blind">검색</label>
+     <input id="keyword" type="text" maxlength="10" onkeydown="onKeyDown();" value="" /> 
+     <a href="javascript:;" title="결과내검색" id="keywordSch" onclick="keywordSearch()"><img src="/LSW/images/main/btn_search2.gif" alt="결과내검색" /></a> 
+     <a href="javascript:;" title="저장" id="bdySaveBtn" onclick="saveAndPrint(0, this ,0);"><img src="/LSW/images/common/btn_v13fn6.png" alt="저장" /></a> 
+     <a href="javascript:;" id="bdyPrintBtn" title="인쇄"><img src="/LSW/images/common/btn_v13fn7.png" alt="인쇄" /></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="outer-west" id="content_left"> 
+   <p class="deactive" id="ls003956" title="소득세법 시행령">1. 소득세법 시행령<br /><span class="subtit1_1">[시행 2026. 7. 1.] [대통령령 제36343호, 2026. 5. 22., 일부개정]</span></p> 
+   <ul class="sub-menu"> 
+    <li class="rlatJoLi"><a href="javascript:;" id="jo286211:157:0" name="003956" onclick="f_autoScroll(this);" title="제157조 주권상장법인의 대주주의 범위 등">제157조 주권상장법인의 대주주의 범위 등</a></li> 
+   </ul> 
+  </div> 
+  <div class="outer-center" id="content-container"> 
+   <div class="middle-north" id="content-title"></div> 
+   <div class="middle-center" id="linkedJoContent"> 
+    <h2 id="003956">소득세법 시행령</h2> 
+    <div class="subtit1">
+     [시행 2026. 7. 1.] [대통령령 제36343호, 2026. 5. 22., 일부개정] 
+     <img src="/LSW/images/button/btn_alljo.gif" alt="전체조문보기" onclick="javascript:window.open('/LSW/lsInfoP.do?lsiSeq=286211')" /> 
+    </div> 
+    <br /> 
+    <a name="down"></a>
+    <a name="J286211:157:0" id="J286211:157:0"></a>
+    <div class="pgroup"> 
+     <ul class="lawico01"> 
+      <li></li> 
+     </ul> 
+     <div class="lawcon"> 
+      <p class="pty1_p1">  <span class="bl"> <label for="Y015700">제157조(주권상장법인의 대주주의 범위 등) </label> </span><span class="sfon"></span>① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237627','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237609','JO','');" href="javascript:;">제94조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237591','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237637','JO','');" href="javascript:;">제3호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1033237629','JO','');" href="javascript:;">가목</a>1)에서 “대통령령으로 정하는 주권상장법인의 대주주”란 다음 각 호의 어느 하나에 해당하는 자(이하 이 장 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237643','JO','');" href="javascript:;">제225조의2</a>에서 “주권상장법인대주주”라 한다)를 말한다. <span class="sfon">&lt;개정 2025. 2. 28.&gt;</span> </p> 
+      <p class="pty1_de2h">1. 주식등을 소유하고 있는 주주 또는 출자자 1인(법인은 제외하며, 이하 이 장에서 “주주 1인”이라 한다)이 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일(주식등의 양도일이 속하는 사업연도에 새로 설립된 법인의 경우에는 해당 법인의 설립등기일로 한다. 이하 이 조 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237611','JO','');" href="javascript:;">제167조의8</a>에서 같다) 현재 소유한 주식등의 합계액이 해당 법인의 주식등의 합계액에서 차지하는 비율(이하 이 장에서 “소유주식의 비율”이라 한다)이 100분의 1 이상인 경우 해당 주주 1인. 다만, 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인 및 그와 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237585','ALLJO','');" href="javascript:;">「법인세법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237623','JO','');" href="javascript:;">제43조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237607','JO','');" href="javascript:;">제8항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237587','JO','');" href="javascript:;">제1호</a>에 따른 특수관계에 있는 자(이하 이 조에서 “주주 1인등”이라 한다)의 소유주식의 비율 합계가 해당 법인의 주주 1인등 중에서 최대인 경우로서 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인 및 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 그와 다음 각 목의 어느 하나에 해당하는 관계에 있는 자(이하 이 장에서 “주권상장법인기타주주”라 한다)의 소유주식의 비율 합계가 100분의 1 이상인 경우에는 해당 주주 1인 및 주권상장법인기타주주를 말한다. <span class="sfon"></span> </p>
+      <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237641','ALLJO','');" href="javascript:;">「국세기본법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237633','JO','');" href="javascript:;">제1조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237613','JO','');" href="javascript:;">제1항</a> 각 호의 어느 하나에 해당하는 사람 <span class="sfon"></span></p>
+      <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237651','ALLJO','');" href="javascript:;">「국세기본법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237653','JO','');" href="javascript:;">제1조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237619','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237605','JO','');" href="javascript:;">제1호</a>에 해당하는 자 <span class="sfon"></span></p> 
+      <p class="pty1_de2h">2. 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인이 소유하고 있는 해당 법인의 주식등의 시가총액이 50억원 이상인 경우의 해당 주주 1인. 다만, 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인등의 소유주식의 비율 합계가 해당 법인의 주주 1인등 중에서 최대인 경우로서 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인 및 주권상장법인기타주주가 소유하고 있는 주식등의 시가총액이 50억원 이상인 경우에는 해당 주주 1인 및 주권상장법인기타주주를 말한다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">② 제1항제1호 및 제2호에도 불구하고 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인의 소유주식의 비율 또는 주주 1인이 소유하고 있는 해당 법인의 주식등의 시가총액이 다음 각 호의 구분에 따른 기준에 해당하는 경우에는 해당 주주 1인을 대주주로 본다. 다만, 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인등의 소유주식의 비율 합계가 해당 법인의 주주 1인등 중에서 최대인 경우로서 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인 및 주권상장법인기타주주의 소유주식의 비율 합계 또는 주주 1인 및 주권상장법인기타주주가 소유하고 있는 해당 법인의 주식등의 시가총액이 다음 각 호의 구분에 따른 기준에 해당하는 경우에는 해당 주주 1인 및 주권상장법인기타주주를 대주주로 본다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">1. 코스닥시장상장법인[대통령령 제24697호 자본시장과 금융투자업에 관한 법률 시행령 일부개정령 부칙 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237635','JO','');" href="javascript:;">제8조</a>에 따른 코스닥시장(이하 “코스닥시장”이라 한다)에 상장된 주권을 발행한 법인을 말한다]의 주식등의 경우: 소유주식의 비율(이 항 각 호 외의 부분 단서에 해당하는 경우에는 소유주식의 비율 합계를 말한다)이 100분의 2 이상이거나 시가총액이 50억원 이상인 경우 <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">2. 코넥스시장상장법인[<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237603','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237625','JO','');" href="javascript:;">제11조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237589','JO','');" href="javascript:;">제2항</a>에 따른 코넥스시장(이하 “코넥스시장”이라 한다)에 상장된 주권을 발행한 법인을 말한다]의 주식등의 경우: 소유주식의 비율(이 항 각 호 외의 부분 단서에 해당하는 경우에는 소유주식의 비율 합계를 말한다)이 100분의 4 이상이거나 시가총액이 50억원 이상인 경우 <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">③ <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237647','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237615','JO','');" href="javascript:;">제94조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237649','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237599','JO','');" href="javascript:;">제3호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1033237617','JO','');" href="javascript:;">나목</a> 단서에서 “대통령령으로 정하는 주권비상장법인의 대주주”란 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237631','JO','');" href="javascript:;">제167조의8</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237639','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237595','JO','');" href="javascript:;">제2호</a>에도 불구하고 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 주주 1인 및 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 그와 다음 각 호의 구분에 따른 관계에 있는 자(이하 이 장에서 “주권비상장법인기타주주”라 한다)의 소유주식의 비율 합계 또는 주주 1인 및 주권비상장법인기타주주가 소유하고 있는 해당 법인의 주식등의 시가총액이 제2항제2호의 기준에 해당하는 경우의 해당 주주 1인 및 주권비상장법인기타주주를 말한다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">1. 주주 1인등의 소유주식의 비율 합계가 해당 법인의 주주 1인등 중에서 최대인 경우: 제1항제1호 각 목의 어느 하나에 해당하는 자 <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">2. 주주 1인등의 소유주식의 비율 합계가 해당 법인의 주주 1인등 중에서 최대가 아닌 경우: 다음 각 목의 어느 하나에 해당하는 자 <span class="sfon"></span> </p>
+      <p class="pty1_de3">가. 직계존비속 <span class="sfon"></span></p>
+      <p class="pty1_de3">나. 배우자(사실상의 혼인관계에 있는 사람을 포함한다) <span class="sfon"></span></p>
+      <p class="pty1_de3">다. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237655','ALLJO','');" href="javascript:;">「국세기본법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237601','JO','');" href="javascript:;">제1조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237621','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033237583','JO','');" href="javascript:;">제1호</a>에 해당하는 자 <span class="sfon"></span></p> 
+      <p class="pty1_de2_1">④ 제1항부터 제3항까지의 규정에 따른 시가총액을 계산할 때 시가는 다음 각 호의 금액에 따른다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">1. 주권상장법인의 주식등의 경우에는 주식등의 양도일이 속하는 사업연도의 직전사업연도 종료일 현재의 최종시세가액. 다만, 직전사업연도 종료일 현재의 최종시세가액이 없는 경우에는 직전거래일의 최종시세가액에 따른다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2h">2. 제1호 외의 주식등의 경우에는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033237645','JO','');" href="javascript:;">제165조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033237597','JO','');" href="javascript:;">제4항</a>에 따른 평가액 <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">⑤ 제1항부터 제4항까지의 규정을 적용할 때 피합병법인의 주주가 합병에 따라 합병법인의 신주를 교부받아 그 주식을 합병등기일이 속하는 사업연도에 양도하는 경우 대주주의 범위 등에 관하여는 해당 피합병법인의 합병등기일 현재 주식보유 현황에 따른다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">⑥ 제1항부터 제4항까지의 규정을 적용할 때 분할법인의 주주가 분할에 따라 분할신설법인의 신주를 교부받아 그 주식을 설립등기일이 속하는 사업연도에 양도하거나 분할법인의 주식을 분할등기일이 속하는 사업연도에 분할등기일 이후 양도하는 경우 대주주의 범위 등에 관하여는 해당 분할 전 법인의 분할등기일 현재의 주식보유 현황에 따른다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">⑦ 주주가 일정기간 후에 같은 종류로서 같은 양의 주식등을 반환받는 조건으로 주식등을 대여하는 경우 주식등을 대여한 날부터 반환받은 날까지의 기간 동안 그 주식등은 대여자의 주식등으로 보아 제1항부터 제4항까지의 규정을 적용한다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">⑧ 거주자가 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033237593','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a>에 따른 사모집합투자기구를 통하여 법인의 주식등을 취득하는 경우 그 주식등(사모집합투자기구의 투자비율로 안분하여 계산한 분으로 한정한다)은 해당 거주자의 소유로 보아 제1항부터 제4항까지의 규정을 적용한다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2_1">⑨ 제1항제1호, 제2항 및 제3항에도 불구하고 소유주식의 비율 또는 소유주식의 비율 합계가 주식등의 양도일이 속하는 사업연도의 직전 사업연도 종료일 현재 해당 규정에 따른 기준에 미달하였으나 그 후 주식등을 취득함으로써 그 기준에 해당하게 되는 경우에는 그 취득일 이후의 주주 1인, 주권상장법인기타주주 또는 주권비상장법인기타주주를 해당 규정에 따른 주권상장법인 또는 주권비상장법인의 대주주로 본다. <span class="sfon"></span> </p> 
+      <p class="pty1_de2"> <span class="sfon">[본조신설 2024. 12. 31.] </span></p> 
+     </div>
+    </div> 
+   </div> 
+  </div> 
+  <div id="lsOutPutDivWrite"> 
+   <div id="lsOutPutLayer"> 
+    <!-- 본문 저장 layer --> 
+    <div class="vwrap7" id="infoSaveLayer" style="display:none;"> 
+     <form id="infoSaveForm" name="infoSaveForm" target="_self" action=""> 
+      <fieldset> 
+       <legend>파일형식 선택</legend> 
+       <input type="hidden" name="saveExt" value="" /> 
+       <input type="hidden" name="lspttninfSeq" value="126530" /> 
+      </fieldset> 
+     </form> 
+     <div class="contwrap"> 
+      <div class="viewla"> 
+       <div class="ins" id="infoSaveLayerLoding"> 
+        <div class="inctn"> 
+         <ul> 
+          <li class="itit">파일형식</li> 
+          <li class="rdi"> <input type="radio" class="radio" name="fileType" id="FileSaveHwp" checked="checked" value="hwp" style="margin-left:50px" /><label for="FileSaveHwp">HWP</label> <input type="radio" class="radio" name="fileType" id="FileSavePdf" value="pdf" /><label for="FileSavePdf">PDF</label> </li> 
+         </ul> 
+        </div> 
+        <!-- button --> 
+        <div class="btnc2_1"> 
+         <input id="lsSaveBtn" type="image" onclick="javascript:saveContent();" src="/LSW/images/button/btn_save2.gif" alt="저장" /> 
+         <span class="btn_close"><a href="javascript:;" onkeypress="" onclick="javascript:saveAndPrint(0, this ,0);"><img src="/LSW/images/button/btn_close2.gif" alt="닫기" /></a></span> 
+        </div> 
+        <!-- button //--> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- 본문 저장 layer //--> 
+    <!-- 본문 인쇄 layer --> 
+    <div id="printDialog" title="인쇄" style="display:none" class="popbg3"> 
+     <!-- head --> 
+     <div class="pophead2"> 
+      <h2><img src="/LSW/images/pop/prlogo1.gif" alt="법제처" /></h2> 
+      <p><img src="/LSW/images/pop/prlogo2.gif" alt="법제처 국가법령정보센터" /></p> 
+     </div> 
+     <!-- head //--> 
+     <!-- container --> 
+     <div id="printContents" style="overflow:auto" class="confnla1"></div> 
+     <!-- container //--> 
+    </div> 
+    <!-- 본문 인쇄 layer //--> 
+   </div> 
+  </div> 
+  <div id="lsLinkDivWrite"> 
+   <div id="lsLinkLayer" style="display:none"></div> 
+  </div>  
+  <script type="text/javascript">
+//<![CDATA[
+	 /* jstl 변수를 스크립트에서 사용하기위해 html태그 뒤에 스크립트를 선언 */
+	 
+	var lsSearchObj = new LsSearchObj();
+	/*
+	* ext js ie9+ createContextualFragment error fixed
+	*/
+	if ((typeof Range !=="undefined") && !Range.prototype.createContextualFragment){
+		Range.prototype.createContextualFragment = function(html){
+			var frag = document.createDocumentFragment(),
+			div = document.createElement("div");
+			frag.appendChild(div);
+			div.outerHTML = html;
+			return frag;
+		};
+	}
+		
+	/*
+	 * Jquery UI Layout Set
+	 */
+	var pageLayoutOptions = {
+			name:					'pageLayout' // only for debugging
+		,	resizeWithWindowDelay:	1		// delay calling resizeAll when window is *still* resizing
+		,	north__paneSelector:	".outer-north"
+		,	north__spacing_open:	0
+		,	north__size:			61
+		,	north__maxSize:		    61
+		,	resizable:				true
+		,	slidable:				false
+		,	closable:				true
+		,	west__paneSelector:  	".outer-west"
+		,	west__onresize:			sizeControll
+		,	west__size:				185
+		,	west__maxSize:		    400
+		,	west__initClosed:		false		
+		,	west__spacing_open:		12
+		,	west__spacing_closed:	12
+		,west__togglerLength_closed:65
+		,west__togglerLength_open:	65
+		,	center__paneSelector:	".outer-center" 
+		,	center__children: {
+					name:					'middle-contentLayoput'
+				//,	north__paneSelector:	".middle-north"
+				//,	north__spacing_open:	0
+				,	center__paneSelector:	".middle-center"
+				,	center__size:             605
+		}
+	};
+	
+	/*
+	 * 결과내 재검색
+	 */
+	var lsLinkPopSch = null;
+	var dynamicForm;
+	function keywordSearch(){
+		lsSearchObj.remove();
+		lsSearchObj.param.q			= encodeURI($("#keyword").val());
+		lsSearchObj.param.outmax		= "500";
+		lsSearchObj.param.p4			= "1";
+		lsSearchObj.param.p9			= "2,4";
+		lsSearchObj.param.pg			=  "1"; 
+		lsSearchObj.param.csq			= "286211";
+		lsSearchObj.param.idxList		= 'JBodyText_idx,DelKey_idx';
+		lsSearchObj.param.section		= "joBody";
+		
+		var paramArray = lsSearchObj.param;
+		var url = "lumLsLinkPopSch.do";
+
+		var dynamicForm = document.createElement("form");
+		dynamicForm.id = "keywordSrcForm";
+		dynamicForm.setAttribute("method", "post");
+		dynamicForm.setAttribute("action", url);
+		
+		for(var index in paramArray){
+			if(paramArray[index] != ""){
+				objs = document.createElement("input");
+    			objs.setAttribute("type", "text");
+    			objs.setAttribute("name", index);
+    			if((paramArray[index] + "").indexOf("&") > 0
+    					 || (paramArray[index] + "").indexOf("+") > 0
+    					 || (paramArray[index] + "").indexOf("%") > 0){
+    				objs.setAttribute("value",encodeURIComponent(paramArray[index]));
+    			} else {
+    				objs.setAttribute("value", paramArray[index]);	
+    			}
+    			dynamicForm.appendChild(objs);
+			}
+		}
+		var inputObj = document.createElement("input");
+		inputObj.setAttribute("type", "text");
+		inputObj.setAttribute("name", "jsonSeqJoInfo");
+		inputObj.setAttribute("value", '{286211:[{joNo:"157",joBrNo:"0"}]}');	
+		dynamicForm.appendChild(inputObj);
+		document.body.appendChild(dynamicForm);
+		
+
+		var url = "lumLsLinkPopSch.do";
+		var target = "lsLinkPopSch";
+		var size = "width=798, height=681, status=no, toolbar=no, resizable=no, scrollbars=no, menubar=no";
+		var kwdSearchPop = window.open('', target, size);
+		dynamicForm.target = target;
+		dynamicForm.submit();
+		kwdSearchPop.focus();
+	}
+	
+    $(document).ready(function() {
+    	$("body").layout( pageLayoutOptions );
+    	$('#printContents').html($('#linkedJoContent').html());
+    	$('#bdyPrintBtn').click(function(){
+    		$('#printDialog').dialog({
+    			modal: true,
+    			resizeable: false,
+    			width:'auto',
+    			height:$("body").height(),
+    			buttons: {
+    				"인쇄": function(){
+    					$(this).print();
+    				},
+    				"닫기": function(){
+    					$(this).dialog("close");
+    				}
+    			}
+    		});
+    		return false;
+    	});
+    	
+    	var content_head = $('#content_left > p');
+    	content_head.first().removeClass('deactive');
+    	content_head.first().addClass('active')
+
+    	// 법령목록의 첫번째 법령의 본문과 선택 조로 focus 이동
+		//f_findLinkedJoContent(el('firstRlatLsId').value);
+    	
+    	content_head.on('click', function(event) {	
+            // Disable header links
+           event.preventDefault();
+        	        
+            // Show and hide the tabs on click
+            if ($(this).attr('class') != 'active'){
+            	content_head.removeClass('deactive');
+            	content_head.removeClass('active');
+            	content_head.addClass('deactive');
+                $(this).removeClass('deactive');
+                $(this).addClass('active');
+            }
+            
+            // 법령명 클릭했을때 해당 본문 띄우기
+            var activeId = $('.active').attr('id');
+            scrollActiveId = activeId.substring(2);
+			if(typeof activeId == "undefined"){
+				alert("정보가 없습니다.");
+			}else{
+				target = document.getElementById(scrollActiveId);
+				target.scrollIntoView(true);
+				return;
+				 
+			}
+        });
+    });
+    
+	$(window).resize(function() {
+		sizeControll();
+	});
+	
+	function onKeyDown(){
+		if(event.keyCode == 13){
+			keywordSearch();
+		}
+	}
+	//]]>
+</script>  
+  <script type="text/javascript" src="/LSW/js/common/hrefRemove.js"></script>  
+ </body>
+</html>
