@@ -1,0 +1,66 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<meta id="_csrf" name="_csrf" content="d0e46b91-0d1d-47da-9fe4-19b33d4ebf9e">
+<meta id="_csrf_header" name="_csrf_header" content="X-CSRF-TOKEN">
+
+<script src="/webjars/jquery/1.12.4/jquery.min.js"></script>
+<script src="/webjars/jquery-ui/1.11.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/webjars/jquery-ui/1.11.4/jquery-ui.min.css">
+
+<script language="javascript">
+	alert("오류가 발생되었습니다.\n메인화면으로 돌아갑니다.");
+	setTimeout(function(){
+		location.href="/out/index.do";
+	}, 1000);
+</script>
+
+
+
+<script language="javascript">
+	//setTimeout(function(){
+	//	location.href="/out/index.do";
+	//}, 3000);
+	//var before = document.requestURL;
+	//console.log(before);
+	//location.href=before;
+	
+	//history.go(-1);
+	
+	//console.log(document.referrer);
+	
+	//var newForm = $('<form></form>');
+	//newForm.attr("name", "fileFrm");
+	//newForm.attr("method", "post");
+	//newForm.attr("action", "/out/index.do");
+	//newForm.append($("<input/>", {type:"hidden", name:"_csrf", value:"d0e46b91-0d1d-47da-9fe4-19b33d4ebf9e"}));
+	//newForm.appendTo("body");
+	//newForm.submit();
+	//newForm.remove();
+	
+</script>
+
+<script>
+var token = $("meta[name='_csrf']").attr("content");
+var header = $("meta[name='_csrf_header']").attr("content");
+var paramname = $("meta[name='_csrf_parameterName']").attr("content");
+$.ajaxSetup({
+	type : "POST",
+	beforeSend : function(xhr){
+		xhr.setRequestHeader(header,token);	
+	}
+});
+</script>
+
+
