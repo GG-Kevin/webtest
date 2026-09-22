@@ -31,6 +31,12 @@ for d in 작업/*/; do
     continue
   fi
 
+  # 손 뗀 폴더도 안 본다. 정체는 「돌던 것이 섰다」이지 「끝난 것이 조용하다」가 아니다.
+  # 공정일지를 24시간 넘게 안 건드렸으면 도는 폴더가 아니다.
+  if [ -n "$(find "$log" -mmin +1440 -print 2>/dev/null)" ]; then
+    continue
+  fi
+
   size="$(wc -c < "$log" | tr -d ' ')"
   prev="$(awk -F'\t' -v k="$key" '$1==k {print $2"\t"$3}' "$STATE" 2>/dev/null | head -1)"
   prev_size="${prev%%	*}"
