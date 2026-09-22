@@ -100,8 +100,8 @@
 <p style="line-height:1.85;margin:0 0 18px;">2026년 들어 상장 유지 기준이 강화되면서, <strong>퇴출 요건에 걸린 기업들이 자본 확충에 나서는 사례</strong>가 늘고 있습니다. 이런 기업의 유상증자는 성장을 위한 투자가 아니라 <strong>생존을 위한 조치</strong>에 가깝습니다. <a href="https://moneyproducer.co.kr/5" style="color:#2b6cb0;">관리종목으로 지정되면 계좌에서 무엇이 바뀌는지</a>를 먼저 알고 있으면 이 맥락이 더 뚜렷하게 보입니다.</p>
 
 <div style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">
-<a href="https://moneyproducer.co.kr/14" style="color:#2b6cb0;">완전자본잠식</a> 해소 &mdash; 자본금을 채워 실질심사 요건에서 벗어나려는 목적<br>
-<a href="https://moneyproducer.co.kr/9" style="color:#2b6cb0;">시가총액 기준</a> 충족 &mdash; 자본 확충으로 기준선을 넘기려는 시도<br>
+<a href="https://moneyproducer.co.kr/13" style="color:#2b6cb0;">완전자본잠식</a> 해소 &mdash; 자본금을 채워 실질심사 요건에서 벗어나려는 목적<br>
+<a href="https://moneyproducer.co.kr/2" style="color:#2b6cb0;">시가총액 기준</a> 충족 &mdash; 자본 확충으로 기준선을 넘기려는 시도<br>
 <a href="https://moneyproducer.co.kr/23#q4" style="color:#2b6cb0;">2027년 기준 상향</a>을 앞두고 미리 대비하는 경우
 </div>
 
