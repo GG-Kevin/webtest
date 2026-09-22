@@ -1,0 +1,2026 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<title>넥스트레이드</title>
+	<link rel="shortcut icon" href="/images/favicon.ico;jsessionid=D30E1816E9C5E4B3CD49887E1A52FEA2" type="image/x-icon">
+
+	
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no, address=no, email=no">
+<link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
+<link rel="stylesheet" href="/css/ui.jqgrid.css">
+<link rel="stylesheet" href="/css/common.css?v=1.0">
+<link rel="stylesheet" href="/css/sub.css?v=1.0122" />
+<link rel="stylesheet" href="/css/breakpoint.css?v=1.011" />
+
+<script src="/js/lib/jquery-3.6.1.min.js"></script>
+<script src="/js/lib/jquery-migrate-3.3.2.min.js"></script>
+<script src="/js/include-html.js?v=1.01"></script>
+
+<title>넥스트레이드</title>
+</head>
+
+
+<body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="header" class="header">
+	<!-- S : 헤더 상단-->
+	<div class="header-wrap">
+	   <div class="container">
+			<!-- S : 표준 gnb-->
+			<div class="inner default">
+				<!-- S : 로고-->
+				<h1 class="logo">
+					<a href="/main.do" title="홈으로 가기">
+						<img src="/images/main/logo.svg" alt="넥스트레이드" class="white">
+						<img src="/images/main/header_logo_color.svg" alt="넥스트레이드" class="color">
+					</a>
+				</h1>
+				<!-- E : 로고-->
+				<!-- S : gnb nav-->
+				<nav class="gnb">
+					<!-- S : NXT 시장-->
+					<div class="depth-1" data-dp1="2">
+						<a href="/marketOverview/content.do" class="depth-1-tit"><img src="/images/main/nxt_txt.svg" alt="nxt" class="nxt-txt"> 시장</a>
+						<ul>
+							<li data-dp2="1">
+								<a href="/marketOverview/content.do" title="시장개요 및 거래제도">시장개요 및 거래제도</a>
+							</li>
+							<li data-dp2="2">
+								<a href="/menu/regulation01/menuList.do" title="규정 및 법규">규정 및 법규</a>
+							</li>
+							<li data-dp2="3">
+								<a href="/stockFirm/content.do" title="거래참가 증권사">거래참가 증권사</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : NXT 시장-->
+					<!-- S : NXT 시장정보-->
+					<div class="depth-1" data-dp1="3">
+						<a href="/menu/marketData/menuList.do" class="depth-1-tit">시장정보</a>
+						<ul>
+							<!-- <li data-dp2="1">
+								<a href="/menu/marketData/menuList.do" target="_blank" title="시장정보">시장정보</a>
+							</li> -->
+							<li data-dp2="1">
+								<a href="/menu/transactionStatusMain/menuList.do" title="거래현황">거래현황</a>
+							</li>
+							<li data-dp2="2">
+								<a href="/menu/marketInfo/menuList.do" title="시장안내">시장안내</a>
+							</li>
+							<li data-dp2="3">
+								<a href="/transactionSys/content.do" title="거래제도">거래제도</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : NXT 시장정보-->
+					<!-- S : 공지사항-->
+					<div class="depth-1" data-dp1="4">
+						<a href="/menu/notice/menuList.do" class="depth-1-tit">공지사항</a>
+						<ul>
+							<li data-dp2="1">
+								<a href="/menu/notice/menuList.do" title="공지사항">공지사항</a>
+							</li>
+							<li data-dp2="2">
+								<a href="/menu/manageDisclosure/menuList.do" title="경영공시">경영공시</a>
+							</li>
+							<li data-dp2="3">
+								<a href="/menu/ir/menuList.do" title="재무정보&IR">재무정보&IR</a>
+							</li>
+							<li data-dp2="4">
+								<a href="/menu/recruitInfo/menuList.do" title="채용정보">채용정보</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : 공지사항-->
+					<!-- S : 회사소식-->
+					<div class="depth-1" data-dp1="5">
+						<a href="/menu/reportData/menuList.do" class="depth-1-tit">회사소식</a>
+						<ul>
+							<li data-dp2="1">
+								<a href="/menu/reportData/menuList.do" title="보도자료">보도자료</a>
+							</li>
+							<li data-dp2="2">
+								<a href="/menu/promotionData/menuList.do" title="홍보자료">홍보자료</a>
+							</li>
+							<li data-dp2="3">
+								<a href="/menu/mediaData/menuList.do" title="자료실">자료실</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : 회사소식-->
+					<!-- S : NXT 소개-->
+					<div class="depth-1" data-dp1="1">
+						<a href="/ceo/content.do" class="depth-1-tit"><img src="/images/main/nxt_txt.svg" alt="nxt" class="nxt-txt"> 소개</a>
+						<ul>
+							<li data-dp2="1">
+								<a href="/ceo/content.do" title="CEO 인사말">CEO 인사말</a>
+							</li>
+							<li data-dp2="2">
+								<a href="/menu/company/menuList.do" title="회사소개">회사소개</a>
+							</li>
+							<li data-dp2="3">
+								<a href="/menu/history/menuList.do" title="연혁">연혁</a>
+							</li>
+							<li data-dp2="4">
+								<a href="/vision/content.do" title="비전 및 목표">비전 및 목표</a>
+							</li>
+							<li data-dp2="5">
+								<a href="/ci/content.do" title="CI">CI</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : NXT 소개-->
+					<!-- S : 정보포털 -->
+					<div class="depth-1 info-portal-menu">
+						<a href="https://portal.nextrade.co.kr/mdclient/" target="_blank" class="depth-1-tit outlink info-portal-link">
+							<img src="/images/icon/icon_portal.svg" alt="정보포털" class="portal-icon">
+							정보포털
+							<span class="info-portal-tooltip">정보이용사 전용 서비스 포털입니다</span>
+						</a>
+					</div>
+					<!-- E : 정보포털 -->
+					<!-- S : 푸터 링크-->
+					<div class="depth-1 d-none" data-dp1="6">
+						<a href="" class="depth-1-tit"></a>
+						<ul>
+							<li data-dp2="3">
+								<a href="" title="시장참여/정보이용">시장참여/정보이용</a>
+							</li>
+							<li data-dp2="5">
+								<a href="" title="오시는 길">오시는 길</a>
+							</li>
+						</ul>
+					</div>
+					<!-- E : 푸터 링크-->
+				</nav>
+				<!-- E : gnb nav-->
+				<!-- S : util-->
+				<div class="util-wrap">
+					<!-- S : 회원사 업무포털 링크 3월 4일 오픈예정-->
+					<!-- <a href="javascript:void(0)" onclick="alert('3월 4일 시장 오픈 예정')" class="outlink">
+						<img src="/images/icon/icon_outlink.svg" alt="회원사 업무포털">
+						회원사 업무포털
+					</a> -->
+					<!-- E : 회원사 업무포털 링크 3월 4일 오픈예정-->
+					<!-- S : 언어선택-->
+					<div class="select-lang">
+						<button type="button" class="current-lang">KR</button>
+						<ul>
+                            <li><a class="krUrl" href="">KR</a></li>
+                            <li><a class="enUrl" href="">EN</a></li>
+                        </ul>
+					</div>
+					<!-- E : 언어선택-->
+					<!-- S : 사이트맵 버튼-->
+					<button type="button" class="ham-btn">
+						<svg class="overpath" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" fill="none">
+							<path class="path_a path" fill-rule="evenodd" clip-rule="evenodd" d="M6.7037 5.18628L3 3V29.4605L6.7037 26.3772L6.7037 5.18628Z" fill="white"/>
+							<path class="path_b path" d="M24.2963 27.4073L28 29.4114V16.2057L28 3L24.2963 6.36351L24.2963 27.4073Z" fill="white"/>
+							<path class="path_c path" d="M12.0483 21.2163L13.7037 22.1121V9.18628L10 7V22.9215L12.0483 21.2163Z" fill="white"/>
+							<path class="path_d path" d="M17 23.6721L20.7037 25.6762L20.7037 10L18.6554 11.8601L17 10.8829V23.6721Z" fill="white"/>
+						</svg>
+					</button>
+					<!-- E : 사이트맵 버튼-->
+				</div>
+				<!-- E : util-->
+			</div>
+            <!-- E : 표준 gnb-->
+			<!-- S : 회원사 포털용 gnb-->
+            <div class="inner login">
+                <!-- S : 로고-->
+                <h1 class="logo">
+                    <a href="/index.html" title="홈으로 가기">
+                        <img src="/images/main/logo_login.svg" alt="넥스트레이드" class="white">
+                        <img src="/images/main/logo_login_color.svg" alt="넥스트레이드" class="color">
+                    </a>
+                </h1>
+                <!-- E : 로고-->
+                <div class="util-wrap">
+                    <nav></nav>
+                    <!-- S : 로그아웃 버튼-->
+                    <button type="button" class="logout">
+                        로그아웃
+                    </button>
+                    <!-- E : 로그아웃 버튼-->
+                </div>
+            </div>
+            <!-- E : 회원사 포털용 gnb-->
+			<!-- S : 시장정보 gnb-->
+            <div class="inner market">
+				<div class="left">
+                    <h1 class="logo">
+                        <a href="/main.do" title="홈으로 가기">
+                            <img src="/images/main/header_logo_color.svg" alt="넥스트레이드" class="">
+                        </a>
+                    </h1>
+                    <a href="/menu/marketData/menuList.do" class="market-logo">
+                        시장정보
+                    </a>
+                </div>
+                <div class="util-wrap">
+                    <nav>
+                        <ul data-dp1="1">
+                            <li data-dp2="1">
+                                <a href="/menu/transactionStatusMain/menuList.do">
+                                    거래현황
+                                </a>
+								<ul class="depth-2">
+                                    <li data-dp2="1">
+                                        <a href="/menu/transactionStatusMain/menuList.do" title="정규시장">정규시장</a>
+                                    </li>
+                                    <li data-dp2="2">
+                                        <a href="/menu/transactionStatusClosing/menuList.do" title="종가매매">종가매매</a>
+                                    </li>
+                                    <li data-dp2="3">
+                                        <a href="/menu/transactionStatusBasket/menuList.do" title="대량·바스켓매매">대량&middot;바스켓매매</a>
+                                    </li>
+                                    <li data-dp2="4">
+                                        <a href="/menu/transactionStatusConclusion/menuList.do" title="매매체결대상종목(정규시장)">매매체결대상종목(정규시장)</a>
+                                    </li>
+                                    <li data-dp2="5">
+                                        <a href="/menu/transactionStatusDaily/menuList.do" title="일별거래현황(정규시장)">일별거래현황(정규시장)</a>
+                                    </li>
+                                    <li data-dp2="6">
+                                        <a href="/menu/transactionStatusInvestor/menuList.do" title="투자자별 거래현황(정규시장)">투자자별 거래현황(정규시장)</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li data-dp2="2">
+                                <a href="/menu/marketInfo/menuList.do">
+                                    시장안내
+                                </a>
+                            </li>
+                            <li data-dp2="3">
+                                <a href="/transactionSys/content.do">
+                                    거래제도
+                                </a>
+								<ul class="depth-2">
+                                    <li data-dp2="1">
+                                        <a href="/transactionSys/content.do#1" title="시장구조">시장구조</a>
+                                    </li>
+                                    <li data-dp2="2">
+                                        <a href="/transactionSys/content.do#2" title="매매체결대상종목">매매체결대상종목</a>
+                                    </li>
+                                    <li data-dp2="3">
+                                        <a href="/transactionSys/content.do#3" title="호가유형">호가유형</a>
+                                    </li>
+                                    <li data-dp2="4">
+                                        <a href="/transactionSys/content.do#4" title="시장관리">시장관리</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- S : 사이트맵 버튼-->
+                    <button type="button" class="ham-btn">
+                        <svg class="overpath" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" fill="none">
+                            <path class="path_a path" fill-rule="evenodd" clip-rule="evenodd" d="M6.7037 5.18628L3 3V29.4605L6.7037 26.3772L6.7037 5.18628Z" fill="#222222"/>
+                            <path class="path_b path" d="M24.2963 27.4073L28 29.4114V16.2057L28 3L24.2963 6.36351L24.2963 27.4073Z" fill="#222222"/>
+                            <path class="path_c path" d="M12.0483 21.2163L13.7037 22.1121V9.18628L10 7V22.9215L12.0483 21.2163Z" fill="#222222"/>
+                            <path class="path_d path" d="M17 23.6721L20.7037 25.6762L20.7037 10L18.6554 11.8601L17 10.8829V23.6721Z" fill="#222222"/>
+                        </svg>
+                    </button>
+                    <!-- E : 사이트맵 버튼-->
+                </div>
+
+				<div class="right util-wrap">
+					<!-- S : 언어선택-->
+                    <div class="select-lang">
+                        <button type="button" class="current-lang">KR</button>
+                        <ul>
+                            <li><a class="krUrl" href="">KR</a></li>
+                            <li><a class="enUrl" href="">EN</a></li>
+                        </ul>
+                    </div>
+                    <!-- E : 언어선택-->
+				</div>
+            </div>
+            <!-- E : 시장정보 gnb-->
+	   </div>
+	</div>
+	<!-- E : 헤더 상단-->
+</header>
+<div class="sitemap">
+	<button type="button" class="close-sitemap">
+		<img src="/images/main/close_sitemap.svg" alt="닫기">
+	</button>
+	<div class="inner">
+		<div class="top">
+			<a href="/main.do">
+				<img src="/images/main/logo_color.svg" alt="넥스트레이드">
+			</a>
+			<h1 class="logo d-block d-lg-none">
+                <a href="/main.do" title="홈으로 가기">
+                    <img src="/images/main/header_logo_color.svg" alt="넥스트레이드" class="">
+                </a>
+            </h1>
+            <a href="/menu/marketData/menuList.do" class="market-logo d-block d-lg-none">
+                시장정보
+            </a>
+            <!-- <a href="/html/dashboard.html" class="market-logo">
+                <img src="/images/sub/market/market_logo.svg" alt="시장정보">
+            </a> -->
+			<!-- <a href="/menu/marketData/menuList.do" class="market-logo">
+                <picture>
+					<source media="(min-width: 768px)" srcset="/images/sub/market/market_logo.svg">
+					<source media="(min-width: 0px)" srcset="/images/sub/market/market_logo_m.svg">
+					<img src="" alt="시장정보">
+				</picture>
+            </a> -->
+		</div>
+		<div class="util-wrap">
+            <!-- <a href="javascript:void(0)" onclick="alert('3월 4일 시장 오픈 예정')" class="outlink">
+                <img src="/images/icon/icon_outlink.svg" alt="회원사 업무포털">
+                회원사 업무포털
+            </a> -->
+            <!-- E : 회원사 업무포털 링크 3월 4일 오픈예정-->
+            <!-- S : 언어선택-->
+            <div class="select-lang">
+                <button type="button" class="current-lang">KR</button>
+                <ul>
+                    <li><a class="krUrl" href="">KR</a></li>
+                    <li><a class="enUrl" href="">EN</a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="list-bx"></div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	var url = window.location.pathname;
+
+	url = url.replace("/view.do", "/menuList.do");
+	$(".krUrl").attr("href", url);
+
+	url = url.replace("/menu", "/menu/en");
+	if (!url.includes("/en")) {
+		url = "/en" + url;
+	}
+	$(".enUrl").attr("href", url);
+
+	$(document).on('click','.popup-link, .ham-btn',function(){
+		$('body').addClass('body-fixed');
+	  });
+	  $(document).on('click','.mfp-close, .mobile-nav-close',function(){
+		$('body').removeClass('body-fixed');
+	  });
+	  // ESC 키 눌렀을 때 팝업이 열려있는 경우
+	  $(document).keyup(function(e) {
+		if (e.key === "Escape" && $.magnificPopup.instance.isOpen) {
+			closePopup();
+		  	$('body').removeClass('body-fixed'); // ESC 키 눌렀을 때 body-fixed 클래스 제거
+		}
+	  });
+	  $(document).on('click', '.ham-btn',function() {
+		  $(this).addClass('active');
+		  $('.sitemap').addClass('active');
+		  $('body').addClass('body-fixed');
+	  });
+	  $(document).on('click', '.close-sitemap',function() {
+		$('.ham-btn').removeClass('active');
+		$('.sitemap').removeClass('active');
+		$('body').removeClass('body-fixed');
+	  });
+	  $(document).on('click', '.select-lang', function(e) {
+		  $(this).toggleClass('active');
+		  $(this).children('ul').slideToggle();
+	  });
+});
+</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css?v=1.0111" />
+<style>
+    /* PC 화면(1200px 이상)일 때 강제로 3분할 영역을 확보하도록 방어 */
+    @media (min-width: 1200px) {
+        .main-visual .slide-3 .swiper-slide {
+            width: 33.333% !important; 
+            margin-right: 0px !important; /* 마진 공간이 필요하다면 수치 조정 */
+        }
+    }
+    /* 태블릿 화면(576px 이상 1199px 이하)일 때 2분할 강제 고정 */
+    @media (min-width: 576px) and (max-width: 1199px) {
+        .main-visual .slide-3 .swiper-slide {
+            width: 50% !important;
+        }
+    }
+</style>
+
+<script>
+	var P_dp1 = "main"; /*depth1*/
+	var P_dp2 = "main"; /*depth1*/
+</script>
+<body class="main-body">
+	<main id="contents">
+		<!-- S : 긴급공지 -->
+		<div class="urgency_container">
+			<div class="urgency_icon">
+				<img src="/images/icon/icon_urgency.svg" alt="긴급">
+			</div>
+			<div class="urgency_bx">
+				<div class="urgency_list">
+					<ul id="urgencyUl">
+					
+						
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- E : 긴급공지 -->
+		<!-- S : 메인 비주얼-->
+		<section class="section main-visual">
+			<!-- S : 배경 이미지 슬라이드-->
+			<div class="slide-bx slide-1">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<picture class="img-bx">
+								<source media="(min-width: 768px)" srcset="images/main/visual_1.jpg">
+								<source media="(min-width: 0px)" srcset="images/main/visual_1_m.jpg">
+								<img src="" alt="INNOVATION">
+							</picture>
+						</div>
+						<div class="swiper-slide">
+							<picture class="img-bx">
+								<source media="(min-width: 768px)" srcset="images/main/visual_2.jpg">
+								<source media="(min-width: 0px)" srcset="images/main/visual_2_m.jpg">
+								<img src="" alt="Flexibility">
+							</picture>
+						</div>
+						<div class="swiper-slide">
+							<picture class="img-bx">
+								<source media="(min-width: 768px)" srcset="images/main/visual_3.jpg">
+								<source media="(min-width: 0px)" srcset="images/main/visual_3_m.jpg">
+								<img src="" alt="Saving">
+							</picture>
+						</div>
+						<div class="swiper-slide">
+							<picture class="img-bx">
+								<source media="(min-width: 768px)" srcset="images/main/visual_4.jpg">
+								<source media="(min-width: 0px)" srcset="images/main/visual_4_m.jpg">
+								<img src="" alt="Efficiency">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- E : 배경 이미지 슬라이드-->
+			<!-- S : 텍스트 슬라이드-->
+			<div class="slide-bx slide-2">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="txt-bx">
+								<p>Innovation</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="txt-bx">
+								<p>Flexibility</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="txt-bx">
+								<p>Saving</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="txt-bx">
+								<p>Efficiency</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- E : 텍스트 슬라이드-->
+			<!-- S : 시장요약 슬라이드-->
+			<div class="slide-bx slide-3">
+				<p class="slide-info wow fadeInUp">
+					<span id="aggDdMarket">2026-09-23</span> <span id="creTimeMarket">05:32</span> 기준 정보 <span class="ml-5">NXT 정규시장 체결기준</span>
+				</p>
+				<div class="slide-wrap">
+					 <!-- S : 슬라이드 이전버튼-->
+					<button type="button" class="slide-btn slide-prev">
+						<img src="/images/main/slide_prev.png" alt="이전" class="wow fadeInLeft">
+					</button>
+					<!-- E : 슬라이드 이전버튼-->
+					<div class="swiper-container wow fadeInUp" data-wow-delay="0.1s">
+						<!--거래대금에는 price 클래스를 추가해서 width가 항상 100%으로 출력되도록 부탁드립니다.-->
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="txt-bx">
+									<p class="name">프리마켓 <span class="time" id="preTime">08:00~08:50</span></p>
+									<ul class="info">
+										<li>
+											<div class="flex-bx">
+												<p class="tit">등락률(기준가 대비)</p>
+												<p class="num 	
+																	
+																	
+																
+														 " id="preFlucRt">0.00%</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래종목 수</p>
+												<p class="num" id="preIsuCnt">0</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래량(주)</p>
+												<p class="num" id="preAccTdQty">0</p>
+											</div>
+											<div class="flex-bx price">
+												<p class="tit">거래대금(원)</p>
+												<p class="num" id="preAccTrval">0</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="txt-bx">
+									<p class="name">메인마켓 <span class="time" id="mainTime">
+										09:00:30
+										~15:20</span></p>
+									<ul class="info">
+										<li>
+											<div class="flex-bx">
+												<p class="tit">등락률(기준가 대비)</p>
+												<p class="num 	
+																	
+																	
+																
+														 " id="mainFlucRt">0.00%</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래종목 수</p>
+												<p class="num" id="mainIsuCnt">0</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래량(주)</p>
+												<p class="num" id="mainAccTdQty">0</p>
+											</div>
+											<div class="flex-bx price">
+												<p class="tit">거래대금(원)</p>
+												<p class="num" id="mainAccTrval">0</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="txt-bx">
+									<p class="name">애프터마켓 <span class="time" id="aftTime">15:40~20:00</span></p>
+									<ul class="info">
+										<li>
+											<div class="flex-bx">
+												<p class="tit">등락률(기준가 대비)</p>
+												<p class="num 	
+																	
+																	
+																
+														 " id="aftFlucRtNxt">0.00%</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">등락률(KRX종가 대비)</p>
+												<p class="num 	
+																	
+																	
+																
+														 " id="aftFlucRtKrx">0.00%</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래종목 수</p>
+												<p class="num" id="aftIsuCnt">0</p>
+											</div>
+											<div class="flex-bx">
+												<p class="tit">거래량(주)</p>
+												<p class="num" id="aftAccTdQty">0</p>
+											</div>
+											<div class="flex-bx price">
+												<p class="tit">거래대금(원)</p>
+												<p class="num" id="aftAccTrval">0</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="fixed-notice">
+                            * 등락률은 기준시점 대비 시가총액의 증감률임
+                        </div>
+					</div>
+					<!-- S : 슬라이드 다음버튼-->
+					<button type="button" class="slide-btn slide-next">
+						<img src="/images/main/slide_next.png" alt="다음" class="wow fadeInRight">
+					</button>
+					<!-- E : 슬라이드 다음버튼-->
+					<!-- S : 슬라이드 bullets-->
+					<div class="swiper-pagination"></div>
+					<!-- E : 슬라이드 bullets-->
+				</div>
+				<p class="slide-info wow fadeInUp delayText">
+					<span>하단의 개별종목정보는 20분 지연</span>
+				</p>
+			</div>
+			<!-- E : 시장요약 슬라이드-->
+			<!-- S : ticker-->
+			<div class="ticker">
+				<div class="marquee-wrapper marquee-left-wrapper">
+					<ul>
+						<!-- S : 상승일 경우 up 클래스 추가 -->
+						<!-- S : 하락일 경우 down 클래스 추가-->
+						
+							
+						
+						<!-- E : 상승일 경우 up 클래스 추가 -->
+						<!-- E : 하락일 경우 down 클래스 추가-->
+					</ul>
+				</div>
+			</div>
+			<!-- E : ticker-->
+		</section>
+		<!-- E : 메인 비주얼-->
+		<!-- S : 거래대금상위종목-->
+		<section class="section trade wow fadeInUp">
+			<div class="container">
+				<div class="table-top">
+					<div class="sec-tit">
+						<h2 class="tit">거래대금 상위종목</h2>
+						<p class="info">
+							<img src="/images/icon/icon_clock_gray.svg" alt="시계">
+							<span id="aggDdDelayed">2026-09-23</span> <span id="creTimeDelayed">05:12</span> (20분 지연)<br class="d-block d-md-none"> <span class="ml-5">NXT 정규시장 체결기준</span>
+						</p>
+					</div>
+					<a href="/menu/marketData/menuList.do" target="_blank" class="link-btn black">
+						<span>바로가기</span>
+					</a>
+				</div>
+				<!-- S : 테이블 영역-->
+				<div class="table-bx">
+					<table id="topPriceTable">
+						<caption><span class="hide">거래대금 상위종목</span></caption>
+						<colgroup>
+							<col class="col1">
+							<col class="col2">
+							<col class="col3">
+							<col class="col4">
+							<col class="col5">
+							<col class="col6">
+							<col class="col7">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">종목명</th>
+								<th scope="col">상장시장</th>
+								<th scope="col">현재가</th>
+								<th scope="col">대비</th>
+								<th scope="col">등락률</th>
+								<th scope="col">거래량</th>
+								<th scope="col">거래대금</th>
+							</tr>
+						</thead>
+						<tbody id="topListTbody">
+							
+								
+							
+						</tbody>
+					</table>
+				</div>
+				<!-- E : 테이블 영역-->
+				<div class="stock-list" style="display:none;">
+					<p class="tit">거래참가증권사</p>
+					<div class="list-wrap">
+                        <ul>
+                            <li data-text="KB증권">
+                                <img src="/images/icon/icon_stock_1.svg" alt="KB증권">
+                            </li>
+                            <li data-text="교보증권">
+                                <img src="/images/icon/icon_stock_2.svg" alt="교보증권">
+                            </li>
+                            <li data-text="미래에셋증권">
+                                <img src="/images/icon/icon_stock_3.svg" alt="미래에셋증권">
+                            </li>
+                            <li data-text="유안타증권">
+                                <img src="/images/icon/icon_stock_4.svg" alt="유안타증권">
+                            </li>
+                            <li data-text="NH투자증권">
+                                <img src="/images/icon/icon_stock_5.svg" alt="NH투자증권">
+                            </li>
+                            <li data-text="sk증권">
+                                <img src="/images/icon/icon_stock_6.svg" alt="sk증권">
+                            </li>
+                            <li data-text="신한투자증권">
+                                <img src="/images/icon/icon_stock_7.svg" alt="신한투자증권">
+                            </li>
+                            <li data-text="한국투자증권">
+                                <img src="/images/icon/icon_stock_8.svg" alt="한국투자증권">
+                            </li>
+                            <li data-text="한화투자증권">
+                                <img src="/images/icon/icon_stock_9.svg" alt="한화투자증권">
+                            </li>
+                            <li data-text="하이투자증권">
+                                <img src="/images/icon/icon_stock_10.svg" alt="하이투자증권">
+                            </li>
+                            <li data-text="키움증권">
+                                <img src="/images/icon/icon_stock_11.svg" alt="키움증권">
+                            </li>
+                            <li data-text="IBK투자증권">
+                                <img src="/images/icon/icon_stock_12.svg" alt="IBK투자증권">
+                            </li>
+                            <li data-text="DB금융투자">
+                                <img src="/images/icon/icon_stock_13.svg" alt="DB금융투자">
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</section>
+		<!-- E : 거래대금상위종목-->
+		<!-- S : 소개-->
+		<section class="section about wow fadeIn">
+			<div class="container">
+				<div class="inner">
+					<div class="sec-tit">
+						<h2 class="tit wow fadeInLeft">새로운 <br class="d-block d-lg-none">증권거래 플랫폼</h2>
+						<p class="txt wow fadeInLeft" data-wow-delay="0.1s">
+							금융위원회의 인가를 받은 새로운 거래 시스템으로 <br class="d-none d-sm-block">투자자들에게 안전하고,합리적이고, 빠른 서비스를 제공합니다.
+						</p>
+						<a href="/marketOverview/content.do" class="link-btn black wow fadeInLeft" data-wow-delay="0.2s">
+							<span>바로가기</span>
+						</a>
+					</div>
+					<div class="slide-bx">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<!-- S : bx-1-->
+								<div class="swiper-slide">
+									<div class="inner wow fadeInUp">
+										<div class="wrap">
+											<div class="icon-bx">
+												<img src="/images/main/about_1.png" alt="길어진 거래가능 시간">
+											</div>
+											<div class="txt-bx">
+												<strong class="tit">
+													길어진 <br>
+													거래가능 시간
+												</strong>
+												<p class="txt">
+													이제 하루 12시간 동안 주식을 <br>거래 할 수 있습니다.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- E : bx-1-->
+								<!-- S : bx-2-->
+								<div class="swiper-slide">
+									<div class="inner wow fadeInUp" data-wow-delay="0.1s">
+										<div class="wrap">
+											<div class="icon-bx">
+												<img src="/images/main/about_2.png" alt="낮아진 수수료">
+											</div>
+											<div class="txt-bx">
+												<strong class="tit">
+													낮아진 수수료
+												</strong>
+												<p class="txt">
+													넥스트레이드(ATS)는 거래 수수료를 한국거래소(KRX)보다 저렴하게 제공합니다.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- E : bx-2-->
+								<!-- S : bx-3-->
+								<div class="swiper-slide">
+									<div class="inner wow fadeInUp" data-wow-delay="0.15s">
+										<div class="wrap">
+											<div class="icon-bx">
+												<img src="/images/main/about_3.png" alt="다양한 주문방식">
+											</div>
+											<div class="txt-bx">
+												<strong class="tit">
+													다양한 주문방식
+												</strong>
+												<p class="sub-tit">
+													(+) 중간가호가, 스톱지정가호가
+												</p>
+												<p class="txt">
+													자신의 투자 전략을 더욱 세밀하고 유연하게 조정할 수 있습니다.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- E : bx-3-->
+								<!-- S : bx-4-->
+								<div class="swiper-slide">
+									<div class="inner wow fadeInUp" data-wow-delay="0.2s">
+										<div class="wrap">
+											<div class="icon-bx">
+												<img src="/images/main/about_4.png" alt="통합관리 시스템">
+											</div>
+											<div class="txt-bx">
+												<strong class="tit">
+													통합관리 시스템
+												</strong>
+												<p class="txt">
+													한국거래소(KRX)와 넥스트레이드(ATS)가 협력하여 시장을 통합적으로 관리합니다.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- E : bx-4-->
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- E : 소개-->
+		<!-- S : news-->
+		<section class="section news">
+			<div class="container">
+				<div class="sec-tit">
+					<h2 class="tit">
+						<svg width="95" height="28" viewBox="0 0 52 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M35.8662 3.20753H41.6068L41.5983 15.4942H46.2422L46.2508 3.20753H51.9914L52 0.5H35.8662V3.20753ZM12.8265 13.4466H12.3038L7.84841 2.04246C7.48855 1.15137 6.52892 0.585873 5.40649 0.585873H2.63899C1.14813 0.585873 0.0599767 1.50266 0.0599767 2.76218L0 15.503H3.90707L3.96705 2.87356H4.4897L8.82518 14.0293C9.17647 14.9289 10.1018 15.503 11.2414 15.503H16.725L16.785 0.577305H12.8779L12.8265 13.4466ZM26.4245 5.18677L30.1859 0.5H34.6842L28.7207 8.04852L34.6842 15.4942H30.006L26.4245 10.9531L22.8516 15.4942H18.1734L24.1282 8.04852L18.1734 0.517137H22.6716L26.4245 5.18677Z" fill="#E50038"/>
+						</svg>
+						NEWS
+					</h2>
+				</div>
+				<div class="list-bx bx-1">
+					<ul>
+						<!--
+                            재무정보일 경우에는 disclosure 클래스 추가
+                            경영공시일 경우에는 finance 클래스 추가
+                        -->
+						<!-- S : 공지사항-->
+						
+							
+								
+									<li class="wow fadeInUp">
+										<div class="inner">
+											<div class="top">
+												<!-- 공지사항일 경우 notice 클래스 추가 -->
+												<a href="/menu/notice/menuList.do" class="category notice">
+													<span>공지사항</span>
+												</a>
+												<p class="date">
+													2026-07-10
+												</p>
+											</div>
+											<a href="javascript:void(0)" onclick="fn_goView(this)" class="link" data-bbsKndCode="notice" data-nttNo="41" data-nttCl="general">
+												<div class="txt-bx">
+													<strong class="tit">
+														휴장안내(제헌절, 7/17)
+													</strong>
+													
+												</div>
+												<div class="btn-bx">
+													<div class="link-btn black">
+														<span>바로가기</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+								
+									<li class="wow fadeInUp">
+										<div class="inner">
+											<div class="top">
+												<!-- 공지사항일 경우 notice 클래스 추가 -->
+												<a href="/menu/notice/menuList.do" class="category notice">
+													<span>공지사항</span>
+												</a>
+												<p class="date">
+													2025-12-18
+												</p>
+											</div>
+											<a href="javascript:void(0)" onclick="fn_goView(this)" class="link" data-bbsKndCode="notice" data-nttNo="31" data-nttCl="general">
+												<div class="txt-bx">
+													<strong class="tit">
+														2025년 연말 시장운영 일정 및 2026년 연초 개장일(1.2) 매매거래시간 안내
+													</strong>
+													
+												</div>
+												<div class="btn-bx">
+													<div class="link-btn black">
+														<span>바로가기</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+								
+									<li class="wow fadeInUp">
+										<div class="inner">
+											<div class="top">
+												<!-- 공지사항일 경우 notice 클래스 추가 -->
+												<a href="/menu/notice/menuList.do" class="category notice">
+													<span>공지사항</span>
+												</a>
+												<p class="date">
+													2025-10-30
+												</p>
+											</div>
+											<a href="javascript:void(0)" onclick="fn_goView(this)" class="link" data-bbsKndCode="notice" data-nttNo="26" data-nttCl="general">
+												<div class="txt-bx">
+													<strong class="tit">
+														대학수학능력시험일(11.13) 매매거래시간 임시 변경 안내
+													</strong>
+													
+												</div>
+												<div class="btn-bx">
+													<div class="link-btn black">
+														<span>바로가기</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+								
+							
+						
+						<!-- E : 공지사항-->
+						<!-- S : 채용정보-->
+						
+							
+						
+						<!-- E : 채용정보-->
+					</ul>
+				</div>
+				<div class="list-bx bx-2">
+					<ul>
+						<li class="wow fadeInLeft">
+							<a href="/menu/manageDisclosure/menuList.do">
+								<div class="txt-bx">
+									<!--
+                                        보도자료 : reports
+                                        언론자료 : press
+                                        경영공시 : disclosure
+                                        공지사항 : notice
+                                        홍보자료 ; ad
+                                        채용정보 : recruit
+                                        재무정보 : finance
+                                    -->
+									<div class="icon-bx disclosure">
+										<!-- <img src="/images/icon/icon_disclosure.svg" alt="경영공시"> -->
+									</div>
+									<strong class="tit">
+										경영공시
+									</strong>
+									<p class="txt">
+										넥스트레이드의 경영공시 정보를 알려드립니다.
+									</p>
+								</div>
+								<div class="btn-bx">
+									<div class="link-btn white">
+										<span>바로가기</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="wow fadeInRight">
+							<a href="/menu/ir/menuList.do">
+								<div class="txt-bx">
+									<div class="icon-bx finance">
+										<!-- <img src="/images/icon/icon_paper.svg" alt="재무정보&IR"> -->
+									</div>
+									<strong class="tit">
+										재무정보&IR
+									</strong>
+									<p class="txt">
+										재무상황, 영업실적 등 넥스트레이드의 재무정보를 알려드립니다.
+									</p>
+								</div>
+								<div class="btn-bx">
+									<div class="link-btn white">
+										<span>바로가기</span>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<form id="frm" name="frm" action="" method="post">
+				<input type="hidden" id="pageIndex" name="pageIndex" value="1" data-touch="no"/>
+				<input type="hidden" id="scNttNo" name="scNttNo" value=""/>
+				<input type="hidden" id="scBbsKndCode" name="scBbsKndCode" value=""/>
+				<input type="hidden" id="scNttCl" name="scNttCl" value=""/>
+			</form>
+		</section>
+		<!-- E : news-->
+	</main>
+
+    <!-- S : 팝업-->
+    
+		
+    
+    <!-- E : 팝업-->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f414a4f85cf272',t:'MTc5MDEwOTE2NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<script>
+	var lastTickerCount = 0;
+	$(document).ready(function(){
+		setInterval(fn_refreshMarketInfo, 60000);
+
+		/* 메인 비주얼 슬라이드 */
+		var storySlide1 = new Swiper('.main-visual .slide-1 .swiper-container', {
+			slidesPerView: 1,
+            effect:"fade",
+			speed: 1000,
+			observer: true,        /* Swiper 컨테이너 변경 감지 */
+			observeParents: true,  /* 부모 요소 변경 감지 */
+		});
+
+		/* 메인 비주얼 텍스트 슬라이드 */
+		var storySlide2 = new Swiper('.main-visual .slide-2 .swiper-container', {
+			slidesPerView: 2,
+			speed: 1000,
+			observer: true,        /* Swiper 컨테이너 변경 감지 */
+			observeParents: true,  /* 부모 요소 변경 감지 */
+			centeredSlides: true,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			breakpoints: {
+				768: {
+					slidesPerView: 2,
+				},
+			},
+		});
+
+		// 슬라이드 컨트롤러 설정
+		storySlide1.controller.control = storySlide2;
+		storySlide2.controller.control = storySlide1;
+
+		/* 시장요약 슬라이드 */
+		var marketSlide = new Swiper('.main-visual .slide-3 .swiper-container', {
+			slidesPerView: 1,
+			speed: 1000,
+			observer: true,
+			observeParents: true,
+			navigation: {
+				nextEl: '.main-visual .slide-3 .slide-next',
+				prevEl: '.main-visual .slide-3 .slide-prev',
+			},
+			breakpoints: {
+				576: {
+					slidesPerView: 2,
+				},
+				1200: {
+					slidesPerView: 3,
+				},
+			},
+			pagination: {
+				el: ".main-visual .slide-3 .swiper-pagination",
+				clickable: true,
+			},
+		});
+
+		/*about 슬라이드 1024px를 기준으로 슬라이드 기능 토글*/
+		let aboutSlide;
+
+		const initSwiper = function() {
+			const windowWidth = $(window).innerWidth();
+
+			// aboutSlide 처리: 1024px 이하에서만 슬라이드 활성화
+			if (windowWidth <= 1024 && !aboutSlide) {
+				aboutSlide = new Swiper('.section.about .slide-bx .swiper-container', {
+					slidesPerView: 1.4,
+					spaceBetween: 30,
+					speed: 1000,
+					observer: true,        /* Swiper 컨테이너 변경 감지 */
+					observeParents: true,  /* 부모 요소 변경 감지 */
+					breakpoints: {
+						576: {
+							slidesPerView: 2,
+							spaceBetween: 30,
+						},
+						1200: {
+							slidesPerView: 3,
+							spaceBetween: 30,
+						},
+					},
+					pagination: {
+						el: ".section.about .slide-bx .swiper-pagination",
+						clickable: true,
+					},
+				});
+			} else if (windowWidth > 1024 && aboutSlide) {
+				aboutSlide.destroy(true, true);
+				aboutSlide = null;
+			}
+		};
+
+		let resizeTimeout;
+		$(window).on('resize', function() {
+			if (resizeTimeout) clearTimeout(resizeTimeout);
+			resizeTimeout = setTimeout(function() {
+				initSwiper();
+				storySlide1.update();
+				marketSlide.update();
+			}, 200);
+		});
+
+		// 페이지 로드 시 초기화
+		initSwiper();
+
+		function setMarqueeAnimation(wrapperClass, direction) {
+
+			var marqueeWrap = $("."+wrapperClass+" ul");
+
+			// 이미 복제된 ul이 있는지 확인
+			if ($("."+wrapperClass+" ul").length > 1) {
+				return; // ul이 이미 복제되었으므로 복제 작업을 다시 하지 않음
+			}
+
+			// 전체 li 요소 계산
+			var marqueeList = $("."+wrapperClass+" ul li");
+			var liCount = marqueeList.length;
+
+			// li의 개수가 적을 경우 최소 10개의 li로 복제
+			var minItems = 10;
+			if (liCount < minItems) {
+				var additionalItems = minItems - liCount;
+				for (var i = 0; i < additionalItems; i++) {
+					var clonedItem = marqueeList.eq(i % liCount).clone();
+					marqueeWrap.append(clonedItem);
+				}
+				marqueeList = $("."+wrapperClass+" ul li"); // 업데이트된 li 목록
+			}
+
+			// ul을 복제하여 뒤에 추가
+			var clonedMarquee = marqueeWrap.clone();
+			marqueeWrap.parent().append(clonedMarquee);
+
+			// 새로운 li count와 total width 계산
+			liCount = marqueeList.length;
+			var liWidth = marqueeList.outerWidth(true); // padding, border, margin 포함
+			//--------------- S : [03-05 롤링 오류수정]
+			var translateWidth = marqueeWrap.outerWidth(); // 총 이동 거리 계산
+            //--------------- E : [03-05 롤링 오류수정]
+
+			// 애니메이션 시간 설정
+			var animationDuration = liCount * 4; // li 개수에 비례하여 애니메이션 시간 조정
+
+			//--------------- S : [03-05 롤링 오류수정]
+			// 애니메이션 방향에 따른 설정
+			var animationName = direction === 'left' ? 'ticker-scrolling-left' : 'ticker-scrolling-right';
+			var transformStart = direction === 'left' ? '0' : "-"+translateWidth+"px";
+			var transformEnd = direction === 'left' ? "-"+translateWidth+"px" : '0';
+            //--------------- E : [03-05 롤링 오류수정]
+
+			// keyframes 스타일이 중복해서 추가되지 않도록 기존 스타일을 확인
+			if (!$("#"+animationName+"-style").length) {
+				var style = document.createElement('style');
+				style.id = animationName+"-style"; // ID를 부여하여 중복 삽입 방지
+				style.innerHTML = "@keyframes "+animationName+" { 0% { transform: translateX("+transformStart+"); }"+
+					"100% { transform: translateX("+transformEnd+"); } }";
+				document.head.appendChild(style);
+			}
+
+			// wrapper에 애니메이션 적용
+			$("."+wrapperClass).css({
+				'animation': animationName+" "+animationDuration+"s linear infinite"
+			});
+		}
+ 
+ 		// 페이지 로드 시 마퀴 설정
+ 		lastTickerCount = $(".marquee-left-wrapper ul li").length;
+ 		setMarqueeAnimation('marquee-left-wrapper', 'left');
+ 		setMarqueeAnimation('marquee-right-wrapper', 'right');
+ 
+ 		function reinitMarquee(wrapperClass, direction, tickerList, isEnglish) {
+ 			var $wrapper = $("." + wrapperClass);
+ 			if ($wrapper.length === 0) return;
+ 
+ 			$wrapper.css('animation', 'none');
+ 			$wrapper.find("ul:gt(0)").remove();
+ 			
+ 			var $ul = $wrapper.find("ul");
+ 			$ul.empty();
+ 
+ 			$.each(tickerList, function(index, dataVO) {
+ 				var isuName = isEnglish ? dataVO.isuEnawNm : dataVO.isuAbwdNm;
+ 				var upDownClass = "";
+ 				var sign = "";
+ 				if (dataVO.upDownRate > 0) {
+ 					upDownClass = "up";
+ 					sign = "+";
+ 				} else if (dataVO.upDownRate < 0) {
+ 					upDownClass = "down";
+ 				}
+ 				
+ 				var liTag = '<li>' +
+ 								'<p class="tit">' + isuName + '</p>' +
+ 								'<p class="standard">' + formatNumber(dataVO.curPrc) + '</p>' +
+ 								'<p class="num ' + upDownClass + '">' + sign + parseFloat(dataVO.upDownRate).toFixed(2) + '%</p>' +
+ 							'</li>';
+ 				$ul.append(liTag);
+ 			});
+ 
+ 			var animationName = direction === 'left' ? 'ticker-scrolling-left' : 'ticker-scrolling-right';
+ 			$("#" + animationName + "-style").remove();
+ 
+ 			setMarqueeAnimation(wrapperClass, direction);
+ 		}
+ 
+ 		// 윈도우 리사이즈 시 마퀴 애니메이션 다시 설정
+ 		$(window).resize(function() {
+ 			// 리사이즈 시 기존 애니메이션을 지우지 않고 그대로 유지
+ 			setMarqueeAnimation('marquee-left-wrapper', 'left');
+ 			setMarqueeAnimation('marquee-right-wrapper', 'right');
+ 		});
+
+	// S : 긴급공지(03-02 수정)
+	function setMarqueeAnimation2(wrapperClass, direction) {
+            var marqueeWrap = $("." + wrapperClass + " ul");
+            var marqueeList = $("." + wrapperClass + " ul li");
+            var liCount = marqueeList.length;
+
+            // li가 1개 이상일 경우 .main-body에 .urgency_active 클래스 추가
+            if (liCount > 0) {
+                $(".main-body").addClass("urgency_active");
+                $(".urgency_container").addClass("active");
+            }
+
+            if (marqueeWrap.outerWidth() < $(window).width()) {
+                $("." + wrapperClass + " ul").addClass('urgency_item_' + liCount);
+                return; // 애니메이션을 실행하지 않음
+            }
+
+            // 기존 복제된 ul 제거
+            if ($("." + wrapperClass + " ul").length > 1) {
+                $("." + wrapperClass + " ul").slice(1).remove(); // 첫 번째 ul을 제외한 나머지를 제거
+            }
+
+            // li 요소의 총 너비 계산
+            var liWidth = marqueeList.outerWidth(true); // padding, border, margin 포함
+            var translateWidth = marqueeWrap.outerWidth(); // 총 이동 거리 계산
+
+            // ul의 left 값을 원본에 맞춰 설정
+            marqueeWrap.css({
+                'position': 'relative',
+                'left': '0px' // 원본 ul의 left 값을 초기화
+            });
+
+            // ul을 복제하여 뒤에 추가하고 위치 조정
+            var clonedMarquee = marqueeWrap.clone();
+            clonedMarquee.css({
+                'position': 'absolute',
+                'top': 0,
+                'left': translateWidth + 'px' // 복제된 ul을 원본의 끝에 위치시킴
+            });
+            marqueeWrap.parent().append(clonedMarquee);
+
+            // 애니메이션 시간 설정
+            var animationDuration = liCount * 10; // li 개수에 비례하여 애니메이션 시간 조정
+
+            // 애니메이션 방향에 따른 설정
+            var animationName = direction === 'left' ? 'scrolling-left' : 'scrolling-right';
+            var transformStart = '0px'; // 시작 위치
+            var transformEnd = "-" + translateWidth + "px"; // 끝 위치
+
+            // keyframes 스타일이 중복해서 추가되지 않도록 기존 스타일을 확인
+            if (!$("#" + animationName + "-style").length) {
+                var style = document.createElement('style');
+                style.id = animationName + "-style"; // ID를 부여하여 중복 삽입 방지
+                style.innerHTML = "@keyframes " + animationName + " { 0% { transform: translateX(" + transformStart + "); }" +
+                    "100% { transform: translateX(" + transformEnd + "); } }";
+                document.head.appendChild(style);
+            } else {
+                // 기존 키프레임 업데이트
+                var styleElement = $("#" + animationName + "-style")[0];
+                styleElement.innerHTML = "@keyframes " + animationName + " { 0% { transform: translateX(" + transformStart + "); }" +
+                    "100% { transform: translateX(" + transformEnd + "); } }";
+            }
+
+            // wrapper에 애니메이션 적용
+            $("." + wrapperClass).css({
+                'animation': animationName + " " + animationDuration + "s linear infinite"
+            });
+        }
+
+        setMarqueeAnimation2('urgency_bx', 'left');
+
+		 $(window).resize(function () {
+            $("." + 'urgency_bx' + " ul").slice(1).remove();
+
+            var marqueeList = $("." + 'urgency_bx' + " ul li");
+            var liCount = marqueeList.length;
+
+            setMarqueeAnimation2('urgency_bx', 'left');
+        });
+		// E : 긴급공지(03-02 수정)
+		var lastWindowWidth = $(window).width(); // 처음 창의 가로 사이즈 저장
+
+    function startMarquee() {
+        var $listWrap = $('.list-wrap');
+        var $ul = $listWrap.find('ul').first(); // 첫 번째 ul만 선택
+        var $clone = $listWrap.find('ul').eq(1); // 두 번째 ul 확인
+
+        // 이미 복제된 ul이 있는지 확인
+        if ($clone.length === 0) {
+            $clone = $ul.clone(); // ul 복제
+            $listWrap.append($clone); // 복제한 ul 추가
+        }
+
+        var totalWidth = 0;
+        $ul.find('li').each(function() {
+            totalWidth += $(this).outerWidth(true) + 12; // li의 width와 margin 포함
+        });
+
+        var animationDuration = totalWidth / 50; // 속도 조정 (적절히 조정 가능)
+
+        function animateMarquee() {
+            $listWrap.css({
+                transform: 'translateX(0)',
+                transition: 'none'
+            });
+
+            setTimeout(function() {
+                // 백틱을 대신해 문자열 연결 방식으로 수정
+                $listWrap.css({
+                    transform: 'translateX(-' + totalWidth + 'px)',
+                    transition: 'transform ' + animationDuration + 's linear'
+                });
+            }, 10);
+        }
+
+        // 애니메이션이 끝나면 반복
+        $listWrap.on('transitionend', function() {
+            animateMarquee();
+        });
+
+        animateMarquee();
+    }
+
+    function stopMarquee() {
+        $('.list-wrap').css({
+            transform: '',
+            transition: ''
+        });
+        $('.list-wrap').off('transitionend');
+    }
+
+    function checkWindowSize() {
+        if ($(window).width() <= 576) {
+            startMarquee();
+        } else {
+            stopMarquee();
+        }
+    }
+
+    // 처음 실행 시 화면 크기 체크
+    checkWindowSize();
+
+    // 화면 크기 변경 시 다시 체크 (가로 사이즈만 고려)
+    $(window).resize(function() {
+        var currentWindowWidth = $(window).width(); // 현재 창의 가로 사이즈 가져오기
+
+        if (currentWindowWidth !== lastWindowWidth) { // 가로 크기가 변경된 경우만 실행
+            lastWindowWidth = currentWindowWidth; // 마지막 가로 사이즈 업데이트
+            checkWindowSize(); // 가로 크기가 변경되었을 때만 체크
+        }
+    });
+
+		/*팝업 관련 스크립트*/
+            class Popup {
+			    constructor(popupSelector, cookieName, days) {
+			        this.popup = $(popupSelector);
+			        this.cookieName = cookieName;
+			        this.days = days;
+			        this.init();
+			    }
+
+			    // 쿠키를 설정하는 함수
+			    setCookie(name, value, days) {
+			        var date = new Date();
+			        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+			        var expires = "; expires=" + date.toUTCString();
+			        document.cookie = name + "=" + value + expires + "; path=/";
+			    }
+
+			    // 쿠키를 가져오는 함수
+			    getCookie(name) {
+			        var nameEQ = name + "=";
+			        var ca = document.cookie.split(';');
+			        for (var i = 0; i < ca.length; i++) {
+			            var c = ca[i];
+			            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+			            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+			        }
+			        return null;
+			    }
+
+			    // 팝업 표시 여부 및 body 고정 처리
+			    toggleBodyFixed(isVisible) {
+			        if (isVisible) {
+			            $('body').addClass('body-fixed');
+			        } else {
+			            $('body').removeClass('body-fixed');
+			        }
+			    }
+ 
+ 			    // 모든 팝업이 닫혔는지 확인하는 함수
+ 			    checkAllPopupsClosed() {
+ 			    	if ($('.layer-pop .pop-wrap:not(.hidden)').length === 0) {
+ 			            $('.layer-pop').addClass('hidden');  // 모든 팝업이 닫혔으면 전체 레이어 숨기기
+ 			            this.toggleBodyFixed(false);          // body 고정 해제
+ 			        }
+ 			    }
+ 
+ 			    // 팝업 초기화
+ 			    init() {
+ 			        // 페이지 로드 시 쿠키를 확인하고 팝업 표시 여부 결정
+ 			        if (this.getCookie(this.cookieName) !== "done") {
+ 			        	$('.layer-pop').removeClass('hidden'); // 쿠키가 없으면 레이어 표시
+ 			        	this.popup.removeClass('hidden'); // 쿠키가 없으면 팝업을 보여줌
+ 			            this.toggleBodyFixed(true);       // body 고정
+ 			        }
+ 
+ 			        // '오늘 하루 그만 보기' 버튼 클릭 시
+ 			        this.popup.find(".today-btn").click((e) => {
+ 			            this.setCookie(this.cookieName, "done", this.days);  // 해당 팝업 쿠키 1일 동안 유지
+ 			            $(e.target).closest('.pop-wrap').addClass('hidden');  // 해당 팝업 숨기기
+ 			            realignPopups();
+ 			            this.checkAllPopupsClosed();  // 모든 팝업이 닫혔는지 확인
+ 			        });
+ 
+ 			        // '닫기' 버튼 클릭 시
+ 			        this.popup.find(".close-btn").click((e) => {
+ 			            $(e.target).closest('.pop-wrap').addClass('hidden');  // 해당 팝업 숨기기
+ 			            realignPopups();
+ 			            this.checkAllPopupsClosed();  // 모든 팝업이 닫혔는지 확인
+ 			        });
+ 			    }
+ 			}
+ 
+ 			function realignPopups() {
+ 				let currentLeft = 100;
+ 				let currentTop = 100;
+ 				$('.layer-pop .pop-wrap:not(.hidden)').each(function(index) {
+ 					$(this).css({
+ 						left: currentLeft + 'px',
+ 						top: currentTop + 'px',
+ 						zIndex: 100 + index // 순서대로 위에 오도록 z-index 설정
+ 					});
+ 					currentLeft += $(this).outerWidth() + 10;
+ 				});
+ 			}
+ 
+ 			$(".layer-pop .pop-wrap").each(function (index){
+ 				var popupId = $(this).attr('id');
+ 				new Popup($(this), popupId, 1); // 팝업, 쿠키 이름, 쿠키 유지 기간 (1일)
+ 			});
+ 			realignPopups();
+ 
+ 			// 팝업 클릭 시 맨 앞으로 가져오기 (z-index 최댓값 부여)
+ 			$(document).on('mousedown', '.layer-pop .pop-wrap', function() {
+ 				let maxZ = 100;
+ 				$('.layer-pop .pop-wrap:not(.hidden)').each(function() {
+ 					const z = parseInt($(this).css('zIndex')) || parseInt($(this).css('z-index')) || 100;
+ 					if (z > maxZ) {
+ 						maxZ = z;
+ 					}
+ 				});
+ 				$(this).css('z-index', maxZ + 1);
+ 			});
+
+
+	});
+
+	// S : 03-01 추가(03-02 수정)
+	const checkUrgencyList = () => {
+        const urgencyList = document.querySelector('.urgency_list ul');
+        let listItems = urgencyList.querySelectorAll('li'); // li 요소들
+
+        // li의 개수가 1개인 경우 스크립트 종료
+        if ($('.urgency_list ul').outerWidth() <= $(window).width()) {
+            $('.urgency_bx').removeAttr('style');
+            $('.urgency_list ul').slice(1).remove();
+            return; // 함수 종료
+        }
+    };
+
+    window.addEventListener('resize', () => {
+        checkUrgencyList();
+    });
+    // E : 03-01 추가(03-02 수정)
+
+	function fn_goView(obj){
+		var bbsKndCode = $(obj).data("bbskndcode");
+		var nttNo = $(obj).data("nttno");
+		var nttCl = $(obj).data("nttcl");
+
+		$("#frm input[name='scBbsKndCode']").val(bbsKndCode);
+		$("#frm input[name='scNttNo']").val(nttNo);
+		$("#frm input[name='scNttCl']").val(nttCl);
+		$("#frm").removeAttr("target");
+	    $("#frm").attr("action","/menu/"+bbsKndCode+"/view.do");
+	    $("#frm").submit();
+	}
+
+	function fn_marketView(obj){
+		var nttNo = $(obj).data("nttno");
+		var nttCl = $(obj).data("nttcl");
+
+		$("#frm input[name='scBbsKndCode']").val("marketInfo");
+		$("#frm input[name='scNttNo']").val(nttNo);
+		$("#frm input[name='scNttCl']").val(nttCl);
+		$("#frm").attr("target", "_blank");
+	    $("#frm").attr("action","/menu/marketInfo/view.do;jsessionid=D30E1816E9C5E4B3CD49887E1A52FEA2");
+	    $("#frm").submit();
+	}
+
+	function fn_refreshMarketInfo() {
+		$.ajax({
+			url: "/refreshMarketInfo.do;jsessionid=D30E1816E9C5E4B3CD49887E1A52FEA2",
+		   	data: {scLanguageSe : 'kor'},
+		    async: true,
+		 	type: "POST",
+		 	dataType: "json",
+		 	success: function(data) {
+		 		var txFlucVO = data.txFlucVO;
+		 		var txMarketVO = data.txMarketVO;
+                $(".flex-bx .num").removeClass("up down");
+
+                // 가장 최근 전문 정보 시간
+	            $("#aggDdMarket").text(formatDate(txMarketVO.aggDd));
+	            $("#creTimeMarket").text(formatTime(txMarketVO.creTime));
+
+	            // 20분 전 데이터 시간
+	            $("#aggDdDelayed").text(formatDate(data.aggDd));
+	            $("#creTimeDelayed").text(formatTime(data.creTime));
+
+	            var sign = "";
+	            var rate = 0;
+	            if (txFlucVO.preFlucRt > 0){
+	            	sign = "+";
+	            	$("#preFlucRt").addClass("up");
+	            } else if (txFlucVO.preFlucRt < 0){
+	            	$("#preFlucRt").addClass("down");
+	            }
+	            if (!isNaN(txFlucVO.preFlucRt) && typeof txFlucVO.preFlucRt === "number"){
+	            	rate = txFlucVO.preFlucRt;
+	            }
+	            $("#preFlucRt").text(sign + parseFloat(rate).toFixed(2) + "%");
+	            $("#preIsuCnt").text(formatNumber(txMarketVO.preIsuCnt));
+	            $("#preAccTdQty").text(formatNumber(txMarketVO.preAccTdQty));
+	            $("#preAccTrval").text(formatNumber(txMarketVO.preAccTrval));
+
+	            sign = "";
+	            rate = 0;
+	            if (txFlucVO.mainFlucRt > 0){
+	            	sign = "+";
+	            	$("#mainFlucRt").addClass("up");
+	            } else if (txFlucVO.mainFlucRt < 0){
+	            	$("#mainFlucRt").addClass("down");
+	            }
+	            if (!isNaN(txFlucVO.mainFlucRt) && typeof txFlucVO.mainFlucRt === "number"){
+	            	rate = txFlucVO.mainFlucRt;
+	            }
+	            $("#mainFlucRt").text(sign + parseFloat(rate).toFixed(2) + "%");
+	            $("#mainIsuCnt").text(formatNumber(txMarketVO.mainIsuCnt));
+	            $("#mainAccTdQty").text(formatNumber(txMarketVO.mainAccTdQty));
+	            $("#mainAccTrval").text(formatNumber(txMarketVO.mainAccTrval));
+
+	            sign = "";
+	            rate = 0;
+	            if (txFlucVO.aftFlucRtNxt > 0){
+	            	sign = "+";
+	            	$("#aftFlucRtNxt").addClass("up");
+	            } else if (txFlucVO.aftFlucRtNxt < 0){
+	            	$("#aftFlucRtNxt").addClass("down");
+	            }
+	            if (!isNaN(txFlucVO.aftFlucRtNxt) && typeof txFlucVO.aftFlucRtNxt === "number"){
+	            	rate = txFlucVO.aftFlucRtNxt;
+	            }
+	            $("#aftFlucRtNxt").text(sign + parseFloat(rate).toFixed(2) + "%");
+	            sign = "";
+	            rate = 0;
+	            if (txFlucVO.aftFlucRtKrx > 0){
+	            	sign = "+";
+	            	$("#aftFlucRtKrx").addClass("up");
+	            } else if (txFlucVO.aftFlucRtKrx < 0){
+	            	$("#aftFlucRtKrx").addClass("down");
+	            }
+	            if (!isNaN(txFlucVO.aftFlucRtKrx) && typeof txFlucVO.aftFlucRtKrx === "number"){
+	            	rate = txFlucVO.aftFlucRtKrx;
+	            }
+	            $("#aftFlucRtKrx").text(sign + parseFloat(rate).toFixed(2) + "%");
+	            $("#aftIsuCnt").text(formatNumber(txMarketVO.aftIsuCnt));
+	            $("#aftAccTdQty").text(formatNumber(txMarketVO.aftAccTdQty));
+	            $("#aftAccTrval").text(formatNumber(txMarketVO.aftAccTrval));
+
+	            //거래대금 상위 종목
+	            $("#topListTbody").empty();
+	            $.each(data.txBrdinfoTimeTbVOTopList, function(index, dataVO) {
+	            	var upDownRate = "";
+	            	var plusMinus = "";
+	            	var contrastPrc = "";
+	            	var plusMinusContrastPrc = "";
+	            	var intRate = 0;
+	            	if (dataVO.upDownRate > 0) {
+	            		upDownRate = "up";
+            			plusMinus = "+";
+	            	} else if (dataVO.upDownRate < 0){
+	            		upDownRate = "down"
+	            	}
+	            	if (dataVO.upDownRate > 0) {
+	            		contrastPrc = "up";
+	            		plusMinusContrastPrc = "+";
+	            	} else if (dataVO.upDownRate < 0){
+	            		contrastPrc = "down"
+	            	}
+	            	var topListTag = '<tr>' +
+				                        '<td><span>' + dataVO.isuAbwdNm + '</span></td>' +
+				                        '<td style="text-align:center;">' +
+				                            '<span>' + dataVO.mktNm + '</span>' +
+				                        '</td>' +
+				                        '<td>' +
+				                            '<span>' + formatNumber(dataVO.curPrc) + '</span>' +
+				                        '</td>' +
+				                        '<td>' +
+				                            '<span class="' + contrastPrc + '">' + plusMinusContrastPrc + formatNumber(dataVO.contrastPrc) + '</span>' +
+				                        '</td>' +
+				                        '<td>' +
+				                            '<span class="' + upDownRate + '">' + plusMinus + parseFloat(dataVO.upDownRate).toFixed(2) + '%</span>' +
+				                        '</td>' +
+				                        '<td>' +
+				                            '<span>' + formatNumber(dataVO.accTdQty) + '</span>' +
+				                        '</td>' +
+				                        '<td>' +
+				                            '<span>' + formatNumber(dataVO.accTrval) + '</span>' +
+				                        '</td>' +
+				                    '</tr>';
+	            	$("#topListTbody").append(topListTag);
+	            });
+
+	            var txMarketTimeTbVO = data.txMarketTimeTbVO;
+	            var preTime, mainTime, aftTime;
+	            if (txMarketTimeTbVO.preBeginTime != null && txMarketTimeTbVO.preBeginTime != '') {
+	            	preTime = formatTime(txMarketTimeTbVO.preBeginTime) + "~" + formatTime(txMarketTimeTbVO.preEndTime);
+	            } else {
+	            	preTime = "금일 미운영";
+	            }
+
+	            if (txMarketTimeTbVO.mainBeginTime != null && txMarketTimeTbVO.mainBeginTime != '') {
+	            	if (txMarketTimeTbVO.mainBeginTime.trim().length > 4){
+	            		mainTime = formatTimeSecond(txMarketTimeTbVO.mainBeginTime) + "~" + formatTime(txMarketTimeTbVO.mainEndTime);
+	            	} else {
+	            		mainTime = formatTime(txMarketTimeTbVO.mainBeginTime) + "~" + formatTime(txMarketTimeTbVO.mainEndTime);
+	            	}
+	            } else {
+	            	mainTime = "";
+	            }
+
+	            if (txMarketTimeTbVO.aftBeginTime != null && txMarketTimeTbVO.aftBeginTime != '') {
+	            	aftTime = formatTime(txMarketTimeTbVO.aftBeginTime) + "~" + formatTime(txMarketTimeTbVO.aftEndTime);
+	            } else {
+	            	aftTime = "";
+	            }
+
+	            $("#preTime").text(preTime);
+	            $("#mainTime").text(mainTime);
+	            $("#aftTime").text(aftTime);
+
+	            $("#urgencyUl").empty();
+	            if (0 < data.urgentBbsVOList.length){
+	                $(".main-body").addClass("urgency_active");
+	                $(".urgency_container").addClass("active");
+
+		            $.each(data.urgentBbsVOList, function(index, dataVO) {
+		            	var urgencyTag = '<li>'
+									   + ' <a href="#" class="tit" data-nttNo="' + dataVO.nttNo + '" data-nttCl="' + dataVO.nttCl + '" onclick="fn_marketView(this);">'
+									   + '   <div class="tag_name">[긴급]</div>'
+									   + '   <div class="urgency_text">'+ dataVO.nttSj + '</div>'
+									   + '   <div class="date">' + formatTimestampToDate(dataVO.updateDt) + '</div>'
+									   + ' </a>'
+									   + '</li>';
+		            	$("#urgencyUl").append(urgencyTag);
+		            });
+			 	} else {
+ 			         $(".main-body").removeClass("urgency_active");
+ 		             $(".urgency_container").removeClass("active");
+ 			 	}
+ 
+ 	            // 티커 정보 실시간 업데이트
+ 	            var tickerList = data.txBrdinfoTimeTbVOList;
+ 	            if (tickerList && tickerList.length > 0) {
+ 	                var newCount = tickerList.length;
+ 	                if (newCount === lastTickerCount) {
+ 	                    // 종목 수가 같으면 애니메이션 유지를 위해 DOM의 값만 갱신
+ 	                    var N = tickerList.length;
+ 	                    $(".marquee-wrapper ul").each(function() {
+ 	                        $(this).find("li").each(function(index) {
+ 	                            var dataVO = tickerList[index % N];
+ 	                            var $li = $(this);
+ 	                            $li.find(".tit").text(dataVO.isuAbwdNm);
+ 	                            $li.find(".standard").text(formatNumber(dataVO.curPrc));
+ 	                            
+ 	                            var $num = $li.find(".num");
+ 	                            $num.removeClass("up down");
+ 	                            
+ 	                            var sign = "";
+ 	                            if (dataVO.upDownRate > 0) {
+ 	                                sign = "+";
+ 	                                $num.addClass("up");
+ 	                            } else if (dataVO.upDownRate < 0) {
+ 	                                $num.addClass("down");
+ 	                            }
+ 	                            $num.text(sign + parseFloat(dataVO.upDownRate).toFixed(2) + "%");
+ 	                        });
+ 	                    });
+ 	                } else {
+ 	                    // 종목 수가 달라지면 마퀴 재설정 및 애니메이션 재정렬
+ 	                    lastTickerCount = newCount;
+ 	                    reinitMarquee('marquee-left-wrapper', 'left', tickerList, false);
+ 	                    reinitMarquee('marquee-right-wrapper', 'right', tickerList, false);
+ 	                }
+ 	            }
+ 
+ 	        },
+ 	        error: function(xhr, status, error) {
+ 	            console.error("갱신 중 오류 발생:", error);
+ 	        }
+ 		});
+ 	}
+ </script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/lib/wow.min.js"></script>
+<script src="/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="/js/lib/swiper.min.js"></script>
+<script src="/js/lib/jquery.scrollbar.min.js"></script>
+
+<!-- 부드러운 스크롤 사용시 주석 해제 -->
+<script src="/js/lib/SmoothScroll.js"></script>
+
+<!-- COMMON -->
+<script src="/js/common.js?v=1.01"></script>
+
+<div id="footer" class="footer">
+    <button type="button" class="top-btn">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/icon/top_btn.svg">
+            <source media="(min-width: 0px)" srcset="/images/icon/top_btn_m.svg">
+            <img src="" alt="탑 버튼">
+        </picture>
+    </button>
+    <div class="container">
+        <div class="footer-inner">
+            <!-- S : footer 상단-->
+            <div class="footer-top">
+                <!-- S : NXT 시장-->
+                <ul>
+                    <li>
+                        <a href="/marketOverview/content.do" title="NXT 시장">NXT 시장</a>
+                    </li>
+                    <li>
+                        <a href="/marketOverview/content.do" title="시장개요 및 거래제도">시장개요 및 거래제도</a>
+                    </li>
+                    <li>
+                        <a href="/menu/regulation01/menuList.do" title="규정 및 법규">규정 및 법규</a>
+                    </li>
+                    <li>
+                        <a href="/stockFirm/content.do" title="거래참가 증권사">거래참가 증권사</a>
+                    </li>
+                </ul>
+                <!-- E : NXT 시장-->
+                <!-- S : NXT 시장정보-->
+                <ul>
+					<li>
+                        <a href="/menu/marketData/menuList.do" title="시장정보">시장정보</a>
+                    </li>
+                    <li>
+                        <a href="/menu/transactionStatusMain/menuList.do" title="거래현황">거래현황</a>
+                    </li>
+                    <li>
+                        <a href="/menu/marketInfo/menuList.do" title="시장안내">시장안내</a>
+                    </li>
+                    <li>
+                        <a href="/transactionSys/content.do" title="거래제도">거래제도</a>
+                    </li>
+                </ul>
+                <!-- E : NXT 시장정보-->
+                <!-- S : 공지사항-->
+                <ul>
+                    <li>
+                        <a href="/menu/notice/menuList.do" title="공지사항">공지사항</a>
+                    </li>
+                    <li>
+                        <a href="/menu/notice/menuList.do" title="공지사항">공지사항</a>
+                    </li>
+                    <li>
+                        <a href="/menu/manageDisclosure/menuList.do" title="경영공시">경영공시</a>
+                    </li>
+                    <li>
+                        <a href="/menu/ir/menuList.do" title="재무정보&IR">재무정보&IR</a>
+                    </li>
+                    <li>
+                        <a href="/menu/recruitInfo/menuList.do" title="채용정보">채용정보</a>
+                    </li>
+                </ul>
+                <!-- E : 공지사항-->
+                <!-- S : 회사소식-->
+                <ul>
+                    <li>
+                        <a href="/menu/reportData/menuList.do" title="회사소식">회사소식</a>
+                    </li>
+                    <li>
+                        <a href="/menu/reportData/menuList.do" title="보도자료">보도자료</a>
+                    </li>
+                    <li>
+                        <a href="/menu/promotionData/menuList.do" title="홍보자료">홍보자료</a>
+                    </li>
+                    <li>
+                        <a href="/menu/mediaData/menuList.do" title="자료실">자료실</a>
+                    </li>
+                </ul>
+                <!-- E : 회사소식-->
+                <!-- S : NXT 소개-->
+                <ul>
+                    <li>
+                        <a href="/ceo/content.do" title="NXT 소개">NXT 소개</a>
+                    </li>
+                    <li>
+                        <a href="/ceo/content.do" title="CEO 인사말">CEO 인사말</a>
+                    </li>
+                    <li>
+                        <a href="/menu/company/menuList.do" title="회사소개">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="/menu/history/menuList.do" title="연혁">연혁</a>
+                    </li>
+                    <li>
+                        <a href="/vision/content.do" title="비전 및 목표">비전 및 목표</a>
+                    </li>
+                    <li>
+                        <a href="/ci/content.do" title="CI">CI</a>
+                    </li>
+                </ul>
+                <!-- E : NXT 소개-->
+            </div>
+            <!-- E : footer 상단-->
+            <!-- S : footer 하단-->
+            <div class="footer-bottom">
+                <div class="util-wrap">
+                    <a href="/main.do">
+						<img src="/images/main/logo_color.svg" alt="넥스트레이드" class="logo">
+                    </a>
+                    <ul>
+                    	<li class="privacyPolicy">
+                            <a href="/menu/manageDisclosure/view.do?pageIndex=1&scNttNo=30&scBbsKndCode=manageDisclosure&scNttCl=general&scTopViewYn=&searchKeyword=" title="개인정보처리방침">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="/html/charge-info.html" title="수수료 안내" class="popup-link">수수료 안내</a>
+                        </li>
+                        <li>
+                            <a href="/siteMap/content.do" title="오시는길">오시는길</a>
+                        </li>
+                        <!-- S : Contact Us 연락처 팝업 링크 -->
+                        <li>
+                            <a href="/html/contact-us.html" title="Contact Us" class="popup-link">Contact Us</a>
+                        </li>
+                        <!-- E : Contact Us 연락처 팝업 링크 -->
+                        <!-- S : 정보포털 새창 링크 -->
+                        <li class="footer-portal-link">
+                            <a href="https://portal.nextrade.co.kr/mdclient/" title="정보포털" target="_blank">
+                                정보포털
+                                <img src="/images/icon/icon_link_ext.svg" alt="외부링크" class="footer-portal-icon">
+                            </a>
+                        </li>
+                        <!-- E : 정보포털 새창 링크 -->
+                    </ul>
+                </div>
+                <address>
+                    <p>서울특별시 영등포구 의사당대로 143, 금투센터</p>
+                    <p class="copyright">© 2024. <span>NEXTRADE</span>. All Right Reserved.</p>
+                </address>
+            </div>
+            <!-- E : footer 하단-->
+        </div>
+    </div>
+</div>
+<div class="login-bottom">
+    <p>© 2024. <span>NEXTRADE</span>. All Right Reserved.</p>
+</div>
+<div class="footer-bottom market-footer">
+	<div class="copyright">
+		<p>© 2024. <strong>NEXTRADE</strong>. All Right Reserved.</p>
+	</div>
+</div>
+
+<style>
+/* S : footer 정보포털 링크 강조 스타일 */
+.footer .container .footer-bottom .util-wrap ul li.footer-portal-link a {
+    color: #E7013A;
+    font-weight: 700;
+}
+.footer .container .footer-bottom .util-wrap ul li.footer-portal-link a:hover {
+    opacity: 0.8;
+}
+/* footer 입력창 아이콘 크기 조정 */
+.footer-portal-icon {
+    width: 14px;
+    vertical-align: middle;
+    margin-left: 3px;
+    filter: invert(9%) sepia(91%) saturate(6175%) hue-rotate(335deg) brightness(88%) contrast(116%);
+}
+/* E : footer 정보포털 링크 강조 스타일 */
+</style>
+
+
+
+<!-- // header_top -->
+
+</body>
+</html>
