@@ -21,7 +21,7 @@
 </table>
 </div>
 
-<p style="line-height:1.85;margin:0 0 18px;">핵심은 <strong>&ldquo;회사가 돈이 필요하다&rdquo;</strong>는 신호라는 점입니다. 그 돈이 어디에 쓰이느냐가 이 글의 나머지 전부를 결정합니다. 2026년 9월 1일부터 22일까지 22일 동안만 봐도 DART 공시통합검색에서 보고서명 &ldquo;유상증자결정&rdquo;으로 잡히는 건이 <strong>175건</strong>이었습니다(1페이지 100건 + 2페이지 75건, 페이지별 공시 목록 행을 직접 셈). 하루 평균 8건꼴로, 드문 공시가 아닙니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">핵심은 <strong>&ldquo;회사가 돈이 필요하다&rdquo;</strong>는 신호라는 점입니다. 그 돈이 어디에 쓰이느냐가 이 글의 나머지 전부를 결정합니다. 2026년 9월 1일부터 22일까지 22일 동안만 봐도 DART 공시통합검색에 새로 올라온 주요사항보고서(유상증자결정)가 <strong>50건</strong>이었습니다(이미 낸 공시를 고쳐 다시 올린 정정본 124건은 뺀 수). 하루 평균 2.3건꼴로, 드문 공시가 아닙니다.</p>
 
 <h2 id="q2" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">2. 세 가지 방식, 의미가 다릅니다</h2>
 
