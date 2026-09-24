@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> 국세청 홈택스 </title>
+		<script>
+			//2025.01.22 domain 분기 추가
+			var originName = window.location.origin;
+			
+			if(!(originName.indexOf("local") > -1 || originName.indexOf("dev") > -1 || originName.indexOf("veri") > -1 || originName.indexOf("edu") > -1)){
+				document.write('<script src="' + originName + '/serviceCheck.do?eversafe=v&t=' + new Date().getTime() +'" charset="utf-8">' + '</' + 'script>');				
+			}
+		</script>        
+        <script>
+            var currentUrl = window.location.href.toString();
+            if (currentUrl.indexOf("://www.") > -1) {
+                currentUrl = currentUrl.replace("://www.", "://");
+                window.location.href = currentUrl;
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                function loadScript(scriptSrc, callback) {
+                    var script = document.createElement('script');
+                    script.src = scriptSrc;
+                    document.head.appendChild(script);
+                    script.onload = function() {
+                        if (callback) {
+                            callback();
+                        }
+                    };
+                }
+                
+                function postFixZero(t, e) { //for websquare.html
+                	var i, o = t + "";
+                	if (isNaN(o))
+                		return t;
+                	if (o.length >= e)
+                		return o;
+                	for (i = e - o.length; i > 0; )
+                		switch (i) {
+                		case 1:
+                			i = 0,
+                			o = "0" + o;
+                			break;
+                		case 2:
+                			i = 0,
+                			o = "00" + o;
+                			break;
+                		case 3:
+                			i = 0,
+                			o = "000" + o;
+                			break;
+                		case 4:
+                			i = 0,
+                			o = "0000" + o;
+                			break;
+                		default:
+                			i = 0,
+                			o = "00000" + o;
+                		}
+                	
+                	return o;
+                }
+
+                var postFixDate = new Date;
+                var postFixTime = postFixZero(postFixDate.getFullYear(), 4) + "_" + postFixZero(postFixDate.getMonth() + 1, 2) + "_" + postFixZero(postFixDate.getDate(), 2);  
+                var userAgent = navigator.userAgent;
+                var ieAllVersion = navigator.appName.match(/Explorer/i) != null || navigator.userAgent.match(/Trident/i) != null || navigator.userAgent.match(/MSIE/i) != null;
+                var callback = function() {
+                    WebSquare._bDocumentReady = true;
+                    loadScript("app.js?postfix="+postFixTime);
+                }
+                var src = "./_websquare_/javascriptLoader.js?postfix="+postFixTime;
+                if (ieAllVersion) {
+                	src = "./_websquare_/javascriptLoader_babel.js?postfix="+postFixTime;
+                }
+                
+                window.WebSquareExternal = {};
+                window.WebSquareExternal.suffixEnable = "false";
+                window.WebSquareExternal.configCacheMode = "hometax";
+                window.WebSquareExternal.useConfigPostfix = false;
+                window.WebSquareExternal.w2Config = "config.js?postfix="+postFixTime;
+
+                loadScript(src, callback);
+                
+                /*
+                var script = document.createElement('script');
+                script.src = "../js/comm/devtoolsDetector/devtools-detector.js";
+                document.head.appendChild(script);
+                script.onload = function() {
+                	devtoolsDetector.addListener(function(isOpen) {
+                		if (isOpen){
+                			window.location.href = "/html/comm/error/cmErrorPage.html";
+                		}
+                	});
+                	devtoolsDetector.launch();
+                };
+                */
+            });
+        </script>
+    </head>
+<body></body>
+</html>
