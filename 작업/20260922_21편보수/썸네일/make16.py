@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
-"""/16 생산적금융 ISA — 2026-09-24 「지면」 신규 제작(12편 배치).
+"""/16 생산적금융 ISA — 2026-09-24 「지면」 재제작(D-146 12편 동시배정, 충돌방지 배정값 준수).
 
-「포착」 지침(06_썸네일문구_16.md) 그대로 구현 — 문구 무수정.
-  · 주제어 "ISA"를 이 장의 최대 글자로. 확정 제목("생산적금융 ISA,
-    아직 국회를...")에 이미 있는 말.
-  · 킥커 "생산적금융"은 확정 제목 첫 단어. 무수정.
-  · 그래픽 장치: 무한대 고리(∞) — 본문 1·19행 "한도 없이 전액 비과세"를
-    형상화한 도형. 숫자·그래프 아님(한도가 없다는 것 자체를 그리는 것이라
-    막대·선으로 오르내림을 지어낼 수 없다).
-  · 헤드라인(확정 썸네일 문구) "비과세 한도, / 이번엔 없습니다" 무수정.
-  · 키워드 색은 크림(밝은 무채색 계열)로 잡아 22장 틀의 "노란 키워드 강조"와
-    분명히 다르게 했다 — 앰버는 보조 장치(고리)에만, 글자색에는 안 씀.
+배정(「진행」, 충돌 방지): 배경 딥 플럼(자주빛으로 색상축 분리) · 정렬축 좌측 ·
+주제어 위치 하단. 구판 make16.py(다크초콜릿골드·주제어 상단)는 이 배정 이전에
+만들어진 것이라 폐기하고 이 배정값으로 다시 그린다.
 
-직전 세 장(/11 민트·중앙, /12 버넌엄버·우, /13 웜그레이지·좌) 대조: /16은
-다크 초콜릿골드(색상축 다름)·좌측정렬(/13과 정렬은 같으나 명도가 반대 — 밝음↔어둠)·
-무한대 고리 장치는 다섯 장 어디에도 없다.
+「포착」 지침(06_썸네일문구_16.md) 그대로 — 문구 무수정.
+  · 확정 제목 "생산적금융 ISA, 아직 국회를 통과하지 못했습니다"(무수정, 209행 1순위)
+    에 이미 있는 두 단어를 킥커/주제어로 그대로 쓴다 — 새로 짓지 않는다.
+    킥커 "생산적금융"(제목 첫 단어) · 주제어 "ISA"(제목 두 번째 단어).
+  · 헤드라인(확정 썸네일 문구) "비과세 한도, / 이번엔 없습니다" 무수정, 2줄.
+  · 보조 태그 "한도 없이 전액 비과세" — 본문 1행·19행 원문 그대로 인용
+    (「지면」이 새로 지은 문장 아님). ISA 위, 주제어를 뒷받침하는 위치.
+  · 주제어 "ISA"를 이 장 전체에서 가장 큰 글자로 하단에 배치(회장 공통사항 직결).
+  · 노란 계열 전혀 안 씀 — 22장 틀의 "노란 배지·노란 키워드 강조"와 분리.
 """
 from PIL import Image, ImageDraw, ImageFont
 
@@ -22,10 +21,11 @@ F = "/home/user/webtest/자산/폰트/Pretendard-%s.otf"
 def f(w, s): return ImageFont.truetype(F % w, s)
 
 S, M = 1080, 72
-BG    = (52, 40, 14)     # 다크 초콜릿골드 — 남색 아님(R>G>B, 웜)
-CREAM = (246, 238, 220)
-AMBER = (214, 158, 54)
-MUTED = (150, 130, 90)
+BG     = (90, 10, 60)     # 딥 마젠타 플럼 — /7(40,20,70)과 색상축 분리(채널차 최소34)
+CREAM  = (245, 235, 240)
+MUTED  = (188, 140, 168)
+TAG_BG = (245, 235, 240)
+TAG_TX = (90, 10, 60)
 
 img = Image.new("RGB", (S, S), BG)
 d = ImageDraw.Draw(img)
@@ -35,31 +35,38 @@ def put(x, top, t, fo, col):
     d.text((x - bb[0], top - bb[1]), t, font=fo, fill=col)
     return x + (bb[2] - bb[0]), top + (bb[3] - bb[1])
 
-# ── 1. 킥커 (확정 제목 첫 단어, 무수정)
-_, k_bot = put(M, 250, "생산적금융", f("Bold", 40), MUTED)
+# ── 1. 킥커 (확정 제목 첫 단어, 무수정) — 좌측정렬 상단
+_, k_bot = put(M, 84, "생산적금융", f("Bold", 42), MUTED)
 
-# ── 2. 주제어 — 이 장의 최대 글자
-_, key_bot = put(M, k_bot + 20, "ISA", f("ExtraBold", 380), CREAM)
+# ── 2. 헤드라인(확정 썸네일 문구, 무수정) — 2줄, 좌측정렬
+hf = f("Bold", 68)
+_, h1_bot = put(M, k_bot + 44, "비과세 한도,", hf, CREAM)
+_, h2_bot = put(M, h1_bot + 18, "이번엔 없습니다", hf, CREAM)
 
-# ── 3. 무한대 고리(도형) — "한도 없음"의 형상화, 오른쪽 여백에 배치
-loop_cy = k_bot + 20 + 175
-loop_cx = S - M - 150
-rad = 78
-off = 66
-d.ellipse([loop_cx - off - rad, loop_cy - rad, loop_cx - off + rad, loop_cy + rad], outline=AMBER, width=14)
-d.ellipse([loop_cx + off - rad, loop_cy - rad, loop_cx + off + rad, loop_cy + rad], outline=AMBER, width=14)
+# ── 3. 얇은 밑줄(도형) — 헤드라인과 하단부 분리
+div_y = h2_bot + 70
+d.rectangle([M, div_y, M + 160, div_y + 6], fill=MUTED)
 
-# ── 4. 밑줄(도형)
-div_y = key_bot + 56
-d.rectangle([M, div_y, M + 140, div_y + 8], fill=AMBER)
+# ── 4. 보조 태그(본문 1행·19행 직접 인용) — 필 배지, ISA 바로 위
+tag_f = f("Bold", 34)
+tag_t = "한도 없이 전액 비과세"
+tb = tag_f.getbbox(tag_t)
+tw, th = tb[2] - tb[0], tb[3] - tb[1]
+pad_x, pad_y = 24, 14
+tag_w, tag_h = tw + pad_x * 2, th + pad_y * 2
+tag_top = div_y + 54
+d.rounded_rectangle([M, tag_top, M + tag_w, tag_top + tag_h], tag_h / 2, fill=TAG_BG)
+d.text((M + pad_x - tb[0], tag_top + pad_y - tb[1]), tag_t, font=tag_f, fill=TAG_TX)
+tag_bot = tag_top + tag_h
 
-# ── 5. 헤드라인 (「포착」 확정 썸네일 문구, 무수정) — 2줄, 주제어보다 작게
-hf = f("Bold", 66)
-_, h1_bot = put(M, div_y + 56, "비과세 한도,", hf, CREAM)
-x = M
-for seg, col in [("이번엔 ", CREAM), ("없습니다", AMBER)]:
-    x, h2_bot = put(x, h1_bot + 24, seg, hf, col)
+# ── 5. 주제어 "ISA" — 이 장 전체에서 가장 큰 글자, 하단, 좌측정렬
+kf = f("ExtraBold", 400)
+isa_bb = kf.getbbox("ISA")
+isa_h = isa_bb[3] - isa_bb[1]
+bottom_margin = 90
+isa_top = S - bottom_margin - isa_h
+put(M, isa_top, "ISA", kf, CREAM)
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/16.png")
-print("saved 16.png  k_bot=%d key_bot=%d div=%d h2_bot=%d" %
-      (k_bot, key_bot, div_y, h2_bot))
+print("saved 16.png  k_bot=%d h2_bot=%d div=%d tag_bot=%d isa_top=%d isa_h=%d canvas=%d" %
+      (k_bot, h2_bot, div_y, tag_bot, isa_top, isa_h, S))
