@@ -76,7 +76,7 @@ ph = max(h1, h2)
 pgap = 28
 group_w = w1 + pgap + w2
 
-blocks_top = h2_bot + 66
+blocks_top = h2_bot + 88
 p2_x0 = RIGHT - w2
 p2_x1 = RIGHT
 p1_x1 = p2_x0 - pgap
@@ -106,14 +106,14 @@ blocks_bot = blocks_top + ph
 
 # ── 3. 캡션(본문 92행 직접 인용, 포착 문서에 이미 인용돼 있는 표현) — 우측 정렬
 cap_f = f("Bold", 34)
-cap_bot = right(RIGHT, blocks_bot + 34, "당초 예상의 3배", cap_f, ACCENT_RUST)
+cap_bot = right(RIGHT, blocks_bot + 42, "당초 예상의 3배", cap_f, ACCENT_RUST)
 
 # ── 4. 주제어 "관리종목" — 이 장 전체에서 가장 큰 글자, 하단·우측 정렬
 kf = f("ExtraBold", 250)
 kb = kf.getbbox("관리종목")
 k_h = kb[3] - kb[1]
-bottom_margin = 64
-k_top = S - bottom_margin - k_h
+k_top = cap_bot + 150
+bottom_margin = S - (k_top + k_h)
 right(RIGHT, k_top, "관리종목", kf, TEXT_DARK)
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/23.png")

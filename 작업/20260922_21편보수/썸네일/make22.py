@@ -70,15 +70,33 @@ for x, col in ((x1, CREAM), (x2, MUTE), (x3, CORAL)):
 df = f("Bold", 44)
 lf = f("Regular", 27)
 
-def point(cx, date, label, col, lab_col):
-    dy = tl_y + 34
-    dw = cen_mid(cx, dy + 20, date, df, col)
-    ly = dy + 20 + 20 + 20
-    cen_mid(cx, ly + 12, label, lf, lab_col)
+def anchored(x, top, t, fo, col, align):
+    """align: 'l'=왼쪽 끝을 x에, 'c'=x가 중심, 'r'=오른쪽 끝을 x에.
+    캔버스 좌우 끝점의 점(dot)에 붙는 라벨이 폭 때문에 화면 밖으로
+    밀려나 잘리는 것을 막기 위해 끝점은 안쪽으로만 자라게 정렬한다."""
+    bb = fo.getbbox(t)
+    tw = bb[2] - bb[0]
+    if align == 'l':
+        x0 = x
+    elif align == 'r':
+        x0 = x - tw
+    else:
+        x0 = x - tw / 2
+    d.text((x0 - bb[0], top - bb[1]), t, font=fo, fill=col)
+    return x0 + tw / 2  # 실제 중심(밑줄 등 후속 정렬용)
 
-point(x1, "9월 23일(수)", "매도", CREAM, MUTE)
-point(x2, "9월 28일(월)", "다음 영업일", MUTE, MUTE)
-point(x3, "9월 29일(화)", "출금 가능일", CORAL, CORAL)
+def point(x, date, label, col, lab_col, align):
+    dy = tl_y + 34
+    anchored(x, dy + 2, date, df, col, align)
+    ly = dy + 2 + 44 + 26
+    anchored(x, ly, label, lf, lab_col, align)
+
+# 좌측 끝점: 텍스트를 점 기준 오른쪽으로만(왼쪽정렬) — 캔버스 밖으로 안 나감
+# 우측 끝점: 텍스트를 점 기준 왼쪽으로만(오른쪽정렬) — 캔버스 밖으로 안 나감
+# 중앙: 그대로 중앙정렬
+point(x1, "9월 23일(수)", "매도", CREAM, MUTE, 'l')
+point(x2, "9월 28일(월)", "다음 영업일", MUTE, MUTE, 'c')
+point(x3, "9월 29일(화)", "출금 가능일", CORAL, CORAL, 'r')
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/22.png")
 print("saved 22.png  k_bot=%d h2_bot=%d tl_y=%d canvas=%d" % (k_bot, h2_bot, tl_y, S))

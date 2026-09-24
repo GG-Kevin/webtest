@@ -1,21 +1,23 @@
 # -*- coding: utf-8 -*-
-"""/25 유상증자 공시(권리락 조정) — 2026-09-24 「지면」 신규 제작(12편 배치).
+"""/25 유상증자(권리락 급락은 조정이지 매도가 아니다) 썸네일 — 2026-09-24 「지면」.
 
-「포착」 지침(06_썸네일문구_25.md) 그대로 구현 — 문구 무수정.
-  · 주제어 "유상증자"를 이 장의 최대 글자로. 확정 제목("유상증자, 악재인지
-    아닌지는...")에 이미 있는 말.
-  · 킥커 "'자금 용도' 한 칸에 있습니다"는 확정 제목 뒷부분을 그대로 잘라
-    옮긴 것(주제어와 겹치지 않는 다른 구절을 골랐다).
-  · 그래픽 장치: 권리락 전/후 막대 2개(전: 높음, 후: 20% 낮음) + 점선으로
-    "매도가 쏟아진 절벽"이 아니라 "제도가 미리 낮춘 기준선"임을 표시.
-    본문 62행("인위적인 조정이지 매도가 쏟아진 결과가 아닙니다")의 구조를
-    그린 것. 시세 계열 그래프 아님 — 단일 전/후 두 값만 비교.
-  · 헤드라인(확정 썸네일 문구) "20% 급락, / 사실은 매도가 아니라
-    조정입니다" 무수정.
+「포착」 지침(06_썸네일문구_25.md) 그대로 구현한다 — 문구 무수정.
+  · 주제어 "유상증자"(확정 제목 첫 단어, 이 글이 무엇에 관한 글인지 말해주는 핵심어)를
+    이 장 전체에서 가장 큰 글자로(회장 공통사항 직결).
+  · 헤드라인(확정 썸네일 문구) "20% 급락, 사실은 매도가 아니라 조정입니다" 무수정,
+    2줄로 줄바꿈만 한다.
+  · 캡션은 「포착」이 06_썸네일문구_25.md에서 직접 인용한 본문 근거(글25.txt 62행)
+    "인위적인 조정이지 매도가 쏟아진 결과가 아닙니다"를 그대로 옮긴다 — 새 문장 없음.
 
-직전 장들 색상축(아이보리앰버/버넌엄버/웜그레이지/딥플럼/스카이시안/다크
-웜차콜/라벤더/차콜브라운/니어블랙/라이트피치/딥로즈) 대조: /25는 라이트
-슬레이트블루그레이(밝은 쿨톤, 처음)·우측정렬·전후 막대+점선기준선 장치.
+배정(「진행」 지정, 충돌 방지 — 나머지 11편과 겹치지 않게 사전 배분):
+  배경 다크 브릭-마룬 계열 · 정렬축 중앙 · 주제어 상단.
+  1차 배정값(42,14,14)은 /5(56,18,26)·/6(20,42,35)과 채널차<30이라 「지면」이
+  더 갈색·브릭 쪽으로 조정 — (96,28,20). 5장 전건과 채널차 재확인(아래 검사3).
+
+경위: 작업 도중 이 경로(make25.py·25.png)가 외부 프로세스에 의해 배정과 다른
+버전(라이트 슬레이트블루그레이·우측정렬)으로 두 차례 덮어써진 것을 확인했다.
+「진행」이 준 배정 사양(다크 브릭-마룬·중앙·상단)을 따르는 것이 이 배정을 받은
+「지면」의 책무이므로 배정 사양대로 되돌려 완성한다.
 """
 from PIL import Image, ImageDraw, ImageFont
 
@@ -23,68 +25,47 @@ F = "/home/user/webtest/자산/폰트/Pretendard-%s.otf"
 def f(w, s): return ImageFont.truetype(F % w, s)
 
 S, M = 1080, 72
-BG    = (222, 230, 238)   # 라이트 슬레이트블루그레이
-INK   = (26, 32, 44)
-STEEL = (52, 92, 140)
-RUST  = (196, 90, 60)
-MUTED = (110, 122, 140)
+BG      = (96, 28, 20)     # 다크 브릭-마룬 — /5·/6과도 채널차 30 이상 확보한 값
+CREAM   = (242, 233, 224)
+ACCENT  = (224, 122, 66)   # 웜 테라코타 — 노란색 아님(22장 틀의 노란 키워드 회피)
+CAPTION = (206, 176, 158)  # 캡션(2차 정보) — 크림보다 어둡게 위계 부여
 
 img = Image.new("RGB", (S, S), BG)
 d = ImageDraw.Draw(img)
-R = S - M
 
-def put_r(right, top, t, fo, col):
+def cen(cx, top, t, fo, col):
     bb = fo.getbbox(t)
     w = bb[2] - bb[0]
-    d.text((right - w - bb[0], top - bb[1]), t, font=fo, fill=col)
-    return right - w, top + (bb[3] - bb[1])
+    d.text((cx - w / 2 - bb[0], top - bb[1]), t, font=fo, fill=col)
+    return top + (bb[3] - bb[1])
 
-# ── 1. 킥커 (확정 제목 뒷부분, 무수정)
-_, k_bot = put_r(R, 88, "'자금 용도' 한 칸에 있습니다", f("Bold", 30), MUTED)
+CX = S / 2
 
-# ── 2. 주제어 — 이 장의 최대 글자
-_, key_bot = put_r(R, k_bot + 24, "유상증자", f("ExtraBold", 230), INK)
+# ── 1. 주제어 — 이 장 전체에서 가장 큰 글자, 상단
+kf = f("ExtraBold", 240)
+k_bot = cen(CX, 96, "유상증자", kf, CREAM)
 
-# ── 3. 권리락 전/후 막대(도형) + 점선 기준선
-dev_top = key_bot + 60
-bw = 110
-gap = 60
-h_before = 180
-h_after = int(h_before * 0.8)
-x1 = R - 60 - bw
-x0 = x1 - gap - bw
-base_y = dev_top + h_before
-d.rounded_rectangle([x0, base_y - h_before, x0 + bw, base_y], 10, fill=STEEL)
-d.rounded_rectangle([x1, base_y - h_after, x1 + bw, base_y], 10, fill=RUST)
-# 점선 기준선(전 고점에서 그대로 그은 선 — "매도로 뚫린 것 아님"을 보여줌)
-xx = x0
-top_line_y = base_y - h_before
-while xx < x1 + bw + 20:
-    d.line([(xx, top_line_y), (min(xx + 18, x1 + bw), top_line_y)], fill=MUTED, width=4)
-    xx += 30
-lf = f("Bold", 28)
-bb = lf.getbbox("전")
-d.text((x0 + bw / 2 - (bb[2] - bb[0]) / 2 - bb[0], base_y + 14 - bb[1]), "전", font=lf, fill=STEEL)
-bb2 = lf.getbbox("후(-20%)")
-d.text((x1 + bw / 2 - (bb2[2] - bb2[0]) / 2 - bb2[0], base_y + 14 - bb2[1]), "후(-20%)", font=lf, fill=RUST)
-dev_bot = base_y + 14 + 34
+# ── 2. 상단 포인트 밑줄(장식선 — 글자 아님, 검사1 분모 제외)
+line1_y = k_bot + 32
+d.line([(CX - 310, line1_y), (CX + 310, line1_y)], fill=ACCENT, width=10)
 
-_, lab_bot = put_r(R, dev_bot + 14, "제도가 낮춘 기준선(매도 아님)", f("Bold", 26), MUTED)
+# ── 3. 헤드라인(「포착」 확정 썸네일 문구, 무수정) — 2줄, 주제어보다 확실히 작게
+hf = f("Bold", 64)
+h_top = line1_y + 56
+h1_bot = cen(CX, h_top, "20% 급락, 사실은", hf, CREAM)
+h2_bot = cen(CX, h1_bot + 18, "매도가 아니라 조정입니다", hf, CREAM)
 
-# ── 4. 헤드라인 (「포착」 확정 썸네일 문구, 무수정) — 2줄, 주제어보다 작게
-hf = f("Bold", 58)
-segs = [("20% ", RUST), ("급락,", INK)]
-total_w = sum(hf.getbbox(t)[2] - hf.getbbox(t)[0] for t, _ in segs)
-xL = R - total_w
-h1_top = lab_bot + 56
-h1_bot = h1_top
-for seg, col in segs:
-    bb = hf.getbbox(seg)
-    d.text((xL - bb[0], h1_top - bb[1]), seg, font=hf, fill=col)
-    xL += (bb[2] - bb[0])
-    h1_bot = max(h1_bot, h1_top + (bb[3] - bb[1]))
-_, h2_bot = put_r(R, h1_bot + 22, "사실은 매도가 아니라 조정입니다", hf, INK)
+# ── 4. 캡션(본문 62행 직접 인용, 무수정) — 2줄, 헤드라인보다 작게
+cf = f("Regular", 36)
+c_top = h2_bot + 64
+c1_bot = cen(CX, c_top, "인위적인 조정이지,", cf, CAPTION)
+c2_bot = cen(CX, c1_bot + 14, "매도가 쏟아진 결과가 아닙니다", cf, CAPTION)
+
+# ── 5. 하단 포인트 밑줄 + 점 — 상단과 짝을 이루는 마감 장식(글자 아님)
+line2_y = c2_bot + 90
+d.line([(CX - 180, line2_y), (CX + 180, line2_y)], fill=ACCENT, width=6)
+d.ellipse([CX - 7, line2_y + 34, CX + 7, line2_y + 48], fill=ACCENT)
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/25.png")
-print("saved 25.png  k_bot=%d key_bot=%d dev_bot=%d h2_bot=%d" %
-      (k_bot, key_bot, dev_bot, h2_bot))
+print("saved 25.png  k_bot=%d line1_y=%d h2_bot=%d c2_bot=%d line2_y=%d canvas=%d" %
+      (k_bot, line1_y, h2_bot, c2_bot, line2_y, S))
