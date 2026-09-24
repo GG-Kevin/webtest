@@ -37,7 +37,7 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">이 분류는 4대 요건을 성격에 따라 <strong>이 블로그가 재구성한 것</strong>입니다. 공식 명칭과 세부 절차는 한국거래소 상장규정 원문 기준이고, 사례에 따라 예외나 조건이 붙을 수 있습니다. 감사의견 거절이나 한정처럼 이번 개정에 포함되지 않은 기존 재무 사유들도 대부분 아래쪽 줄에 속합니다.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">두 줄에 동시에 걸리는 회사도 있을 수 있습니다. 그때는 각 절차가 따로 진행되는 것으로 보이는데, <strong>어느 쪽이 먼저인지까지는 이 글에서 확인하지 못했습니다.</strong> 해당되는 종목을 들고 계시다면 그 회사의 KIND 공시를 날짜순으로 보시는 편이 빠릅니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">두 줄에 동시에 걸리는 회사도 있을 수 있습니다. 그때는 어느 쪽이 먼저냐를 따지지 않습니다. 금융위원회가 2025년 1월 발표한 상장폐지 제도개선 방안에 따르면 <strong>두 심사를 나란히 진행하고, 어느 쪽에서든 상장폐지 결정이 먼저 나오면 그것으로 최종 상장폐지</strong>입니다. 해당되는 종목을 들고 계시다면 그 회사의 KIND 공시를 날짜순으로 보시는 편이 빠릅니다.</p>
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">완전자본잠식 &mdash; 같은 말인데 6월에 걸리느냐 12월에 걸리느냐로 줄이 갈립니다</h2>
 
@@ -61,7 +61,7 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">그리고 이 새로 붙은 반기 기준이 <strong>사람이 판단하는 줄</strong>입니다. 기존 사업연도말 기준은 별도 심사 없이 절차가 진행되는 사유였는데, 반기 기준은 기업심사위원회 심의를 거치도록 도입됐습니다. 반기말에 완전자본잠식이 확인돼도 그것만으로 끝이 아니고, 심사 과정에서 유상증자나 자산 매각 같은 자본 확충 계획이 함께 검토됩니다. <strong>반기말 이후에 실제로 자본을 채웠다면 결과가 달라질 여지가 있습니다.</strong> 다만 이건 심사위원회의 재량이라 장담할 수 있는 영역이 아닙니다.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">반기에 심사를 넘겼다고 연말 점검이 면제되지도 않습니다. <strong>두 기준은 각각 따로 판정하는 것으로 알려져 있습니다.</strong></p>
+<p style="line-height:1.85;margin:0 0 18px;">반기에 심사를 넘겼다고 연말 점검이 면제되지도 않습니다. <strong>두 기준은 서로 다른 요건입니다.</strong> 반기 기준은 심사를 거치지만, 사업연도말 기준에 걸리면 심사 없이 상장폐지됩니다.</p>
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">벌점 10점은 여러 번 어겨야 쌓이는 게 아닙니다</h2>
 
@@ -81,13 +81,13 @@
 
 <p style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">단일 지정 벌점 <strong>8점 이상</strong>(코스피는 10점 이상) &rarr; 그 즉시 <strong>1일 매매거래정지</strong><br>최근 1년 <strong>누계 10점 이상</strong>(2026년 개정) &rarr; <strong>상장적격성 실질심사 대상</strong></p>
 
-<p style="line-height:1.85;margin:0 0 18px;">하나는 그 위반 한 건의 무게만 보고 <a href="https://moneyproducer.co.kr/10" style="color:#2b6cb0;">거래를 하루 멈춰 세우는 기준</a>으로 알려져 있고, 다른 하나는 1년간 쌓인 총합으로 퇴출 심사를 여는 기준입니다. 둘은 서로 배타적이지 않습니다. 앞에서 본 40점대 사례라면 <strong>같은 날에 두 기준을 다 넘긴</strong> 셈입니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">하나는 그 위반 한 건의 무게만 보고 <a href="https://moneyproducer.co.kr/10" style="color:#2b6cb0;">거래를 하루 멈춰 세우는 기준</a>이고, 다른 하나는 1년간 쌓인 총합으로 퇴출 심사를 여는 기준입니다. 둘은 서로 배타적이지 않습니다. 앞에서 본 40점대 사례라면 <strong>같은 날에 두 기준을 다 넘긴</strong> 셈입니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">누계 기준은 2026년 개정에서 <strong>15점에서 10점으로 내려왔습니다.</strong> 숫자로는 5점 차이지만, 더 적은 위반으로도 심사대에 오르게 됐다는 뜻입니다. 그럼 개정 전에 이미 쌓여 있던 벌점은 어떻게 될까요. <strong>기준 변경 전에 부과된 벌점은 3분의 2 수준으로 환산해 반영됩니다.</strong> 15점 만점 체계에서 쌓인 것을 10점 체계에 맞춰 비례로 낮추는 방식입니다(15&times;2/3=10과 같은 비율). 개정 전 벌점이 남아 있어도 곧바로 새 기준 초과로 판정되는 것은 아닙니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">그리고 점수 하향보다 무거운 변화가 하나 더 있습니다. <strong>중대하고 고의성이 인정되는 위반은 10점이 쌓이기를 기다리지 않고 단 한 번으로도 심사 대상이 될 수 있습니다.</strong> 다만 &ldquo;중대성&rdquo;과 &ldquo;고의성&rdquo;을 무엇으로 가르는지 &mdash; 위반 금액의 규모인지, 반복 여부인지, 투자자 피해 정도인지 &mdash; 를 정해 둔 기준은 <strong>이 글에서 확인하지 못했습니다.</strong> 판단은 거래소 공시위원회 심의에서 이뤄지므로, 개별 사례의 근거는 그 회사의 불성실공시법인 지정 공시 원문에 적혀 있습니다.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">내 종목의 공시 이력은 <strong>kind.krx.co.kr</strong>에서 종목명을 검색한 뒤 공시통합검색에서 &ldquo;불성실공시법인지정&rdquo;을 찾으면 됩니다. 그 공시에는 위반 유형과 부과 벌점, 누적 벌점이 함께 적히는 경우가 많아, 위 두 기준선에 각각 얼마나 가까운지 가늠할 수 있습니다. 벌점이 시간이 지나면 빠지는지는 &mdash; 누적을 세는 기간이 <strong>최근 1년</strong>이므로 그 기간을 벗어난 벌점은 합산에서 빠지는 방식으로 운영되는 것으로 알려져 있습니다. 다만 정확한 산정 기간과 방식은 사안마다 다를 수 있습니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">내 종목의 공시 이력은 <strong>kind.krx.co.kr</strong>에서 종목명을 검색한 뒤 공시통합검색에서 &ldquo;불성실공시법인지정&rdquo;을 찾으면 됩니다. 그 공시에는 위반 유형과 부과 벌점, 누적 벌점이 양식 항목으로 함께 적혀 있어, 위 두 기준선에 각각 얼마나 가까운지 가늠할 수 있습니다. 벌점이 시간이 지나면 빠지는지는 &mdash; 빠집니다. 누적은 <strong>벌점 부과일로부터 거꾸로 1년 안</strong>에 받은 벌점만 더하므로, 1년이 지난 벌점은 합산에서 빠집니다. 다만 정확한 산정 방식은 사안마다 다를 수 있습니다.</p>
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">심사는 한 번에 끝나지 않습니다 &mdash; 아직 거칠 단계가 남았습니다</h2>
 
@@ -95,7 +95,7 @@
 
 <p style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">① 실질심사 사유 발생<br>&darr;<br>② 1심 심사<br>&darr;<br>③ 2심 심사<br>&darr;<br>④ 상장폐지 여부 결정</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">이 전 과정에서 개선기간을 받을 수 있는 것으로 알려져 있습니다. 즉 최소 몇 단계를 더 거쳐야 최종 결론이 납니다. <strong>다만 각 단계가 며칠 혹은 몇 달 걸리는지는 사안마다 달라 이 글에서 숫자를 적지 않습니다.</strong> 보유 종목의 진행 상황은 KIND 공시를 단계별로 따라가는 것이 가장 정확합니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">1심과 2심 심사에서는 각각 개선기간을 받을 수 있고, 그 상한은 규정에 정해져 있습니다. 즉 최소 몇 단계를 더 거쳐야 최종 결론이 납니다. <strong>다만 각 단계가 며칠 혹은 몇 달 걸리는지는 사안마다 달라 이 글에서 숫자를 적지 않습니다.</strong> 보유 종목의 진행 상황은 KIND 공시를 단계별로 따라가는 것이 가장 정확합니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">이 절차는 회사가 밟는 것이지 주주가 밟는 것이 아닙니다. <strong>이의신청도 상장폐지 대상이 된 기업이 하는 것이고, 개별 투자자가 직접 낼 수 있는 절차는 없습니다.</strong> 투자자가 할 수 있는 일은 공시로 진행 상황을 확인하는 것까지입니다.</p>
 
@@ -113,13 +113,16 @@
 </tr>
 <tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스피 형식적 사유</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">2년</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>1년</strong></td></tr>
 <tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스피 실질심사</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">4년(1&middot;2심 각 2년)</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>2년(각 1년)</strong></td></tr>
+<tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스닥 실질심사</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">2년</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>1.5년</strong></td></tr>
 </tbody>
 </table>
 </div>
 
-<p style="line-height:1.85;margin:0 0 18px;">이 단축은 2025년 규정 개정으로 이뤄졌고, 앞에서 본 4대 요건 개정과는 <strong>별개로 진행된 조치</strong>로 알려져 있습니다. 방향은 같습니다. 부실기업이 퇴출까지 걸리는 시간을 전반적으로 줄이는 것.</p>
+<p style="line-height:1.85;margin:0 0 18px;">이 단축은 2025년 규정 개정으로 이뤄졌고, 앞에서 본 4대 요건 개정과는 <strong>별개로 진행된 조치</strong>입니다. 방향은 같습니다. 부실기업이 퇴출까지 걸리는 시간을 전반적으로 줄이는 것.</p>
 
-<p style="margin:0 0 22px;padding:16px 18px;background:#fff5f5;border-left:4px solid #e53e3e;line-height:1.85;">이 표의 숫자는 발표 시점에 따라 다르게 보도된 자료가 있습니다 &mdash; 코스피 실질심사가 2년&rarr;1년으로 적힌 자료도 확인했습니다. 여러 차례 단계적으로 개정됐을 가능성이 있어, <strong>확정 수치는 한국거래소 상장규정 원문에서 다시 보셔야 합니다.</strong> 이 글에서 원문 조문까지는 열지 못했습니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">다만 코스닥은 여기서 한 번 더 줄어듭니다. 이번에는 4대 요건과 같은 방안 안에서입니다. 앞에서 본 2026년 2월 12일 「부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁 방안」에 코스닥 실질심사의 최대 개선기간을 <strong>1.5년에서 1년으로 추가 축소</strong>하는 내용이 함께 들어 있습니다(1심 최대 1년, 2심 최대 0.5년). 이 부분은 <strong>2026년 4월 1일 시행 예정</strong>으로 발표됐습니다.</p>
+
+<p style="margin:0 0 22px;padding:16px 18px;background:#fff5f5;border-left:4px solid #e53e3e;line-height:1.85;">이 표의 숫자는 발표 시점에 따라 다르게 보도된 자료가 있습니다 &mdash; 코스피 실질심사가 2년&rarr;1년으로 적힌 자료도 확인했습니다. 개선기간 축소는 이처럼 여러 차례 나눠 발표됐으므로, <strong>확정 수치는 한국거래소 상장규정 원문에서 다시 보셔야 합니다.</strong> 이 글에서 원문 조문까지는 열지 못했습니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">숫자가 재는 줄에 걸린 분이라면 이 표를 자기 것으로 읽지 마십시오. 동전주&middot;시가총액 요건에는 <strong>&ldquo;90거래일 안에 연속 45거래일 회복&rdquo;이라는 유예 구조가 이미 요건 안에 들어 있고</strong>, 그게 사실상의 개선기간 역할을 합니다. 위 표의 개선기간은 별도 심사 절차에 붙는 시간이라 <strong>90거래일 구조와는 다른 개념</strong>입니다.</p>
 
