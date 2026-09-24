@@ -1,81 +1,80 @@
 # -*- coding: utf-8 -*-
-"""/6 정리매매 7거래일 — 오답↔정답 대비형(2요소 병치, 위아래 겹침).
-핵심어 「14」(거래소 원문 확정값)를 이 장의 최대 글자로 올린다.
-좌표는 사전 textbbox 실측값을 그대로 대입한 것 — 임의 추정 없음."""
+"""/6 정리매매 7거래일 — 2026-09-24 회장 반려 재제작(2차).
+
+반려 사유(회장): 「/2, /6 모두 별로」 + 공통사항 「가장 중요한 게 가장 크고 잘 보여야지」.
+「지면」 진단: 구판은 숫자 「14」가 h=425로 화면 절반을 먹었고, 이 글의 주제어
+「정리매매」는 카드에 **한 번도 나오지 않았다**. 썸네일만 보고 무슨 글인지 알 수 없다.
+게다가 구판 /2도 초대형 숫자 1개 구조여서 두 장이 같은 틀로 보였다(D-105 §8).
+
+이번 판이 바꾼 것:
+  · 주제어 「정리매매」를 250pt로 올려 이 장의 최대 글자로 만든다.
+    출처는 「포착」 확정 제목 89행 「정리매매 하루 체결 횟수, 13회 아니라 14회입니다」.
+    부제 「하루 체결 횟수」도 같은 제목의 구를 그대로 옮긴 것 — 새 문구 창작 아님.
+  · 숫자 대비쌍 13↔14는 주제어보다 작은 보조 장치로 내린다(「포착」 지침의 대비형은 유지).
+  · 우측정렬축 — /2(좌정렬 하단앵커)·/5(좌정렬 상단주제어)와 정렬축 자체가 다르다.
+  · 배경을 딥 포레스트로 — /5 버건디(적)와 색상축이 반대, /2 웜샌드와 명도축이 반대.
+
+무수정 유지: 헤드라인(썸네일 문구) 원문, 라벨 「계산」·「원문」, 13/14 대비 장치.
+"""
 from PIL import Image, ImageDraw, ImageFont
 
 F = "/home/user/webtest/자산/폰트/Pretendard-%s.otf"
 def f(w, s): return ImageFont.truetype(F % w, s)
 
-S = 1080
-M = 72
+S, M = 1080, 72
+BG     = (20, 42, 35)      # 딥 포레스트 — 남색 아님(G가 최대 채널)
+CREAM  = (236, 233, 224)
+MOSS   = (126, 152, 136)   # 부제·라벨
+SLATE  = (112, 130, 120)   # 「13」 오답
+STRIKE = (214, 106, 88)    # 취소선
+EMER   = (74, 214, 146)    # 「14」 정답
+DIV    = (48, 74, 63)
 
-INK    = (26, 24, 22)      # 웜 뉴트럴 니어블랙 — 남색 아님(R>=G>=B, 블루 편향 없음)
-SLATE  = (150, 146, 138)   # 「13」(오답·계산) — 무채색에 가까운 흐린 회갈색
-LABEL1 = (128, 122, 112)   # 「계산」 라벨
-STRIKE = (176, 92, 82)     # 취소선 — 오답 표시
-DIV    = (70, 66, 60)      # 구분선
-GREEN  = (72, 202, 140)    # 「14」(정답·원문) — 이 배치 미사용 색상(에메랄드)
-LABEL2 = (150, 214, 182)   # 「원문」 라벨
-CREAM  = (236, 230, 220)   # 헤드라인(썸네일 문구)
-
-img = Image.new("RGB", (S, S), INK)
+img = Image.new("RGB", (S, S), BG)
 d = ImageDraw.Draw(img)
+R = S - M   # 우측 정렬 기준선
 
-F13   = f("Bold", 150)       # 13 — pt 150
-FLAB1 = f("Bold", 40)        # 계산 — pt 40
-F14   = f("ExtraBold", 600)  # 14 — pt 600 (이 장 최대)
-FLAB2 = f("Bold", 40)        # 원문 — pt 40
-FH1   = f("Bold", 66)        # 헤드라인 1행 — pt 66
-FH2   = f("Bold", 66)        # 헤드라인 2행 — pt 66
+def put_r(right, top, t, fo, col):
+    """글리프 오른끝을 right에, 윗변을 top에 맞춰 찍고 (왼끝, 아랫변)을 돌려준다."""
+    bb = fo.getbbox(t)
+    w = bb[2] - bb[0]
+    d.text((right - w - bb[0], top - bb[1]), t, font=fo, fill=col)
+    return right - w, top + (bb[3] - bb[1])
 
-# ── 1. 「13」(오답·계산) — 상단, 작게, 취소선
-b13 = d.textbbox((0, 0), "13", font=F13)          # (0,35,166,145)
-x13, y13 = M, 100 - b13[1]
-d.text((x13, y13), "13", font=F13, fill=SLATE)
-strike_y = 100 + (b13[3] - b13[1]) // 2           # 13의 세로 중앙
-d.line([(M - 16, strike_y), (M + b13[2] + 16, strike_y)], fill=STRIKE, width=7)
+# ── 1. 주제어 — 이 장의 최대 글자
+kf = f("ExtraBold", 250)
+kx, k_bot = put_r(R, 108, "정리매매", kf, CREAM)
 
-blab1 = d.textbbox((0, 0), "계산", font=FLAB1)
-lab1_top = 100 + (b13[3] - b13[1]) + 14
-d.text((M, lab1_top - blab1[1]), "계산", font=FLAB1, fill=LABEL1)
-lab1_bottom = lab1_top + (blab1[3] - blab1[1])
+# ── 2. 부제 (확정 제목의 구, 무수정)
+sf = f("Bold", 54)
+_, s_bot = put_r(R, k_bot + 22, "하루 체결 횟수", sf, MOSS)
 
-# ── 2. 구분선
-div_y = lab1_bottom + 40
-d.line([(M, div_y), (S - M, div_y)], fill=DIV, width=2)
+# ── 3. 구분선
+div_y = s_bot + 76
+d.line([(M, div_y), (R, div_y)], fill=DIV, width=3)
 
-# ── 3. 「14」(정답·원문) — 이 장의 최대 글자, 우측정렬, 하단으로 겹쳐 배치
-b14 = d.textbbox((0, 0), "14", font=F14)          # (0,146,688,571)
-top14 = div_y + 60
-x14 = (S - M) - b14[2]
-y14 = top14 - b14[1]
-d.text((x14, y14), "14", font=F14, fill=GREEN)
-bottom14 = top14 + (b14[3] - b14[1])
+# ── 4. 숫자 대비쌍 13 ↔ 14 (「포착」 지침 유지) — 주제어보다 작게
+f14 = f("ExtraBold", 222)
+f13 = f("Bold", 152)
+flab = f("Bold", 36)
+TOP14 = div_y + 80
+x14, bot14 = put_r(R, TOP14, "14", f14, EMER)
+_, lab14_bot = put_r(R, bot14 + 14, "원문", flab, MOSS)
 
-blab2 = d.textbbox((0, 0), "원문", font=FLAB2)
-lab2_top = bottom14 + 20
-x_lab2 = (S - M) - blab2[2]
-d.text((x_lab2, lab2_top - blab2[1]), "원문", font=FLAB2, fill=LABEL2)
+# 13은 14의 왼쪽에, 바닥선을 14와 맞춰 작게
+bb13 = f13.getbbox("13")
+h13 = bb13[3] - bb13[1]
+top13 = bot14 - h13
+x13, _ = put_r(x14 - 72, top13, "13", f13, SLATE)
+sy = top13 + h13 // 2
+d.line([(x13 - 16, sy), (x14 - 56, sy)], fill=STRIKE, width=8)
+put_r(x14 - 72, bot14 + 14, "계산", flab, SLATE)
 
-# ── 4. 헤드라인(「포착」 확정 썸네일 문구, 무수정) — 우측정렬, 하단
-h2 = "원문을 확인했습니다"
-h1 = "계산이 아니라,"
-bh2 = d.textbbox((0, 0), h2, font=FH2)
-bh1 = d.textbbox((0, 0), h1, font=FH1)
-
-h2_bottom = S - M
-h2_top = h2_bottom - (bh2[3] - bh2[1])
-d.text(((S - M) - bh2[2], h2_top - bh2[1]), h2, font=FH2, fill=CREAM)
-
-h1_bottom = h2_top - 14
-h1_top = h1_bottom - (bh1[3] - bh1[1])
-d.text(((S - M) - bh1[2], h1_top - bh1[1]), h1, font=FH1, fill=CREAM)
+# ── 5. 헤드라인 (「포착」 확정 썸네일 문구, 무수정)
+hf = f("Bold", 62)
+put_r(R, 872, "계산이 아니라,", hf, CREAM)
+_, h_bot = put_r(R, 872 + 82, "원문을 확인했습니다", hf, CREAM)
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/6.png")
-print("saved")
-print("13 top/bottom", 100, 100 + (b13[3]-b13[1]), "h13=", b13[3]-b13[1])
-print("14 top/bottom", top14, bottom14, "h14=", bottom14-top14)
-print("headline1 top/bottom", h1_top, h1_bottom)
-print("headline2 top/bottom", h2_top, h2_bottom)
-print("label2 right edge", x_lab2 + blab2[2], "canvas right margin", S - M)
+print("saved 6.png  k_bot=%d s_bot=%d div=%d bot14=%d h_bot=%d" %
+      (k_bot, s_bot, div_y, bot14, h_bot))
