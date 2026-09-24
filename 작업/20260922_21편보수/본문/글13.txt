@@ -1,6 +1,6 @@
-<div class="contents_style"><p style="line-height:1.85;margin:0 0 18px;">보유 종목 이름 옆에 &ldquo;상장적격성 실질심사 대상&rdquo;이라는 공시가 뜨면, 여섯 글자를 다 읽기도 전에 <strong>끝났다</strong>는 생각이 먼저 듭니다. 그런데 이 문장은 결과가 아니라 <strong>순서가 시작됐다</strong>는 통보입니다. 끝까지 가려면 앞으로 여섯 단계가 남아 있습니다.</p>
+<div class="contents_style"><p style="line-height:1.85;margin:0 0 18px;">보유 종목 이름 옆에 &ldquo;상장적격성 실질심사 대상&rdquo;이라는 공시가 뜨면, 여섯 글자를 다 읽기도 전에 <strong>끝났다</strong>는 생각이 먼저 듭니다. 그런데 이 문장은 결과가 아니라 <strong>순서가 시작됐다</strong>는 통보입니다. 끝까지 가려면 앞으로 거쳐야 할 단계가 더 남아 있습니다.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">이 글은 그 여섯 단계를 순서대로 짚습니다. <strong>주가나 시가총액 때문에 걸리신 분은 아래 두 번째 대목에서 왜 이 글이 당신 경우가 아닌지 먼저 확인하시고</strong>, 재무제표나 공시 때문에 걸리신 분은 세 번째와 네 번째 대목이 각각 자기 자리입니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">이 글은 그 남은 단계를 순서대로 짚습니다. <strong>주가나 시가총액 때문에 걸리신 분은 아래 두 번째 대목에서 왜 이 글이 당신 경우가 아닌지 먼저 확인하시고</strong>, 재무제표나 공시 때문에 걸리신 분은 세 번째와 네 번째 대목이 각각 자기 자리입니다.</p>
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">&ldquo;실질심사 대상&rdquo;은 퇴출이 확정됐다는 말이 아닙니다</h2>
 
@@ -89,11 +89,11 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">내 종목의 공시 이력은 <strong>kind.krx.co.kr</strong>에서 종목명을 검색한 뒤 공시통합검색에서 &ldquo;불성실공시법인지정&rdquo;을 찾으면 됩니다. 그 공시에는 위반 유형과 부과 벌점, 누적 벌점이 함께 적히는 경우가 많아, 위 두 기준선에 각각 얼마나 가까운지 가늠할 수 있습니다. 벌점이 시간이 지나면 빠지는지는 &mdash; 누적을 세는 기간이 <strong>최근 1년</strong>이므로 그 기간을 벗어난 벌점은 합산에서 빠지는 방식으로 운영되는 것으로 알려져 있습니다. 다만 정확한 산정 기간과 방식은 사안마다 다를 수 있습니다.</p>
 
-<h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">심사는 한 번에 끝나지 않습니다 &mdash; 남은 단계가 여섯입니다</h2>
+<h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">심사는 한 번에 끝나지 않습니다 &mdash; 아직 거칠 단계가 남았습니다</h2>
 
-<p style="line-height:1.85;margin:0 0 18px;">맨 앞에서 말한 여섯 단계, 일반적으로 알려진 절차는 이렇습니다. &ldquo;실질심사 대상 지정&rdquo; 공시 하나로 결과가 정해지지 않는 이유이기도 합니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">맨 앞에서 말한, 앞으로 남은 단계입니다. 코스닥 실질심사는 2025년 제도 개선으로 <strong>3심제에서 2심제</strong>가 됐습니다 &mdash; 금융위원회와 한국거래소가 2026년 2월 12일 발표한 &ldquo;부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁방안&rdquo; 보도자료에 그렇게 적혀 있습니다. &ldquo;실질심사 대상 지정&rdquo; 공시 하나로 결과가 정해지지 않는 이유이기도 합니다.</p>
 
-<p style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">① 실질심사 사유 발생<br>&darr;<br>② 심의대상 결정<br>&darr;<br>③ 기업심사위원회 심의<br>&darr;<br>④ 1차 시장위원회<br>&darr;<br>⑤ (해당 시) 이의신청<br>&darr;<br>⑥ 2차 시장위원회</p>
+<p style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">① 실질심사 사유 발생<br>&darr;<br>② 1심 심사<br>&darr;<br>③ 2심 심사<br>&darr;<br>④ 상장폐지 여부 결정</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">이 전 과정에서 개선기간을 받을 수 있는 것으로 알려져 있습니다. 즉 최소 몇 단계를 더 거쳐야 최종 결론이 납니다. <strong>다만 각 단계가 며칠 혹은 몇 달 걸리는지는 사안마다 달라 이 글에서 숫자를 적지 않습니다.</strong> 보유 종목의 진행 상황은 KIND 공시를 단계별로 따라가는 것이 가장 정확합니다.</p>
 
@@ -101,7 +101,7 @@
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">대신 시간이 절반으로 줄었습니다</h2>
 
-<p style="line-height:1.85;margin:0 0 18px;">개선기간은 실질심사 대상이 된 기업이 경영 정상화를 증명하도록 주어지는 유예 시간입니다. 단계가 여섯이라는 말은 시간이 넉넉하다는 말처럼 들리지만, <strong>그 시간 자체가 짧아졌습니다.</strong></p>
+<p style="line-height:1.85;margin:0 0 18px;">개선기간은 실질심사 대상이 된 기업이 경영 정상화를 증명하도록 주어지는 유예 시간입니다. 심사가 여러 단계라는 말은 시간이 넉넉하다는 말처럼 들리지만, <strong>그 시간 자체가 짧아졌습니다.</strong></p>
 
 <div style="overflow-x:auto;margin:0 0 22px;">
 <table style="width:100%;border-collapse:collapse;font-size:0.95em;min-width:420px;">
@@ -113,7 +113,6 @@
 </tr>
 <tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스피 형식적 사유</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">2년</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>1년</strong></td></tr>
 <tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스피 실질심사</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">4년(1&middot;2심 각 2년)</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>2년(각 1년)</strong></td></tr>
-<tr><td style="padding:12px;border-bottom:1px solid #e2e8f0;font-weight:600;">코스닥 실질심사</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;">2년(합산)</td><td style="padding:12px;border-bottom:1px solid #e2e8f0;text-align:center;"><strong>1.5년(합산)</strong></td></tr>
 </tbody>
 </table>
 </div>
@@ -134,7 +133,7 @@
 
 <h2 style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;">그래서 지금 확인할 것은 하나입니다</h2>
 
-<p style="line-height:1.85;margin:0 0 18px;">공시 제목이 아니라 <strong>사유</strong>를 보셔야 합니다. 주가나 시가총액이 적혀 있으면 숫자가 재는 줄이고, 그때 남은 것은 <strong>90거래일 안의 연속 45거래일</strong>이라는 계산뿐입니다. 완전자본잠식 반기 기준이나 공시벌점이 적혀 있으면 사람이 판단하는 줄이고, 그때부터 여섯 단계가 남아 있습니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">공시 제목이 아니라 <strong>사유</strong>를 보셔야 합니다. 주가나 시가총액이 적혀 있으면 숫자가 재는 줄이고, 그때 남은 것은 <strong>90거래일 안의 연속 45거래일</strong>이라는 계산뿐입니다. 완전자본잠식 반기 기준이나 공시벌점이 적혀 있으면 사람이 판단하는 줄이고, 그때부터 앞에서 본 심사 단계가 남아 있습니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">같은 &ldquo;상장폐지&rdquo;라는 네 글자 안에 완전히 다른 두 시계가 돌고 있습니다. <strong>어느 시계인지 모른 채로는 언제까지 기다려야 하는지도 알 수 없습니다.</strong></p>
 
