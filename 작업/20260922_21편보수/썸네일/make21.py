@@ -45,40 +45,49 @@ def cen(top, t, fo, col):
     return top + (bb[3] - bb[1])
 
 # ── 1. 킥커 (확정 제목 앞부분, 무수정)
-k_bot = cen(88, "애프터마켓 오후 8시까지", f("Bold", 34), MUTED)
+k_bot = cen(84, "애프터마켓 오후 8시까지", f("Bold", 34), MUTED)
 
 # ── 2. 헤드라인 (확정 썸네일 문구, 무수정) — 2줄
 hf = f("Bold", 64)
-h1_bot = cen(k_bot + 42, "저녁에도,", hf, TXT)
+h1_bot = cen(k_bot + 40, "저녁에도,", hf, TXT)
 h2_bot = cen(h1_bot + 20, "상한가·하한가가 뜰 수 있습니다", hf, TXT)
 
-# ── 3. 화살표 쌍(도형) + 라벨(헤드라인에 이미 있는 낱말)
-gy = h2_bot + 96
-arm = 62
+# ── 3. 시간대 표시줄(도형) — 킥커의 "오후 8시까지"를 시각으로 반복
+tl_y = h2_bot + 78
+tl_x0, tl_x1 = CX - 260, CX + 260
+d.line([(tl_x0, tl_y), (tl_x1, tl_y)], fill=MUTED, width=5)
+d.ellipse([tl_x0 - 9, tl_y - 9, tl_x0 + 9, tl_y + 9], fill=TXT)
+d.ellipse([tl_x1 - 9, tl_y - 9, tl_x1 + 9, tl_y + 9], fill=TXT)
+tf = f("Bold", 28)
+tb0 = tf.getbbox("정규장 마감")
+d.text((tl_x0 - (tb0[2] - tb0[0]) / 2 - tb0[0], tl_y + 20 - tb0[1]), "정규장 마감", font=tf, fill=MUTED)
+tb1 = tf.getbbox("오후 8시")
+d.text((tl_x1 - (tb1[2] - tb1[0]) / 2 - tb1[0], tl_y + 20 - tb1[1]), "오후 8시", font=tf, fill=MUTED)
+tl_bot = tl_y + 20 + (tb0[3] - tb0[1])
+
+# ── 4. 화살표 쌍(도형) + 라벨(헤드라인에 이미 있는 낱말)
+gy = tl_bot + 108
+arm = 66
 ax_up = CX - 170
-d.line([(ax_up, gy + arm), (ax_up, gy - arm)], fill=UP, width=14)
-d.polygon([(ax_up, gy - arm - 30), (ax_up - 28, gy - arm + 6), (ax_up + 28, gy - arm + 6)], fill=UP)
-lab = f("Bold", 34)
-up_bot = cen(gy + arm + 24, "상한가", lab, UP) if False else None
+d.line([(ax_up, gy + arm), (ax_up, gy - arm)], fill=UP, width=15)
+d.polygon([(ax_up, gy - arm - 32), (ax_up - 30, gy - arm + 6), (ax_up + 30, gy - arm + 6)], fill=UP)
+lab = f("Bold", 36)
 bb = lab.getbbox("상한가")
-d.text((ax_up - (bb[2] - bb[0]) / 2 - bb[0], gy + arm + 24 - bb[1]), "상한가", font=lab, fill=UP)
+d.text((ax_up - (bb[2] - bb[0]) / 2 - bb[0], gy + arm + 26 - bb[1]), "상한가", font=lab, fill=UP)
 
 ax_dn = CX + 170
-d.line([(ax_dn, gy - arm), (ax_dn, gy + arm)], fill=DOWN, width=14)
-d.polygon([(ax_dn, gy + arm + 30), (ax_dn - 28, gy + arm - 6), (ax_dn + 28, gy + arm - 6)], fill=DOWN)
+d.line([(ax_dn, gy - arm), (ax_dn, gy + arm)], fill=DOWN, width=15)
+d.polygon([(ax_dn, gy + arm + 32), (ax_dn - 30, gy + arm - 6), (ax_dn + 30, gy + arm - 6)], fill=DOWN)
 bb2 = lab.getbbox("하한가")
-d.text((ax_dn - (bb2[2] - bb2[0]) / 2 - bb2[0], gy + arm + 24 - bb2[1]), "하한가", font=lab, fill=DOWN)
+d.text((ax_dn - (bb2[2] - bb2[0]) / 2 - bb2[0], gy + arm + 26 - bb2[1]), "하한가", font=lab, fill=DOWN)
 
-# 중앙 연결 — 저녁(야간) 표시용 얇은 원(달, 도형) — 화살표 사이
-d.ellipse([CX - 26, gy - 26, CX + 26, gy + 26], outline=TXT, width=6)
+graphic_bot = gy + arm + 26 + (bb[3] - bb[1])
 
-graphic_bot = gy + arm + 24 + (bb[3] - bb[1])
-
-# ── 4. 주제어 — 이 장의 최대 글자, 하단 배치(배정)
+# ── 5. 주제어 — 이 장의 최대 글자, 하단 배치(배정)
 kf = f("ExtraBold", 215)
-subj_top = S - M - 194  # 주제어 잉크 높이(214/215pt 기준 실측 194)와 하단여백 72 역산
+subj_top = graphic_bot + 92
 subj_bot = cen(subj_top, "애프터마켓", kf, TXT)
 
 img.save("/home/user/webtest/작업/20260922_21편보수/썸네일/21.png")
-print("saved 21.png  k_bot=%d h2_bot=%d graphic_bot=%d subj_top=%d subj_bot=%d canvas=%d" %
-      (k_bot, h2_bot, graphic_bot, subj_top, subj_bot, S))
+print("saved 21.png  k_bot=%d h2_bot=%d tl_bot=%d graphic_bot=%d subj_top=%d subj_bot=%d bottom_margin=%d canvas=%d" %
+      (k_bot, h2_bot, tl_bot, graphic_bot, subj_top, subj_bot, S - subj_bot, S))

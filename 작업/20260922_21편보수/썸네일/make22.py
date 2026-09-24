@@ -59,16 +59,16 @@ h1_bot, _ = left(M, hy0, "9월 23일에 팔아도,", hf, CREAM)
 h2_bot, _ = left(M, h1_bot + 18, "돈은 29일에야 들어옵니다", hf, CREAM)
 
 # ── 3. 타임라인(본문 66행 직접 인용 3구간) — 가로 3점 다이어그램
-tl_y = h2_bot + 110          # 연결선 y좌표
+tl_y = h2_bot + 200          # 연결선 y좌표(여백을 넉넉히 두어 하단까지 균형)
 x1, x2, x3 = M + 46, S / 2, S - M - 46
 
-d.line([(x1, tl_y), (x3, tl_y)], fill=LINE_C, width=3)
-r = 11
+d.line([(x1, tl_y), (x3, tl_y)], fill=LINE_C, width=4)
+r = 12
 for x, col in ((x1, CREAM), (x2, MUTE), (x3, CORAL)):
     d.ellipse([x - r, tl_y - r, x + r, tl_y + r], fill=col)
 
-df = f("Bold", 40)
-lf = f("Regular", 25)
+df = f("Bold", 44)
+lf = f("Regular", 27)
 
 def point(cx, date, label, col, lab_col):
     dy = tl_y + 34
