@@ -1,4 +1,4 @@
-<div class="contents_style"><p style="line-height:1.85;margin:0 0 18px;">보유 종목 이름 옆에 &ldquo;상장적격성 실질심사 대상&rdquo;이라는 공시가 뜨면, 여섯 글자를 다 읽기도 전에 <strong>끝났다</strong>는 생각이 먼저 듭니다. 그런데 이 문장은 결과가 아니라 <strong>순서가 시작됐다</strong>는 통보입니다. 끝까지 가려면 앞으로 거쳐야 할 단계가 더 남아 있습니다.</p>
+<div class="contents_style"><p style="line-height:1.85;margin:0 0 18px;">보유 종목 이름 옆에 &ldquo;상장적격성 실질심사 대상&rdquo;이라는 공시가 뜨면, 그 한 줄을 다 읽기도 전에 <strong>끝났다</strong>는 생각이 먼저 듭니다. 그런데 이 문장은 결과가 아니라 <strong>순서가 시작됐다</strong>는 통보입니다. 끝까지 가려면 앞으로 거쳐야 할 단계가 더 남아 있습니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">이 글은 그 남은 단계를 순서대로 짚습니다. <strong>주가나 시가총액 때문에 걸리신 분은 아래 두 번째 대목에서 왜 이 글이 당신 경우가 아닌지 먼저 확인하시고</strong>, 재무제표나 공시 때문에 걸리신 분은 세 번째와 네 번째 대목이 각각 자기 자리입니다.</p>
 
