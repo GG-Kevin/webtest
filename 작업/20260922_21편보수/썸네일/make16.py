@@ -36,7 +36,7 @@ def put(x, top, t, fo, col):
     return x + (bb[2] - bb[0]), top + (bb[3] - bb[1])
 
 # ── 1. 킥커 (확정 제목 첫 단어, 무수정)
-_, k_bot = put(M, 88, "생산적금융", f("Bold", 40), MUTED)
+_, k_bot = put(M, 250, "생산적금융", f("Bold", 40), MUTED)
 
 # ── 2. 주제어 — 이 장의 최대 글자
 _, key_bot = put(M, k_bot + 20, "ISA", f("ExtraBold", 380), CREAM)
