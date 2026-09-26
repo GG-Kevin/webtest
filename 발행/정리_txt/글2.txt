@@ -1,0 +1,280 @@
+<p style="margin: 0 0 24px; padding: 18px 20px; background: #f4f6f8; border-left: 4px solid #2b6cb0; border-radius: 4px; line-height: 1.75;" data-ke-size="size16"><b>핵심 요약</b> 종가가 <b>30거래일 연속 1,000원 미만</b>이면 관리종목으로 지정됩니다.<br />지정 후 <b>90거래일 안에 연속 45거래일</b> 이상 1,000원을 회복하지 못하면 상장폐지됩니다.<br />코스피&middot;코스닥 <b>기준이 같고</b>, 2026년 7월 1일부터 시행 중입니다.<br /><span style="color: #c53030;">주식병합으로 피하는 길이 막혔다는 점</span>이 이번 개정의 핵심입니다.</p>
+<div style="margin: 0 0 32px; padding: 20px 24px; background: #fffdf8; border: 1px solid #e2e8f0; border-radius: 4px;">
+<p style="margin: 0 0 12px; font-weight: bold; font-size: 1.05em; color: #2d3748;" data-ke-size="size16">목차</p>
+<a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s1">1. 2026년 7월, 무엇이 바뀌었나</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s2">2. 관리종목 지정 요건 &mdash; 30거래일 연속 1,000원 미만</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s3">3. 상장폐지까지의 시간표 &mdash; 90거래일과 45거래일</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s4">4. 왜 지금 동전주가 급등하는가</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s5">5. 주식병합&middot;감자로 피할 수 있나</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s6">6. 시가총액 요건 &mdash; 2027년까지의 일정</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s7">7. 내 종목이 대상인지 확인하는 법</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s8">8. 자주 묻는 질문</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s9">9. 기사에서 자주 어긋나는 지점</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#s10">10. 참고 자료</a></div>
+<h2 id="s1" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">1. 2026년 7월, 무엇이 바뀌었나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주가가 낮다는 이유만으로 상장폐지되는 요건은 원래 없었습니다. 부실기업을 걸러내는 기준은 매출액, 자본잠식, 감사의견 같은 재무 항목이었습니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 2월 금융위원회가 발표한 <b>「부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁 방안」</b>이 이 구조를 바꿨습니다. 한국거래소 상장규정 개정이 5월에 승인됐고, <b>2026년 7월 1일부터 주가 자체가 상장폐지 사유</b>가 됐습니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이 개정이 겨냥한 대상이 이른바 <b>동전주</b>, 즉 주가가 1,000원에 못 미치는 종목입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이번 개정은 코스피&middot;코스닥 공통으로 <b>4대 요건</b>을 한꺼번에 손봤습니다. 동전주는 그중 하나입니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 460px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left; width: 22%;">요건</th>
+<th style="padding: 12px; text-align: left;">변경 내용</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">시가총액</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">상향 일정을 매년 &rarr; <b>매반기</b>로 조기화</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">동전주</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">주가 1,000원 미만을 상장폐지 요건으로 <b>신설</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">완전자본잠식</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">사업연도말 기준에 더해 <b>반기 기준</b>도 추가 (실질심사 요건)</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">공시위반</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">공시벌점 누적 15점 &rarr; <b>10점</b>으로 하향, 중대&middot;고의적 위반은 1회로도 심사대상</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">시행 시기는 <b>시가총액&middot;동전주&middot;공시위반이 2026년 7월 1일</b>, 완전자본잠식은 2026년 6월말 기준 반기보고서부터입니다.</p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 시행 결과: 새 기준이 적용된 뒤 <b>실제로 36개 종목이 첫 관리종목으로 지정</b>됐습니다. 요건별 내역과 2027년 1월 추가 상향 일정은 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/23">관리종목 36개가 한꺼번에 나왔습니다 &mdash; 다음 고비는 2027년 1월</a>에서 정리했습니다.</p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/15">완전자본잠식이란 &mdash; 반기 기준 추가가 의미하는 것</a></p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/14">완전자본잠식이란 &mdash; 반기 기준 추가가 의미하는 것</a></p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">규모를 보면 이 변화의 무게를 알 수 있습니다. 금융위 보도자료에 인용된 한국거래소 시뮬레이션에 따르면, <b>2026년 중 코스닥 상장폐지 대상은 약 150개사 내외(100~220여 개사)</b>로 추산됐습니다. 당초 예상치는 50개사였습니다.</p>
+<h2 id="s2" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">2. 관리종목 지정 요건 &mdash; 30거래일 연속 1,000원 미만</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">첫 관문은 관리종목 지정입니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 420px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">구분</th>
+<th style="padding: 12px; text-align: left;">기준</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">가격</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">종가 1,000원 미만</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">기간</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">30거래일 <b>연속</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">시장</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">코스피&middot;코스닥 동일</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">사전 경고</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">25거래일 시점에 예고 공시</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin: 0 0 22px; padding: 16px 20px; border-left: 3px solid #2b6cb0; background: #f7fafc;">
+<p style="margin: 0 0 8px; line-height: 1.9; font-size: 0.97em; color: #2d3748;" data-ke-size="size16">&ldquo;보통주식의 종가가 1,000원 미만인 상태가 <b>연속하여 30일(매매거래일 기준)</b> 동안 계속&rdquo;되는 경우 관리종목으로 지정</p>
+<p style="margin: 0; font-size: 0.85em; color: #718096;" data-ke-size="size16">코스닥시장 상장규정 제53조 &mdash; KIND에 게시되는 관리종목지정우려 공시가 인용하는 문언</p>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">문언에서 두 가지를 짚어야 합니다. 첫째 <b>종가</b> 기준입니다. 장중에 1,000원을 찍었더라도 그날 종가가 999원이면 미달로 셉니다. 둘째 <b>매매거래일</b> 기준입니다. 주말과 휴장일은 세지 않습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">25거래일 시점의 예고 공시</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">기준 미달이 <b>25거래일</b>에 도달하면 거래소가 먼저 알립니다. 코스닥은 <b>관리종목지정우려종목</b>, 코스피는 <b>투자유의안내</b>라는 이름으로 공시가 나갑니다. 남은 5거래일 안에 1,000원을 회복하지 못하면 지정됩니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">보유 종목이 1,000원 근처라면 이 공시가 실질적인 첫 신호입니다. 2026년 8월 5일 기준으로 코스닥 51건, 코스피 17건의 예고가 발생했습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">실제 지정 현황</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">제도 시행 후 첫 대규모 지정은 2026년 8월에 있었습니다. <b>36개 종목</b>이 대상이 됐습니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 460px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">시장</th>
+<th style="padding: 12px; text-align: center;">합계</th>
+<th style="padding: 12px; text-align: center;">주가 미달</th>
+<th style="padding: 12px; text-align: center;">시총 미달</th>
+<th style="padding: 12px; text-align: center;">중복</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">유가증권</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">9</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">3</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">5</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">1</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">코스닥</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">27</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">21</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">4</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">2</td>
+</tr>
+<tr style="background: #f7fafc; font-weight: bold;">
+<td style="padding: 12px;">합계</td>
+<td style="padding: 12px; text-align: center;">36</td>
+<td style="padding: 12px; text-align: center;">24</td>
+<td style="padding: 12px; text-align: center;">9</td>
+<td style="padding: 12px; text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="s3" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">3. 상장폐지까지의 시간표 &mdash; 90거래일과 45거래일</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">관리종목 지정은 끝이 아니라 시작입니다. 여기서부터 두 개의 숫자가 동시에 돌아갑니다.</p>
+<div style="margin: 0 0 22px; padding: 18px 20px; background: #fffdf5; border: 1px solid #d69e2e; border-radius: 4px;">
+<p style="margin: 0 0 10px; font-size: 0.85em; font-weight: bold; color: #975a16;" data-ke-size="size16">금융위원회 보도자료 원문</p>
+<p style="margin: 0 0 10px; line-height: 1.9; font-size: 0.95em; color: #2d3748;" data-ke-size="size16">&ldquo;주가 1,000원 미만인 &lsquo;동전주&rsquo; 상장폐지 요건이 신설된다. 세부 적용방식은 시가총액 요건과 동일하게 <b>30거래일 연속 기준 미만시 관리종목에 지정</b>되고, 이후 <b>90거래일 동안 연속 45거래일 기준을 상회하지 못하면 최종 상장폐지</b>된다.&rdquo;</p>
+<p style="margin: 0; font-size: 0.85em; color: #718096;" data-ke-size="size16">출처: 금융위원회 (2026.5.13) &middot; <a href="https://www.fsc.go.kr/no010101/86875" target="_blank" rel="noopener">원문 보기</a></p>
+</div>
+<div style="overflow-x: auto; margin: 0 0 8px;">동전주 상장폐지 진행 시간표25거래일예고 공시(우려종목 안내)30거래일관리종목 지정매매는 계속 가능90거래일 유예 구간이 안에서 연속 45거래일 이상 1,000원 회복 필요+90거래일회복 실패 시상장폐지&middot; 45거래일은 누적이 아니라 연속이어야 합니다.&middot; 30거래일은 약 6주, 90거래일은 약 4~4.5개월에 해당합니다(휴장일 제외).</div>
+<p><figure class="imageblock alignCenter" data-ke-mobileStyle="widthOrigin" data-filename="IMG_4250.png" data-origin-width="1200" data-origin-height="520"><span data-url="https://blog.kakaocdn.net/dna/bZuXbr/dJMcaidChjf/AAAAAAAAAAAAAAAAAAAAANw3ePjiXt-6_lcLimybJ76DxmS79sCqpY0K3PNRIprw/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=svYElCIK%2FX6ix9I5UwTdwlRkCBM%3D" data-phocus="https://blog.kakaocdn.net/dna/bZuXbr/dJMcaidChjf/AAAAAAAAAAAAAAAAAAAAANw3ePjiXt-6_lcLimybJ76DxmS79sCqpY0K3PNRIprw/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=svYElCIK%2FX6ix9I5UwTdwlRkCBM%3D"><img src="https://blog.kakaocdn.net/dna/bZuXbr/dJMcaidChjf/AAAAAAAAAAAAAAAAAAAAANw3ePjiXt-6_lcLimybJ76DxmS79sCqpY0K3PNRIprw/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=svYElCIK%2FX6ix9I5UwTdwlRkCBM%3D" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbZuXbr%2FdJMcaidChjf%2FAAAAAAAAAAAAAAAAAAAAANw3ePjiXt-6_lcLimybJ76DxmS79sCqpY0K3PNRIprw%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3DsvYElCIK%252FX6ix9I5UwTdwlRkCBM%253D" onerror="this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';" loading="lazy" width="1200" height="520" data-filename="IMG_4250.png" data-origin-width="1200" data-origin-height="520"/></span></figure>
+</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">가장 많이 혼동하는 두 지점</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16"><b>첫째, 90일이 아니라 90거래일입니다.</b> 언론 보도 중에는 "90일 이내"로 쓴 경우가 있는데, 규정은 거래일 기준입니다. 거래일은 주말과 공휴일, 근로자의 날, 연말 최종일 등 휴장일을 제외하고 셉니다. 90거래일이면 달력으로 약 4~4.5개월입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16"><b>둘째, 45거래일은 연속입니다.</b> 90거래일 동안 1,000원 넘긴 날을 합쳐서 45일이면 되는 것이 아닙니다. <b>끊기지 않고 45거래일</b>을 이어가야 합니다. 중간에 하루라도 1,000원 아래로 내려가면 처음부터 다시 셉니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이 둘을 합치면 실질적인 여유는 생각보다 훨씬 적습니다. 90거래일 안에서 연속 45거래일을 확보하려면, <b>늦어도 45거래일째까지는 1,000원 위로 올라와서 그대로 버텨야</b> 합니다. 후반부에 반등해서는 물리적으로 요건을 채울 수 없습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">회복이 가능한 마지막 날은 46번째 거래일입니다</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">90거래일 창 안에서 45거래일을 연속으로 채우려면, <b>늦어도 창의 46번째 거래일에는 종가가 1,000원 이상이어야 하고 그 상태가 90일째까지 한 번도 깨지지 않아야</b> 합니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">46일째에도 미달이면 남은 날이 44일뿐이라 산술적으로 45연속을 만들 수 없습니다. 창 후반의 반등은 요건 충족에 쓸모가 없다는 뜻입니다. 하루 급등을 &ldquo;요건을 채웠다&rdquo;고 볼 수 없는 이유가 여기 있습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">달력으로 언제쯤인지 계산하려면</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">1년 매매거래일은 보통 240일 안팎입니다. 따라서 <b>90거래일은 약 18주, 4개월에서 4.5개월</b>입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">여기서 흔한 오류가 나옵니다. 지정일에 <b>90을 그냥 더하면 달력상 3개월</b>이 되는데, 실제 만기는 그보다 한참 뒤입니다. 8월 중순에 지정된 종목이라면 90거래일 창은 11월이 아니라 <b>연말 무렵</b>에 닫힙니다. 추석, 개천절 대체휴일, 한글날, 성탄절, 연말 휴장이 모두 빠지기 때문입니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
+<p style="margin: 0; line-height: 1.8; font-size: 0.95em; color: #4a5568;" data-ke-size="size16">휴장일은 매년 거래소가 확정합니다. 위 환산은 대략치이며, 개별 종목의 실제 만기는 <b>지정일 다음 매매거래일부터 실제 개장일만</b> 세어야 정확합니다.</p>
+</div>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">회복 판정 방식 자체가 까다로워졌습니다</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이 &ldquo;연속 45거래일&rdquo;은 새로 도입된 방식입니다. 기존 시가총액 요건은 90거래일 동안 <b>&ldquo;연속 10거래일 및 누적 30거래일&rdquo;</b>만 기준을 넘기면 됐습니다. 짧게 여러 번 올라가는 것으로도 충족이 가능했다는 뜻입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">개정 후에는 <b>한 번에 45거래일을 이어가야</b> 합니다. 금융위는 이 변경의 목적을 <b>&ldquo;일시적 주가띄우기를 통한 상장폐지 회피를 최소화&rdquo;</b>하기 위한 것이라고 밝혔습니다. 동전주 요건도 같은 방식을 그대로 적용받습니다.</p>
+<div style="height: 8px; margin: 28px 0;">&nbsp;</div>
+<h2 id="s4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 왜 지금 동전주가 급등하는가</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">퇴출 제도가 강화됐는데 대상 종목이 오르는 것은 얼핏 모순처럼 보입니다. 구조를 보면 설명이 됩니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">시한이 걸린 강제 부양 압력</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">관리종목으로 지정된 기업 입장에서 남은 선택지는 사실상 하나입니다. <b>주가를 1,000원 위로 올려 45거래일을 버티는 것.</b> 실패하면 상장 자체를 잃습니다. 상장 지위는 자금 조달 능력과 직결되므로, 기업으로서는 물러설 곳이 없습니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">여기에 시장 참여자의 계산이 겹칩니다. 요건을 채우면 관리종목에서 해제되고, 그 과정에서 주가는 1,000원 위로 올라가 있어야 합니다. <b>퇴출 위기가 곧 상승 시나리오가 되는 구조</b>입니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">우회로가 좁아졌다는 점이 결정적</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">과거였다면 답은 간단했습니다. <b>주식병합</b>입니다. 10주를 1주로 합치면 500원짜리 주식은 산술적으로 5,000원이 됩니다. 기업 가치는 그대로인데 주가 표시만 올라갑니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">시장은 실제로 그 방향으로 움직였습니다. 2026년 1월 말부터 5월 중순까지 주식병합 결정 공시가 <b>176건</b> 나왔습니다. 전년 같은 기간은 6건이었습니다. <b>약 30배</b>입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이번 개정은 이 경로에 제동을 걸었습니다. 다음 절에서 자세히 보겠지만, 요점은 <b>병합으로 숫자만 올리는 방식이 더 이상 자유롭지 않다</b>는 것입니다. 우회로가 좁아지면 남는 것은 실제 주가를 올리는 길뿐이고, 그 압력이 지금 일부 동전주의 급등으로 나타나고 있습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">압력이 만들어지는 경로</h3>
+<ul style="line-height: 1.9; margin: 0 0 18px; padding-left: 20px;" data-ke-list-type="disc">
+<li><b>지속 시간.</b> 연속 45거래일은 약 아홉 주입니다. 하루 상한가로는 요건이 채워지지 않고, 수 주간 종가를 유지해야 합니다.</li>
+<li><b>리셋 공포.</b> 종가가 한 번만 999원으로 내려앉아도 연속 카운트는 0이 됩니다. 그동안에도 90거래일 시계는 멈추지 않습니다.</li>
+<li><b>공개된 만기.</b> 지정일은 공시됩니다. 창이 언제 닫히는지 누구나 셀 수 있습니다.</li>
+<li><b>얇아진 유통.</b> 지정 전에 병합을 마친 종목은 주식 수가 이미 줄어 있습니다. 같은 금액의 매수가 호가를 더 밀어 올립니다.</li>
+<li><b>신용 수요 증발.</b> 관리종목은 신용거래가 금지되고 대용증권에서 빠집니다. 한쪽 수급이 줄어 남은 매수 주체의 영향이 커 보입니다.</li>
+</ul>
+<p style="margin: 24px 0; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.8;" data-ke-size="size16"><b>다만 짚어둘 점</b><br />요건을 채우지 못하면 상장폐지로 갑니다. 실제로 2026년 8월 지정된 36곳 중 상당수가 병합&middot;감자 절차에 들어갔지만, 모두가 살아남는다는 보장은 없습니다. 급등은 결과가 정해져서 오르는 것이 아니라 <b>결과가 정해지지 않아서</b> 오르는 것입니다.</p>
+<h2 id="s5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 주식병합&middot;감자로 피할 수 있나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">완전히 막힌 것은 아니지만 두 겹의 제약이 붙었습니다.</p>
+<div style="margin: 0 0 22px; padding: 18px 20px; background: #fffdf5; border: 1px solid #d69e2e; border-radius: 4px;">
+<p style="margin: 0 0 10px; font-size: 0.85em; font-weight: bold; color: #975a16;" data-ke-size="size16">금융위원회 보도자료 원문</p>
+<p style="margin: 0 0 10px; line-height: 1.9; font-size: 0.95em; color: #2d3748;" data-ke-size="size16">&ldquo;반복적이거나 과도한 주식병합 및 감자(주식수를 줄여 기준가를 올리는 효과)로 요건을 회피하는 것을 방지하기 위해 <b>(1) 최근 1년 이내에 주식병합이나 감자를 한 경우, 동전주 관리종목 지정 이후 90거래일 동안 추가적인 주식병합&middot;감자를 금지</b>하고, <b>(2) 동전주 관리종목 지정 이후 90거래일 동안 10:1을 초과하는 주식병합&middot;감자도 금지</b>한다.&rdquo;<br /><span style="font-size: 0.9em; color: #4a5568;">&nbsp;&nbsp;* (1), (2)의 주식병합 및 감자를 즉시 상장폐지 사유로 규정하여 사실상 금지</span></p>
+<p style="margin: 0; font-size: 0.85em; color: #718096;" data-ke-size="size16">출처: 금융위원회 「상장폐지 개혁방안 시행을 위한 한국거래소 상장규정 개정 승인」(2026.5.13) &middot; <a href="https://www.fsc.go.kr/no010101/86875" target="_blank" rel="noopener">원문 보기</a></p>
+</div>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 480px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left; width: 26%;">제약</th>
+<th style="padding: 12px; text-align: left;">내용</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">반복 금지</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>최근 1년 이내</b>에 주식병합&middot;감자를 한 경우, 관리종목 지정 이후 <b>90거래일 동안</b> 추가 주식병합&middot;감자 금지</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">비율 상한</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">관리종목 지정 이후 <b>90거래일 동안</b> <b>10:1 초과</b> 주식병합&middot;감자 금지</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">위반 효과</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">위 두 경우의 주식병합&middot;감자를 <b>즉시 상장폐지 사유로 규정</b>하여 사실상 금지</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">첫 번째 제약이 특히 무겁습니다. 제도 시행 전 미리 병합을 해둔 기업은 그 이력 때문에 정작 지정된 뒤에는 병합 카드를 쓸 수 없습니다. 앞서 본 176건 중 상당수가 이 상황에 놓입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">두 번째 제약은 상한을 둔 것입니다. 100:1 같은 극단적 병합으로 한 번에 해결하는 방식이 차단됩니다. 500원짜리 주식이라면 10:1까지는 가능하므로 산술적으로 5,000원이 되지만, 병합 후 주가가 그 수준을 유지한다는 보장은 없습니다.</p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 병합과 감자가 각각 무엇이고 왜 주가를 우회하는 수단이 되는지는 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/7">주식병합과 감자의 차이 &mdash; 주가는 왜 오르고 가치는 왜 그대로인가</a>에서 자세히 다룹니다.</p>
+<h2 id="s6" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">6. 시가총액 요건 &mdash; 2027년까지의 일정</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주가와 별개로 <b>시가총액</b> 기준도 함께 올라가고 있습니다. 8월 지정 36곳 중 12곳이 시총 사유였습니다. 판정 구조는 주가 요건과 동일합니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 420px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">시장</th>
+<th style="padding: 12px; text-align: center;">2026. 7. 1.~</th>
+<th style="padding: 12px; text-align: center;">2027. 1. 1.~</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">유가증권</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">300억원</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;"><b>500억원</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스닥</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;">200억원</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center;"><b>300억원</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/9">코스닥 시가총액 상장폐지 기준 &mdash; 200억에서 300억으로</a></p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주목할 점은 <b>일정이 앞당겨졌다는 것</b>입니다. 당초 2027년과 2028년에 나눠 적용할 예정이던 상향이 각각 2026년 7월과 2027년 1월로 당겨졌습니다. 2027년 1월 기준이 사실상 최종 목표치입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">따라서 지금 기준을 겨우 넘긴 종목이라도 <b>2027년 1월에 다시 판정</b>을 받습니다. 코스닥 시총 250억 원인 기업은 현재는 문제가 없지만 내년 1월부터는 미달입니다.</p>
+<div style="height: 8px; margin: 28px 0;">&nbsp;</div>
+<h2 id="s7" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">7. 내 종목이 대상인지 확인하는 법</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">뉴스 기사에 실린 명단은 일부만 담고 있고 시간이 지나면 바뀝니다. 지정과 해제가 계속 일어나므로 <b>직접 조회하는 것이 정확합니다.</b></p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">KIND에서 관리종목 조회하기</h3>
+<p style="line-height: 1.85; margin: 0 0 12px;" data-ke-size="size16">한국거래소 상장공시시스템 KIND가 가장 확실합니다.</p>
+<p style="margin: 0 0 18px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;" data-ke-size="size16"><a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">kind.krx.co.kr</a> 접속<br />&rarr; 상단 메뉴 <b>[투자유의]</b><br />&rarr; <b>[관리종목]</b><br />&rarr; 시장구분(유가증권 / 코스닥) 선택 후 조회</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">같은 메뉴에서 <b>상장폐지기업</b>과 <b>매매거래정지</b> 현황도 볼 수 있습니다. 관리종목 지정 사유가 함께 표시되므로, 주가 미달인지 시총 미달인지 다른 사유인지 구분할 수 있습니다.</p>
+<h3 style="margin: 32px 0 12px; font-size: 1.2em; color: #2d3748;" data-ke-size="size23">지정 전에 미리 알고 싶다면</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">앞서 본 <b>25거래일 예고 공시</b>가 사전 신호입니다. KIND 공시 검색에서 <b>관리종목지정우려</b>(코스닥) 또는 <b>투자유의안내</b>(코스피)로 검색하면 확인됩니다. 보유 종목 주가가 1,000원 근처라면 이 공시를 주기적으로 확인하는 편이 안전합니다.</p>
+<h2 id="s8" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">8. 자주 묻는 질문</h2>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">관리종목으로 지정되면 거래정지되나요?</h3>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/10">거래정지 사유 총정리 &mdash; 어떤 경우에 얼마나 멈추나</a></p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">아닙니다. <b>매매는 계속 가능합니다.</b> 가장 흔한 오해입니다. 다만 제약이 붙습니다. <b>신용거래 대상에서 제외</b>되고, <b>대용증권으로 쓸 수 없게</b> 됩니다. 두 번째가 특히 중요합니다. 해당 종목을 담보로 잡고 있었다면 담보 가치가 사라져 <b>다른 계좌에서 반대매매가 발생</b>할 수 있습니다.</p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/5">관리종목 지정되면 어떻게 되나 &mdash; 신용거래&middot;대용증권&middot;반대매매까지</a></p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">정리매매는 어떻게 진행되나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">상장폐지가 확정되면 <b>7거래일</b>의 정리매매 기간이 주어집니다. 이 기간에는 <b>30분 단위 단일가매매</b>로 하루 <b>13회</b> 체결되며, <b>가격제한폭이 없습니다.</b> 상한가&middot;하한가 제한이 사라지므로 하루에 수십 퍼센트씩 움직이는 일이 흔합니다. 사실상 마지막 환금 기회입니다.</p>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/6">정리매매 7거래일 동안 일어나는 일 &mdash; 단일가&middot;가격제한폭&middot;마지막 환금</a></p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">상장폐지되면 보유 주식은 사라지나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주식 자체가 소멸하는 것은 아닙니다. 상장폐지는 <b>거래소에서 매매할 자격을 잃는 것</b>이고, 주주 지위는 유지됩니다. 다만 장내 거래가 불가능해져 현금화가 매우 어려워집니다. 회사가 청산 절차를 밟는 경우와도 구분해야 합니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">거래일은 어떻게 세나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주말과 휴장일을 제외한 실제 개장일만 셉니다. 휴장일에는 관공서 공휴일, 근로자의 날, 연말 최종일(12월 31일) 등이 포함됩니다. 대략 <b>30거래일은 6주, 90거래일은 4~4.5개월</b>로 보면 됩니다. 공휴일 분포에 따라 달라집니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">이의신청을 할 수 있나요?</h3>
+<p style="margin: 0 0 24px; padding: 12px 16px; background: #f7fafc; border-left: 3px solid #2b6cb0; line-height: 1.7; font-size: 0.97em;" data-ke-size="size16">▶ 더 자세히: <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/13">형식적 상장폐지 vs 실질심사 &mdash; 이의신청이 가능한 경우</a></p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주가&middot;시가총액 미달은 <b>형식적 상장폐지 사유</b>로 분류됩니다. 형식 요건은 수치가 충족되면 자동으로 적용되는 성격이라, 실질심사 사유와 달리 이의신청 여지가 제한적입니다. 실제로 제도 조기 시행에 반발해 일부 기업이 거래소를 상대로 가처분을 신청했지만, 최근 5년간 상장폐지 관련 가처분은 <b>85건 중 2건</b>만 인용됐습니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">흑자 기업도 퇴출되나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">주가와 시가총액은 재무 상태와 별개의 요건입니다. 따라서 <b>이익을 내는 기업도 주가가 1,000원에 미달하면 대상이 됩니다.</b> 이 부분이 제도 도입 이후 논쟁의 핵심입니다. 정상 기업에 대한 예외를 두자는 요구가 있었으나 금융위는 신중한 입장을 유지하고 있습니다.</p>
+<div style="height: 8px; margin: 28px 0;">&nbsp;</div>
+<h2 id="s9" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">9. 기사에서 자주 어긋나는 지점</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">같은 제도를 다루면서 기사마다 숫자가 다른 이유가 있습니다. 코스피와 코스닥의 금액이 다르고, 2월 발표와 5월 규정 개정, 7월 시행 사이에 시차가 있기 때문입니다. 자주 어긋나는 네 가지를 정리하면 이렇습니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 520px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left; width: 38%;">자주 보이는 서술</th>
+<th style="padding: 12px; text-align: left;">규정 기준</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">&ldquo;90일 중 45일&rdquo;</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>90거래일 창 안의 연속 45거래일</b>입니다. 누적이 아닙니다.</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">&ldquo;90일&rdquo;을 달력으로 환산</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">90<b>거래일</b>입니다. 달력으로는 4~4.5개월이라 3개월 뒤가 아닙니다.</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">&ldquo;코스닥 동전주 퇴출&rdquo;</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">1,000원 요건은 <b>코스피&middot;코스닥 공통</b>입니다. 금액이 다른 것은 시가총액 요건입니다.</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">&ldquo;시총 기준은 2028년에 또 오른다&rdquo;</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2028년 예정이던 상향이 <b>2027년 1월로 앞당겨졌습니다.</b> 2027년 1월이 현재 확정된 마지막 단계입니다.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">기준을 헷갈리면 만기 계산이 통째로 어긋납니다. 판단이 필요한 상황이라면 기사 요약보다 <a href="https://rule.krx.co.kr/" target="_blank" rel="noopener nofollow">상장규정 원문</a>과 KIND 공시를 먼저 확인하시기 바랍니다.</p>
+<h2 id="s10" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">10. 참고 자료</h2>
+<ul style="line-height: 2; margin: 0 0 18px; padding-left: 20px;" data-ke-list-type="disc">
+<li><a href="https://www.fsc.go.kr/no010101/86273" target="_blank" rel="noopener">금융위원회 &mdash; 부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁 방안 (2026.2.12)</a></li>
+<li><a href="https://www.fsc.go.kr/no010101/86875" target="_blank" rel="noopener">금융위원회 &mdash; 상장폐지 개혁방안 시행을 위한 한국거래소 상장규정 개정 승인 (2026.5.13)</a></li>
+<li><a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">한국거래소 KIND &mdash; 관리종목&middot;상장폐지&middot;매매거래정지 조회</a></li>
+<li><a href="https://rule.krx.co.kr/" target="_blank" rel="noopener nofollow">한국거래소 법무포털 &mdash; 상장규정 원문 검색</a></li>
+</ul>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">근거 규정은 <b>유가증권시장 상장규정 제47조&middot;제48조</b>, <b>코스닥시장 상장규정 제53조&middot;제54조</b>입니다. 세부 산정 기준은 각 시행세칙에 규정돼 있습니다.</p>
+<p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />상장 관련 규정은 개정될 수 있으므로 실제 판단 전 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a> 및 한국거래소 상장규정 원문을 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 8. 29.</span></p>

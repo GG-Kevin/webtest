@@ -1,0 +1,76 @@
+<div class="contents_style"><p style="line-height: 1.9; margin: 0 0 22px; font-size: 1.05em;" data-ke-size="size16">&ldquo;추석 끝나고 월요일이니까 28일도 쉬겠지&rdquo; &mdash; 이렇게 알고 계셨다면 <b>9월 28일 월요일은 주식시장이 정상 개장합니다.</b> 연휴로 착각하고 주문을 놓치거나, 반대로 매도 대금이 언제 들어올지 잘못 계산하면 낭패를 볼 수 있습니다.</p>
+<div style="margin: 0 0 24px; padding: 18px 20px; background: #f4f6f8; border-left: 4px solid #2b6cb0; border-radius: 4px;" data-ke-size="size16">
+<b style="display: block; margin-bottom: 10px; font-size: 1.05em;">핵심 요약</b>
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<tbody>
+<tr><td style="padding: 6px 0; color: #718096; width: 36%; vertical-align: top;">추석 연휴</td><td style="padding: 6px 0;"><b>9월 24일(목)~26일(토)</b>, 추석 당일은 9월 25일(금)</td></tr>
+<tr><td style="padding: 6px 0; color: #718096; vertical-align: top;">증시 휴장</td><td style="padding: 6px 0;"><b>9월 24일(목)&middot;25일(금)</b> 이틀 &mdash; 주말까지 합치면 나흘</td></tr>
+<tr><td style="padding: 6px 0; color: #718096; vertical-align: top;">9월 28일(월)</td><td style="padding: 6px 0;"><span style="color: #c53030;"><b>정상 개장</b></span> &mdash; 대체공휴일 아님(설&middot;추석은 토요일 중복 시 적용 안 됨)</td></tr>
+<tr><td style="padding: 6px 0; color: #718096; vertical-align: top;">해외 증시</td><td style="padding: 6px 0;">국내 휴장 중에도 <b>미국&middot;유럽은 정상 운영</b></td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="q1" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">1. 2026 추석, 주식시장은 언제 쉬나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 추석 당일은 <b>9월 25일 금요일</b>이고, 공식 연휴는 9월 24일(목)부터 26일(토)까지입니다. 이를 주식시장 일정으로 옮기면 다음과 같습니다.</p>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 420px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">날짜</th>
+<th style="padding: 12px; text-align: left;">요일</th>
+<th style="padding: 12px; text-align: left;">증시</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9월 23일</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">수</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>연휴 전 마지막 거래일</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9월 24일</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">목</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">휴장 (공휴일)</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9월 25일</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">금</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">휴장 (추석 당일)</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9월 26~27일</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">토&middot;일</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">휴장 (주말)</td>
+</tr>
+<tr style="background: #fffaf0;">
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>9월 28일</b></td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>월</b></td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>정상 개장</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">즉 실제로 증시가 멈추는 건 <b>목&middot;금 이틀</b>이고, 주말을 합쳐 나흘간 거래가 중단됐다가 <b>월요일부터 곧바로 정상 운영</b>됩니다. 이 연 4일 패턴은 매년 똑같이 반복되지 않습니다 &mdash; 추석이 어느 요일에 걸리느냐에 따라 실제로 쉬는 날 수가 해마다 달라집니다(8번 절 참고).</p>
+<h2 id="q2" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">2. 9월 28일은 왜 대체공휴일이 아닌가</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">여기서 헷갈리는 분이 많습니다. &ldquo;연휴 마지막 날이 토요일이니 월요일에 대체공휴일이 붙는 것 아니냐&rdquo;는 것인데, <b>설날과 추석에는 이 규칙이 적용되지 않습니다.</b></p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>국경일&middot;어린이날</b> &rarr; 토요일과 겹쳐도 대체공휴일 적용<br /><b>설날&middot;추석</b> &rarr; <span style="color: #c53030;">일요일 또는 다른 공휴일</span>과 겹칠 때만 적용</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 추석 연휴의 마지막 날인 9월 26일은 <b>토요일</b>과 겹쳤습니다. 현행 &lsquo;관공서의 공휴일에 관한 규정&rsquo;상 설날&middot;추석은 토요일 중복으로는 대체공휴일이 생기지 않기 때문에, 9월 28일 월요일은 평범한 영업일이 됩니다. 대체공휴일이 아니므로 은행&middot;증권사 모두 <b>정상 영업일</b>입니다. 다만 연휴 직후라 업무가 몰릴 수 있습니다.</p>
+<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16">다만 정부가 국무회의 의결을 거쳐 <b>임시공휴일</b>로 별도 지정할 가능성은 이론적으로 남아 있습니다. 본 글 작성 시점(2026년 9월 15일) 기준으로는 지정되지 않았으며, 만약 추후 지정된다면 증시도 함께 휴장하게 됩니다. 연휴가 임박해 지정되는 사례가 있었던 만큼, 실제 거래 계획을 세우실 때는 한국거래소 공지를 한 번 더 확인하시기 바랍니다. 임시공휴일이 지정되면 해당일은 관공서 공휴일이 되므로 <b>주식시장도 함께 휴장</b>합니다.</p>
+<h2 id="q3" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">3. 휴장일에는 애프터마켓도 열리지 않습니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 9월 14일부터 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/21">애프터마켓(오후 4시~8시)</a>이 새로 개장하면서 저녁 시간대 거래가 가능해졌지만, <b>휴장일에는 프리마켓&middot;정규장&middot;애프터마켓이 모두 운영되지 않습니다.</b></p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">즉 9월 24일과 25일에는 아침 7시 프리마켓부터 저녁 8시 애프터마켓까지 <b>하루 종일 어떤 세션에서도 국내 주식을 거래할 수 없습니다.</b> 애프터마켓이 생겼으니 연휴에도 저녁엔 거래가 되지 않을까 기대하셨다면, 그렇지 않다는 점을 알아두셔야 합니다.</p>
+<h2 id="q4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 국내장은 쉬어도 미국장은 열립니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">추석은 한국의 명절이므로 <b>미국&middot;유럽 증시는 평소대로 운영</b>됩니다. 9월 24일(목)과 25일(금)에도 뉴욕증시는 정상 개장합니다. 해외주식을 보유 중이라면 다음을 염두에 두셔야 합니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">미국 증시는 연휴 중에도 열리므로 <b>매매 자체는 가능</b>(증권사 서비스 여부는 별도 확인)<br />다만 <b>환전&middot;입출금 업무</b>는 국내 은행&middot;증권사 영업일에 맞춰 제한될 수 있음<br />연휴 동안 미국에서 큰 변동이 생기면, <b>국내장은 28일 월요일에 한꺼번에 반영</b>될 수 있음</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">마지막 항목이 특히 중요합니다. 나흘간 국내 증시가 멈춘 사이 해외에서 발생한 이슈가 누적됐다가 <b>월요일 개장과 동시에 한 번에 반영</b>되는 경우가 적지 않습니다. 연휴 직후 첫 거래일의 변동성이 평소보다 커질 수 있다는 뜻입니다. <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/19">해외주식</a>의 세금 문제까지 함께 챙기신다면 양도소득세 공제 한도도 미리 확인해두시는 게 좋습니다.</p>
+<h2 id="q5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 연휴 전에 판 주식, 돈은 언제 들어오나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">놓치기 쉬운 부분입니다. 국내 주식의 매도 대금은 체결 즉시가 아니라 <b>2영업일 뒤(T+2)</b>에 실제 출금 가능한 현금이 됩니다. 여기서 &lsquo;영업일&rsquo;은 <b>휴장일을 제외한 날</b>이므로, 연휴가 끼면 정산일이 그만큼 밀립니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>9월 23일(수) 매도</b> &rarr; 다음 영업일은 9월 28일(월) &rarr; 출금 가능일 <b>9월 29일(화)</b><br />평소라면 9월 25일(금)에 찾을 수 있었을 돈이 <b>나흘 늦어지는 셈</b></div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">연휴 기간에 목돈이 필요하다면, 연휴 직전에 매도해서는 제때 현금화되지 않습니다. <b>최소 9월 22일(화) 이전에 매도</b>해야 연휴 전에 출금이 가능합니다. 명절 자금 계획이 있으시다면 이 일정을 역산해두시는 게 안전합니다.</p>
+<h2 id="q6" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">6. 연휴 전 마지막 거래일에 확인할 것들</h2>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>미체결 주문 정리</b> &mdash; 당일 유효 주문은 자동 취소되지만, 조건부 주문은 증권사별 처리 방식 확인<br /><b>신용&middot;미수 잔고 점검</b> &mdash; 연휴로 상환일이 밀리는지, 이자가 어떻게 계산되는지 확인<br /><b>필요 현금 미리 확보</b> &mdash; 5번에서 설명한 T+2 정산 일정 역산<br /><b>해외주식 환전</b> &mdash; 연휴 중 환전 업무 제한 여부를 증권사에 사전 확인</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">특히 <b>신용거래나 미수를 사용 중</b>이라면 연휴로 인해 상환 기한과 이자 계산일이 어떻게 조정되는지 반드시 확인하셔야 합니다. 나흘이 통째로 비면서 예상보다 이자가 더 붙거나, 반대로 반대매매 일정이 앞당겨질 수 있습니다. 이 부분은 증권사마다 처리 기준이 달라 개별 확인이 필요합니다. 연휴 중 예약주문(자동주문) 접수 가능 여부와 처리 시점도 증권사별로 다르므로, 이용 중인 증권사 HTS&middot;MTS 공지사항에서 연휴 기간 주문 처리 방침을 확인하시기 바랍니다.</p>
+<h2 id="q7" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">7. 다음 추석(2027년)은 언제인가</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이 글을 내년에 다시 찾아오실 분들을 위해 다음 추석 일정도 한국거래소 공식 휴장일 자료 기준으로 미리 적어둡니다. <b>2027년 추석 연휴는 9월 14일(화)~16일(목)</b>이고, 추석 당일은 9월 15일(수)입니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>2027년 추석</b> &mdash; 9월 14일(화)&middot;15일(수)&middot;16일(목) 휴장, <b>9월 17일(금)부터 정상 개장</b></div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년과 다른 점이 있습니다. 2026년은 연휴 마지막 날(9월 26일)이 토요일이라 나흘을 쉬고 월요일에 개장했지만, 2027년은 연휴 마지막 날이 목요일이라 <b>주말과 이어지지 않고 금요일(9월 17일)에 곧바로 정상 개장</b>합니다. 대체공휴일 규정(2번 절) 자체는 해마다 똑같이 적용되지만, 추석이 어느 요일에 걸리느냐에 따라 실제로 쉬는 날 수는 이렇게 매번 달라집니다. <b>가장 정확한 최신 휴장일은 한국거래소가 매년 공지하는 휴장일 안내에서 다시 확인하시기 바랍니다.</b></p>
+<p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />임시공휴일 지정 여부, 증권사별 연휴 기간 업무 처리 방침, 신용&middot;미수 상환 일정 등은 변경되거나 회사마다 다를 수 있으므로, 실제 거래 전 한국거래소 휴장일 공지 및 이용 증권사 안내로 최종 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 9. 22.</span></p>
+<p>추석 다음 휴장일은 <strong>10월 5일 월요일</strong>입니다. 개천절이 토요일이라 월요일이 붙었습니다. 그날 이야기는 <a href="https://moneyproducer.co.kr/27">따로 적어 뒀습니다</a>.</p></div>

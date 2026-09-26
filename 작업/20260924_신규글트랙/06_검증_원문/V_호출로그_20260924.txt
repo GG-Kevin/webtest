@@ -1,0 +1,2 @@
+=== 「검증」 law.go.kr run start 2026-09-24T12:50:54Z
+[V1.1] 12:51:05 | 조특법-부칙 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=&joBrNo=&docCls=bu&urlMode=lsScJoRltInfoR => HTTP 000, 0B -> V1_조특법_부칙_law.go.kr.html

@@ -1,0 +1,98 @@
+<div class="contents_style"><p style="line-height: 1.9; margin: 0 0 22px; font-size: 1.05em;" data-ke-size="size16">기준이 바뀐다는 뉴스는 많았지만, 실제로 걸린 종목이 몇 개인지는 잘 알려지지 않았습니다. <b>답은 36개입니다.</b> 그리고 이 숫자는 2027년 1월에 기준이 또 한 번 올라가면서 더 커질 예정입니다.</p>
+<p style="margin: 0 0 24px; padding: 18px 20px; background: #f4f6f8; border-left: 4px solid #2b6cb0; border-radius: 4px; line-height: 1.75;" data-ke-size="size16"><b>핵심 요약</b> 2026년 7월 새 기준 시행 후, <b>8월 12일 기준 36개 종목</b>이 처음으로 관리종목에 지정됐습니다.<br /><b>동전주 요건</b>(30거래일 연속 1,000원 미만)으로 24개, <b>시가총액 미달</b>로 9개, <b>둘 다</b> 걸린 곳이 3개입니다.<br /><span style="color: #c53030;">2027년 1월 1일부터 시가총액 기준이 또 오릅니다</span> &mdash; 코스피 300억&rarr;500억, 코스닥 200억&rarr;300억.<br />관리종목 <b>탈출 요건도 강화</b>됐습니다. 90거래일 중 <b>연속 45거래일</b> 이상 기준을 넘겨야 벗어납니다.</p>
+<h2 id="q1" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">1. 새 기준 시행 후 실제로 몇 개가 걸렸나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">2026년 7월 1일부터 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/2">동전주 요건과 시가총액 기준</a>이 새로 적용되기 시작했습니다. 그리고 약 한 달 반 뒤인 <b>8월 12일, 한국거래소는 36개 종목을 관리종목으로 지정</b>했습니다. 새 기준이 실제로 작동한 첫 사례입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">여기서 중요한 건 이게 <b>&ldquo;한 번에 쏟아진&rdquo; 숫자</b>라는 점입니다. 기준이 시행된 뒤 30거래일이라는 관찰 기간이 채워지자마자, 조건에 해당하던 종목들이 동시에 지정된 것입니다. 앞으로는 매 시점마다 조건을 채우는 종목이 순차적으로 추가됩니다.</p>
+<h2 id="q2" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">2. 무엇에 걸렸나 &mdash; 요건별로 나눠보기</h2>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 480px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">사유</th>
+<th style="padding: 12px; text-align: left;">코스피</th>
+<th style="padding: 12px; text-align: left;">코스닥</th>
+<th style="padding: 12px; text-align: left;">합계</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">동전주(주가 1,000원 미만)</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">21</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>24</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">시가총액 미달</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">5</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">4</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>9</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">두 요건 동시 해당</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">1</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>3</b></td>
+</tr>
+<tr style="background: #fffaf0;">
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: bold;">전체</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">27</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>36</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">두 가지가 눈에 띕니다. 첫째, <b>압도적으로 동전주 요건</b>입니다. 36개 중 24개(중복 포함 시 27개)가 주가 1,000원 미만으로 걸렸습니다. 새로 생긴 요건이 가장 많은 종목을 잡아낸 셈입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">둘째, <b>코스닥에 집중</b>됐습니다. 36개 중 27개가 코스닥 종목입니다. 시가총액이 작고 주가가 낮은 종목의 비중이 코스닥에 훨씬 높기 때문에 예견된 결과이기도 합니다.</p>
+<h3 style="margin: 34px 0 12px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">보도로 확인된 종목</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">당시 언론 보도를 통해 확인된 종목은 다음과 같습니다. <b>아래는 전체 36개 명단이 아니며</b>, 확인 가능한 범위만 정리한 것입니다.</p>
+<div style="overflow-x: auto; margin: 0 0 18px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.93em; min-width: 480px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left; width: 32%;">구분</th>
+<th style="padding: 12px; text-align: left;">종목</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스피 &middot; 동전주</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">대영포장, 형지엘리트, 일신석재</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스피 &middot; 동전주+시총 중복</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">온타이드</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스닥 &middot; 동전주</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">CMG제약, 샤페론, 우리엔터프라이즈, SDN, 좋은사람들, 노을, 티케이지애강, 랩지노믹스, 옴니시스템, 에이비온, 제이엠아이, 에스에너지, 이노인스트루먼트, 아이스크림에듀, 뉴인텍, 수성웹툰, 원풍물산, 비케이홀딩스, 바른손이앤에이, 에이에프더블류</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스닥 &middot; 동전주+시총 중복</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">형지글로벌, E8</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">코스닥 &middot; 시총 미달</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">국일신동, 한탑, 패션플랫폼, 에스앤더블유</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16"><b>이 표는 전체 명단이 아닙니다.</b> 코스피 시가총액 미달 종목 등 보도에서 한글 종목명이 명확히 확인되지 않은 건은 오기를 피하기 위해 싣지 않았습니다. 또한 위 내용은 <b>2026년 8월 13일 지정 시점 기준</b>이라, 이후 지정 해제되었거나 새로 추가된 종목이 있을 수 있습니다. <b>반드시 아래 방법으로 현재 시점의 정확한 명단을 직접 확인하시기 바랍니다.</b></p>
+<h3 style="margin: 34px 0 12px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">전체 명단을 직접 확인하는 법</h3>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>현재 관리종목 전체 현황</b><br /><a style="color: #2b6cb0;" href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">kind.krx.co.kr</a> 접속 &rarr; <b>[상장법인상세정보]</b> &rarr; <b>[관리종목]</b><br />&rarr; 시장별(코스피&middot;코스닥) 현재 관리종목과 지정 사유를 한눈에 확인<br /><br /><b>특정 시점의 지정 공시</b><br /><a style="color: #2b6cb0;" href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">kind.krx.co.kr</a> 접속 &rarr; <b>[공시통합검색]</b> &rarr; 기간 지정 &rarr; &ldquo;관리종목지정&rdquo; 검색</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">뉴스 기사는 보도 시점에 고정되지만, KIND의 관리종목 현황은 <b>실시간으로 갱신</b>됩니다. 보유 종목이 있다면 기사보다 이쪽을 확인하시는 게 정확합니다.</p>
+<h2 id="q3" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">3. 관리종목 지정이 곧 상장폐지는 아닙니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">오해하기 쉬운 부분이라 짚고 갑니다. <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/5">관리종목 지정</a>은 <b>&ldquo;퇴출 절차의 시작&rdquo;이지 퇴출 확정이 아닙니다.</b> 거래소가 투자자에게 &ldquo;이 종목은 상장 유지 기준에 미달하고 있다&rdquo;고 경고하는 단계입니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">기준 미달 &rarr; <b>관리종목 지정</b>(경고)<br />&rarr; 일정 기간 내 기준 회복 실패 시 <b>상장폐지 사유 발생</b><br />&rarr; <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/13">형식적 요건이냐 실질심사냐</a>에 따라 절차 분기<br />&rarr; 최종 결정 시 <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/6">정리매매</a> 후 상장폐지</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">즉 36개 종목이 전부 상장폐지되는 건 아닙니다. 주가나 시가총액을 회복하면 관리종목에서 벗어날 수 있습니다. 다만 그 &ldquo;회복&rdquo; 조건이 이번에 함께 강화됐다는 게 문제인데, 5번 절에서 다룹니다. 관리종목으로 지정된 뒤에도 <b>매매 자체는 계속 가능합니다.</b> 다만 신용거래 제한, 대용증권 불가 등 제약이 붙고, 지정 사실 자체가 악재로 받아들여져 주가가 크게 하락하는 경우가 많습니다.</p>
+<h2 id="q4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 진짜 고비는 2027년 1월입니다</h2>
+<p style="line-height:1.85;margin:0 0 18px;">여기가 이 글에서 가장 중요한 부분입니다. 지금의 시가총액 기준은 최종 목표치가 아니라 중간 단계입니다. 코스피는 67%, 코스닥은 50%가 <a href="https://moneyproducer.co.kr/2" style="color:#2b6cb0;">2027년 1월 1일에 한 번 더 오르고, 그 날짜와 금액은 이미 정해져 있습니다</a>. 8월에 지정된 36개는 첫 번째 파도였고, 그때는 훨씬 넓은 그물이 쳐집니다. 보유 종목의 시가총액을 오늘 기준이 아니라 <b>내년 기준으로</b> 미리 재보셔야 하는 이유입니다.</p>
+<h2 id="q5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 빠져나오는 것도 어려워졌습니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이번 개편에서 함께 바뀐 것이 <b>관리종목 탈출 요건</b>입니다. 기준을 회복하는 조건이 다음과 같이 강화됐습니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">탈출 조건: <b>90거래일 중 &lsquo;연속 45거래일&rsquo; 이상</b> 기준 상회</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">핵심은 <b>&ldquo;연속&rdquo;</b>입니다. 90거래일 동안 띄엄띄엄 기준을 넘긴 날이 많아도 소용없고, <b>끊기지 않고 45거래일을 이어서</b> 넘겨야 합니다. 거래일 기준 45일이면 달력으로 두 달이 넘습니다. 일시적인 반등으로는 벗어나기 어렵고, 실질적인 기업가치 회복이 있어야 가능한 수준입니다.</p>
+<h2 id="q6" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">6. 거래소는 올해 몇 개를 예상하나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">거래소는 당초 2026년 중 코스닥 상장폐지 대상을 <b>50개사 안팎</b>으로 전망했습니다. 그런데 이후 자본시장연구원 등에서는 이 수치가 <b>150개 내외</b>까지 늘어날 수 있다는 추산이 나왔습니다. 당초 예상의 3배입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">물론 이는 <b>&ldquo;상장폐지 대상&rdquo;, 즉 심사 대상에 오르는 숫자</b>이지 실제 퇴출 확정 종목 수가 아닙니다. 그럼에도 이 전망이 의미하는 바는 분명합니다 &mdash; 부실기업 퇴출 속도를 높이겠다는 정책 방향이 숫자로 확인되고 있다는 것입니다.</p>
+<h2 id="q7" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">7. 내 종목이 위험한지 확인하는 법</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">뉴스에 나온 종목만 확인해서는 부족합니다. 보유 종목을 직접 점검하는 순서는 다음과 같습니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;"><b>① 주가 확인</b> &mdash; 최근 30거래일 종가가 계속 1,000원 아래였는지<br /><b>② 시가총액 확인</b> &mdash; 현재 기준(코스피 300억&middot;코스닥 200억)과 <b>내년 기준(500억&middot;300억)</b> 둘 다 대조<br /><b>③ 공시 확인</b> &mdash; <a style="color: #2b6cb0;" href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a>에서 종목 검색 후 &lsquo;관리종목 지정&rsquo; 공시 유무<br /><b>④ 다른 요건 점검</b> &mdash; <a style="color: #2b6cb0;" href="https://moneyproducer.co.kr/13">완전자본잠식&middot;공시벌점</a> 등 나머지 요건도 함께 확인</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">특히 <b>②번에서 내년 기준으로도 재보는 것</b>이 핵심입니다. 즉 <b>오늘은 안전해 보여도 내년 1월에 곧바로 대상이 되는 구간</b>이 존재합니다. 이 구간에 있는 종목을 미리 파악해두는 것이 이 글에서 드리는 가장 실용적인 조언입니다. 다만 2027년 1월 1일 시행은 현행 규정상 예정된 일정이고, 제도 시행 과정에서 일정이나 세부 내용이 조정될 가능성은 남아 있으므로 실제 판단 전에는 한국거래소 공지로 최종 확인하시는 것이 정확합니다.</p>
+<p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />본문에 언급된 종목은 <b>한국거래소가 관리종목으로 지정했다는 사실을 보도를 통해 확인한 것</b>이며, 필자의 평가나 전망이 아닙니다. 지정 현황 수치와 종목명은 2026년 8월 12~13일 시점 기준이고 <b>전체 36개 명단이 아니므로</b>, 이후 지정&middot;해제로 변동되었을 수 있습니다. 개별 종목의 현재 상태와 전체 명단은 반드시 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a>의 관리종목 현황 및 공시 원문으로 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 9. 15.</span></p></div>

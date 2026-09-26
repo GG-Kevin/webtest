@@ -1,0 +1,94 @@
+<div class="contents_style"><p style="margin:0 0 24px;padding:14px 18px;background:#fff5f5;border:1px solid #feb2b2;border-radius:4px;font-size:0.9em;line-height:1.7;color:#742a2a;">
+<strong>이 글의 환율 수치(달러/엔·원/엔·원/달러)는 2026년 9월 9일 조사 시점 스냅샷입니다.</strong> 환율은 실시간으로 바뀌므로, 읽으시는 시점의 실제 환율과 다를 수 있습니다. 정확한 현재 환율은 은행 앱이나 <a href="https://finance.naver.com" target="_blank" rel="noopener nofollow" style="color:#c53030;">네이버 금융</a> 등에서 확인하시기 바랍니다. <strong>다만 6번 절의 BOJ 회의 결과는 2026년 9월 18일 일본은행 공식 발표 원문 기준으로, 스냅샷이 아니라 확정된 사실입니다.</strong>
+</p>
+
+<p style="margin:0 0 24px;padding:18px 20px;background:#f4f6f8;border-left:4px solid #2b6cb0;border-radius:4px;line-height:1.75;">
+<strong style="display:block;margin-bottom:10px;font-size:1.05em;">핵심 요약</strong>
+달러/엔이 <strong>152엔대</strong>까지 내려와(엔화 강세) 7개월 만의 최고치를 찍었는데, 정작 원/엔은 <strong>850~890원대</strong>에 머물러 있어 &ldquo;엔화 강세인데 왜 안 싸 보이지&rdquo;라는 착시가 생깁니다.<br>
+이유는 <span style="color:#c53030;">원화도 동시에 달러 대비 강세</span>이기 때문입니다 — 엔화가 싸진 게 아니라 원화가 더 세진 겁니다.<br>
+엔화 급등의 배경엔 <strong>엔캐리트레이드 청산</strong>이 있습니다.<br>
+일본은행(BOJ)은 <strong>9월 17~18일 회의에서 정책금리를 1.00%→1.25%로 0.25%포인트 인상</strong>했습니다(7&ndash;2 표결, 9월 24일 시행).
+</p>
+
+<h2 id="y1" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">1. 엔화 강세인데 왜 여전히 싸 보이나</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">뉴스에서는 &ldquo;엔화 강세&rdquo;라고 하는데, 막상 환전소에 가보면 100엔에 850~890원 정도로 여전히 낮게 느껴집니다. 이 괴리가 이번 이슈에서 가장 헷갈리는 지점입니다.</p>
+
+<p style="line-height:1.85;margin:0 0 18px;">원인은 <strong>원/엔이 직접 거래되는 환율이 아니라는 데</strong> 있습니다. 원/엔은 원/달러를 엔/달러로 나눠 계산하는 <strong>재정환율</strong>입니다. 그런데 지금 원화도 엔화 못지않게 달러 대비 강해지고 있습니다. 원/달러 환율이 7월 초 1,550원대에서 9월 1,330원대로 두 달 새 200원 넘게 급락했는데, 이는 2008년 금융위기 이후 가장 빠른 하락 속도로 평가됩니다. 엔화와 원화가 <strong>동시에, 비슷한 속도로</strong> 강세를 보이다 보니 정작 둘 사이의 교환비율(원/엔)은 크게 안 움직이는 겁니다.</p>
+
+<div style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">
+&ldquo;엔화가 싸졌다&rdquo;가 아니라 &ldquo;<strong>원화가 그보다 더 세졌다</strong>&rdquo;가 정확한 설명입니다
+</div>
+
+<p style="line-height:1.85;margin:0 0 18px;">원화 강세의 배경으로는 수출기업(특히 반도체)의 대규모 달러 매도, 국민연금의 환헤지 확대, 반도체 기업 주주환원 기대와 경상수지 흑자 등이 함께 거론됩니다. 즉 지금의 엔화 강세를 &ldquo;일본 이야기&rdquo;로만 보면 절반만 보는 셈이고, 원화 자체의 강세도 같이 봐야 그림이 맞습니다.</p>
+
+<p style="line-height:1.85;margin:0 0 18px;">원/엔 800원대가 역사적으로 전례 없는 저점은 아닙니다. 2015년 5월에도 비슷한 수준(800원대)이 있었던 것으로 파악됩니다. 다만 이 부분은 2차 자료를 통한 확인이라 정확한 과거 수치는 별도로 확인하시는 게 안전합니다.</p>
+
+<h2 id="y2" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">2. 4년 엔저가 일주일 만에 뒤집혔습니다</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">이번 강세가 왜 이렇게 큰 뉴스가 됐는지 이해하려면 그 전 상황을 알아야 합니다. 엔저는 2022년(달러당 130엔대, 당시 20년 만의 최저)부터 단계적으로 심화돼왔고, <strong>2026년 6월 30일에는 161.98엔까지 떨어져 39년 6개월 만의 최저치</strong>(1986년 플라자 합의 직후 이후 최저)를 기록했습니다.</p>
+
+<p style="line-height:1.85;margin:0 0 18px;">그렇게 4년 넘게 이어진 구조적 엔저가, 9월 들어 단 <strong>일주일 새 160엔대에서 152엔대로(약 5% 절상)</strong> 급반전했습니다. 오랫동안 한 방향으로 가던 흐름이 갑자기 꺾이면 시장이 더 크게 반응하는데, 이번 사례가 정확히 그런 경우입니다.</p>
+
+<h2 id="y3" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">3. 엔캐리트레이드 청산이 뭐길래</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;"><strong>엔캐리트레이드</strong>는 금리가 낮은 엔화를 빌려서, 금리가 더 높은 다른 나라 자산(주식·채권 등)에 투자하는 거래입니다. 엔화가 계속 약세이거나 안정적일 때는 이 거래가 이자 차익에 환차익까지 더해져 수익이 커집니다.</p>
+
+<p style="line-height:1.85;margin:0 0 18px;">문제는 엔화가 갑자기 강세로 돌아설 때입니다. 빌린 엔화를 갚아야 할 부담이 커지니, 투자자들은 보유하던 해외 자산을 팔아 엔화를 사서 갚습니다. 그런데 이 <strong>&ldquo;엔화를 사서 갚는&rdquo; 행위 자체가 엔화를 더 강세로 만들고</strong>, 그러면 또 다른 투자자들의 상환 부담이 커지는 식으로 스스로를 강화하는 흐름이 만들어집니다. 이걸 &ldquo;캐리트레이드 청산&rdquo;이라고 부릅니다.</p>
+
+<h2 id="y4" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">4. 2024년 8월 데자뷰인가</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">시장이 이번 이슈에 예민하게 반응하는 건 2024년 8월의 기억 때문입니다. 당시 BOJ의 깜짝 금리 인상과 미국 고용지표 부진이 겹치면서 엔화가 급변동(160엔대&rarr;140엔대)했고, 그 여파로 <strong>니케이지수 &minus;12.4%, 코스피 &minus;8.8%, 코스닥 &minus;11.3%</strong>가 하루 만에 빠지며 두 시장에서 동시에 서킷브레이커가 발동됐습니다.</p>
+
+<p style="margin:0 0 22px;padding:16px 18px;background:#fff5f5;border-left:4px solid #e53e3e;line-height:1.85;">
+다만 이번엔 다르다는 시각이 우세했습니다. 미·일 당국의 사전 공조 개입 정황, 미-일 금리차가 그때만큼 급격히 좁혀지지 않을 것이라는 전망 등을 근거로 &ldquo;2024년 8월 같은 파국적 청산 가능성은 낮다&rdquo;는 평가가 많았습니다. 이는 회의 전 시장 참여자들의 <strong>전망</strong>이었고, 실제 회의 결과는 6번 절에 있습니다. 일본 10년물 국채금리(장기금리 지표)가 30년 만에 처음 3%를 돌파한 것도 별도로 주시되는 불안 요인입니다.
+</p>
+
+<h2 id="y5" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">5. 코스피에는 어떤 영향이 있나</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">엔캐리트레이드 청산은 일본·미국뿐 아니라 신흥국 증시 전반에 영향을 주는 것으로 알려져 있어, 코스피도 예외가 아닙니다. 다만 이번 국면에 대한 시각은 엇갈립니다.</p>
+
+<div style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">
+<strong>우려하는 시각</strong> — 엔캐리 청산 재부상이 국내 증시에 긴장 요인이라는 분석<br>
+<strong>상대적으로 낙관하는 시각</strong> — 우려가 이미 상당 부분 시장에 반영돼 있어 급격한 투매 가능성은 낮다는 분석(모건스탠리는 오히려 조정 시 저가매수 기회로 평가)
+</div>
+
+<p style="line-height:1.85;margin:0 0 18px;">두 시각 다 &ldquo;전망&rdquo;이라는 점에서 한계가 있습니다. 2024년 8월처럼 급락한 전례는 있지만, 이번 BOJ 인상은 시장이 어느 정도 예상하고 있던 폭(0.25%포인트)이었다는 점이 다릅니다. 다만 이는 인상 발표 자체에 대한 시장의 반응이 어땠는지를 이 글이 추적한 것은 아니므로, 실제 급락 여부는 최신 시세로 직접 확인하시는 게 정확합니다.</p>
+
+<h2 id="y6" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">6. BOJ 회의 결과 — 25bp 인상, 1.25%로</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">일본은행은 <strong>9월 17~18일 금융정책결정회의</strong>에서 정책위원회 7&ndash;2 표결로, 무담보 콜금리 유도 목표를 기존 <strong>1.00%에서 1.25%</strong>로 0.25%포인트 올렸습니다. 이 새 방침은 <strong>2026년 9월 24일부터 적용</strong>됩니다. 이는 조사 시점(9월 9일)에 시장이 반영하던 &ldquo;0.25%포인트 인상&rdquo; 시나리오와 정확히 일치하는 결과입니다.</p>
+
+<div style="margin:0 0 22px;padding:18px 20px;background:#fffdf8;border:1px solid #e2e8f0;border-radius:4px;">
+<div style="display:flex;gap:18px;flex-wrap:wrap;">
+<div style="flex:1;min-width:140px;text-align:center;padding:10px;">
+<div style="font-size:0.85em;color:#718096;">인상 전</div>
+<div style="font-size:1.7em;font-weight:700;color:#2d3748;">1.00%</div>
+</div>
+<div style="flex:0 0 30px;text-align:center;font-size:1.4em;color:#c53030;align-self:center;">&rarr;</div>
+<div style="flex:1;min-width:140px;text-align:center;padding:10px;">
+<div style="font-size:0.85em;color:#718096;">인상 후(9/24~)</div>
+<div style="font-size:1.7em;font-weight:700;color:#c53030;">1.25%</div>
+</div>
+</div>
+<p style="margin:12px 0 0;font-size:0.85em;color:#718096;text-align:center;">7&ndash;2 표결 · 보완당좌예금금리 1.25% · 기준대출금리 1.5%</p>
+</div>
+
+<p style="line-height:1.85;margin:0 0 18px;">반대표는 아사다 도이치로(우에다·히미노·우치다·다카타·다무라·고에다·마스 7인 찬성 대비)와 사토 아야노 2인이었습니다. 일본은행은 <strong>근원 CPI 상승률이 2% 목표에 근접</strong>하고 있다는 점, 중장기 인플레이션 기대가 계속 오르고 있다는 점을 인상 근거로 들었고, 앞으로도 <strong>경제·물가 상황에 따라 정책금리 인상 기조를 이어가겠다</strong>고 밝혔습니다. 이 결정으로 <strong>확정된 사실은 9월 24일부터 새 금리가 적용된다는 것</strong>이고, 그 이후 엔화·코스피가 실제로 어떻게 움직였는지는 이 글의 9월 9일 스냅샷이 담지 못하는 영역입니다 &mdash; 최신 환율과 지수는 별도로 확인하셔야 합니다. (출처: 일본은행 2026년 9월 18일 발표 &ldquo;Change in the Guideline for Money Market Operations&rdquo;)</p>
+
+<h2 id="y7" style="margin:44px 0 16px;padding-bottom:10px;border-bottom:2px solid #2d3748;font-size:1.5em;scroll-margin-top:70px;">7. 환전·엔화예금, 타이밍이 궁금하다면</h2>
+
+<p style="line-height:1.85;margin:0 0 18px;">실제로 많이 찾아보시는 정보 두 가지를 정리해둡니다.</p>
+
+<div style="margin:0 0 22px;padding:16px 18px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;line-height:2;">
+일본 여행 환전 &rarr; 출발 1~2주 전 나눠서 환전하는 방법이 흔히 권장됩니다. 인천공항 환전소는 시중은행 앱보다 통상 1~2%포인트 비싼 것으로 알려져 있습니다.<br>
+은행 매매 스프레드(살 때·팔 때 차이)는 전국은행연합회 공시 기준 통상 1.0~1.75% 수준입니다.
+</div>
+
+<p style="line-height:1.85;margin:0 0 18px;">&ldquo;엔화가 오를 때까지 기다려야 하나, 지금 사야 하나&rdquo;는 이 글이 답할 수 있는 영역이 아닙니다. BOJ 회의 결과(6번 절)가 나온 뒤에도 미국 금리 정책, 원화 자체의 움직임 등 다른 변수가 남아 있어 특정 방향을 단정하는 것은 투자 자문의 영역입니다. 전문가들 사이에서도 전망이 엇갈리는 사안이라, 특정 방향을 권유하는 정보는 신중하게 걸러 들으시는 게 안전합니다.</p>
+
+<p style="margin:36px 0 0;padding:18px 20px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;font-size:0.92em;line-height:1.8;color:#4a5568;">
+<strong>안내</strong><br>
+6번 절의 BOJ 회의 결과만 9월 18일 발표 원문 기준으로 갱신했습니다. 캐리트레이드 청산의 국내 증시 영향에 대한 전망은 전문가마다 엇갈리므로, 실제 판단 전 최신 환율과 여러 분석을 함께 확인하시기 바랍니다.<br><br>
+<span style="color:#718096;">최종 수정일: 2026. 9. 22.</span>
+</p></div>
