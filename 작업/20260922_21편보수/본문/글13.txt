@@ -67,7 +67,7 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">&ldquo;벌점 몇 점&rdquo;이라고 하면 교통 범칙금처럼 들립니다. 조금씩 쌓이다가 언젠가 선을 넘는 것. 그래서 지금 내 종목 벌점이 낮으면 당분간 괜찮다고 생각하기 쉽습니다.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;"><strong>한 번의 불성실공시법인 지정으로 40점대 벌점이 한꺼번에 나온 사례가 보도된 적이 있습니다.</strong> 위반 사항이 여러 건 겹쳐 있거나 위반의 정도가 무거우면 벌점은 이렇게 한쪽으로 몰립니다. 심사 대상이 되는 누적 기준이 10점인 걸 생각하면, <strong>단 한 번의 지정으로 그 선을 네 배 가까이 넘길 수 있다</strong>는 뜻입니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;"><strong>한 번의 불성실공시법인 지정으로 40점대 벌점이 한꺼번에 나온 사례가 <a href="https://www.sentv.co.kr/article/view/sentv202510170114" style="color:#2b6cb0;">보도된 적이 있습니다</a>.</strong> 위반 사항이 여러 건 겹쳐 있거나 위반의 정도가 무거우면 벌점은 이렇게 한쪽으로 몰립니다. 심사 대상이 되는 누적 기준이 10점인 걸 생각하면, <strong>단 한 번의 지정으로 그 선을 네 배 가까이 넘길 수 있다</strong>는 뜻입니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">벌점이 붙는 자리부터 보겠습니다. 상장기업은 중요한 정보를 정해진 시점에 정확하게 공시할 의무가 있고, 이걸 어기면 거래소가 <strong>불성실공시법인</strong>으로 지정합니다. 유형은 셋입니다.</p>
 
@@ -120,9 +120,9 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">이 단축은 2025년 규정 개정으로 이뤄졌고, 앞에서 본 4대 요건 개정과는 <strong>별개로 진행된 조치</strong>입니다. 방향은 같습니다. 부실기업이 퇴출까지 걸리는 시간을 전반적으로 줄이는 것.</p>
 
-<p style="line-height:1.85;margin:0 0 18px;">다만 코스닥은 여기서 한 번 더 줄어듭니다. 이번에는 4대 요건과 같은 방안 안에서입니다. 앞에서 본 2026년 2월 12일 「부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁 방안」에 코스닥 실질심사의 최대 개선기간을 <strong>1.5년에서 1년으로 추가 축소</strong>하는 내용이 함께 들어 있습니다(1심 최대 1년, 2심 최대 0.5년). 이 부분은 <strong>2026년 4월 1일 시행 예정</strong>으로 발표됐습니다.</p>
+<p style="line-height:1.85;margin:0 0 18px;">다만 코스닥은 여기서 한 번 더 줄어듭니다. 이번에는 4대 요건과 같은 방안 안에서입니다. 앞에서 본 2026년 2월 12일 「부실기업 신속&middot;엄정 퇴출을 위한 상장폐지 개혁 방안」에 코스닥 실질심사의 최대 개선기간을 <strong>1.5년에서 1년으로 추가 축소</strong>하는 내용이 함께 들어 있습니다(1심 최대 1년, 2심 최대 0.5년). 이 부분은 <strong>2026년 4월 1일 시행 예정</strong>으로 발표됐습니다. 코스피 실질심사도 2026년에 한 번 더 줄어든다는 <strong>보도</strong>가 있었습니다. 한국거래소가 「유가증권시장 상장규정 시행세칙 일부개정세칙안」을 내고 최대 개선기간을 2년에서 1년으로 줄여 5월부터 적용한다는 내용입니다(<a href="https://www.mt.co.kr/stock/2026/04/30/2026043013412390006" style="color:#2b6cb0;">머니투데이, 2026년 4월 30일</a>). 다만 두 소식은 근거의 무게가 다릅니다. 코스닥의 1년은 금융위원회 보도자료에 적힌 것이고, <strong>코스피의 1년은 이 글에서 언론 보도로만 확인했습니다.</strong></p>
 
-<p style="margin:0 0 22px;padding:16px 18px;background:#fff5f5;border-left:4px solid #e53e3e;line-height:1.85;">이 표의 숫자는 발표 시점에 따라 다르게 보도된 자료가 있습니다 &mdash; 코스피 실질심사가 2년&rarr;1년으로 적힌 자료도 확인했습니다. 개선기간 축소는 이처럼 여러 차례 나눠 발표됐으므로, <strong>확정 수치는 한국거래소 상장규정 원문에서 다시 보셔야 합니다.</strong> 이 글에서 원문 조문까지는 열지 못했습니다.</p>
+<p style="margin:0 0 22px;padding:16px 18px;background:#fff5f5;border-left:4px solid #e53e3e;line-height:1.85;">이 표의 숫자는 발표 시점에 따라 다르게 보도된 자료가 있습니다 &mdash; 코스피 실질심사가 2년&rarr;1년으로 적힌 자료도 확인했습니다. 개선기간 축소는 이처럼 여러 차례 나눠 발표됐으므로, <strong>확정 수치는 상장규정·시행세칙 원문에서 다시 보셔야 합니다.</strong> 이 글에서 원문 조문까지는 열지 못했습니다.</p>
 
 <p style="line-height:1.85;margin:0 0 18px;">숫자가 재는 줄에 걸린 분이라면 이 표를 자기 것으로 읽지 마십시오. 동전주&middot;시가총액 요건에는 <strong>&ldquo;90거래일 안에 연속 45거래일 회복&rdquo;이라는 유예 구조가 이미 요건 안에 들어 있고</strong>, 그게 사실상의 개선기간 역할을 합니다. 위 표의 개선기간은 별도 심사 절차에 붙는 시간이라 <strong>90거래일 구조와는 다른 개념</strong>입니다.</p>
 
@@ -140,8 +140,15 @@
 
 <p style="line-height:1.85;margin:0 0 18px;">같은 &ldquo;상장폐지&rdquo;라는 네 글자 안에 완전히 다른 두 시계가 돌고 있습니다. <strong>어느 시계인지 모른 채로는 언제까지 기다려야 하는지도 알 수 없습니다.</strong></p>
 
+<p>글 머니프로듀서 · 기준 시점은 본문 말미 「최종 수정일」 · 제도·수치는 거래소·DART·국세청·법령 원문을 직접 확인하고 출처를 링크합니다 · 소개: <a href="https://moneyproducer.co.kr/pages/머니프로듀서를-소개합니다" style="color:#2b6cb0;">https://moneyproducer.co.kr/pages/머니프로듀서를-소개합니다</a></p>
+
+<ul>
+<li>출처: <a href="https://listing.krx.co.kr/contents/LST/04/04020500/LST04020500.jsp" style="color:#2b6cb0;">한국거래소 · 코스닥시장 관리종목 지정 사유 및 퇴출 요건(관리종목·상장적격성 실질심사·형식적 상장폐지 세 칸 표)</a></li>
+<li>출처: <a href="https://listing.krx.co.kr/contents/LST/04/04010500/LST04010500.jsp" style="color:#2b6cb0;">한국거래소 · 유가증권시장 상장폐지(관리종목 지정 및 상장적격성 실질심사 요건)</a></li>
+</ul>
+
 <p style="margin:36px 0 0;padding:18px 20px;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;font-size:0.92em;line-height:1.8;color:#4a5568;">
 <strong>안내</strong><br>
-형식적&middot;실질심사 요건의 분류는 이 블로그가 이해를 돕기 위해 재구성한 것이고, 심사 절차&middot;개선기간 수치는 여러 공개 자료를 교차 확인해 정리했으나 사안별로 달라질 수 있습니다. 언급된 벌점 사례는 보도된 패턴을 일반화한 것이며 특정 종목을 지목하지 않습니다. 중대&middot;고의 위반의 판단 기준과 각 심사 단계의 소요 기간은 이 글에서 단정하지 않았습니다. 실제 판단 전 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a> 및 한국거래소 상장규정 원문을 확인하십시오.<br><br>
-<span style="color:#718096;">최종 수정일: 2026. 9. 22.</span>
+형식적&middot;실질심사 요건의 분류는 이 블로그가 이해를 돕기 위해 재구성한 것이고, 심사 절차&middot;개선기간 수치는 여러 공개 자료를 교차 확인해 정리했으나 사안별로 달라질 수 있습니다. 중대&middot;고의 위반의 판단 기준과 각 심사 단계의 소요 기간은 이 글에서 단정하지 않았습니다. 실제 판단 전 <a href="https://kind.krx.co.kr" target="_blank" rel="noopener nofollow">KIND</a> 및 한국거래소 상장규정 원문을 확인하십시오.<br><br>
+<span style="color:#718096;">최종 수정일: 2026. 9. 26.</span>
 </p></div>
