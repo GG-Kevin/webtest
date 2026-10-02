@@ -32,3 +32,27 @@ for t in D:
     print(t,"MDD all(1999-)",mdd(D[t],base))
     print(t,"MDD 2020",mdd([x for x in D[t] if x[0]<datetime.date(2021,1,1)],datetime.date(2020,1,1)))
     print(t,"MDD 2022",mdd(D[t],datetime.date(2021,6,1)))
+# --- H-159 추가: 적립 연평균(XIRR), 주가(배당 제외) 기준 MDD·회복일
+def xirr(flows):
+    def npv(r): return sum(a/(1+r)**((d-flows[0][0]).days/365.0) for d,a in flows)
+    lo,hi=-0.99,1.0
+    for _ in range(200):
+        mid=(lo+hi)/2
+        if npv(mid)>0: lo=mid
+        else: hi=mid
+    return mid
+def dca_flows(rows,start,monthly=30):
+    sh=0;seen=set();fl=[];last=None
+    for d,p in rows:
+        if d<start or d>END: continue
+        k=(d.year,d.month)
+        if k not in seen: seen.add(k);sh+=monthly/p;fl.append((d,-monthly))
+        last=(d,p)
+    fl.append((last[0],sh*last[1]));return fl
+for label,s in [("1999-04",datetime.date(1999,4,1)),("2006-01",datetime.date(2006,1,1)),("2011-10",datetime.date(2011,10,1)),("2016-10",datetime.date(2016,10,1)),("2021-10",datetime.date(2021,10,1)),("2023-10",datetime.date(2023,10,1))]:
+    print(label,"적립 연평균(XIRR)",{t:round(xirr(dca_flows(D[t],s))*100,1) for t in D})
+def loadclose(t):
+    d=json.loads(open(f"{t}.json").read())["chart"]["result"][0]
+    return [(datetime.date.fromtimestamp(x),c) for x,c in zip(d["timestamp"],d["indicators"]["quote"][0]["close"]) if c]
+for t in D:
+    print(t,"주가(배당 제외) MDD all(1999-)",mdd(loadclose(t),base))
