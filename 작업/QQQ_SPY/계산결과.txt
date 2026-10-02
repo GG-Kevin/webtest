@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/user/webtest/작업/QQQ_SPY/calc.py", line 5, in <module>
+    D={t:load(t) for t in["QQQ","SPY"]}
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/webtest/작업/QQQ_SPY/calc.py", line 5, in <dictcomp>
+    D={t:load(t) for t in["QQQ","SPY"]}
+         ^^^^^^^
+  File "/home/user/webtest/작업/QQQ_SPY/calc.py", line 3, in load
+    d=json.loads(open(f"{t}.json").read())["chart"]["result"][0]
+                 ^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'QQQ.json'
