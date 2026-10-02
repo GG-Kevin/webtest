@@ -1,0 +1,152 @@
+[
+ {
+  "query": "QQQ SPY 비교",
+  "n_base": 4,
+  "n_expanded": 4,
+  "top": [
+   "qqq spy 비교",
+   "voo qqq spy 비교",
+   "schd spy qqq 비교"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "TQQQ 적립식",
+  "n_base": 10,
+  "n_expanded": 12,
+  "top": [
+   "tqqq 적립식 투자 디시",
+   "tqqq 적립식",
+   "tqqq 적립식 투자"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "SCHD 배당 적립",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "환율 적립식 해외주식",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "코스피 S&P500 비교",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "코스피 s&p500 비교"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "연금저축 IRP 한도",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "연금저축 irp 한도",
+   "연금저축 irp 한도 설정",
+   "연금저축 irp 세액 공제 한도"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "해외주식 양도세 손익통산",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "해외주식 양도세 손익통산"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "ISA 만기 비과세",
+  "n_base": 2,
+  "n_expanded": 2,
+  "top": [
+   "isa 만기 비과세",
+   "isa 만기 연장 비과세"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "배당락 기준일",
+  "n_base": 6,
+  "n_expanded": 6,
+  "top": [
+   "배당락 기준일",
+   "배당락 배당 기준일",
+   "배당락 배당 기준일 차이"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "상장폐지 사유",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "상장폐지 사유",
+   "상장폐지 사유발생",
+   "파멥신 상장폐지 사유"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "S&P500 환헤지 H",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "나스닥100 ETF 국내 해외",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "미국 ETF 배당 세금",
+  "n_base": 5,
+  "n_expanded": 5,
+  "top": [
+   "미국 etf 배당 세금",
+   "미국 etf 배당 세금 디시",
+   "미국 월 배당 etf 세금"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "달러 투자 ETF",
+  "n_base": 7,
+  "n_expanded": 7,
+  "top": [
+   "달러 투자 etf",
+   "달러 투자 etf 추천",
+   "달러 투자 etf 디시"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "연말 절세 해외주식",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "국내상장 해외ETF 과세",
+  "n_base": 2,
+  "n_expanded": 2,
+  "top": [
+   "국내상장 해외etf 과세",
+   "국내상장 해외etf 매매차익 과세"
+  ],
+  "date": "2026-10-02"
+ }
+]
