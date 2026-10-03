@@ -1,0 +1,94 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,12,배,환산급여: 근속연수로 나누고 12를 곱함,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제48조 제1항,2026-10-03,나누고 12를 곱한 후,
+2,1,년,1년 미만 기간은 1년으로 봄,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제48조 제1항,2026-10-03,1년 미만의 기간이 있는,
+3,2022,년,근속연수공제 개정(2022. 12. 31.),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제48조 개정 연혁,2026-10-03,"개정 2014. 12. 23., 2022",
+4,21221,호,소득세법 현행 법률 번호(시행 2026. 1. 1.),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,법령 머리,2026-10-03,법률 제21221호,
+5,12,배,퇴직소득 산출세액: 12로 나누고 근속연수 곱함,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0055&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제55조 제2항,2026-10-03,12로 나눈 금액에 근속연수,
+6,1000000,원,근속연수공제 5년 이하 연당 금액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,국세청 계산방법 근속연수공제 표,2026-10-03,근속연수×100만원,
+7,5000000,원,근속연수공제 10년 이하 기본액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,500만원+(근속연수-5),
+8,2000000,원,근속연수공제 10년 이하 연당 가산,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×200만원,
+9,15000000,원,근속연수공제 20년 이하 기본액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"1,500만원+(근속연수-10)",
+10,2500000,원,근속연수공제 20년 이하 연당 가산,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×250만원,
+11,40000000,원,근속연수공제 20년 초과 기본액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"4,000만원+(근속연수-20)",
+12,3000000,원,근속연수공제 20년 초과 연당 가산,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×300만원,
+13,300000,원,2022년까지 근속연수공제 5년 이하 연당 금액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,국세청 종전 규정 표,2026-10-03,근속연수×30만원,
+14,8000000,원,환산급여공제 전액 공제 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,국세청 환산급여공제 표,2026-10-03,800만원이하 전액 공제,
+15,60,%,"800만~7,000만원 구간 공제율",https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,(환산급여- 800만원)×60%,
+16,70000000,원,환산급여공제 둘째 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"7,000만원이하",
+17,45200000,원,"7,000만~1억원 구간 기본 공제",https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"4,520만원+",
+18,55,%,"7,000만~1억원 구간 공제율",https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×55%,
+19,100000000,원,환산급여공제 셋째 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,1억원 이하,
+20,61700000,원,1억~3억원 구간 기본 공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"6,170만원+",
+21,45,%,1억~3억원 구간 공제율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×45%,
+22,300000000,원,환산급여공제 넷째 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,3억원 초과,
+23,151700000,원,3억원 초과 구간 기본 공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,1억5천170만원+,
+24,35,%,3억원 초과 구간 공제율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,×35%,
+25,14000000,원,기본세율 6% 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,국세청 기본세율 표(제55조 제1항과 같음),2026-10-03,"1,400만원이하 6%",
+26,6,%,최저 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,6%,
+27,50000000,원,15% 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"5,000만원이하 15%",
+28,15,%,둘째 구간 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,15%,
+29,88000000,원,24% 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"8,800만원이하 24%",
+30,24,%,셋째 구간 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,24%,
+31,150000000,원,35% 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"15,000만원이하 35%",
+32,1000000000,원,45% 구간 시작(10억원 초과),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"100,000만원 초과 45%",
+33,1260000,원,15% 구간 누진공제액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"1,260,000원",
+34,5760000,원,24% 구간 누진공제액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,"5,760,000원",
+35,40,%,3억~5억원 구간 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,같은 표,2026-10-03,40%,
+36,1120,천원,국세청 사례(근속 20년·1억원) 산출세액,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,국세청 계산 사례 ⑧,2026-10-03,"산출세액 1,120천원",
+37,10,%,개인지방소득세 = 원천징수 소득세의 100분의 10,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13 제1항,2026-10-03,소득세의 100분의 10,
+38,10,일,원천징수세액 납부: 다음 달 10일,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6447&cntntsId=7883,국세청 퇴직소득 원천징수 방법,2026-10-03,다음 달 10일까지 납부,
+39,31,일,1~11월 퇴직자 미지급 시 12월 31일 지급 간주,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6447&cntntsId=7883,원천징수시기 특례,2026-10-03,12월 31일까지 지급하지,
+40,11,월,특례 대상 퇴직월(1월~11월),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6447&cntntsId=7883,원천징수시기 특례,2026-10-03,1월부터 11월까지,
+41,105,조,근속연수 기산(입사일 또는 중간지급일 다음 날~퇴직일),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0105&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제105조 제1항,2026-10-03,제105조(근속연수),
+42,15000000,원,근속 10년·1억원 근속연수공제,계산,"calc.py compute(10, 1억)",2026-10-03,,근속연수공제
+43,102000000,원,근속 10년·1억원 환산급여,계산,"calc.py compute(10, 1억)",2026-10-03,,환산급여
+44,62600000,원,근속 10년·1억원 환산급여공제,계산,"calc.py compute(10, 1억)",2026-10-03,,환산급여공제
+45,39400000,원,근속 10년·1억원 과세표준,계산,"calc.py compute(10, 1억)",2026-10-03,,과세표준
+46,4650000,원,근속 10년·1억원 환산산출세액,계산,"calc.py compute(10, 1억)",2026-10-03,,환산산출세액
+47,3875000,원,근속 10년·1억원 퇴직소득세,계산,"calc.py compute(10, 1억)",2026-10-03,,퇴직소득세
+48,387500,원,근속 10년·1억원 지방소득세,계산,"calc.py compute(10, 1억)",2026-10-03,,지방소득세
+49,4262500,원,근속 10년·1억원 합계,계산,"calc.py compute(10, 1억)",2026-10-03,,합계
+50,4.26,%,10년·1억원 합계의 퇴직급여 대비,계산,calc.py,2026-10-03,,합계/pay
+51,95737500,원,10년·1억원 손에 쥐는 돈,계산,calc.py,2026-10-03,,pay-합계
+52,426250,원,10년·1억원 근속 1년당 세금,계산,calc.py,2026-10-03,,합계/years
+53,42700000,원,5년·5000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+54,2143750,원,5년·5000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+55,2358125,원,5년·5000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+56,108700000,원,5년·10000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+57,9418750,원,5년·10000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+58,10360625,원,5년·10000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+59,413500000,원,5년·30000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+60,58108333,원,5년·30000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+61,63919166,원,5년·30000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+62,13600000,원,10년·5000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+63,680000,원,10년·5000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+64,748000,원,10년·5000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+65,39400000,원,10년·10000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+66,3875000,원,10년·10000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+67,4262500,원,10년·10000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+68,175600000,원,10년·30000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+69,38990000,원,10년·30000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+70,42889000,원,10년·30000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+71,0,원,20년·5000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+72,0,원,20년·5000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+73,0,원,20년·5000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+74,11200000,원,20년·10000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+75,1120000,원,20년·10000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+76,1232000,원,20년·10000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+77,69100000,원,20년·30000만원 과세표준,계산,calc.py,2026-10-03,,과세표준
+78,18040000,원,20년·30000만원 퇴직소득세,계산,calc.py,2026-10-03,,퇴직소득세
+79,19844000,원,20년·30000만원 지방소득세 포함 합계,계산,calc.py,2026-10-03,,합계
+80,9128625,원,1억원 5년과 20년 합계 차이,계산,calc.py,2026-10-03,,합계 차
+81,8.4,배,1억원 5년/20년 배수(여덟 배 넘게),계산,calc.py,2026-10-03,,합계 비
+82,708000000,원,5년·3억원 환산급여,계산,calc.py,2026-10-03,,환산급여
+83,21.31,%,5년·3억원 퇴직급여 대비,계산,calc.py,2026-10-03,,합계/pay
+84,1666667,원,근속 1년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+85,5000000,원,근속 3년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+86,8333333,원,근속 5년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+87,21666667,원,근속 10년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+88,37500000,원,근속 15년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+89,53333333,원,근속 20년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+90,90000000,원,근속 30년 세금 0원 상한,계산,calc.py zero_line,2026-10-03,,zero_line
+91,15000000,원,9년 1개월 → 10년 근속연수공제,계산,calc.py service_deduction(10),2026-10-03,,service_deduction
+92,32000,원,"10년·2,300만원 퇴직소득세",계산,"calc.py compute(10, 2300만)",2026-10-03,,퇴직소득세
+93,35200,원,"10년·2,300만원 지방소득세 포함",계산,calc.py,2026-10-03,,합계
