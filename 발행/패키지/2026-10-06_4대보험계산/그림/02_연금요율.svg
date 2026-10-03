@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="국민연금 보험료율 연도별 인상에 따른 월 보수 300만원 근로자 몫 막대그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="600" fill="#ffffff"/>
+<text x="60" y="62" font-size="32" font-weight="700" fill="#16212e">국민연금 보험료율, 2026년 9.5%에서 2033년 13%로</text>
+<text x="60" y="102" font-size="21" fill="#3d4852">월 보수 300만원 근로자 몫(보수가 그대로라고 가정) · 해마다 0.5%p씩</text>
+<line x1="120" y1="520.0" x2="1140" y2="520.0" stroke="#e3e7eb"/>
+<text x="108" y="527.0" font-size="18" text-anchor="end" fill="#5b6773">0만</text>
+<line x1="120" y1="435.9" x2="1140" y2="435.9" stroke="#e3e7eb"/>
+<text x="108" y="442.9" font-size="18" text-anchor="end" fill="#5b6773">5만</text>
+<line x1="120" y1="351.8" x2="1140" y2="351.8" stroke="#e3e7eb"/>
+<text x="108" y="358.8" font-size="18" text-anchor="end" fill="#5b6773">10만</text>
+<line x1="120" y1="267.7" x2="1140" y2="267.7" stroke="#e3e7eb"/>
+<text x="108" y="274.7" font-size="18" text-anchor="end" fill="#5b6773">15만</text>
+<line x1="120" y1="183.6" x2="1140" y2="183.6" stroke="#e3e7eb"/>
+<text x="108" y="190.6" font-size="18" text-anchor="end" fill="#5b6773">20만</text>
+<rect x="145.5" y="280.3" width="76.5" height="239.7" fill="#d99a3b"/>
+<text x="183.8" y="270.3" font-size="18" text-anchor="middle" fill="#16212e">142,500</text>
+<text x="183.8" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2026</text>
+<text x="183.8" y="576" font-size="17" text-anchor="middle" fill="#5b6773">9.5%</text>
+<rect x="273.0" y="267.7" width="76.5" height="252.3" fill="#1f5f8b"/>
+<text x="311.2" y="257.7" font-size="18" text-anchor="middle" fill="#16212e">150,000</text>
+<text x="311.2" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2027</text>
+<text x="311.2" y="576" font-size="17" text-anchor="middle" fill="#5b6773">10%</text>
+<rect x="400.5" y="255.1" width="76.5" height="264.9" fill="#1f5f8b"/>
+<text x="438.8" y="245.1" font-size="18" text-anchor="middle" fill="#16212e">157,500</text>
+<text x="438.8" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2028</text>
+<text x="438.8" y="576" font-size="17" text-anchor="middle" fill="#5b6773">10.5%</text>
+<rect x="528.0" y="242.5" width="76.5" height="277.5" fill="#1f5f8b"/>
+<text x="566.2" y="232.5" font-size="18" text-anchor="middle" fill="#16212e">165,000</text>
+<text x="566.2" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2029</text>
+<text x="566.2" y="576" font-size="17" text-anchor="middle" fill="#5b6773">11%</text>
+<rect x="655.5" y="229.9" width="76.5" height="290.1" fill="#1f5f8b"/>
+<text x="693.8" y="219.9" font-size="18" text-anchor="middle" fill="#16212e">172,500</text>
+<text x="693.8" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2030</text>
+<text x="693.8" y="576" font-size="17" text-anchor="middle" fill="#5b6773">11.5%</text>
+<rect x="783.0" y="217.3" width="76.5" height="302.7" fill="#1f5f8b"/>
+<text x="821.2" y="207.3" font-size="18" text-anchor="middle" fill="#16212e">180,000</text>
+<text x="821.2" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2031</text>
+<text x="821.2" y="576" font-size="17" text-anchor="middle" fill="#5b6773">12%</text>
+<rect x="910.5" y="204.7" width="76.5" height="315.3" fill="#1f5f8b"/>
+<text x="948.8" y="194.7" font-size="18" text-anchor="middle" fill="#16212e">187,500</text>
+<text x="948.8" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2032</text>
+<text x="948.8" y="576" font-size="17" text-anchor="middle" fill="#5b6773">12.5%</text>
+<rect x="1038.0" y="192.0" width="76.5" height="328.0" fill="#1f5f8b"/>
+<text x="1076.2" y="182.0" font-size="18" text-anchor="middle" fill="#16212e">195,000</text>
+<text x="1076.2" y="550" font-size="19" text-anchor="middle" fill="#3d4852">2033</text>
+<text x="1076.2" y="576" font-size="17" text-anchor="middle" fill="#5b6773">13%</text>
+</svg>

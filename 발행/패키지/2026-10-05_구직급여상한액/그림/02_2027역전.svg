@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="2026년 하한액 66,048원, 현행 상한액 68,100원, 2027년 최저임금을 넣은 하한액 68,480원을 견준 막대 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="560" fill="#ffffff"/>
+<text x="60" y="62" font-size="32" font-weight="700" fill="#16212e">2027년 최저임금을 넣으면 하한액이 상한액을 380원 넘습니다</text>
+<text x="60" y="102" font-size="21" fill="#3d4852">하루 8시간 · 시행령 제68조가 그대로일 때 · 가로축은 64,000원부터</text>
+<text x="404" y="200" font-size="23" text-anchor="end" fill="#16212e">2026년 하한액(8시간)</text>
+<rect x="420" y="164" width="278.5" height="56" fill="#7f8c99"/>
+<text x="710.5" y="202" font-size="24" font-weight="700" fill="#7f8c99">66,048원</text>
+<text x="404" y="320" font-size="23" text-anchor="end" fill="#16212e">현행 상한액</text>
+<rect x="420" y="284" width="557.6" height="56" fill="#0a6350"/>
+<text x="989.6" y="322" font-size="24" font-weight="700" fill="#0a6350">68,100원</text>
+<text x="404" y="440" font-size="23" text-anchor="end" fill="#16212e">2027년 최저임금 대입 하한액</text>
+<rect x="420" y="404" width="609.3" height="56" fill="#c0392b"/>
+<text x="1041.3" y="442" font-size="24" font-weight="700" fill="#c0392b">68,480원</text>
+<line x1="977.6" y1="150" x2="977.6" y2="510" stroke="#0a6350" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="1160" y="538" font-size="16" text-anchor="end" fill="#8a96a3">최저임금 2026년 10,320원 · 2027년 10,700원(최저임금위원회) × 8시간 × 80% · 머니프로듀서</text>
+</svg>
