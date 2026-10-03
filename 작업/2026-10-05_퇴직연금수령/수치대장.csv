@@ -1,0 +1,45 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,55,세,IRP 이전 의무 예외(55세 이후 퇴직),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0009&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근퇴법 제9조 제2항,2026-10-03,55세 이후에 퇴직하여,
+2,14,일,퇴직금 지급 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0009&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근퇴법 제9조 제1항,2026-10-03,발생한 날부터 14일 이내,
+3,55,세,DB 연금 수급 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0017&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근퇴법 제17조 제1항 제1호,2026-10-03,55세 이상으로서,
+4,10,년,DB 연금 가입기간 요건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0017&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근퇴법 제17조 제1항 제1호,2026-10-03,가입기간이 10년 이상,
+5,5,년,DB 연금 지급기간 하한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0017&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근퇴법 제17조 제1항 제1호,2026-10-03,지급기간은 5년 이상,
+6,60,일,과세이연 연금계좌 입금 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0146&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제146조 제2항 제2호,2026-10-03,60일 이내에 연금계좌,
+7,55,세,연금수령 개시 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0040&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제40조의2 제3항 제1호,2026-10-03,가입자가 55세 이후,
+8,5,년,연금계좌 가입 경과 요건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0040&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제40조의2 제3항 제2호,2026-10-03,5년이 경과된 후에,
+9,11,년,연금수령한도 미적용 연차,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0040&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제40조의2 제4항,2026-10-03,11년 이상인 경우,
+10,6,년차,2013.3.1. 전 가입 계좌 기산연차,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0040&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제40조의2 제4항 제1호,2026-10-03,경우: 6년차,
+11,70,%,퇴직소득 연금수령 비율(10년 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조 제1항 제5호의3 가목,2026-10-03,100분의 70,
+12,60,%,퇴직소득 연금수령 비율(10년 초과 20년 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조 제1항 제5호의3 나목,2026-10-03,100분의 60,
+13,50,%,퇴직소득 연금수령 비율(20년 초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조 제1항 제5호의3 다목,2026-10-03,100분의 50,
+14,10,년,실제 수령연차 첫 구간 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조 제1항 제5호의3 가목,2026-10-03,10년 이하인 경우,
+15,20,년,실제 수령연차 둘째 구간 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조 제1항 제5호의3 나목,2026-10-03,20년 이하인 경우,
+16,10,%,지방소득세(소득세의 100분의 10),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13 제1항,2026-10-03,100분의 10에 해당,
+17,1120,천원,국세청 계산 사례 산출세액(근속 20년·1억원),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,퇴직소득세 계산 사례 ⑧,2026-10-03,"산출세액 1,120천원",
+18,40000,천원,국세청 계산 사례 근속연수공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6444&cntntsId=7880,퇴직소득세 계산 사례 ③,2026-10-03,"근속연수공제 40,000천원",
+19,5,%,연금소득세율(70세 미만),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888,사적연금 원천징수세율 표,2026-10-03,70세 미만 5%,
+20,4,%,연금소득세율(70세 이상 80세 미만),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888,사적연금 원천징수세율 표,2026-10-03,80세 미만 4%,
+21,3,%,연금소득세율(80세 이상·종신계약),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888,사적연금 원천징수세율 표,2026-10-03,80세 이상 3%,
+22,15,%,연금외수령 기타소득 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888,연금외수령의 경우 표,2026-10-03,분리과세 15%,
+23,1500,만원,사적연금 분리과세 선택 기준,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888,연금계좌 원천징수세율 표 주석,2026-10-03,"연 1,500만원",
+24,20,년,근속연수(가정),계산,calc.py YEARS,2026-10-03,가정,YEARS
+25,300000000,원,"퇴직급여(가정, 3억원)",계산,calc.py PAYS,2026-10-03,가정,PAYS
+26,19844000,원,3억원 일시금 세금(지방소득세 포함),계산,calc.py with_local(T),2026-10-03,계산,lump
+27,13890800,원,3억원 10년 연금 세금 합계,계산,"calc.py pension_tax(p,10,local)",2026-10-03,계산,y10
+28,1.23,%,1억원 실효세율,계산,calc.py,2026-10-03,계산,tl/p
+29,11.68,%,5억원 실효세율,계산,calc.py,2026-10-03,계산,tl/p
+30,100,,일시금 세금 지수,계산,calc.py,2026-10-03,계산,ratio
+31,70,,10년 연금 지수,계산,calc.py,2026-10-03,계산,ratio10
+32,65,,20년 연금 지수,계산,calc.py,2026-10-03,계산,ratio20
+33,60,,30년 연금 지수,계산,calc.py,2026-10-03,계산,ratio30
+34,30000000,원,3억원 10년 연금 해마다 받는 돈,계산,calc.py,2026-10-03,계산,year_pay
+35,2500000,원,한 달 연금,계산,calc.py,2026-10-03,계산,year_pay/12
+36,1389080,원,해마다 세금(지방소득세 포함),계산,calc.py,2026-10-03,계산,year_tax
+37,116000,원,"한 달 세금(약, 115,756원 반올림)",계산,calc.py,2026-10-03,계산,year_tax/12
+38,12,%,첫해 연금수령한도 비율(기산 1년차),계산,calc.py limit(),2026-10-03,계산,"limit(EOK,1)"
+39,10,%,10년 균등 수령 첫해 인출 비율,계산,calc.py,2026-10-03,계산,1/10
+40,24,%,첫해 연금수령한도 비율(기산 6년차),계산,calc.py limit(),2026-10-03,계산,"limit(EOK,6)"
+41,5.5,%,연금소득세율 지방소득세 포함(70세 미만),계산,calc.py,2026-10-03,계산,5*(1+LOCAL)
+42,4.4,%,연금소득세율 지방소득세 포함(70~79세),계산,calc.py,2026-10-03,계산,4*(1+LOCAL)
+43,3.3,%,연금소득세율 지방소득세 포함(80세 이상),계산,calc.py,2026-10-03,계산,3*(1+LOCAL)
+44,60,세,예시: 처음 연금을 받는 나이(가정),계산,원고 예시,2026-10-03,가정,

@@ -103,6 +103,7 @@ def main():
     print()
     for d in sorted({x for _, a, b in SOJEONG for x in (a, b)}):
         print(f"하한액 {d}일 총액 = {won(fl * d)}")
+    print(f"270일 상한·하한 총액 차이 = {won((cap - fl) * 270)}")
 
     print()
     print("## 표4 하한액과 상한액 비교(소정근로시간·연도별)")

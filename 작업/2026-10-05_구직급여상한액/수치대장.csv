@@ -1,0 +1,56 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,11만3500,원,기초일액 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0068&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 시행령 제68조 제1항,2026-10-03,11만3500원을 초과하는 경우,
+2,100분의 60,,구직급여일액 비율(일반),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0046&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제46조 제1항 제1호,2026-10-03,기초일액에 100분의 60,
+3,100분의 80,,최저구직급여일액 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0046&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제46조 제1항 제2호,2026-10-03,기초일액에 100분의 80,
+4,3개월,,평균임금 산정 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290781&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근로기준법 제2조 제1항 제6호,2026-10-03,이전 3개월 동안,
+5,"10,320",원,2026년 최저임금 시간급,https://www.minimumwage.go.kr/minWage/policy/decisionMain.do,연도별 최저임금 결정현황 2026 줄,2026-10-03,"'26.01.01 ~'26.12.31 10,320",
+6,"10,700",원,2027년 최저임금 시간급,https://www.minimumwage.go.kr/minWage/policy/decisionMain.do,연도별 최저임금 결정현황 2027 줄,2026-10-03,"'27.01.01 ~'27.12.31 10,700",
+7,"82,560",원,2026년 최저임금 일급(8시간) = 최저기초일액(8시간),https://www.minimumwage.go.kr/minWage/policy/decisionMain.do,결정현황 일급(8시간 기준),2026-10-03,"10,320 82,560",min_base(2026)
+8,"85,600",원,2027년 최저임금 일급(8시간) = 최저기초일액(8시간),https://www.minimumwage.go.kr/minWage/policy/decisionMain.do,결정현황 일급(8시간 기준),2026-10-03,"10,700 85,600",min_base(2027)
+9,120,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,120일,SOJEONG
+10,150,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,150일,SOJEONG
+11,180,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,180일,SOJEONG
+12,210,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,210일,SOJEONG
+13,240,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,240일,SOJEONG
+14,270,일,소정급여일수,https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=162253231&bylClsCd=110201,고용보험법 별표 1(제50조제1항 관련),2026-10-03,270일,SOJEONG
+15,"68,100",원,구직급여 상한액(하루),계산,calc.py 출력,2026-10-03,,cap_daily()
+16,"66,048",원,"구직급여 하한액(하루 8시간, 2026)",계산,calc.py 출력,2026-10-03,,floor_daily(2026)
+17,"2,043,000",원,상한액 30일 환산,계산,calc.py 출력,2026-10-03,,cap*30
+18,"1,981,440",원,하한액 30일 환산,계산,calc.py 출력,2026-10-03,,fl*30
+19,"2,052",원,상한액-하한액,계산,calc.py 출력,2026-10-03,,cap-fl
+20,"61,560",원,차이 30일 환산,계산,calc.py 출력,2026-10-03,,(cap-fl)*30
+21,"65,217",원,월 200만원 기초일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+22,"39,130",원,월 200만원 60%,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+23,"97,826",원,월 300만원 기초일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+24,"58,695",원,월 300만원 60%,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+25,"110,869",원,월 340만원 기초일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+26,"66,521",원,월 340만원 일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+27,"1,995,630",원,월 340만원 30일 환산,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+28,"130,434",원,월 400만원 기초일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+29,"78,260",원,월 400만원 60%,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+30,"163,043",원,월 500만원 기초일액,계산,calc.py 출력,2026-10-03,,daily_from_monthly
+31,"110,080",원,60%가 하한을 넘는 기초일액,계산,calc.py 출력,2026-10-03,,fl/RATE
+32,"3,375,787",원,그때 월급(92일),계산,calc.py 출력,2026-10-03,,lo
+33,"3,480,667",원,상한 닿는 월급(92일),계산,calc.py 출력,2026-10-03,,hi
+34,"104,880",원,두 경계 폭,계산,calc.py 출력,2026-10-03,,hi-lo
+35,"8,172,000",원,120일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*a
+36,"10,215,000",원,150일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*a
+37,"12,258,000",원,180일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*a
+38,"14,301,000",원,210일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*a
+39,"16,344,000",원,240일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*a
+40,"18,387,000",원,270일 상한 총액,계산,calc.py 출력,2026-10-03,,cap*b
+41,"7,925,760",원,120일 하한 총액,계산,calc.py 출력,2026-10-03,,fl*d
+42,"17,832,960",원,270일 하한 총액,계산,calc.py 출력,2026-10-03,,fl*d
+43,"554,040",원,270일 상한·하한 총액 차이,계산,calc.py 출력,2026-10-03,,(cap-fl)*270
+44,"41,280",원,4시간 최저기초일액,계산,calc.py 출력,2026-10-03,,"min_base(2026,4)"
+45,"33,024",원,4시간 하한액,계산,calc.py 출력,2026-10-03,,"floor_daily(2026,4)"
+46,"61,920",원,6시간 최저기초일액,계산,calc.py 출력,2026-10-03,,"min_base(2026,6)"
+47,"49,536",원,6시간 하한액,계산,calc.py 출력,2026-10-03,,"floor_daily(2026,6)"
+48,"68,480",원,2027년 8시간 하한액,계산,calc.py 출력,2026-10-03,,floor_daily(2027)
+49,380,원,2027 하한-상한,계산,calc.py 출력,2026-10-03,,floor_daily(2027)-cap
+50,"2,054,400",원,2027 하한 30일 환산,계산,calc.py 출력,2026-10-03,,floor_daily(2027)*30
+51,"35,076",원,4시간 하한과 상한 차이,계산,calc.py 출력,2026-10-03,,f-cap
+52,"18,564",원,6시간 하한과 상한 차이,계산,calc.py 출력,2026-10-03,,f-cap
+53,92,일,예시 3개월 총일수(31+31+30),계산,calc.py 출력,2026-10-03,,DAYS3M
+54,30,일,생활 단위 환산 일수,계산,calc.py 출력,2026-10-03,,30
+55,6만8100,원,예술인 구직급여일액 상한(시행령 제104조의8 제4항),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0104&joBrNo=08&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 시행령 제104조의8 제4항,2026-10-03,6만8100원을 말한다,
