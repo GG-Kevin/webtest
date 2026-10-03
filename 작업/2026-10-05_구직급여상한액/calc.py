@@ -24,6 +24,8 @@ import math
 
 CAP_BASE = 113500           # 시행령 제68조 ① 기초일액 상한
 RATE = 0.6                  # 법 제46조 ① 1호
+LINK_RATE = 1.03            # 개편안(확정 전): 상한액 = 하한액의 103% — 고용노동부 2026-09-01 보도자료
+                            # https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19866
 MIN_RATE = 0.8              # 법 제46조 ① 2호
 MINWAGE = {2026: 10320, 2027: 10700}
 HOURS = 8
@@ -115,6 +117,10 @@ def main():
     print()
     print(f"2027년 8시간 하한액 − 상한액 = {floor_daily(2027) - cap:,}원")
     print(f"2027년 하한액 30일 환산 = {won(floor_daily(2027) * 30)}")
+    print()
+    print(f"2026년 상한·하한 격차 = {(cap / fl - 1) * 100:.1f}%")
+    print(f"개편안(하한액 103%) 대입 2027년 상한액 = {won(math.floor(floor_daily(2027) * LINK_RATE))}")
+    print(f"개편안 2027년 상한액 − 현행 상한액 = {won(math.floor(floor_daily(2027) * LINK_RATE) - cap)}")
 
 
 if __name__ == "__main__":
