@@ -1,0 +1,64 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,180,일,피보험 단위기간 하한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제1항 제1호,2026-10-03,합산하여 180일 이상,UNIT_DAYS
+2,18,개월,기준기간(이직일 이전),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항,2026-10-03,이직일 이전 18개월,BASE_MONTHS
+3,3분의 1,,일용근로자 근로일 수 비율 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제1항 제5호 가목,2026-10-03,총 일수의 3분의 1 미만,DAY_LABORER_RATIO
+4,30,일,질병·부상 등으로 보수 못 받은 기간(기준기간 연장 조건),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제1호,2026-10-03,계속하여 30일 이상,SICK_DAYS
+5,3,년,연장된 기준기간 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제1호,2026-10-03,3년을 초과할 때에는 3년,SICK_CAP_YEARS
+6,15,시간,초단시간 근로자 1주 소정근로시간 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제2호 가목,2026-10-03,15시간 미만이고,SHORT_HOURS
+7,2,일,초단시간 근로자 1주 소정근로일수 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제2호 가목,2026-10-03,2일 이하인 근로자,SHORT_DAYS
+8,24,개월,초단시간 근로자 기준기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제2호,2026-10-03,이직일 이전 24개월,SHORT_BASE_MONTHS
+9,90,일,24개월 중 초단시간 근로 최소 일수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0040&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제40조 제2항 제2호 나목,2026-10-03,90일 이상을,SHORT_MIN_DAYS
+10,1,회,1주 평균 유급휴일 최소 횟수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290781&joNo=0055&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근로기준법 제55조 제1항,2026-10-03,평균 1회 이상의 유급휴일,-
+11,15,시간,유급휴일 규정 제외 기준(1주 소정근로시간),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290781&joNo=0018&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,근로기준법 제18조 제3항,2026-10-03,15시간 미만인 근로자,SHORT_HOURS
+12,12,개월,수급기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제48조 제1항,2026-10-03,12개월 내에,CLAIM_MONTHS
+13,4,년,연장된 수급기간 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제48조 제2항,2026-10-03,4년을 넘을 때에는 4년,CLAIM_CAP_YEARS
+14,7,일,대기기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0049&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제49조 제1항,2026-10-03,7일간은 대기기간,WAIT_DAYS
+15,65,세,실업급여 장 적용 제외 기준 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제10조 제2항,2026-10-03,65세 이후에 고용,AGE
+16,60,시간,적용 제외 1개월 소정근로시간 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 시행령 제3조 제1항,2026-10-03,60시간 미만이거나,EXCL_MONTH_HOURS
+17,15,시간,적용 제외 1주 소정근로시간 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 시행령 제3조 제1항,2026-10-03,15시간 미만인 근로자,SHORT_HOURS
+18,3,개월,다시 적용 대상이 되는 계속 근로 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 시행령 제3조 제2항 제1호,2026-10-03,3개월 이상 계속하여,EXCL_CONT_MONTHS
+19,13,호,별표 2 정당한 이직 사유 마지막 호,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,고용보험법 시행규칙 별표 2 제13호,2026-10-03,13. 그 밖에 피보험자와,B2_ITEMS
+20,1,년,근로조건 저하 등 사유를 보는 기간,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제1호,2026-10-03,이직일 전 1년 이내에,B2['기간_년']
+21,2,개월,근로조건 저하 등 사유 발생 기간,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제1호,2026-10-03,2개월 이상 발생한,B2['기간_개월']
+22,70,%,휴업 시 평균임금 지급 비율 기준,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제1호 마목,2026-10-03,70퍼센트 미만을,B2['휴업_퍼센트']
+23,3,시간,통근 곤란 기준(왕복),https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제6호,2026-10-03,3시간 이상인 경우,B2['통근_시간']
+24,30,일,가족 간호 기간 기준,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제7호,2026-10-03,30일 이상 본인이 간호,B2['간호_일']
+25,8,세,육아 자녀 나이 기준,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제10호,2026-10-03,8세 이하 또는,B2['자녀_세']
+26,2,학년,육아 자녀 학년 기준,https://www.law.go.kr/LSW/flDownload.do?flSeq=169481947,시행규칙 별표 2 제10호,2026-10-03,초등학교 2학년 이하,B2['자녀_학년']
+27,7,일,주 6일 · 하루 7시간: 한 주에 세는 날,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['k']
+28,26,주,주 6일 · 하루 7시간: 180일까지 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+29,182,일,주 6일 · 하루 7시간: 달력 일수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['달력일']
+30,6.0,개월,주 6일 · 하루 7시간: 달력 개월 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+31,18,개월,주 6일 · 하루 7시간: 적용 기준기간,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['기준기간']
+32,6,일,주 5일 · 하루 8시간: 한 주에 세는 날,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['k']
+33,30,주,주 5일 · 하루 8시간: 180일까지 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+34,210,일,주 5일 · 하루 8시간: 달력 일수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['달력일']
+35,6.9,개월,주 5일 · 하루 8시간: 달력 개월 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+36,18,개월,주 5일 · 하루 8시간: 적용 기준기간,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['기준기간']
+37,5,일,주 4일 · 하루 6시간: 한 주에 세는 날,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['k']
+38,36,주,주 4일 · 하루 6시간: 180일까지 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+39,252,일,주 4일 · 하루 6시간: 달력 일수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['달력일']
+40,8.3,개월,주 4일 · 하루 6시간: 달력 개월 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+41,18,개월,주 4일 · 하루 6시간: 적용 기준기간,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['기준기간']
+42,4,일,주 3일 · 하루 6시간: 한 주에 세는 날,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['k']
+43,45,주,주 3일 · 하루 6시간: 180일까지 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+44,315,일,주 3일 · 하루 6시간: 달력 일수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['달력일']
+45,10.4,개월,주 3일 · 하루 6시간: 달력 개월 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+46,18,개월,주 3일 · 하루 6시간: 적용 기준기간,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['기준기간']
+47,2,일,주 2일 · 하루 7시간: 한 주에 세는 날,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['k']
+48,90,주,주 2일 · 하루 7시간: 180일까지 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+49,630,일,주 2일 · 하루 7시간: 달력 일수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['달력일']
+50,20.7,개월,주 2일 · 하루 7시간: 달력 개월 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+51,24,개월,주 2일 · 하루 7시간: 적용 기준기간,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['기준기간']
+52,7,개월,"주 5일 근무 180일 달력 기간(6.9개월 반올림, 본문 「약 7개월」)",계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['개월']
+53,26,주,주 5일 6개월 근무의 온전한 주 수,계산,calc.py 출력,2026-10-03 계산,-,schedule_row()['주']
+54,156,일,주 5일 6개월 근무 피보험 단위기간,계산,calc.py 출력,2026-10-03 계산,-,six_weeks
+55,24,일,180일에 모자란 날,계산,calc.py 출력,2026-10-03 계산,-,six_weeks
+56,64,세,나이 예시 입사(가정),계산,calc.py 출력,2026-10-03 계산,-,EX_JOIN_AGE/EX_LEAVE_AGE
+57,66,세,나이 예시 이직(가정),계산,calc.py 출력,2026-10-03 계산,-,EX_JOIN_AGE/EX_LEAVE_AGE
+58,365,일,가정 이직일의 수급기간 일수,계산,calc.py 출력,2026-10-03 계산,-,span
+59,356,일,이직 3일 뒤 신고 시 수급기간 안에 남는 날,계산,calc.py 출력,2026-10-03 계산,-,claim_rows()['남는날']
+60,329,일,이직 1개월 뒤 신고 시 수급기간 안에 남는 날,계산,calc.py 출력,2026-10-03 계산,-,claim_rows()['남는날']
+61,267,일,이직 3개월 뒤 신고 시 수급기간 안에 남는 날,계산,calc.py 출력,2026-10-03 계산,-,claim_rows()['남는날']
+62,178,일,이직 6개월 뒤 신고 시 수급기간 안에 남는 날,계산,calc.py 출력,2026-10-03 계산,-,claim_rows()['남는날']
+63,86,일,이직 9개월 뒤 신고 시 수급기간 안에 남는 날,계산,calc.py 출력,2026-10-03 계산,-,claim_rows()['남는날']
