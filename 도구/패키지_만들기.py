@@ -115,29 +115,21 @@ def main():
         pre = f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><style>body{{max-width:760px;margin:24px auto;padding:0 16px;font-family:system-ui,"Noto Sans KR",sans-serif;line-height:1.8;color:#222}}img{{max-width:100%;height:auto}}table{{border-collapse:collapse;max-width:100%;display:block;overflow-x:auto}}td,th{{border:1px solid #ccc;padding:6px 8px}}</style></head><body>\n<h1 style="font-size:1.6em;line-height:1.4">{html.escape(title)}</h1>\n{pre}\n</body></html>'
         open(f"{dst}/미리보기.html", "w", encoding="utf-8").write(pre)
         txt = to_txt(qsrc)
-        head = f"[제목] {title}\n" + (f"[디스커버 제목] {disc}\n" if disc else "") + "[썸네일] 썸네일.png\n" + "=" * 40 + "\n\n"
-        open(f"{dst}/붙여넣기.txt", "w", encoding="utf-8").write(head + txt)
-        thumb = f"{dst}/그림/01_대표.png"
-        if not os.path.isfile(thumb):
-            svg = os.path.abspath(f"{dst}/그림/01_대표.svg")
-            m = re.search(r'height="(\d+)"', open(svg, encoding="utf-8").read())
-            h = int(m.group(1)) if m else 630
-            wrap = os.path.abspath(f"{dst}/그림/_캡처.html")
-            open(wrap, "w", encoding="utf-8").write(f'<!doctype html><body style="margin:0;overflow:hidden;background:#fff"><img src="file://{svg}" width="1200" height="{h}" style="display:block">')
-            ch = next(os.path.join(r, "chrome") for r in [os.path.join("/opt/pw-browsers", d, "chrome-linux") for d in sorted(os.listdir("/opt/pw-browsers")) if d.startswith("chromium-")] if os.path.isfile(os.path.join(r, "chrome")))
-            tmp = "/tmp/_thumb_raw.png"
-            subprocess.run([ch, "--headless", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", f"--screenshot={tmp}", f"--window-size=1200,{h+160}", f"file://{wrap}"], check=True, capture_output=True)
-            subprocess.run(["convert", tmp, "-crop", f"1200x{h}+0+0", "+repage", thumb], check=True)
-            os.remove(wrap)
-        shutil.copy(thumb, f"{dst}/썸네일.png")
+        head = f"[제목] {title}\n" + (f"[디스커버 제목] {disc}\n" if disc else "") + "=" * 40 + "\n\n"
+        open(f"{dst}/본문_글자만.txt", "w", encoding="utf-8").write(head + txt)
+        # 티스토리 HTML 모드에 붙이는 소스 — 이미지 자리는 그림/파일명 그대로(업로드 뒤 주소로 교체)
+        open(f"{dst}/붙여넣기_HTML.txt", "w", encoding="utf-8").write(qsrc)
+        # 시험용 — 그림을 파일 안에 넣은 판(티스토리가 받아 주는지 확인 필요)
+        open(f"{dst}/붙여넣기_HTML_그림포함.txt", "w", encoding="utf-8").write(embed(qsrc, dst))
         rows.append((slug, title))
         print("만듦:", slug)
     idx = ['<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>발행 패키지 목록</title><style>body{max-width:900px;margin:24px auto;padding:0 16px;font-family:system-ui,sans-serif}li{margin:18px 0;display:flex;gap:14px;align-items:center}img{width:200px;border:1px solid #ddd}</style></head><body><h1>발행 패키지 목록</h1><ul>']
     for slug, title in rows:
-        idx.append(f'<li><img src="{slug}/썸네일.png" alt=""><div><b>{html.escape(title)}</b><br><a href="{slug}/미리보기.html">미리보기</a> · <a href="{slug}/붙여넣기.txt">붙여넣기.txt</a> · <a href="{slug}/발행.html">발행.html</a></div></li>')
+        idx.append(f'<li><img src="{slug}/썸네일.png" alt=""><div><b>{html.escape(title)}</b><br><a href="{slug}/미리보기.html">미리보기</a> · <a href="{slug}/붙여넣기_HTML.txt">붙여넣기_HTML.txt</a> · <a href="{slug}/발행.html">발행.html</a></div></li>')
     idx.append("</ul></body></html>")
     open(f"{OUT}/목록.html", "w", encoding="utf-8").write("\n".join(idx))
     print("목록:", f"{OUT}/목록.html", len(rows), "편")
+    subprocess.run([sys.executable, "도구/썸네일_만들기.py"], check=True)
 
 
 main()
