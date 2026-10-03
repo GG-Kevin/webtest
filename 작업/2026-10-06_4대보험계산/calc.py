@@ -95,7 +95,8 @@ def main():
     print(f"- 건강보험 {pct(HI_RATE)} → 근로자 {pct(HI_RATE / 2)}")
     print(f"- 장기요양 소득 대비 {pct(LTC_RATE)} → 근로자 {pct(LTC_RATE / 2)} · 건강보험료 대비 {pct(LTC_RATE / HI_RATE, 2)}")
     print(f"- 고용보험(실업급여) {pct(EI_UB)} → 근로자 {pct(EI_UB / 2)}")
-    print(f"- 근로자 몫 합계 요율 {pct(me_rate)} (약 {float(me_rate) * 100:.2f}%)")
+    print(f"- 근로자 몫 합계 요율 {pct(me_rate)} (약 {float(me_rate) * 100:.2f}%) · 월 100만원당 {fl(1000000 * me_rate):,}원")
+    print(f"- 국민연금 상한 변화 {NPS_CAP_OLD:,} → {NPS_CAP:,}, 오른 폭 {NPS_CAP - NPS_CAP_OLD:,} · 건강보험 하한 비율 85/1000 = {pct(F(85, 1000), 2)}")
     print()
 
     # 표 1: 요율표
