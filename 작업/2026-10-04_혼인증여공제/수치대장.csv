@@ -1,0 +1,51 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,100000000,원,혼인 공제 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제1항,2026-10-03,별개로 1억원을 증여세 과세가액에서,
+2,2,년,혼인일 앞뒤 공제 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제1항,2026-10-03,전후 2년 이내에 증여를,
+3,100000000,원,혼인·출산 공제 합산 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제3항,2026-10-03,합한 금액이 1억원을 초과,
+4,2,년,출산·입양일부터 공제 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제2항,2026-10-03,입양일부터 2년 이내,
+5,3,개월,부득이한 사유 시 반환 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제5항,2026-10-03,말일부터 3개월 이내에,
+6,2,년,혼인 전 공제 뒤 혼인 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제6항,2026-10-03,증여일부터 2년 이내에,
+7,3,개월,미혼 시 수정신고 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제53조의2 제6항,2026-10-03,말일부터 3개월이 되는 날,
+8,50000000,원,직계존속 공제(성년),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제53조 제2호,2026-10-03,증여를 받은 경우: 5천만원,
+9,20000000,원,직계존속 공제(미성년),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제53조 제2호 단서,2026-10-03,2천만원으로 한다,
+10,10000000,원,3촌 이내 인척 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제53조 제4호,2026-10-03,3촌 이내의 인척,
+11,10,년,공제 누계 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제53조 본문,2026-10-03,전 10년 이내에 공제받은,
+12,10000000,원,10년 합산 기준 금액,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0047&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제47조 제2항,2026-10-03,합친 금액이 1천만원 이상,
+13,10,년,동일인 증여 합산 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0047&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제47조 제2항,2026-10-03,증여일 전 10년 이내에,
+14,10,%,세율(1억원 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0026&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제26조,2026-10-03,과세표준의 100분의 10,
+15,20,%,세율(1억원 초과 5억원 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0026&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제26조,2026-10-03,초과하는금액의100분의20,
+16,100000000,원,첫 구간 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0026&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제26조,2026-10-03,1억원 이하,
+17,500000000,원,둘째 구간 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0026&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제26조,2026-10-03,1억원 초과 5억원 이하,
+18,10000000,원,둘째 구간 기본액,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0026&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제26조,2026-10-03,1천만원 + ,
+19,3,%,신고세액공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0069&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제69조 제2항,2026-10-03,100분의 3에 상당하는,
+20,3,개월,증여세 신고기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0068&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제68조 제1항,2026-10-03,말일부터 3개월 이내에,
+21,21065,호,현행 법률 번호(시행 2025.10.1.),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조문 머리,2026-10-03,법률 제21065호,
+22,30,%,세대생략 할증,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2340&cntntsId=7728,증여세 세액계산 흐름도,2026-10-03,직계비속이면 30% 할증,
+23,3,%,기한 내 신고세액공제(국세청),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2342&cntntsId=7730,신고시 유의사항,2026-10-03,신고세액공제 3%,
+24,20,%,일반 무신고 가산세,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2342&cntntsId=7730,신고시 유의사항,2026-10-03,무신고납부세액 × 20%,
+25,150000000,원,부모에게 세금 없이 받는 합계,계산,calc.compute,2026-10-03,5천만원 + 1억원,공제합계
+26,5000000,원,2억원 산출세액,계산,calc.compute,2026-10-03,,산출세액
+27,150000,원,2억원 신고세액공제,계산,calc.compute,2026-10-03,,신고세액공제
+28,4850000,원,2억원 납부할 세액,계산,calc.compute,2026-10-03,,납부세액
+29,2.4,%,2억원 대비 세액,계산,calc.main,2026-10-03,,r2
+30,20000000,원,3억원 산출세액,계산,calc.compute,2026-10-03,,산출세액
+31,600000,원,3억원 신고세액공제,계산,calc.compute,2026-10-03,,신고세액공제
+32,19400000,원,3억원 납부할 세액,계산,calc.compute,2026-10-03,,납부세액
+33,9700000,원,공제 없이 1.5억원 세액,계산,calc.compute,2026-10-03,,w15
+34,808333,원,970만원 ÷ 12,계산,calc.main,2026-10-03,,w15
+35,4850000,원,공제 없이 1억원 세액,계산,calc.compute,2026-10-03,,납부세액
+36,14550000,원,2억원 줄어드는 세금,계산,calc.main,2026-10-03,,
+37,38800000,원,공제 없이 3억원 세액,계산,calc.compute,2026-10-03,,납부세액
+38,300000000,원,양가 부부 합,계산,calc.main,2026-10-03,,cases
+39,180000000,원,10년 합산 과세가액,계산,calc.compute,2026-10-03,,과세가액
+40,30000000,원,10년 합산 과세표준,계산,calc.compute,2026-10-03,,과세표준
+41,2910000,원,10년 합산 납부세액,계산,calc.compute,2026-10-03,,납부세액
+42,90000000,원,인척 예시 과세표준,계산,calc.compute,2026-10-03,,과세표준
+43,9000000,원,인척 예시 산출세액,계산,calc.compute,2026-10-03,,산출세액
+44,270000,원,인척 예시 신고세액공제,계산,calc.compute,2026-10-03,,신고세액공제
+45,8730000,원,인척 예시 납부세액,계산,calc.compute,2026-10-03,,납부세액
+46,60000000,원,혼인 공제 사용 예시,계산,calc.main,2026-10-03,,used
+47,40000000,원,출산 공제 남는 한도,계산,calc.main,2026-10-03,,MARRIAGE_LIMIT - used
+48,2027-02-01,날짜,10/20 증여 신고기한,계산,calc.month_end_plus·next_weekday,2026-10-03,,fin
+49,2027-03-31,날짜,12/5 증여 신고기한,계산,calc.month_end_plus,2026-10-03,,fin
+50,2029-01-31,날짜,미혼 수정신고 마지막 날,계산,calc.month_end_plus,2026-10-03,,fix

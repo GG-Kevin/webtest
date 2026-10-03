@@ -1,0 +1,6 @@
+=== R5 nts/taxlaw/hometax fetch run start 2026-09-24T12:27:47Z ===
+curl: (35) Recv failure: Connection reset by peer
+[1] 12:27:47Z | hometax-미리보기안내검색 | https://www.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/main.xml => HTTP 000, 0B -> R5_H1_hometax_pp_main.html
+curl: (35) Recv failure: Connection reset by peer
+[2] 12:27:59Z | nts-루트 | https://www.nts.go.kr/ => HTTP 000, 0B -> R5_N1_nts_root.html
+[3] 12:28:17Z | hometax-루트(3/3-상한마지막) | https://www.hometax.go.kr/ => HTTP 200, 4002B -> R5_H2_hometax_root.html

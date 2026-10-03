@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="월 보수 200만·300만·500만·800만원의 4대보험 근로자 몫을 항목별로 쌓은 막대그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<text x="60" y="64" font-size="34" font-weight="700" fill="#16212e">4대보험 근로자 몫, 월 보수의 약 9.72%</text>
+<text x="60" y="104" font-size="21" fill="#3d4852">2026년 10월 요율 · 국민연금 4.75% + 건강 3.595% + 장기요양 0.4724% + 고용 0.9%</text>
+<rect x="60" y="128" width="20" height="20" fill="#1f5f8b"/>
+<text x="88" y="145" font-size="19" fill="#3d4852">국민연금</text>
+<rect x="210" y="128" width="20" height="20" fill="#2e8b6e"/>
+<text x="238" y="145" font-size="19" fill="#3d4852">건강보험</text>
+<rect x="360" y="128" width="20" height="20" fill="#8fbf6a"/>
+<text x="388" y="145" font-size="19" fill="#3d4852">장기요양</text>
+<rect x="510" y="128" width="20" height="20" fill="#d99a3b"/>
+<text x="538" y="145" font-size="19" fill="#3d4852">고용보험</text>
+<text x="174" y="229" font-size="22" text-anchor="end" fill="#16212e">월 200만원</text>
+<rect x="190.0" y="199" width="108.2" height="44" fill="#1f5f8b"/>
+<rect x="298.2" y="199" width="81.9" height="44" fill="#2e8b6e"/>
+<rect x="380.1" y="199" width="10.8" height="44" fill="#8fbf6a"/>
+<rect x="390.8" y="199" width="20.5" height="44" fill="#d99a3b"/>
+<text x="423.3" y="230" font-size="22" font-weight="700" fill="#16212e">194,348원</text>
+<text x="174" y="321" font-size="22" text-anchor="end" fill="#16212e">월 300만원</text>
+<rect x="190.0" y="291" width="162.3" height="44" fill="#1f5f8b"/>
+<rect x="352.3" y="291" width="122.8" height="44" fill="#2e8b6e"/>
+<rect x="475.1" y="291" width="16.1" height="44" fill="#8fbf6a"/>
+<rect x="491.3" y="291" width="30.8" height="44" fill="#d99a3b"/>
+<text x="534.0" y="322" font-size="22" font-weight="700" fill="#16212e">291,522원</text>
+<text x="174" y="413" font-size="22" text-anchor="end" fill="#16212e">월 500만원</text>
+<rect x="190.0" y="383" width="270.5" height="44" fill="#1f5f8b"/>
+<rect x="460.5" y="383" width="204.7" height="44" fill="#2e8b6e"/>
+<rect x="665.2" y="383" width="26.9" height="44" fill="#8fbf6a"/>
+<rect x="692.1" y="383" width="51.2" height="44" fill="#d99a3b"/>
+<text x="755.4" y="414" font-size="22" font-weight="700" fill="#16212e">485,870원</text>
+<text x="174" y="505" font-size="22" text-anchor="end" fill="#16212e">월 800만원</text>
+<rect x="190.0" y="475" width="356.5" height="44" fill="#1f5f8b"/>
+<rect x="546.5" y="475" width="327.5" height="44" fill="#2e8b6e"/>
+<rect x="874.0" y="475" width="43.0" height="44" fill="#8fbf6a"/>
+<rect x="917.1" y="475" width="82.0" height="44" fill="#d99a3b"/>
+<text x="1011.1" y="506" font-size="22" font-weight="700" fill="#16212e">710,417원</text>
+<text x="60" y="596" font-size="18" fill="#5b6773">800만원은 국민연금 기준소득월액 상한 659만원이 걸려 연금이 313,025원에서 멈춥니다 · 원 미만 버림</text>
+</svg>

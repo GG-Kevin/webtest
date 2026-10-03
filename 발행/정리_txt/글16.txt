@@ -1,0 +1,73 @@
+<p style="margin: 0 0 24px; padding: 18px 20px; background: #f4f6f8; border-left: 4px solid #2b6cb0; border-radius: 4px; line-height: 1.75;" data-ke-size="size16"><b>핵심 요약</b> 2026년 세제개편안에 <b>&ldquo;생산적금융 ISA&rdquo;</b>라는 새 계좌 유형이 담겼습니다. 국내 상장주식 등 국내 자산에만 투자하는 대신, 이자&middot;배당소득을 <b>한도 없이 전액 비과세</b> 해주는 게 핵심입니다.<br /><span style="color: #c53030;">이건 아직 법이 아닙니다.</span> 9월 1일 국무회의에서 확정된 건 &ldquo;정부안&rdquo;이고, 국회 심사를 거쳐야 최종 확정됩니다.<br />정부안 기준 연 2,000만원&middot;총 2억원 한도, 3년 의무가입, 2027년 1월 시행 예정입니다. 8월 원안에 있던 계약기간 상한(10년)과 2029년 가입기한은 9월 확정안에서 삭제됐습니다.<br />기존 ISA를 해지할 필요는 없다는 게 지금까지 나온 코멘트들의 공통된 방향입니다.</p>
+<div style="margin: 0 0 32px; padding: 20px 24px; background: #fffdf8; border: 1px solid #e2e8f0; border-radius: 4px;">
+<p style="margin: 0 0 12px; font-weight: bold; font-size: 1.05em; color: #2d3748;" data-ke-size="size16">목차</p>
+<a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p1">1. 아직 확정된 법이 아닙니다</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p2">2. 생산적금융 ISA가 뭔가</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p3">3. 기존 ISA 3종과 비교하면</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p4">4. 가입 조건과 한도</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p5">5. 청년이면 혜택이 하나 더 있습니다</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p6">6. 기존 ISA는 어떻게 해야 하나</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none; border-bottom: 1px solid #edf2f7;" href="#p7">7. &ldquo;만기 9999년&rdquo;은 다른 이야기입니다</a> <a style="display: block; padding: 7px 0; color: #2b6cb0; text-decoration: none;" href="#p8">8. 자주 묻는 질문</a></div>
+<h2 id="p1" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">1. 아직 확정된 법이 아닙니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">&ldquo;새 ISA 나온다&rdquo;는 기사만 보고 이미 정해진 제도처럼 받아들이기 쉽지만, 지금 단계를 정확히 짚을 필요가 있습니다. 2026년 8월 3일 기획재정 당국이 세제개편안을 처음 발표했고, 이후 논란과 재검토를 거쳐 <b>9월 1일 국무회의에서 정부안이 확정</b>됐습니다. 확정된 세법 개정법률안들은 9월 초 <b>국회에 제출</b>되고, 정기국회 심사를 거쳐야 최종 법으로 확정됩니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이 과정에서 내용이 바뀐 전례가 이미 있습니다. 같은 세제개편안 안의 종합부동산세 조항은 8월 발표 후 한 달 만에 상당 부분 원점으로 되돌아갔습니다. ISA 쪽도 마찬가지로, 8월 발표 당시 &ldquo;일반 ISA 계약기간 5년 제한 + 연간 한도 이월 폐지&rdquo; 방침에 개인투자자 반발이 거세지자 이 조항은 철회되고 <b>현행 방식(사실상 무기한 연장, 이월 허용)이 유지</b>되는 것으로 9월 1일 확정안에 반영됐습니다. 즉 국회 심사 과정에서 생산적금융 ISA의 세부 조건도 추가로 바뀔 가능성을 열어두고 봐야 합니다.</p>
+<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16">이 글의 모든 수치는 <b>2026년 9월 1일 확정된 정부안 기준</b>입니다. 국회 심사 결과 최종 법안은 달라질 수 있으므로, 실제 가입을 고려하신다면 시행 직전 재정경제부 또는 국세청 공지로 최종 확정 내용을 다시 확인하시기 바랍니다.</p>
+<h2 id="p2" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">2. 생산적금융 ISA가 뭔가</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">이름의 &ldquo;생산적금융&rdquo;은 투자 대상을 국내 자본시장&middot;국내 성장기업으로 유도하겠다는 취지에서 붙었습니다. 투자할 수 있는 자산이 <b>국내 상장주식, 국내주식형 펀드&middot;ETF, 국민성장펀드, 기업성장집합투자기구(BDC)</b> 등 국내 생산적 자산으로 한정됩니다. 해외주식, 국내 상장 해외 ETF, 예금, 채권 등은 담을 수 없다는 게 기존 ISA와의 가장 큰 차이입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">그 대신 여기서 나오는 <b>이자&middot;배당소득은 금액 한도 없이 전액 비과세</b>됩니다. 기존 ISA가 일정 금액까지만 비과세하고 그 초과분은 9% 분리과세하는 것과 비교하면, 국내 투자로 대상을 좁힌 대신 세제 혜택을 크게 늘린 구조입니다.</p>
+<h2 id="p3" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">3. 기존 ISA 3종과 비교하면</h2>
+<div style="overflow-x: auto; margin: 0 0 22px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 560px;" data-ke-align="alignLeft">
+<tbody>
+<tr style="background: #2d3748; color: #fff;">
+<th style="padding: 12px; text-align: left;">구분</th>
+<th style="padding: 12px; text-align: left;">일반형</th>
+<th style="padding: 12px; text-align: left;">서민형&middot;농어민형</th>
+<th style="padding: 12px; text-align: left;">생산적금융(신설)</th>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">투자 대상</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">국내외 폭넓게</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">국내외 폭넓게</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">국내 자산 한정</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">비과세 한도</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">200만원</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">400만원</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><b>한도 없음(전액)</b></td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">초과분 과세</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9% 분리과세</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">9% 분리과세</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">해당 없음</td>
+</tr>
+<tr>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: 600;">가입 소득요건</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">없음</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">총급여 5,000만원 등 이하</td>
+<td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">확인 안 됨</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16">국내주식 편입 최소 비율처럼 시행령에서 정해질 세부 조건은 아직 공개된 자료로 확인되지 않습니다. &ldquo;국내 자산 한정&rdquo;이라는 큰 틀만 정부안에 담겨 있고, 구체적인 판정 기준은 이후 시행령 발표를 지켜봐야 합니다.</p>
+<h2 id="p4" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">4. 가입 조건과 한도</h2>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">가입 자격: <b>19세 이상 거주자</b> 또는 <b>15세 이상 근로자</b><br />제외 대상: 최근 3개 과세기간 중 1회라도 <b>금융소득종합과세 대상</b>이었던 경우<br />납입한도: <b>연 2,000만원</b>, 계좌 총 <b>2억원</b><br />의무가입기간: <b>3년</b><br />시행 예정: <b>2027년 1월 1일</b> 이후 신규가입분부터 (정부안 기준 가입기한 제한 없음, 이월 허용)</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">총한도 2억원은 기존 일반형 ISA 총한도(1억원)의 두 배 수준입니다. 다만 3년 의무가입기간을 채우지 못하고 원금을 초과해 인출하거나 중도 해지하면 <b>비과세 혜택이 환수</b>되는 것으로 알려져 있어, 단기 자금을 넣는 용도로는 적합하지 않습니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">8월 최초 발표안에는 이보다 더 까다로운 조건들이 있었습니다. 계약기간을 최대 10년으로 묶고, 그해 쓰지 못한 납입한도는 다음 해로 넘길 수 없게(이월 금지) 하는 방안이었습니다. 그런데 9월 1일 확정안에서는 이 <b>계약기간 상한과 이월 금지 조항이 모두 삭제</b>됐습니다. 한도&middot;의무가입기간 같은 핵심 숫자는 그대로 두고, 까다로운 부수 조건들만 완화하는 방향으로 한 달 사이 손질된 셈입니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">기존 ISA(일반형&middot;서민형&middot;농어민형)는 원래 1인당 1계좌만 가능했지만, 생산적금융 ISA는 그와는 <b>별도로 추가 가입이 가능한 것으로 보도</b>되고 있습니다. 다만 이 부분의 최종 조문은 아직 확인되지 않아, 실제 가입 시 증권사 안내로 다시 확인하시는 게 정확합니다.</p>
+<h2 id="p5" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">5. 청년이면 혜택이 하나 더 있습니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16"><b>15~34세</b> 가입자에게는 납입금의 <b>10%를 소득공제</b>해주는 혜택이 정부안에 추가로 담겼습니다. 비과세 혜택에 소득공제까지 더해지는 구조라, 같은 조건이면 청년층이 상대적으로 유리합니다.</p>
+<p style="margin: 0 0 22px; padding: 16px 18px; background: #fff5f5; border-left: 4px solid #e53e3e; line-height: 1.85;" data-ke-size="size16">다만 이 소득공제는 <b>소득 요건이 따로 있습니다.</b> 총급여 7,500만원(종합소득 6,300만원) 이하까지 적용되고, 총급여 8,500만원(종합소득 7,000만원)을 초과하면 그해 소득공제 대상에서 빠지는 것으로 알려져 있습니다. 나이만 15~34세라고 자동으로 받는 혜택은 아니라는 점을 유의하시기 바랍니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">또한 8월 논란 이후 9월 1일 확정안에서는 <b>청년형 생산적금융 ISA와 청년미래적금의 중복 가입을 허용</b>하는 쪽으로 정리됐습니다. 두 상품이 서로 경합하는 구조가 아니라 병행 가능한 구조로 바뀐 셈입니다.</p>
+<h2 id="p6" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">6. 기존 ISA는 어떻게 해야 하나</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">가장 많이 나오는 질문이 &ldquo;기존 계좌를 해지해야 하나&rdquo;입니다. 지금까지 나온 코멘트들의 공통된 방향은 <b>해지할 필요가 없다</b>는 쪽입니다.</p>
+<div style="margin: 0 0 22px; padding: 16px 18px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; line-height: 2;">해외 ETF&middot;해외주식&middot;배당주 위주로 투자한다 &rarr; 기존 ISA를 그대로 유지<br />국내주식&middot;국내 펀드 위주로 투자한다 &rarr; 생산적금융 ISA 추가 가입을 검토<br />만 15~34세다 &rarr; 소득공제&middot;중복가입 혜택까지 함께 검토</div>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">생산적금융 ISA는 투자 대상이 국내 자산으로 좁혀져 있기 때문에, 해외 자산 비중이 큰 투자자에게는 애초에 맞지 않는 계좌입니다. &ldquo;신설&rdquo;이라는 이유만으로 무리하게 옮길 필요는 없어 보입니다.</p>
+<h2 id="p7" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">7. &ldquo;만기 9999년&rdquo;은 다른 이야기입니다</h2>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">최근 온라인에서 &ldquo;ISA 만기를 9999년으로 늘려야 하나&rdquo;라는 이야기가 화제가 됐는데, 이건 <b>생산적금융 ISA가 아니라 기존 일반 ISA</b>에 관한 이야기라 구분이 필요합니다.</p>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">앞서 1번 절에서 설명했듯, 8월 발표 당시엔 일반 ISA의 계약기간을 5년으로 제한하는 방안이 있었습니다. 이 방침이 확정되기 전, 일부 증권사가 계좌 만기를 사실상 무기한(9999년 등)으로 설정할 수 있게 해두면서 신규가입&middot;연장 신청이 몰리는 현상이 있었습니다. 그런데 9월 1일 확정안에서 이 5년 제한 방침 자체가 철회되고 현행 방식이 유지됐기 때문에, 지금 시점에서는 이 이슈의 실익이 크게 줄어든 상태입니다. 생산적금융 ISA와는 별개의 사안이니 혼동하지 않으시면 됩니다.</p>
+<h2 id="p8" style="margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 2px solid #2d3748; font-size: 1.5em; scroll-margin-top: 70px;" data-ke-size="size26">8. 자주 묻는 질문</h2>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">지금 당장 가입할 수 있나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">아닙니다. 정부안 기준 시행 시점은 2027년 1월 1일 이후 신규가입분부터이고, 그마저도 국회 심사를 거쳐야 확정됩니다. 지금은 준비하며 지켜보는 단계입니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">해외주식 투자자에게도 의미가 있나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">투자 대상이 국내 자산으로 한정돼 있어, 해외주식&middot;해외ETF 비중이 큰 투자자에게는 큰 실익이 없을 수 있습니다. 국내주식&middot;국내 펀드 비중이 높은 투자자에게 더 유리한 구조입니다.</p>
+<h3 style="margin: 30px 0 10px; font-size: 1.15em; color: #2d3748;" data-ke-size="size23">국회에서 부결되거나 크게 바뀔 수도 있나요?</h3>
+<p style="line-height: 1.85; margin: 0 0 18px;" data-ke-size="size16">가능합니다. 같은 세제개편안 안의 다른 조항(종부세, 일반 ISA 계약기간)도 발표 후 한 달 사이 상당 부분 바뀌었습니다. 국회 정기국회 심사 결과가 나오기 전까지는 이 글의 수치도 잠정치로 봐야 합니다.</p>
+<p style="margin: 36px 0 0; padding: 18px 20px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 4px; font-size: 0.92em; line-height: 1.8; color: #4a5568;" data-ke-size="size16"><b>안내</b><br />본 글은 2026년 9월 6일 기준, 9월 1일 국무회의에서 확정된 정부안을 근거로 작성됐으며, 특정 금융상품 가입이나 계좌 이전을 권유하지 않습니다. 이 제도는 아직 국회 심사가 남아 있어 세부 내용이 달라질 수 있으므로, 실제 가입 전 재정경제부&middot;국세청 공지 및 이용 증권사 안내로 최종 확정 내용을 다시 확인하시기 바랍니다.<br /><br /><span style="color: #718096;">최종 수정일: 2026. 9. 6.</span></p>

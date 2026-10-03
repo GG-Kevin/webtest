@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="부부 합산 연소득 7천만원 이하는 대출과 신혼 우대금리, 7천만원 초과 8,500만원 이하는 대출만 되는 구간을 나눈 띠 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<text x="70" y="70" font-size="36" font-weight="700" fill="#16212e">신혼부부 소득 7천만원과 8,500만원 사이가 갈림길</text>
+<text x="70" y="114" font-size="23" fill="#3d4852">부부 합산 연소득 · 혼인신고 7년 이내 · 무주택 · 6억원 이하 주택 구입 기준</text>
+<rect x="70.0" y="230" width="674.5" height="120" fill="#0a6350"/>
+<rect x="744.5" y="230" width="144.5" height="120" fill="#e0a526"/>
+<rect x="889.1" y="230" width="48.2" height="120" fill="#9aa5b1"/>
+<rect x="937.3" y="230" width="96.4" height="120" fill="#c3cbd3"/>
+<rect x="1033.6" y="230" width="96.4" height="120" fill="#eef1f4"/>
+<text x="407.3" y="300" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">우대금리 받는 구간</text>
+<text x="816.8" y="292" font-size="21" font-weight="700" fill="#16212e" text-anchor="middle">대출만</text>
+<line x1="70.0" y1="218" x2="70.0" y2="362" stroke="#16212e" stroke-width="2"/>
+<text x="70.0" y="394" font-size="22" text-anchor="middle" fill="#16212e">0</text>
+<line x1="744.5" y1="218" x2="744.5" y2="362" stroke="#16212e" stroke-width="2"/>
+<text x="744.5" y="394" font-size="22" text-anchor="middle" fill="#16212e">7,000만</text>
+<line x1="889.1" y1="218" x2="889.1" y2="362" stroke="#16212e" stroke-width="2"/>
+<text x="889.1" y="204" font-size="22" text-anchor="middle" fill="#16212e">8,500만</text>
+<line x1="937.3" y1="218" x2="937.3" y2="362" stroke="#16212e" stroke-width="2"/>
+<text x="937.3" y="394" font-size="22" text-anchor="middle" fill="#16212e">9,000만</text>
+<line x1="1033.6" y1="218" x2="1033.6" y2="362" stroke="#16212e" stroke-width="2"/>
+<text x="1033.6" y="394" font-size="22" text-anchor="middle" fill="#16212e">1억</text>
+<rect x="70" y="450" width="26" height="26" fill="#0a6350" stroke="#9aa5b1"/>
+<text x="108" y="470" font-size="22" fill="#16212e">대출 가능 + 신혼 우대 0.3%p</text>
+<rect x="610" y="450" width="26" height="26" fill="#e0a526" stroke="#9aa5b1"/>
+<text x="648" y="470" font-size="22" fill="#16212e">대출 가능 · 우대 없음</text>
+<rect x="70" y="494" width="26" height="26" fill="#9aa5b1" stroke="#9aa5b1"/>
+<text x="108" y="514" font-size="22" fill="#16212e">미성년 자녀 1명이면 가능</text>
+<rect x="610" y="494" width="26" height="26" fill="#c3cbd3" stroke="#9aa5b1"/>
+<text x="648" y="514" font-size="22" fill="#16212e">자녀 2명 이상이면 가능</text>
+<text x="1130" y="608" font-size="16" text-anchor="end" fill="#8a96a3">2026년 10월 3일 한국주택금융공사 보금자리론 안내·업무처리기준 원문 기준 · 머니프로듀서</text>
+</svg>

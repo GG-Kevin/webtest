@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<title>국세청 홈택스</title>
+
+<script type="text/javascript" src="https://hometax.speedycdn.net/js/pp/jquery.js"></script>
+<script type="text/javascript" src="https://hometax.speedycdn.net/js/pp/domain.js"></script>
+<script type="text/javascript" src="https://hometax.speedycdn.net/js/pp/common_pp_yrs.js?ver=1"></script>
+<script type="text/javascript" src="https://hometax.speedycdn.net/js/comm/netfunnel/netfunnel2.js"></script>
+<script type="text/javascript" src="https://hometax.speedycdn.net/js/comm/netfunnel/nts_skin.js"></script>
+<!-- <script type="text/javascript" src="/js/pp/jquery.bpopup.min.js"></script> -->
+<style type="text/css">
+*{padding:0;margin:0;box-sizing:border-box;-webkit-text-size-adjust:none;list-style:none}
+a{text-decoration:none;color:#111;cursor:pointer}
+button {border:none;background:none;cursor:pointer}
+html {font-size:10px}
+body {height:100%;font-family:'맑은 고딕', 'Malgun Gothic', sans-serif;font-size:1.6rem;font-weight:400;line-height:1.5;color:#111;background-color:#fff}
+table, nobr, td, h1, h2, h3, h4, h5, h6, input, input[type='button'],.w2input, ol, li, ul, dl, dt, dd,blockquote,fieldset,form,pre,textarea, p, span, div {font-weight:500}
+select::-ms-expand {display:none}
+table {empty-cells:show}
+caption, legend {display:none}
+a img, img {vertical-align:top}
+img, fieldset {border:0}
+ul, dl, dd {margin:0;padding:0;list-style:none}
+ul li img {vertical-align:top}
+em, address {font-style:normal}
+a {color:var(--ws-color);text-decoration:none}
+.w2group, .w2trigger {background-color:transparent}
+.w2anchor a, .w2anchor2, .w2trigger {color:var(--ws-color)}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+caption{text-indent:-9999px; width:1px !important; height:0px !important; font-size:1px !important; padding:0 !important; margin:0 !important;overflow:hidden;background-color:transparent !important}
+input[type="button"]{font-family:'맑은 고딕', 'Malgun Gothic', sans-serif}
+.box{float:left;width:201px;margin-left:17px;margin-left:15px}
+.div2 .box{width:270px;margin-left:100px}
+.div3 .box{width:270px}
+.div4 .box{width:239px}
+.box:first-child, .box.fst{margin-left:0}
+.box a{position:relative;display:block;height:222px;background:#f7f9ff}
+.box .inner{position:absolute;bottom:0;left:0;display:block;height: 47px;width:177px;*width:201px;*height:97px;padding: 20px 12px 12px 12px;color:#fff;border-radius:0 0 8px 8px;font-weight:bold;font-size:16px;line-height: 1.4em}
+.div2 .box .inner{*width:270px}
+.div3 .box .inner{*width:270px}
+.div4 .box .inner{width: 214px}
+.box .inner span{display:block}
+.box1 .inner{background:#1b7bb5}
+.box2 .inner{background:#b7522e}
+.box3 .inner{background:#d23a2d}
+.div2 .inner, .div3 .inner{width:246px}
+/*연말정산,편리한연말정산 임시 로그인 화면*/
+.temp_cont li, .temp_cont p, .temp_cont span, .temp_cont label, .temp_cont input, .temp_footer p{font-family:'맑은 고딕', dotum, '돋움', sans-serif;font-size:13px}
+.login_id .login_box .login_box_right{width:74px;height:60px;background:#4578b7;background:linear-gradient(#4578b7, #386aa7);*background:#4578b7;color:#fff;font-weight:bold;text-align:center;border:1px solid #4679b7;border-bottom-color:#244165;border-radius:5px;box-shadow:0 1px 0 0 rgba(0,0,0,0.2)}
+.btn_loginbg{display:inline-block;color:#fff;font-weight:600;width:180px;height:61px;border-radius:5px;box-shadow:0 1px 0 0 rgba(0,0,0,0.2);float: left}
+.btn_loginbg.certi{background:#0867b1}
+.btn_loginbg.priv{background:#1085b1}
+/*홈택스 서비스 정상이용 확인 팝업*/
+.pop_wrap p, .pop_wrap span, .pop_wrap a{font-family:'맑은 고딕', dotum, '돋움', sans-serif}
+/* 신규 */
+.txt_green {color:#03717e !important}
+.txt_red {color:#f75c73 !important}
+.txt_blue{color:#1e56c5 !important}
+.imsi_wrap{position:relative; width:100%;padding-top:20px}
+.imsi_wrap::before{content:'';position:absolute;top:0;width:100%;height:99px;border-bottom:1px solid #e0e2e7;background:#f7f9ff}
+.imsi_wrap >*{margin:0 auto}
+.bot p{color:#666;font-size:13px}
+.bot .right{position:absolute;right:0;bottom:0;bottom:auto;top:20px}
+.bot img{background:url(https://hometax.speedycdn.net/css/comm/img_yrs/img_copy.png) no-repeat}
+.bd_wrap{position:absolute;top:0;left:50%;width:1100px;transform:translateX(-50%)}
+.bd_wrap .top{padding-top:20px;height:100px}
+.bd_wrap .top h1 img{margin-right:40px}
+.bd_wrap .top h1 {font-size:25px;font-weight: bold}
+.bd_wrap .top .top_list{position:absolute;left:205px;top:40px;margin-top:15px;font-size: 18px}
+.bd_wrap .mid{margin-top:20px}
+.bd_wrap .mid .div{display:flex}
+.bd_wrap .mid .div>*{flex:1 !important}
+/* 원활, 다소지연, 지연 */
+.bd_wrap .mid .box a{height:288px;margin:0 0 6px;border:1px solid #d8d8d8;border-radius:20px;background:#f7f9ff url(https://hometax.speedycdn.net/css/comm/img_yrs/img_face1.png) no-repeat top 33px center; box-sizing:border-box;overflow:hidden;box-shadow:0px 0px 5px rgba(0, 0, 0, 0.1) !important}
+.bd_wrap .mid .box2 a{background:#fcfbf2 url(https://hometax.speedycdn.net/css/comm/img_yrs/img_face2.png) no-repeat top 33px center;}
+.bd_wrap .mid .box3 a{background:#fff5f9 url(https://hometax.speedycdn.net/css/comm/img_yrs/img_face3.png) no-repeat top 33px center;}
+.bd_wrap .mid .box .inner{position:absolute;left:0;right:0;bottom:0; width:100%; height:120px;padding:10px 20px 20px 20px;font-size:18px;background:#fff;color:#333}
+.bd_wrap .mid .box .inner .arr{position: absolute;left:20px;right:20px;bottom:15px;height:40px;line-height:40px;font-size:16px;text-align:center;color:#fff;background:#246beb;border-radius:5px}
+.box p{position:relative;font-size:15px;color:#555;padding-left:2rem;min-height:1.8rem;margin-top:0}
+.box p::before{position:absolute;top:0px;left:.3rem;content:"※";font-size:1.4rem;line-height:1.4;color:#555;background-color:transparent;background-image:none}
+.box .flag{position:absolute;top:0;right:10px;display:inline-block;*display:block;width:52px;height:54px;color:transparent;font-size:0;background:url(https://hometax.speedycdn.net/css/comm/img_yrs/ico_flag1.png) no-repeat;text-indent:-9999px}
+.box2 .flag{background:url(https://hometax.speedycdn.net/css/comm/img_yrs/ico_flag2.png) no-repeat;}
+.box3 .flag{background:url(https://hometax.speedycdn.net/css/comm/img_yrs/ico_flag3.png) no-repeat;}
+/* 박스 안에 dot list */
+.bd_wrap .notice_box{padding:0;margin-top:20px;background:none}
+.bd_wrap .notice_box > ul{padding:20px;margin-top:15px;border-radius:10px}
+.bd_wrap .notice_box > ul{background:#f8f8f8;border:1px solid #d8d8d8}
+.bd_wrap .notice_box.type2 > ul{background:#f7f9ff;border:1px solid #8cb4ff}
+.s_notice,.new23_info .new23_info_tit{padding-left:27px;background:url(https://hometax.speedycdn.net/css/comm/img_yrs/ico_info.png) no-repeat left center;font-size: 18px; font-weight: bold;width: 100% !important}
+.notice_box.inner{background:#eef5f9;border:1px solid #c1dbea;margin-top:18px;padding-top:0}
+.notice_box.inner strong{color:#444 !important}
+.notice_box .caution strong{color:#f75c73 !important}
+.notice_box.inner li{padding-left:15px;}
+.notice_box li{position:relative;padding-left:10px;font-size:15px;color:#333;margin:5px 0;word-break:keep-all}
+.notice_box li::before{position:absolute;top:8px;left:0;content:'';width:3px;height:3px;background:#8e8e8e}
+.notice_box li strong{color:#026db5}
+.notice_box ul > li > ul li{font-size:14px;color:#555}
+.notice_box .btn_n{height:26px;border:1px solid #446be7;color:#446be7;font-size:14px}
+/* 기본 버튼 */
+.btn_n {font-family:height:30px;font-size:15px;font-weight:500;color:#028998;border-radius:4px;border:1px solid #028998;padding:5px 10px;background-color:#fff;transition:background-color .5s ease;background-color:#fff}
+.btn_n.btn_video {padding-right:32px;height:30px;border:1px solid #028998;color:#028998;background:#fff url(https://hometax.speedycdn.net/css/comm/bpr_images/ico_pop3.svg) no-repeat right 10px center;background-size:14px 14px;}
+.bd_wrap .bot{display:flex;justify-content:flex-end;flex-direction:column;margin:10px 0 30px}
+.bd_wrap .bot p{text-align:right}
+</style>
+<script type="text/javascript">
+	window.location.href="/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml"; //2023.01.31 김소진 : 화면 진입시 홈택스 메인페이지로 redirect
+	
+	function getQueryString(paramName){
+		var tempUrl = window.location.search.substring(1);
+		var tempArray = tempUrl.split("&");
+
+		for(var i=0; i<tempArray.length; i++){
+			var keyValue = tempArray[i].split("=");
+			if(keyValue[0] == paramName){
+				return keyValue[1];
+			}
+		}
+		return "";
+	}
+	
+	var isCdnStr = getQueryString("isCdn");
+	
+	if(isCdnStr == "Y"){
+		if(!fn_isCheckCdn()){
+			window.location.href = "/ui/pp/yrs_index_h.html";
+		}
+	}else{
+		if(!fn_isCheckCdn()){
+			// CH1737679505339 : 임시페이지 종료 후, url 직접 접근 시 팝업 표시 안되도록 주석처리 함.
+			//window.open("/html/pp/info/cncInpGdncPop.html","cncInpGdncPop","directories=no,toolbar=no,width=680,height=500");
+		}
+	}
+	
+	function fn_isCheckCdn(){
+		var ret = true;
+		try{
+			if(!isCheckCdn){
+				ret = false;
+			}
+		}catch(e){
+			ret = false;
+		}
+		return ret;
+	}
+	
+	var boxDiv = "box2"; //2단(default)
+	
+	$(function(){
+		//홈택스 서비스 정상이용 확인 팝업
+		window.open("/html/pp/info/cncInpGdncPop.html","cncInpGdncPop","directories=no,toolbar=no,width=680,height=470");
+		
+		var prmt = $(location).attr("search");
+		if(prmt.indexOf("test=Y")>-1){
+			loadstat(prmt);
+		}else{
+			$.ajax({
+				url:"/index.jsp",
+				type:"post",
+				dataType:"html",
+				success : function(data){
+					// 서버날짜
+					var serverDt = data.split("serverDate")[1].substring(1,9);
+					
+					// 임시페이지 날짜별 분기
+					//serverDt = "20260131"; //테스트용(배포 시 주석 처리)
+					
+					// 2단(yrs_index_box2) : 1.15(목)~1.17(토)
+					if(Number(serverDt) >= 20260115 && Number(serverDt) <= 20260117) {
+						$("#yrs_index_box2").show();
+						$("#yrs_index_box4").remove();
+						$("#yrs_index_box3_last").remove();
+					} 
+					// 4단(yrs_index_box4) : 1.18(일)~1.26(월)
+					else if(Number(serverDt) >= 20260118 && Number(serverDt) <= 20260126) {
+						$("#yrs_index_box4").show();
+						$("#yrs_index_box2").remove();
+						$("#yrs_index_box3_last").remove();
+						$(".top_list > li:first").html("연말정산 간소화, 편리한 연말정산, 부가가치세 신고 서비스를 원활히 제공하기 위해 운영하고 있습니다."); //상단 안내문구 수정
+						boxDiv = "box4";
+					} 
+					// 3단_LAST(yrs_index_box3_last) : 1.27(화)~1.31(토)
+					else if(Number(serverDt) >= 20260127 && Number(serverDt) <= 20260131) {
+						$("#yrs_index_box3_last").show();
+						$("#yrs_index_box4").remove();
+						$("#yrs_index_box2").remove();
+						$(".top > h1:first").html('<img src="https://hometax.speedycdn.net/css/comm/img_yrs/logo.png" alt="인터넷 납세서비스 국세청홈택스" />연말정산간소화, 편리한연말정산'); //제목 수정
+						$(".top_list > li:first").html("서비스를 원활히 제공하기 위해 운영하는 임시 화면입니다."); //상단 안내문구 수정
+						$(".notice_box").hide(); //하단 연말정산 이용자 집중에 따른 안내사항 hide
+						boxDiv = "box3_last";
+					} 
+					// default : 2단(yrs_index_box2)
+					else {
+						$("#yrs_index_box2").show();
+						$("#yrs_index_box4").remove();
+						$("#yrs_index_box3_last").remove();
+					}
+					
+					//박스 별 상태 설정(1:원활 2:다소지연 3:지연)
+					//index.jsp에 박스별로 변수에 값이 설정되어 있음, index.jsp를 수정해서 배포하면 적용 가능
+					loadstat(data);
+				},
+				error : function(data){
+					$("#yrs_index_box2").show();
+					$("#yrs_index_box4").remove();
+					$("#yrs_index_box3_last").remove();
+				}
+			});
+		}
+		var orgHost = location.href;
+		var hostYn = false; //로컬이나 개발환경이 아닌경우에는 넷퍼넬을 걸지않기위한 flag
+		if(orgHost.indexOf("dev.") != -1 || orgHost.indexOf("local.") != -1){
+			hostYn = true;
+		}
+		
+		//1번 버튼
+		$("#ST1BOX a").on("click",function(){
+			//2단, 4단, 3단 LAST 동일
+			location.href = "/websquare/websquare_cdn.html?w2xPath=/ui/pp/UYRSLGNEXE.xml&menuNo=01";
+		});
+		
+		//2번 버튼
+		$("#ND2BOX a").on("click",function(){
+			//2단
+			if(boxDiv == "box2") {
+				// 2025.01.10 : 로그인 부분은 websquare_cdn 으로 변경 요청
+				location.href = "/websquare/websquare_cdn.html?w2xPath=/ui/pp/UVATLGNEXE.xml";		// 부가가치세 임시로그인페이지
+			} 
+			//4단, 3단 LAST
+			else if(boxDiv == "box4" || boxDiv == "box3_last") {
+				location.href = "/websquare/websquare_cdn.html?w2xPath=/ui/pp/UYRSLGNEXE.xml&menuNo=02";				
+			}
+		});
+		
+		//3번 버튼
+		$("#RD3BOX a").on("click",function(){	
+			//2단, 3단 LAST
+			if(boxDiv == "box2" || boxDiv == "box3_last") {
+				//2022.01.17 김소진 : 홈택스 부하로 넷퍼넬 적용(지문인증 로그인 사용률이 적어 임시로 사용 - 추후 변경 필요)
+				//2023.01.26 김소진 : 홈택스 부하로 넷퍼넬 적용(지문인증 로그인 사용률이 적어 임시로 사용 - 추후 변경 필요)
+				if(hostYn){ //로컬,개발환경인 경우
+					location.href = "/websquare/websquare.html?w2xPath=/ui/pp/UTXPPTMPRA.xml";
+				}else{
+					NetFunnel_Action({"service_id":"service_1","action_id":"fgpr_login"}, function() {
+						window.location.href="/websquare/websquare.html?w2xPath=/ui/pp/UTXPPTMPRA.xml";
+					});
+				}
+			} 
+			//4단
+			if(boxDiv == "box4") {
+				location.href = "/websquare/websquare_cdn.html?w2xPath=/ui/pp/UVATLGNEXE.xml";
+			} 
+		});		
+
+		//4번 버튼
+		$("#TH4BOX a").on("click",function(){
+			//2022.01.18 김소진 : 홈택스 부하로 넷퍼넬 적용(지문인증 로그인 사용률이 적어 임시로 사용 - 추후 변경 필요)
+			if(hostYn){ //로컬,개발환경인 경우
+				location.href = "/websquare/websquare.html?w2xPath=/ui/pp/UTXPPTMPRA.xml";
+			}else{
+				NetFunnel_Action({"service_id":"service_1","action_id":"fgpr_login"}, function() {
+					window.location.href="/websquare/websquare.html?w2xPath=/ui/pp/UTXPPTMPRA.xml";
+				});
+			}
+		});
+		
+		//국세상담센터 126 클릭시
+		$(".bot .right").on("click",function(){
+			window.open('https://call.nts.go.kr/call/main.do','국세상담센터 126','directories=no,toolbar=no,left=100,top=100,width=1020,height=650,scrollbars=1');
+		});
+
+	});
+</script>
+</head>
+<body>
+	<div class="imsi_wrap">
+		<div class="bd_wrap">
+		
+			<div class="top">
+				<h1>
+					<img src="https://hometax.speedycdn.net/css/comm/img_yrs/logo.png" alt="인터넷 납세서비스 국세청홈택스" />홈택스 신고안내 임시페이지
+				</h1>
+				<ul class="top_list">
+					<li>연말정산 간소화, 부가가치세 신고 서비스를 원활히 제공하기 위해 운영하고 있습니다.</li>
+				</ul>
+			</div>
+			
+			<div class="mid">
+			
+				<!-- 2단 시작 -->
+				<div class="div div3" id="yrs_index_box2" style="display: none">
+					<div id="ST1BOX" style="margin-left: 0;" class="box box1">
+						<a href="javascript:void(0);"> <span id="ST1BOX_flag"
+							class="flag">원활</span> <span class="inner"> 연말정산 간소화<br/>(공제자료 조회/발급) <span class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="ND2BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="ND2BOX_flag"
+							class="flag">원활</span> <span class="inner"> 부가가치세 신고 서비스 <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="RD3BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="RD3BOX_flag"
+							class="flag">원활</span> <span class="inner"> 홈택스 <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+				</div>
+				<!-- 2단 끝 -->
+				
+				<!-- 4단 시작 -->
+				<div class="div div4" id = "yrs_index_box4" style="display: none">
+					<div id="ST1BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="ST1BOX_flag"
+							class="flag">원활</span> <span class="inner"> 연말정산 간소화<br />
+								<span style="font-size: 11pt;">(공제자료 조회/발급)</span> <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="ND2BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="ND2BOX_flag"
+							class="flag">원활</span> <span class="inner"> 편리한 연말정산<br />
+								<span style="font-size: 11pt;">(공제신고서 작성 등)</span> <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="RD3BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="RD3BOX_flag"
+							class="flag">원활</span> <span class="inner"> <strong>부가가치세 신고 </strong>서비스 <span class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="TH4BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="TH4BOX_flag"
+							class="flag">원활</span> <span class="inner"> 홈택스 <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+				</div>
+				<!-- 4단 끝 -->
+				
+				<!-- 3단 LAST 시작 -->
+				<div class="div div3" id="yrs_index_box3_last" style="display: none">
+					<div id="ST1BOX" style="margin-left: 0;" class="box box1">
+						<a href="javascript:void(0);"> <span id="ST1BOX_flag"
+							class="flag">원활</span> <span class="inner"> 연말정산간소화<br />(공제자료 조회/발급) <span class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="ND2BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="ND2BOX_flag"
+							class="flag">원활</span> <span class="inner"> 편리한 연말정산<br />(공제신고서
+								작성 등) <span class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+					<div id="RD3BOX" class="box box1">
+						<a href="javascript:void(0);"> <span id="RD3BOX_flag"
+							class="flag">원활</span> <span class="inner"> 홈택스 <span
+								class="arr">바로가기</span>
+						</span>
+						</a>
+					</div>
+				</div>
+				<!-- 3단 LAST 끝 -->
+				
+			</div>
+
+			<div class="r_radius notice_box imp">
+				<p class="s_notice" style="width: 330px;">연말정산 이용자 집중에 따른 안내사항</p>
+				<ul>
+					<li class="caution">연말정산 서비스는 <strong>1.15.(목) ~ 1.20.(화)</strong>에 이용자가 많으므로 <strong>1.21.(수) 이후 </strong>접속하면 기다리지 않고 이용할 수 있습니다.
+					</li>
+					<li class="caution">연말정산 이용자가 집중되는 <strong>1.20.(화), 09시부터 18시까지는 </strong>자료 <strong>대량조회(스크래핑) 서비스가 일부 제한</strong>될 수 있으니 홈택스 이용에 참고하시기 바랍니다.</li>
+				</ul>
+			</div>
+
+			<div class="bot">
+				<div>
+					<img style="cursor: pointer; float: right;"
+						src="https://hometax.speedycdn.net/img/pop_bg/bottom.png" alt="국세상담센터 126에 문의하세요!" />
+				</div>
+				<p>Copyrightⓒ National Tax Service. All rights reserved.</p>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

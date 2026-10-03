@@ -1,0 +1,98 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,1만분의 719,,건강보험료율 7.19%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289701&joNo=0044&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민건강보험법 시행령 제44조 제1항,2026-10-03,각각 1만분의 719로 한다,
+2,7.19,%,2026년 건강보험료율,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1487279,보건복지부 보도자료 2025-08-28,2026-10-03,건강보험료율 7.19%로 결정,
+3,7.09,%,2025년 건강보험료율,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1483034,보건복지부 보도자료(2025년 동결),2026-10-03,건강보험료율 7.09%로,
+4,0.1,%p,2026년 건강보험료율 인상 폭,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1487279,보건복지부 보도자료,2026-10-03,올해보다 0.1%p,
+5,100분의 50,,건강보험료 근로자·사업주 부담 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276651&joNo=0076&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민건강보험법 제76조 제1항,2026-10-03,100분의 50씩 부담한다,
+6,9.5,%,2026년 국민연금 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,보험료율 9.5%로 부과된,
+7,9,%,2025년까지 국민연금 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,2025년까지는 9%의,
+8,0.5,%p,국민연금 보험료율 해마다 인상 폭,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,매년 0.5%p씩,
+9,13,%,2033년 국민연금 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,2033년부터는 13%의,
+10,1천분의 65,,국민연금 최종 근로자·사용자 각각 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0088&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제88조 제3항,2026-10-03,각각 기준소득월액의 1천분의 65,
+11,"100만분의 9,448",,장기요양보험료율 0.9448%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=286011&joNo=0004&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,노인장기요양보험법 시행령 제4조,2026-10-03,"100만분의 9,448로 한다",
+12,0.9448,%,2026년 소득 대비 장기요양보험료율,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1487817,보건복지부 보도자료 2025-11-04,2026-10-03,장기요양보험료율은 0.9448%로,
+13,13.14,%,건강보험료 대비 장기요양보험료율,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1487817,보건복지부 보도자료 2025-11-04,2026-10-03,장기요양보험료율은 13.14%,
+14,0.9182,%,2025년 소득 대비 장기요양보험료율,https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1487817,보건복지부 보도자료 2025-11-04,2026-10-03,(2025년도 … 0.9182%),
+15,1천분의 18,,실업급여 보험료율 1.8%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용산재보험료징수법 시행령 제12조 제1항 제2호,2026-10-03,실업급여의 보험료율: 1천분의 18,
+16,1만분의 25,,고용안정 150명 미만 0.25%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제1항 제1호 가목,2026-10-03,1만분의 25,
+17,1만분의 45,,고용안정 우선지원대상기업 0.45%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제1항 제1호 나목,2026-10-03,1만분의 45,
+18,1만분의 65,,고용안정 150명~1천명 미만 0.65%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제1항 제1호 다목,2026-10-03,1만분의 65,
+19,1만분의 85,,고용안정 1천명 이상 0.85%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제1항 제1호 라목,2026-10-03,1만분의 85,
+20,150,명,상시근로자 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제1항 제1호,2026-10-03,상시근로자수가 150명 미만인,
+21,3,년,고용안정 요율 인상 유예 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280527&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,같은 시행령 제12조 제4항,2026-10-03,다음 보험연도부터 3년 동안,
+22,2분의 1,,근로자 고용보험료 = 실업급여 요율의 절반,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=247481&joNo=0013&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용산재보험료징수법 제13조 제2항,2026-10-03,보험료율의 2분의 1을 곱한,
+23,65,세,65세 이후 고용 시 실업급여 보험료 미징수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=247481&joNo=0013&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용산재보험료징수법 제13조 제3항,2026-10-03,65세 이후에 고용,
+24,18,세,국민연금 가입 대상 하한 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제6조,2026-10-03,18세 이상 60세 미만,
+25,60,세,국민연금 가입 대상 상한 나이(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제6조,2026-10-03,18세 이상 60세 미만,
+26,410000,원,기준소득월액 하한(2026.7.~2027.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,(최저) 41만원,NPS_FLOOR
+27,6590000,원,기준소득월액 상한(2026.7.~2027.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,(최고) 659만원,NPS_CAP
+28,400000,원,기준소득월액 하한(2025.7.~2026.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,(최저) 40만원,NPS_FLOOR_OLD
+29,6370000,원,기준소득월액 상한(2025.7.~2026.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,국민연금공단 보험료 납부 안내,2026-10-03,(최고) 637만원,NPS_CAP_OLD
+30,30,배,건강보험 보수월액보험료 상한 산정 배수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289701&joNo=0032&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민건강보험법 시행령 제32조 제1호 가목,2026-10-03,30배에 해당하는 금액,
+31,1천분의 50,,건강보험 보수월액보험료 하한 범위 아래,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289701&joNo=0032&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민건강보험법 시행령 제32조 제2호 가목,2026-10-03,1천분의 50 이상,
+32,1천분의 85,,건강보험 보수월액보험료 하한 범위 위,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289701&joNo=0032&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민건강보험법 시행령 제32조 제2호 가목,2026-10-03,1천분의 85 미만,
+33,4.75,%,국민연금 근로자 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE/2
+34,3.595,%,건강보험 근로자 요율,계산,calc.py 출력,2026-10-03,,HI_RATE/2
+35,0.4724,%,장기요양 근로자 요율,계산,calc.py 출력,2026-10-03,,LTC_RATE/2
+36,0.9,%,고용보험 근로자 요율,계산,calc.py 출력,2026-10-03,,EI_UB/2
+37,1.8,%,실업급여 전체 요율,계산,calc.py 출력,2026-10-03,,EI_UB
+38,0.25,%,고용안정 최저,계산,calc.py 출력,2026-10-03,,EI_SAFETY
+39,0.45,%,고용안정 우선지원,계산,calc.py 출력,2026-10-03,,EI_SAFETY
+40,0.65,%,고용안정 중간,계산,calc.py 출력,2026-10-03,,EI_SAFETY
+41,0.85,%,고용안정 최고,계산,calc.py 출력,2026-10-03,,EI_SAFETY
+42,9.7174,%,근로자 몫 합계 요율,계산,calc.py 출력,2026-10-03,,me_rate
+43,9.72,%,근로자 몫 합계 요율(반올림)·보수 대비 비율,계산,calc.py 출력,2026-10-03,,me_rate
+44,97174,원,월 100만원당 근로자 몫,계산,calc.py 출력,2026-10-03,,me_rate
+45,95000,원,200만원 국민연금,계산,calc.py 출력,2026-10-03,,국민연금_근로자
+46,71900,원,200만원 건강보험,계산,calc.py 출력,2026-10-03,,건강보험_근로자
+47,9448,원,200만원 장기요양,계산,calc.py 출력,2026-10-03,,장기요양_근로자
+48,18000,원,200만원 고용,계산,calc.py 출력,2026-10-03,,고용보험_근로자
+49,194348,원,200만원 합계,계산,calc.py 출력,2026-10-03,,근로자합계
+50,142500,원,300만원 국민연금,계산,calc.py 출력,2026-10-03,,국민연금_근로자
+51,107850,원,300만원 건강보험,계산,calc.py 출력,2026-10-03,,건강보험_근로자
+52,14172,원,300만원 장기요양,계산,calc.py 출력,2026-10-03,,장기요양_근로자
+53,27000,원,300만원 고용,계산,calc.py 출력,2026-10-03,,고용보험_근로자
+54,291522,원,300만원 합계,계산,calc.py 출력,2026-10-03,,근로자합계
+55,237500,원,500만원 국민연금,계산,calc.py 출력,2026-10-03,,국민연금_근로자
+56,179750,원,500만원 건강보험,계산,calc.py 출력,2026-10-03,,건강보험_근로자
+57,23620,원,500만원 장기요양,계산,calc.py 출력,2026-10-03,,장기요양_근로자
+58,45000,원,500만원 고용,계산,calc.py 출력,2026-10-03,,고용보험_근로자
+59,485870,원,500만원 합계,계산,calc.py 출력,2026-10-03,,근로자합계
+60,313025,원,800만원 국민연금(상한 적용),계산,calc.py 출력,2026-10-03,,국민연금_근로자
+61,287600,원,800만원 건강보험,계산,calc.py 출력,2026-10-03,,건강보험_근로자
+62,37792,원,800만원 장기요양,계산,calc.py 출력,2026-10-03,,장기요양_근로자
+63,72000,원,800만원 고용,계산,calc.py 출력,2026-10-03,,고용보험_근로자
+64,710417,원,800만원 합계,계산,calc.py 출력,2026-10-03,,근로자합계
+65,3498264,원,300만원 1년 합계,계산,calc.py 출력,2026-10-03,,근로자합계*12
+66,5830440,원,500만원 1년 합계,계산,calc.py 출력,2026-10-03,,근로자합계*12
+67,8.88,%,800만원 보수 대비 비율,계산,calc.py 출력,2026-10-03,,근로자합계/보수
+68,380000,원,상한 없을 때 800만원 연금 근로자 몫,계산,calc.py 출력,2026-10-03,,nps_nocap
+69,66975,원,상한 효과 차이,계산,calc.py 출력,2026-10-03,,nps_nocap-국민연금_근로자
+70,302575,원,800만원 2026년 6월까지 연금 근로자 몫,계산,calc.py 출력,2026-10-03,,old
+71,10450,원,상한 인상으로 늘어난 금액,계산,calc.py 출력,2026-10-03,,국민연금_근로자-old
+72,220000,원,상한 오른 폭,계산,calc.py 출력,2026-10-03,,NPS_CAP-NPS_CAP_OLD
+73,8.5,%,하한 비율 위끝 1천분의 85,계산,calc.py 출력,2026-10-03,,"F(85,1000)"
+74,7500,원,300만원 고용안정 사업주 몫,계산,calc.py 출력,2026-10-03,,고용안정_사업주150미만
+75,299022,원,300만원 사업주 합계(산재 제외),계산,calc.py 출력,2026-10-03,,사업주합계_산재제외
+76,10,%,2027년 국민연금 보험료율,계산,calc.py 출력,2026-10-03,,NPS_RATE[2027]
+77,5,%,2027년 근로자 몫 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE[2027]/2
+78,150000,원,2027년 300만원 근로자 몫,계산,calc.py 출력,2026-10-03,,compute(year=2027)
+79,7500,원,2027년 늘어난 몫,계산,calc.py 출력,2026-10-03,,차이
+80,10.5,%,2028년 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE
+81,11,%,2029년 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE
+82,11.5,%,2030년 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE
+83,12,%,2031년 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE
+84,12.5,%,2032년 요율,계산,calc.py 출력,2026-10-03,,NPS_RATE
+85,157500,원,2028년,계산,calc.py 출력,2026-10-03,,compute
+86,165000,원,2029년,계산,calc.py 출력,2026-10-03,,compute
+87,172500,원,2030년,계산,calc.py 출력,2026-10-03,,compute
+88,180000,원,2031년,계산,calc.py 출력,2026-10-03,,compute
+89,187500,원,2032년,계산,calc.py 출력,2026-10-03,,compute
+90,195000,원,2033년,계산,calc.py 출력,2026-10-03,,compute
+91,15000,원,2028년 차이,계산,calc.py 출력,2026-10-03,,차이
+92,22500,원,2029년 차이,계산,calc.py 출력,2026-10-03,,차이
+93,30000,원,2030년 차이,계산,calc.py 출력,2026-10-03,,차이
+94,37500,원,2031년 차이,계산,calc.py 출력,2026-10-03,,차이
+95,45000,원,2032년 차이,계산,calc.py 출력,2026-10-03,,차이
+96,52500,원,2033년 차이,계산,calc.py 출력,2026-10-03,,차이
+97,630000,원,2033년 1년 차이,계산,calc.py 출력,2026-10-03,,차이*12

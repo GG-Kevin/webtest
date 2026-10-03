@@ -1,0 +1,30 @@
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 34 fill '#16212e' stroke '#16212e' stroke-width 0.6 text-anchor start text 40,58 '가구 순자산 분위 경계값 (2025년 3월 말)' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 20 fill '#3d4852' stroke none text-anchor start text 40,98 'P90 = 상위 10%가 시작하는 금액 · 국가데이터처 가계금융복지조사 부록 통계표 12' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke '#16212e' stroke-width 0.6 text-anchor end text 134,160 'P90' pop graphic-context
+push graphic-context fill '#0a6350' stroke none rectangle 150,136 1010.0,170 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#0a6350' stroke '#0a6350' stroke-width 0.6 text-anchor start text 1022.0,161 '11억 20만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,212 'P80' pop graphic-context
+push graphic-context fill '#7fa99b' stroke none rectangle 150,188 692.3,222 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 704.3268496636975,213 '6억 9,380만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,264 'P70' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,240 511.0,274 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 522.9780039992729,265 '4억 6,180만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,316 'P60' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,292 408.3,326 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 420.3439374659153,317 '3억 3,050만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,368 'P50' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,344 336.5,378 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 348.507907653154,369 '2억 3,860만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,420 'P40' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,396 278.8,430 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 290.7576804217415,421 '1억 6,472만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,472 'P30' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,448 230.5,482 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 242.48136702417742,473 '1억 296만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,524 'P20' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,500 189.9,534 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 201.92801308852935,525 '5,108만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 24 fill '#16212e' stroke none text-anchor end text 134,576 'P10' pop graphic-context
+push graphic-context fill '#c9d6d1' stroke none rectangle 150,552 159.5,586 pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 23 fill '#16212e' stroke none text-anchor start text 171.4582803126704,577 '1,210만원' pop graphic-context
+push graphic-context font '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc' font-size 18 fill '#5b6670' stroke none text-anchor start text 40,653 '단위: 원(만원 아래 없음) · 가구 단위 · 순자산 = 자산 - 부채' pop graphic-context

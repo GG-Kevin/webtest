@@ -1,0 +1,4088 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko" class="theme-light">
+<head>
+	<title>전자공시시스템</title>
+	<meta charset="UTF-8">
+	<meta id="Viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- resource  -->
+  	
+	
+
+	
+<script type="text/javascript" src="/resource/js/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="/js/jquery-ui/jquery-ui.min.css">
+<script type="text/javascript" src="/js/jquery-ui/jquery-ui.min.js"></script>
+
+<!-- 2011.11.01 ext 2.3 -->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/js/ext-main/resources/css/ext-all-ie8.css" /><![endif]-->
+<script type="text/javascript" src="/js/ext-main/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="/js/ext-main/ext-all.js"></script>
+
+<!-- x-xeries js libraries  -->
+<script type="text/javascript" src="/js/xjs.js?ver=4"></script>
+
+<!-- application js libraries -->
+<script type="text/javascript" src="/js/jsval.js" ></script>
+
+<!-- 웹표준 추가 스크립트-->
+<script type="text/javascript" src="/js/jquery/gotop.js"></script>
+
+<!-- 웹표준화적용사항 위반으로 DSAB001L.jsp에서 헤드로 위치 이동 -->
+<style type="text/css">
+.checked-icon {background-image: url(/images/temp/add.gif);}
+.ui-autocomplete {max-height: 100px; overflow-y: auto; overflow-x: hidden;}
+.ui-menu-item .ui-menu-item-wrapper.ui-state-active {background: #eaeaea !important; border: none; color:#333;}
+</style>
+<!--end -->
+
+<!-- 추가 되는 js, css 시작 -->
+<link rel="stylesheet" href="/resource/css/bootstrap.min.css">
+<link rel="stylesheet" href="/resource/css/slick.css">
+<link rel="stylesheet" href="/js/jsTree/default/style.css" />
+<link rel="stylesheet" href="/resource/css/bootstrap-datepicker3.css">
+<script type="text/javascript" src="/resource/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/resource/js/slick.min.js"></script>
+<script type="text/javascript" src="/js/jsTree/jstree.js"></script>
+<script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/js/bootstrap-datepicker.kr.min.js"></script>
+<script type="text/javascript" src="/js/idart/idart.js"></script><!-- idart용 -->
+<!-- 추가 되는 js, css 끝 -->
+
+<script type="text/javascript">
+function loadHistoryContents() {
+	xajax.initParameter();
+	xajax.blockUI = false;
+	xajax.simpleSend("/dsaf001/history.ax", function(html) {
+		$j("#wingWrap").html(html);
+	});
+}
+
+</script>
+<script type="text/javascript">
+(
+	function(){
+		var s=function(){
+				__flash__removeCallback=function(i,n){if(i)i[n]=null;
+			};window.setTimeout(s,10);
+		};s();
+	}
+)();
+</script>
+
+<script type="text/javascript">
+function otherGongsi(){
+	var f_select = document.getElementById("f_select");
+	var link = f_select.options[f_select.selectedIndex].value;
+	if(link != "f_slt_1"){
+		window.open(link);
+	}
+	if(link == "f_slt_1"){
+		alert("해외전자공시를 선택해주세요");
+	}
+}
+</script>
+	
+
+	
+<link id="commonCss" rel="stylesheet" href="/css/common.css?ver=1.13" />
+<link id="userCssWeb" rel="stylesheet" href="/css/web.css?ver=25" />
+<link id="userCssTab" rel="stylesheet" href="/css/tablet.css?ver=11" />
+<link id="userCssMob" rel="stylesheet" href="/css/mobile.css?ver=14" />
+<link id="userCssFnt" rel="stylesheet" href="/css/fonts.css?ver=1.13" />
+
+<script type="text/javascript" src="/js/common.js?ver=7"></script>
+
+	<script src="/js/jquery-ui/jquery-ui.js"></script>
+	<script src="/js/jquery-ui/jquery.ui.touch-punch.js"></script>
+	<script src="/js/detectmobilebrowser.js"></script>
+	<script type="text/javascript">
+	
+	var reportRankCnt = 0;
+	var reportRankDataCnt = 0;
+	var reportRankMoveCnt = 0;
+	$j(document).ready(function() {
+		//자동완성 스크립트 호출
+		$j.getScript("/js/autocomplete/autocomplete_txt.js");
+		$j.getScript("/js/autocomplete/autocomplete_crp.js");
+		$j.getScript("/js/autocomplete/autocomplete_rpt.js");
+		$j.getScript("/js/autocomplete/autocomplete_toc.js");
+		$j.getScript("/js/autocomplete/autocomplete_nav.js");
+		$j.getScript("/js/autocomplete/autocomplete_high.js"); // 공시검색 고급검색 자동완성 추가
+		
+		if(isInApp()) {
+			if(navigator.userAgent.toLowerCase().indexOf('android') > -1) {
+				deviceInfo = android_dart.getDeviceInfo();
+				var keys = deviceInfo.split('_$');
+				$j('#deviceId').val(keys[0]);
+				$j('#token').val(keys[1]);
+				$j('#deviceOs').val(keys[2]);
+				$j('#appYn').val('Y');
+				fn_tokenUpdate();
+			} else {
+				window.webkit.messageHandlers.DARTJS.postMessage('getDeviceInfo');
+			}
+		}
+
+		$j("#searchForm")[0].reset();
+		$j("#searchForm2")[0].reset();
+		loadHistoryContents();
+		initLayerNew('winCorpInfo');
+		initLayerNew('winFindReport');
+		initLayerNew('winFindReportList');
+		/* initLayerNew('winGosiNav'); */
+		initLayerNew('winBodo');
+		initLayerNew('winGongsiDetail');
+		
+		initSearchCorp("textCrpNm");
+		
+		fn_setDisplayOrder();
+		fn_scrollWingWrapMain();
+		
+		getRef("currentDateTimeGongsi").innerHTML	= "[ " + getCurrentDateTime() + " ] 오늘의 공시는 30초 단위로 갱신됩니다.";
+		getRef("currentDateTimeGongmo").innerHTML	= "[ " + getCurrentDateTime() + " ] 공모게시판은 30초 단위로 갱신됩니다.";
+		
+		//공시통합검색 셀렉트이벤트
+		$j('#selectCheckNm').click(function(){
+			fn_toggleSelect();
+		});
+		$j('#selectCheck').mouseleave(function(){
+			fn_hideSelect();
+		});
+		$j(".frmSelect").mouseleave(function() {
+			$j("#dropdownContent").hide();
+		});
+		
+		$j('#keyword').keyup(function(event) {
+			if (event.which == 13) {
+				var sugg = getCookie('suggest');
+				if(sugg == 'off') {
+					initSearch();
+					search(1);
+				}
+			}
+		});
+				
+		var word = fn_getLocalStorage('defaultSearchWord');
+		var val  = fn_getLocalStorage('defaultSearchValue');
+		if(word && val){
+			
+			$j('#selectCheckNmText').text(word.replace(/\"/gi,''));
+			$j('input:radio[name=chkOption]').each(function(){
+				if($j(this).val() == val.replace(/\"/gi,'')){
+					$j(this).click(); 
+				}
+			});
+			var optionVal = $j('input:radio[name=chkOption]:checked').val();
+			if (optionVal == 'corp') { //회사명
+				$j("#searchArea_txt, #searchArea_rpt, #searchArea_toc, #searchArea_high").hide();
+				$j("#searchArea_crp2, #detailCheckWrap2").show();
+				$j(".mainSearch").addClass("crp");
+			} else if(optionVal == 'report') { // 보고서명
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_toc, #detailCheckWrap2, #searchArea_high").hide();
+				$j("#searchArea_rpt").show();
+				$j(".mainSearch").removeClass("crp");
+			}  else if(optionVal== 'reportList') { // 보고서 목차명
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_rpt, #detailCheckWrap2, #searchArea_high").hide();
+				$j("#searchArea_toc").show();
+				$j(".mainSearch").removeClass("crp");
+			} else if(optionVal== 'high') { // 고급검색
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_toc, #searchArea_rpt, #detailCheckWrap2").hide();
+				$j("#searchArea_high").show();
+				$j(".mainSearch").removeClass("crp");
+			} else { // 본문내용, 전체
+				//	$j("#option1").prop('checked',true);
+				$j("#searchArea_crp2, #searchArea_rpt, #searchArea_toc, #detailCheckWrap2, #searchArea_high").hide();
+				$j("#searchArea_txt").show();
+				$j(".mainSearch").removeClass("crp");
+			}
+		} else { // 기본 선택 없으면 회사명으로 세팅
+			$j('#selectCheckNmText').text("검색조건  :  회사명");
+			//$j("#option2").prop('checked',true);
+			$j("input:radio[name='chkOption']:radio[value='corp']").prop('checked',true);
+			$j("#searchArea_txt, #searchArea_rpt, #searchArea_toc, #searchArea_high").hide();
+			$j("#searchArea_crp2, #detailCheckWrap2").show();
+			$j(".mainSearch").addClass("crp");
+		}
+		
+		var searchInfoJson = getSearchInfo();
+		if(searchInfoJson != null) {
+			makeMainLatestSelect(searchInfoJson, 'lateKeyword');
+		}
+
+		//오늘의 공시 tab
+		$j('#todayTab > ul').find('li').mouseover(function(){
+			$j('#todayTab > ul').find('li').removeClass('on');
+			
+			$j(this).addClass('on');
+			var id = $j(this).attr('id');
+			id = id.replace('todayLi_','');
+			var moreId = id;
+			id = "toady_"+id;
+			$j('.mainTabListWrap').hide();
+			$j('#'+id).show();
+		});
+		
+		$j('#todayTab > ul').find('li .today').focus(function(){
+			$j('#todayTab > ul').find('li').removeClass('on');
+			$j(this).parent().addClass('on');
+			var id = $j(this).parent().attr('id');
+			id = id.replace('todayLi_','');
+			var moreId = id;
+			id = "toady_"+id;
+			$j('.mainTabListWrap').hide();
+			$j('#'+id).show();
+		});
+		
+		//공모 tab
+		$j('#gongmoTab > ul').find('li').mouseover(function(){
+			$j('#gongmoTab > ul').find('li').removeClass('on');
+			$j(this).addClass('on');
+			var id = $j(this).attr('id');
+			id = id.replace('gongmoLi_','');
+			id = "gongmo_"+id;
+			$j('.mainBoard03ListWrap').hide();
+			$j('#'+id).show();
+			
+		});
+		
+		//공모 tab
+		$j('#gongmoTab > ul').find('li .gongmoA').focus(function(){
+			$j('#gongmoTab > ul').find('li').removeClass('on');
+			$j(this).parent().addClass('on');
+			var id = $j(this).parent().attr('id');
+			id = id.replace('gongmoLi_','');
+			id = "gongmo_"+id;
+			$j('.mainBoard03ListWrap').hide();
+			$j('#'+id).show();
+			
+		});
+		
+		//my공시 get
+		//fn_selectMyGosi();
+		
+		gongsiTimer = setTimeout("timer('a-0')" , 30000);
+		
+		// IE6 지원안한다는 메시지 창 띄우기
+		if(navigator.userAgent.match("MSIE 6.0") == "MSIE 6.0"
+				&& navigator.userAgent.match("Trident") == null){
+			//Ext.Msg.minWidth = 200;
+			alert("<b>익스플로어 6</b>을 사용하실 경우 일부 서비스 이용이 불가능하거나 다소 불편할 수 있습니다.<br><br>자세한 내용은 웹기술지원센터(http://web.kisa.or.kr)를 참고하십시오.");
+		}
+		
+		$j("#sortableA").sortable({
+			axis: "y", 
+			opacity:0.5
+		});
+		$j("#sortableB").sortable({
+			axis: "x", 
+			opacity:0.5
+		});
+		$j("#sortableTemplate").sortable({
+			axis: "y", 
+			opacity:0.5
+		});
+		
+		reportRankDataCnt = $j('#mainRollingList').find('li').length;
+		for(var i=reportRankDataCnt;i<20;i++){
+			$j('#mainRollingDiv ul').append('<li></li>');
+			reportRankCnt++;
+		}
+		reportRankCnt = $j('#mainRollingList').find('li').length;
+		
+		fn_setWidthReportRank();
+		$j(window).resize(function(event) {
+			fn_setWidthReportRank();
+		});
+		
+		fn_getMyGongsi();
+	});
+	
+	function setDeviceInfo(val) {
+		var keys = val.split('_$');
+		$j('#deviceId').val(keys[0]);
+		$j('#token').val(keys[1]);
+		$j('#deviceOs').val(keys[2]);
+		$j('#appYn').val('Y');
+		fn_tokenUpdate();
+	}
+	
+	function fn_tokenUpdate(){
+		var params = $j('#deviceInfoForm').serialize();
+		$j.ajax({
+			url : '/dsac001/tokenUpdate.do',
+			type : 'get',
+			data:params,
+			dataType : 'json',
+			success:function(data){
+			}
+		});
+	}
+	
+	function fn_getMyGongsi() {
+		var myGosiCorp; //= fn_getLocalStorage('myGosiCorp');
+		var myGosiReport = fn_getLocalStorage('myGosiReport');
+		var strMyGosiReport = '';
+		if(myGosiReport && myGosiReport != ""){
+			var myGosiReportData = JSON.parse(myGosiReport);
+			myGosiReport  = myGosiReportData['myGosiReport'];
+			for(var idx =0; idx < myGosiReport.length; idx++){
+				if(idx ==0) {
+					strMyGosiReport = myGosiReport[idx].reportName;;			
+
+				} else {
+					strMyGosiReport += "::" + myGosiReport[idx].reportName;;	
+				}	
+			}
+		}
+		$j('#searchMygosiForm input[name=textReportNm]').val(strMyGosiReport);
+
+		if(isInApp()) {
+			var params = $j('#deviceInfoForm').serialize();
+			$j.ajax({
+				url : '/dsac001/selectCorpInfo.do',
+				type : 'get',
+				data:params,
+				dataType : 'json',
+				success:function(data){
+					data = JSON.stringify(data);
+					data = JSON.parse(data);
+					myGosiCorp = data.list;
+					var strMyGosiCorp = '';
+					if(myGosiCorp && myGosiCorp != ""){
+						for(var idx =0; idx < myGosiCorp.length; idx++){
+							if(idx ==0) {
+								strMyGosiCorp = myGosiCorp[idx].cik;			
+
+							} else {
+								strMyGosiCorp += "::" + myGosiCorp[idx].cik;	
+							}
+						}
+					}
+					
+					$j('#searchMygosiForm input[name=textCrpCik]').val(strMyGosiCorp);
+					
+					xajax.blockUI = true;
+					xajax.blockTarget = "";
+					xajax.timeout = 240000;
+					checkUseAjaxTimer = setTimeout("useAjax=false", xajax.timeout);
+					xajax.sendForm("searchMygosiForm", "/main/myGongsiReDrawing.do", function(html) {
+						$j('#myGosiList').html(html);
+						$j("#myGosiList tr").filter(function(index){
+							var total = $j(this).data('total');
+
+							if(index == 0) {
+								if(total == undefined) {
+									total = 0;
+								}
+								$j('#today_my_cnt').text('(' + total + ')');
+							}				
+						});
+					});
+				}
+			});
+		} else {
+			myGosiCorp = fn_getLocalStorage('myGosiCorp');
+			var strMyGosiCorp = '';
+			if(myGosiCorp && myGosiCorp != ""){
+				var myGosiCorpData = JSON.parse(myGosiCorp);
+				myGosiCorp = myGosiCorpData['myGosiCorp'];
+				for(var idx =0; idx < myGosiCorp.length; idx++){
+					if(idx ==0) {
+						strMyGosiCorp = myGosiCorp[idx].cik;			
+
+					} else {
+						strMyGosiCorp += "::" + myGosiCorp[idx].cik;	
+					}
+				}
+			}
+			
+			$j('#searchMygosiForm input[name=textCrpCik]').val(strMyGosiCorp);
+			
+			xajax.blockUI = true;
+			xajax.blockTarget = "";
+			xajax.timeout = 240000;
+			checkUseAjaxTimer = setTimeout("useAjax=false", xajax.timeout);
+			xajax.sendForm("searchMygosiForm", "/main/myGongsiReDrawing.do", function(html) {
+				$j('#myGosiList').html(html);
+				$j("#myGosiList tr").filter(function(index){
+					var total = $j(this).data('total');
+					if(index == 0) {
+						if(total == undefined) {
+							total = 0;
+						}
+						$j('#today_my_cnt').text('(' + total + ')');
+					}				
+				});
+			});
+		}
+	}
+	
+	function fn_scrollWingWrapMain(){
+		/* wingWrap */
+		$j(window).scroll(function(){
+			var scrollTop = $j(document).scrollTop() + 266;
+			if(scrollTop < 266){
+				scrollTop = 266;
+			}
+			$j('#wingWrapMain').stop();
+			$j('#wingWrapMain').animate({'top':scrollTop});
+		});
+	}
+	
+	function fn_setDisplayOrder(){	
+		//template
+		var templateOrderList = fn_getLocalStorage('templateOrderList');
+		if(templateOrderList){
+			templateOrderList = JSON.parse(templateOrderList);
+			var firstTemplate = templateOrderList['templateOrderList'][0]+ 'Template';
+			var order = templateOrderList['templateOrderList'].reverse();
+			for(var i=0; i < order.length; i++){
+				switch(order[i]){
+				case 'totalSearch' :
+					$j('.mainSearchWrap').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				case 'gosiNav' :
+					$j('.mainInfoNaviWrap').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				case 'todayGosi' :
+					$j('.mainBoard01').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				case 'reportRank' :
+					$j('.mainBoard02').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				case 'gongmo' :
+					$j('.mainBoard03Bg').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				case 'bodo' :
+					$j('.mainBoard04Bg').insertAfter('.mainVisualWrap');
+					$j('#'+order[i]+'Template').insertAfter('#'+firstTemplate);
+				break;
+				}
+			}
+		}
+		
+		$j('.mainPageBg').show();
+		
+		//tab
+		var tabOrderList = fn_getLocalStorage('tabOrderList');
+		if(tabOrderList){
+			tabOrderList = JSON.parse(tabOrderList);
+			var tabOrderList_1 = tabOrderList['tabOrderList_1'];
+			var tabOrderList_2 = tabOrderList['tabOrderList_2'];
+			
+			var firstElement = '';
+			var firstTemplate_1 = tabOrderList_1[0] + '_template';
+			var firstTemplate_2 = tabOrderList_2[0] + '_template';
+			
+			$j('.mainTabListWrap').hide();
+			
+			if(tabOrderList_1[0] == 'totalGosi'){
+				firstElement = 'todayLi_'+tabOrderList_2[0];
+				$j('#'+'todayLi_'+tabOrderList_2[0]).addClass('on');
+				$j('#toady_'+tabOrderList_2[0]).show();
+			}else{
+				firstElement = 'todayLi_'+tabOrderList_1[0];
+				$j('#'+'todayLi_'+tabOrderList_1[0]).addClass('on');
+				$j('#toady_'+tabOrderList_1[0]).show();
+			}
+			
+			var order_1 = tabOrderList_1.reverse();
+			var order_2 = tabOrderList_2.reverse();
+
+			for(var i=0; i < order_1.length; i++){
+				if(order_1[i] == 'totalGosi'){
+					
+					for(var index=0; index < order_2.length; index++){
+						$j('#todayLi_'+order_2[index]).insertAfter('#'+firstElement);
+						$j('#'+order_2[index]+'_template').insertAfter('#'+firstTemplate_2);
+					}
+					$j('#'+order_1[i]+'_template').insertAfter('#'+firstTemplate_1);
+				}else{
+					$j('#todayLi_'+order_1[i]).insertAfter('#'+firstElement);
+					$j('#'+order_1[i]+'_template').insertAfter('#'+firstTemplate_1);
+				}
+			}
+		}else{
+			$j('#todayLi_all').addClass('on');
+		}
+	}
+	
+	// 많이 본 문서
+	// reportRankMoveCnt 위치 값 계산하고 스크롤 이동
+	// isNext : 다음 (true), 이전(false)
+	function fn_reportRankScroll(isNext){
+		var width = $j('#mainRollingList').find('li').outerWidth(true);
+		var shownCnt = Math.floor($j("#mainRollingList").outerWidth(true) / (width-10));
+		var moveCnt = shownCnt * (isNext?1:-1);
+		
+		if(reportRankMoveCnt + moveCnt < 0){
+			// 뒤로 overflow
+			reportRankMoveCnt = (Math.ceil(reportRankDataCnt/shownCnt)-1)*shownCnt;
+		}else if(reportRankMoveCnt + moveCnt >= reportRankDataCnt){
+			//앞으로 overflow
+			reportRankMoveCnt = 0;
+		}else{
+			reportRankMoveCnt = reportRankMoveCnt + moveCnt;
+		}
+		fn_reportRankScrollMove();
+	}
+	
+	// reportRankMoveCnt 위치 값으로 스크롤 이동
+	function fn_reportRankScrollMove(){
+		var width = $j('#mainRollingList').find('li').outerWidth(true);
+		var shownCnt = Math.floor($j("#mainRollingList").outerWidth(true) / (width-10));
+		$j('#mainRollingList').scrollLeft(Number(width)* (reportRankMoveCnt - (reportRankMoveCnt % shownCnt)) );
+	}
+	
+	function fn_clickLeft(){
+		fn_reportRankScroll(false);
+	}
+	
+	function fn_clickRight(){
+		fn_reportRankScroll(true);
+	}
+	
+	function fn_toggleSelect(){
+		if($j('#selectCheck').is(':visible')){
+			$j('#selectCheck').hide();
+		}else{
+			$j('#selectCheck').show();
+		}
+	}
+	function fn_showSelect(){
+		$j('#selectCheck').show();
+	}
+	
+	function fn_hideSelect(){
+		$j('#selectCheck').hide();
+	}
+	
+	function fn_check(obj,nm){ // 검색조건 변경시
+		fn_typeChange();	
+		initPublicTpAll();
+		if(nm == '회사명') {
+			$j('#mainSearch').addClass("crp");
+			$j('#detailCheckWrap2').show();
+		} else {
+			$j('#mainSearch').removeClass("crp");
+		}
+		$j('#selectCheckNmText').text('검색조건 : '+nm);
+		if(isMobile()){
+			$j(".spanTextMain").text("최근");
+		}
+		fn_hideSelect();
+	}
+	
+	function fn_defaultSaveSearWord(){
+		var checkCount = 0;
+		var defaultSearchWord = '';
+		var defaultSearchValue = '';
+		$j('input:radio[name=chkOption]').each(function(){
+			if(this.checked){
+				checkCount++
+				if($j(this).val() == 'corp') {
+					defaultSearchWord = '회사명';
+				} else if($j(this).val() == 'report') {
+					defaultSearchWord = '보고서명';
+				} else if($j(this).val() == 'reportList') {
+					defaultSearchWord = '보고서목차명';
+				} else if($j(this).val() == 'contents') {
+					defaultSearchWord = '본문내용';
+				} else if($j(this).val() == 'high') {
+					defaultSearchWord = '고급검색';	
+				} else {
+					defaultSearchWord = '전체';
+				}
+				defaultSearchValue = $j(this).val();
+			}
+		});
+		
+		if(checkCount == 0 ){
+			alert('기본검색이 선택 되지 않았습니다.');
+			return;
+		}
+		fn_setLocalStorage('defaultSearchWord',defaultSearchWord);
+		fn_setLocalStorage('defaultSearchValue',defaultSearchValue);
+		fn_hideSelect();
+	}
+	
+	function changeCrpNm() {
+	  	$j("#textCrpCik").val("");
+	  	$j("#naviCrpCik").val("");
+	  	$j("#naviCrpNm").val("");
+	}
+
+	var num=0;
+	function timer(a) {
+
+		getHtml("/gongsi/gongsi.htm?_=" + new Date().getTime(), "tempGongsi");
+		setTimeout(function(){
+			$j("#today_all_list").html($j("#tempGongsiAll").html());
+			$j("#today_y_list").html($j("#tempGongsiY").html());
+			$j("#today_k_list").html($j("#tempGongsiK").html());
+			$j("#today_n_list").html($j("#tempGongsiN").html());
+			$j("#today_g_list").html($j("#tempGongsiG").html());
+			$j("#today_o_list").html($j("#tempGongsiO").html());
+			$j("#today_f_list").html($j("#tempGongsiF").html());
+
+			$j("#today_all_cnt").text($j("#tempGongsiCountAll").text());
+			$j("#today_y_cnt").text($j("#tempGongsiCountY").text());
+			$j("#today_k_cnt").text($j("#tempGongsiCountK").text());
+			$j("#today_n_cnt").text($j("#tempGongsiCountN").text());
+			$j("#today_g_cnt").text($j("#tempGongsiCountG").text());
+			$j("#today_o_cnt").text($j("#tempGongsiCountO").text());
+			$j("#today_f_cnt").text($j("#tempGongsiCountF").text());
+
+			// 공모게시판 // 2021-01-15 줄 바뀜되지 않게 말줄임 해달라 - 이중돈
+			$j("#gongmo_s_list").html($j("#tempGongmoS").html());
+			$j("#gongmo_b_list").html($j("#tempGongmoB").html());
+			$j("#gongmo_d_list").html($j("#tempGongmoD").html());
+
+			$j("#gongmo_s_cnt").text($j("#tempGongmoCountS").text());
+			$j("#gongmo_b_cnt").text($j("#tempGongmoCountB").text());
+			$j("#gongmo_d_cnt").text($j("#tempGongmoCountD").text());
+
+			getRef("currentDateTimeGongsi").innerHTML	= "[ " + getCurrentDateTime() + " ] 오늘의 공시는 30초 단위로 갱신됩니다.";
+			getRef("currentDateTimeGongmo").innerHTML	= "[ " + getCurrentDateTime() + " ] 공모게시판은 30초 단위로 갱신됩니다.";
+			
+			fn_getMyGongsi();
+			
+			num++;
+			var str = "timer('a-"+num+"')";
+			gongsiTimer = setTimeout(str, 30000);
+		}, 1000);
+	}
+	
+	function getHtml(url, target) {
+		$j.ajax({
+			async:true,
+			type:"get",
+			dataType: "html",
+			timeout:2000,
+			data:xajax.queryString,
+			url:url,
+			success:function (html) {
+				try {
+					$j('#'+target).html(html);
+				} catch (e) {
+					;
+				}
+			}
+		});
+	}
+	
+	
+	function fn_moveUrl(gubun, url, param) {
+		if (gubun == "todayTab") {
+			window.location.href = url;	
+		} else if (gubun == "gongmoTab") {
+			var frm = findForm("searchForm3");
+			frm.pageGrouping.value = param;
+			frm.action = url;
+			frm.submit();
+		}
+	}
+	
+	function fn_moveMore(gubun){
+		if(gubun){
+			if(gubun == 'gongmoTab'){
+				var id = "";
+				$j('#gongmoTab > ul').find('li').each(function(){
+					if($j(this).hasClass('on')) id = this.id;
+				});
+				if(id == 'gongmoLi_s') fn_moveUrl(gubun, '/dsac005/main.do', 'S');
+				else if(id == 'gongmoLi_b') fn_moveUrl(gubun, '/dsac005/main.do', 'B');
+				else if(id == 'gongmoLi_d') fn_moveUrl(gubun, '/dsac005/main.do', 'D');
+			}else if(gubun == 'todayTab'){
+				var id = $j('.mainTab .tabWrap .on').attr('id');
+				if(id == 'todayLi_my') fn_moveUrl(gubun, '/dsac001/mainMy.do', '');
+				else if(id == 'todayLi_all') fn_moveUrl(gubun, '/dsac001/mainAll.do', '');
+				else if(id == 'todayLi_y') fn_moveUrl(gubun, '/dsac001/mainY.do', '');
+				else if(id == 'todayLi_k') fn_moveUrl(gubun, '/dsac001/mainK.do', '');
+				else if(id == 'todayLi_n') fn_moveUrl(gubun, '/dsac001/mainN.do', '');
+				else if(id == 'todayLi_g') fn_moveUrl(gubun, '/dsac001/mainG.do', '');
+				else if(id == 'todayLi_o') fn_moveUrl(gubun, '/dsac001/mainO.do', '');
+				else if(id == 'todayLi_f') fn_moveUrl(gubun, '/dsac001/mainF.do', '');
+			}
+		}
+	}
+	
+	function fn_moveDetail(gubun) {
+		if (gubun) {
+			if (isMobile() == false) {
+				fn_moveMore(gubun);
+			}
+		}
+	}
+	
+	//기업공시제도 일반 팝업
+	function openGongsiDetailPopup(seqno){
+		xajax.initParameter();
+		xajax.addParameter("seqno",seqno);
+		xajax.setTimeout(20000);
+		xajax.blockUI = true;
+		xajax.blockTarget = "";
+		xajax.simpleSend('/dsaa003/selectGuideMain.ax',function(html){
+			getRef('winGongsiDetail').innerHTML=html;
+			$j('#winGongsiDetail').show();
+		});
+	}
+	
+	//보도자료 팝업
+	function openBodoDetailPopup(seqno) {
+	    xajax.initParameter();
+	    xajax.addParameter("seqno", seqno);
+	    xajax.setTimeout(20000);
+	    xajax.blockUI = true;
+	    xajax.blockTarget = "";
+	    xajax.simpleSend('/dsaa003/selectBodoMain.ax', function(html) {
+		  	getRef('winBodo').innerHTML = html;
+		  	$j('#winBodo').show();
+	    });
+	}
+	
+	function fn_tabOrderChangeToggle(){
+		$j('#winTabOrder').toggle();
+	}
+	
+	function fn_templateOrderChangeToggle(){
+		$j('#winTemplateOrder').toggle();
+	}
+	
+	function fn_saveTemplateOrder(){
+		var templateOrderList = [];
+		$j('#sortableTemplate').find('div').each(function(){
+			templateOrderList.push($j(this).data('order'));
+		});
+		var jsonStr = {};
+		jsonStr['templateOrderList'] = templateOrderList;
+		fn_setLocalStorage('templateOrderList',jsonStr);
+		
+		alert('템플릿 순서가 설정되었습니다.');
+		window.location.href = window.location.origin+'';
+	}
+	
+	function fn_removeTemplateOrder(){
+		fn_removeLocalStorage('templateOrderList');
+		window.location.href = window.location.origin+'';
+	}
+	
+	function fn_saveTabOrder(){
+		var tabOrderList_1 = [];
+		var tabOrderList_2 = [];
+		$j('#sortableA').children('div').each(function(){
+			tabOrderList_1.push($j(this).data('order'));
+		});
+		$j('#sortableB').find('li').each(function(){
+			tabOrderList_2.push($j(this).data('order'));
+		});
+		
+		var jsonStr = {};
+		jsonStr['tabOrderList_1'] = tabOrderList_1;
+		jsonStr['tabOrderList_2'] = tabOrderList_2;
+		fn_setLocalStorage('tabOrderList',jsonStr);
+		
+		alert('탭 순서가 설정되었습니다.');
+		window.location.href = window.location.origin+'';
+	}
+	
+	function fn_removeTabOrder(){
+		fn_removeLocalStorage('tabOrderList');
+		window.location.href = window.location.origin+'';
+	}
+	
+	function fn_typeChange() {
+		var optionVal = $j('input:radio[name=chkOption]:checked').val();
+			    
+			$j('#option').val(optionVal);
+			if (optionVal == 'corp') { //회사명
+				$j("#searchArea_txt, #searchArea_rpt, #searchArea_toc, #searchArea_high").hide();
+				$j("#searchArea_crp2").show();
+				$j('#searchForm2 input[name=textCrpCik]').val('');
+				$j('#searchForm2 input[name=textCrpNm]').val('');
+				$j('#keyword, #reportName, #tocSrch, #searchWord, #contentWord').val('');
+				$j('#textCrpNm2').val('');
+				
+			} else if (optionVal == 'report') { // 보고서명
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_toc, #searchArea_high").hide();
+				$j("#searchArea_rpt").show();
+				$j('#searchForm2 input[name=textCrpCik]').val('');
+				$j('#searchForm2 input[name=textCrpNm]').val('');
+				$j('#keyword, #textCrpNm2, #tocSrch, #searchWord, #contentWord').val('');
+				$j('#reportName').val('');
+			} else if (optionVal == 'reportList') { // 보고서 목차명
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_rpt, #searchArea_high").hide();
+				$j("#searchArea_toc").show();
+				$j('#searchForm2 input[name=textCrpCik]').val('');
+				$j('#searchForm2 input[name=textCrpNm]').val('');
+				$j('#keyword, #textCrpNm2, #reportName, #searchWord, #contentWord').val('');
+				$j('#tocSrch').val('');
+			} else if(optionVal == 'high'){ // 고급검색
+				$j("#searchArea_txt, #searchArea_crp2, #searchArea_rpt, #searchArea_toc").hide();
+				$j("#searchArea_high").show();
+				$j('#searchForm2 input[name=textCrpCik]').val('');
+				$j('#searchForm2 input[name=textCrpNm]').val('');
+				$j('#textCrpNm2, #reportName, #tocSrch').val('');
+				$j('#searchWord').val('');	
+				$j('#contentWord').val('');	
+			} else { // 전체, 본문내용
+				$j("#searchArea_crp2, #searchArea_rpt, #searchArea_toc, #searchArea_high").hide();
+				$j("#searchArea_txt").show();
+				$j('#searchForm2 input[name=textCrpCik]').val('');
+				$j('#searchForm2 input[name=textCrpNm]').val('');
+				$j('#textCrpNm2, #reportName, #tocSrch, #searchWord, #contentWord').val('');
+				$j('#keyword').val('');			
+			}
+			$j("#textkeyword").val('');
+		}
+
+		function search(page, gubun) {
+			if (window.event && window.event.target.id == 'textCrpNm') {
+				//공시검색함수 호출.
+				searchNavi();
+				return;
+			}
+			
+			var frm = findForm("searchForm2");
+			
+			if (window.event && window.event.target.id == 'textCrpNm2') {
+				frm.textCrpNm2.blur();
+			} else if (window.event && window.event.target.id == 'reportName') {
+				frm.reportName.blur();
+			} else if (window.event && window.event.target.id == 'tocSrch') {
+				frm.tocSrch.blur();
+			}
+
+			var optionVal = $j('input:radio[name=chkOption]:checked').val();
+			$j('#option').val(optionVal);
+
+			if ((optionVal == '' || optionVal == undefined || optionVal == null || $j('input:radio[name=chkOption]:checked').length == 0)
+					|| optionVal == 'contents') {
+				if (frm.keyword.value == "") {
+					alert("검색어를 입력하셔야만 검색이 가능합니다");
+					return;
+				}
+			} else if (optionVal == 'corp') {
+				frm.textCrpNm.value = $j('#textCrpNm2').val();
+				if (frm.textCrpNm.value == "" && $j('input:checkbox[name=publicType]:checked').length == 0) {
+					alert("회사명을 입력하셔야만 검색이 가능합니다");
+					return;
+				}
+			} else if (optionVal == 'report') {
+				if (frm.reportName.value == "") {
+					alert("보고서명을 입력하셔야만 검색이 가능합니다");
+					return;
+				}
+			} else if (optionVal == 'reportList') {
+				if (frm.tocSrch.value == "") {
+					alert("보고서목차명을 입력하셔야만 검색이 가능합니다");
+					return;
+				}
+			} else if (optionVal == 'high') {
+				if (frm.searchWord.value == "") {
+					alert("회사명 또는 보고서명을 입력하셔야만 검색이 가능합니다");
+					return;
+				}
+			}
+
+			if (!checkQueryString(frm.textCrpNm.value)) {
+				alert("회사명에 [! % = \" ' -- < > |] 문자를 입력할 수 없습니다.");
+				return;
+			}
+
+			if (!checkReportNameString(frm.reportName.value)) {
+				alert("보고서명에 [! = \" ' -- < > |] 문자를 입력할 수 없습니다.");
+				return;
+			}
+
+			if (!checkReportNameString(frm.tocSrch.value)) {
+				alert("보고서 목차명에 [! = \" ' -- < > |] 문자를 입력할 수 없습니다.");
+				return;
+			}			
+			
+			if(optionVal == ""){
+				if (!checkQueryString(frm.keyword.value)) {
+					alert("검색어에 [! % = \" ' -- < > |] 문자를 입력할 수 없습니다.");
+					return;
+				}	
+			}
+			
+			if(optionVal == "contents"){
+				if (!checkHighString(frm.keyword.value)) {
+					alert("본문내용에 [/ < >] 문자를 입력할 수 없습니다.");
+					return;
+				}	
+			}
+			
+			if (!checkHighString(frm.searchWord.value)){
+				alert("검색어에 [/ < >] 문자를 입력할 수 없습니다.");
+				return;
+			}
+			
+			if (!checkHighString(frm.contentWord.value)){
+				alert("본문내용에 [/ < >] 문자를 입력할 수 없습니다.");
+				return;
+			}
+
+			if (page == null || page == "" || page == "null") {
+				page = 1;
+			}
+
+			if (gubun != undefined) {
+				var recentWord = [];
+				var jsonInfo = {};
+
+				if (optionVal == 'corp') {   // 회사명
+					jsonInfo.keyword = $j('#textCrpNm2').val();
+					jsonInfo.typeText = '회사명';
+				} else if (optionVal == 'report') { // 보고서명
+					jsonInfo.keyword = $j('#reportName').val();
+					jsonInfo.typeText = '보고서명';
+				} else if (optionVal == 'reportList') { // 보고서목차명
+					if ($j('#reportName').val() != null
+							&& $j('#reportName').val() != undefined
+							&& $j('#reportName').val() != '') {
+						jsonInfo.keyword = $j('#reportName').val() + '/'
+								+ $j('#tocSrch').val();
+					} else {
+						jsonInfo.keyword = $j('#tocSrch').val();
+					}
+					jsonInfo.typeText = '보고서목차명';
+				} else if (optionVal == 'contents') { // 본문내용
+					jsonInfo.keyword = $j('#keyword').val();
+					jsonInfo.typeText = '본문내용';
+				} else if (optionVal == 'high') { // 고급검색
+					if ($j('#contentWord').val() != null && $j('#contentWord').val() != undefined && $j('#contentWord').val() != '') {
+						jsonInfo.keyword = $j('#searchWord ').val() + '/' + $j('#contentWord').val();
+					} else {
+						jsonInfo.keyword = $j('#searchWord').val();
+					}
+					jsonInfo.typeText = '고급검색';
+				} else { // 전체
+					if ($j('#keyword').val().trim().length < 2) {
+						alert("검색어는 2자이상 입력하셔야합니다.");
+						return;
+					}
+					jsonInfo.keyword = $j('#keyword').val();
+					jsonInfo.typeText = '전체';
+				}
+
+				jsonInfo.type = optionVal;
+				if ($j('input:radio[name=chkOption]:checked').length == 0) {
+					jsonInfo.type = "";
+				}
+
+				// 회사명으로 검색 시 조건값들 storage에 세팅
+				if (optionVal == "corp") {
+					var now = new Date();
+					var endDate = formatDate(now, "");
+					var oneyearAgo = new Date(now
+							.setFullYear(now.getFullYear() - 1));
+					var startDate = formatDate(oneyearAgo, "");
+
+					$j("#startDate").val(startDate);
+					$j("#endDate").val(endDate);
+					var obj = formObjCreate('searchForm2');
+					jsonInfo.obj = obj;
+					jsonInfo.dateIndex = $j('#selDate').val();
+				}
+
+				recentWord.push(jsonInfo);
+
+				var searchInfoJson = getSearchInfo();
+				if (searchInfoJson != null) {
+					for (var i = 0; i < searchInfoJson.length; i++) {
+						var exist = false;
+						for (var r = 0; r < recentWord.length; r++) {
+							if (recentWord[r].keyword == searchInfoJson[i].keyword
+									&& recentWord[r].typeText == searchInfoJson[i].typeText
+									&& recentWord[r].type == searchInfoJson[i].type) {
+								exist = true;
+								break;
+							}
+						}
+						if (exist == false) {
+							recentWord.push(searchInfoJson[i]);
+						}
+					}
+
+					if (recentWord.length > 10) {
+						recentWord.splice(10, 1);
+					}
+				}
+
+				fn_setLocalStorage('searchInfo', recentWord);
+			}
+			
+			var textPublicType = "";
+			$j("input:checkbox[name=publicType]:checked").each(function() {
+				textPublicType += $j(this).val() + " ";
+			});
+			if (textPublicType != "") $j("#textPublicType").val(textPublicType);
+			
+			frm.currentPage.value = page;
+			
+			if (optionVal != 'high') {
+				frm.action = "/dsab007/main.do";
+			}else{
+				frm.action = "/dsab009/main.do";
+			}
+			frm.submit();
+		}
+
+		function fn_lateKeywordChange(index) {
+			
+			var searchInfoJson = fn_getLocalStorage('searchInfo');
+			if (searchInfoJson != null) {
+				searchInfoJson = JSON.parse(searchInfoJson);
+				var temp = searchInfoJson[index];
+
+				$j('#option').val(temp.type); // 검색구분 : corp. report, reportList, contents, high
+				$j('#searchForm2 input[name=lateKeyword]').val(index); // 최근검색어의 순서, 0부터 시작
+					
+				var frm = findForm("searchForm2");
+				frm.currentPage.value = 1;
+				
+				if(temp.type !='high'){
+					frm.action = "/dsab007/main.do";	
+				}else{
+					frm.action = "/dsab009/main.do"; // 고급검색 호출
+				}
+
+				frm.submit();
+			}
+		}
+
+		function setGongsiTimer() {
+			if ($j("#goStop").hasClass('btnPlay')) {
+				$j("#goStop").removeClass('btnPlay');
+				$j("#goStop").addClass('btnStop');
+				$j("#goStop").attr("title","진행");
+				gongsiTimer = setTimeout("timer('a-0')", 30000);
+			} else {
+				$j("#goStop").removeClass('btnStop');
+				$j("#goStop").addClass('btnPlay');
+				$j("#goStop").attr("title","정지");
+				if (gongsiTimer) {
+					clearTimeout(gongsiTimer);
+					gongsiTimer = null;
+				}
+			}
+		}
+
+		function fn_setWidthReportRank() {
+			var width = $j('#mainRollingList').outerWidth(true);
+			if ($j('.gnb').hasClass('mobile-menu')) {
+				var margin = Math.round(width * 0.02);
+				var widthLi = Math.round(width * 0.46);
+
+				$j('#mainRollingList').find('li').css('margin-left',
+						margin + 'px');
+				$j('#mainRollingList').find('li').css('margin-right',
+						margin + 'px');
+				$j('#mainRollingList').find('li').css('width', widthLi + 'px');
+				$j('#mainRollingDiv').css('width',
+						((widthLi + margin + margin) * reportRankCnt) + 'px');
+			} else {
+				$j('#mainRollingList').find('li').css('margin', '0 15px');
+				$j('#mainRollingList').find('li').css('width', '216px');
+				$j('#mainRollingDiv').css('width',
+						((216 + 15 + 15) * reportRankCnt) + 'px');
+			}
+
+			fn_reportRankScrollMove();
+		}
+
+		function fn_togglegosiSearchWrap() {
+			if ($j('#searchBtn').hasClass('btnOn')) {
+				$j('#searchBtn').removeClass('btnOn');
+				$j('#searchBtn').addClass('btnOff');
+				$j('#gosiSearchWrap').hide();
+			} else {
+				$j('#searchBtn').removeClass('btnOff');
+				$j('#searchBtn').addClass('btnOn');
+				$j('#gosiSearchWrap').show();
+			}
+		}
+
+		function searchPressEnterKeyword(event, id) {
+			if (event.keyCode == 13) {
+				search(1, 'btn');
+			}
+		}
+
+		/**
+		 * 검색 초기화
+		 */
+		function initSearch() {
+			var frm = findForm("searchForm");
+			$j("#keyword").attr("autocomplete", "off");
+		}
+
+		function fn_ulListToggle() {
+			if (!$j("#dropdownContent").is(":visible")) {
+				var searchInfoJson = getSearchInfo();
+				if (searchInfoJson != null) {
+					$j("#dropdownContent").show();
+					document.getElementById("dropdownContent").classList
+							.toggle("show");
+				}
+			} else {
+				$j("#dropdownContent").hide();
+			}
+		}
+
+		function fn_ulListRemover(index) {
+			//로컬스토리지 삭제
+			var searchInfoJson = getSearchInfo();
+			var recentWord = [];
+			var jsonInfo = {};
+
+			fn_removeLocalStorage('searchInfo');
+
+			if (searchInfoJson != null) {
+				for (var i = 0; i < searchInfoJson.length; i++) {
+					if (i != index) {
+						recentWord.push(searchInfoJson[i]);
+						fn_setLocalStorage('searchInfo', recentWord);
+					}
+				}
+
+			}
+
+			var resultSearchInfoJson = getSearchInfo();
+			if(resultSearchInfoJson != null){
+				makeMainLatestSelect(resultSearchInfoJson, 'lateKeyword');	
+			}else{
+				$j('#lateKeyword_0').remove();
+				document.getElementById("dropdownContent").classList
+				.toggle("show");
+			}
+			
+		}
+		
+		//========nrseo 추가	
+		$j(function() {
+			$j("input:checkbox[name=naviType]").click(function() {
+				if ($j("input:checkbox[name=naviType]:checked").length > 5) {
+					alert("조회할 항목을 선택해 주세요.\n1~5개까지 선택 가능합니다.");
+					return false;
+				}
+			});
+			$j("#keyword_navi").keydown(function(e) {
+				if (e.keyCode == 13) {
+					searchNavi();
+				}
+			});
+		});
+		function searchNavi() {
+			if (!checkQueryString($j("#searchForm [id=textCrpNm]").val())) {
+				alert("회사명/종목코드에 [! % = \" ' -- < > |] 문자를 입력할 수 없습니다.");
+				return;
+			}
+			
+			if ($j("#searchForm [id=textCrpNm]").val() == "") {
+				alert("회사명/종목코드를 입력해 주세요.");
+				$j("#keyword_navi").focus();
+				return false;
+			}
+			if ($j("input:checkbox[name=naviType]:checked").length > 5 || $j("input:checkbox[name=naviType]:checked").length == 0) {
+				alert("조회할 항목을 선택해 주세요.\n1~5개까지 선택 가능합니다.");
+				return false;
+			}
+			
+			if ($j("#searchForm [id=textCrpCik]").val() == "" && $j("#searchForm [id=textCrpNm]").val() != "") {
+			    if (!getCorpExistAll(findForm("searchForm").textCrpNm.value)) {
+			    	//openSearchCorpWindow('searchForm');
+			    	openSearchCorpWindow('searchForm', 'textCrpNm', 'oneSelect');
+					return false;
+			    }
+		    }else{
+		    	//회사명 검색을 하지 않았을 경우 체크
+				if($j("#searchForm [id=textCrpCik]").val() == ""){
+					alert('회사명을 입력하거나 선택해야 합니다.');
+					return false;
+				}
+		    }
+			
+			var cds = "";
+			$j("input:checkbox[name=naviType]:checked").each(function() {
+				cds += $j(this).val() + " ";
+			});
+			cds = cds.substr(0, cds.length-1);
+			$j("#naviCode").val(cds);
+			$j("#naviCrpCik").val($j("#searchForm [id=textCrpCik]").val());
+			$j("#naviCrpNm").val($j("#searchForm [id=textCrpNm]").val());
+			
+			var num = new Date().getTime();
+			// post방식에서 get방식으로 변경->IE새창 버그 (nrseo.20220305)
+			var url = "/navi/searchNavi.do";
+			//<![CDATA[
+			url += "?naviCrpCik=" + $j("#naviCrpCik").val() + "&naviCrpNm=" + $j("#naviCrpNm").val() + "&naviCode=" + $j("#naviCode").val();
+			//]]>
+
+			window.open(url, "navi"+num, "width=1025, height=740, status=no, toolbar=no ,resizable=yes, scrollbars=yes");
+		}
+		////========nrseo 추가	
+		
+		function checkReportNameString(str) {
+			var comp = ["!", "=", "\"", "'", "--", "<", ">", "|"];
+			for(var i=0; i < comp.length; i++) {
+				if (str.indexOf(comp[i]) > -1) {
+					return false;
+				}
+			}
+			return true;
+		}
+		
+		function downAttach(no, gubun, apn_fl_nm) {
+			searchForm.action = "/dsah004/download.do?no="+no+"&gubun="+gubun+"&apn_fl_nm="+apn_fl_nm;
+			searchForm.submit();
+		}
+		
+		function showImage(){
+			var url = "/images/popup/electronic_voting_guide2022.jpg";
+			var img = new Image();
+			img.src = url;
+
+			var win_width=img.width+25;
+			var img_height=img.height;
+			var win=img.height+30;
+			var OpenWindow=window.open('','_blank','width=700,height=950,menubars=no,scrollbars=auto');
+			OpenWindow.document.write("<style>body{margin:0px;}</style><img src='"+url+"' width='680'><title>전자투표 이용방법</title>");
+
+		}
+	</script>
+</head>
+<body>
+<div class="skipMenu"><a href="#skipStart">본문 바로가기</a></div>
+
+<form id="naviForm" name="naviForm" method="post">
+	<input id="naviCrpCik" name="naviCrpCik" type="hidden" value="" />
+	<input id="naviCrpNm" name="naviCrpNm" type="hidden" value="" />
+	<input id="naviCode" name="naviCode" type="hidden" value="" />
+</form>
+
+<!--// appInfo -->
+<form id="deviceInfoForm" name="deviceInfoForm">
+<input type="hidden" id="deviceId" name="deviceId" />
+<input type="hidden" id="deviceOs" name="deviceOs" />
+<input type="hidden" id="token" name="token" />
+<input type="hidden" id="appYn" name="appYn" />
+<input type="hidden" id="gubun" name="gubun" />
+</form>
+
+<div class="layoutNotice">
+
+<!--// mainPop -->
+<form id="searchMygosiForm" name="searchMygosiForm" method="post" action="/dsac001/searchMainMyGosi.ax">
+<input name="textCrpCik" type="hidden" value=""/>
+<input id="textReportNm" name="textReportNm" type="hidden" value=""/>
+<input id="searchType" name="searchType" type="hidden" value="all"/>
+</form>
+	
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function initBanner(isShow){
+	if (!isShow) {
+		$j(".headerBanner").remove();
+		return;
+	}
+	cookiedata = document.cookie;
+	
+	if (cookiedata.indexOf("banner") < 0) {
+		$j(".headerBanner").show();
+		$j("html").animate({scrollTop:0}, 100);
+	} else {
+		$j(".headerBanner").remove();
+	}
+}
+
+function closeBanner() {
+	if ($j("#bannerDay").prop("checked")) {
+		setCookie("banner", "done", 1);
+	}
+
+	$j(".headerBanner").remove();
+}
+
+</script>
+	<!-- headerBanner -->
+	<div class="headerBanner" style="display:none;">
+		<div class="bannerWrap">
+			<div class="titleWrap">
+				<span class="title">DART 이용자 설문조사 실시</span>
+				<span class="desc">향후 좀더 발전된 "이용자 중심의 DART 서비스"를 제공하기 위하여 이용자의 의견을 수렴하고자 설문조사를 실시하오니 많은 참여부탁드립니다.</span>
+				<span class="info"><span class="em">[참여 기간 : 2025.7.14~8.1]</span> *우수 제안내용을 제출한 설문참여자를 대상으로 추첨을 통해 200분께 기프티콘(스타벅스 아이스아메리카노)을 드립니다.</span>
+			</div>
+			<div class="imgWrap"><img src="/images/header_banner_img.png" alt="헤더 팝업 이미지"/></div>
+		</div>
+		<div class="closeBtnWrap">
+			<div class="wrapper">
+				<div class="closeBtn">
+					<span class="frmCheck">
+						<input type="checkbox" id="bannerDay"/>
+						<label for="bannerDay">하루동안 그만보기</label>
+					</span>
+					<button class="btn" onclick="closeBanner();">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- headerBanner -->
+<script type="text/javascript">
+//############ true이면, 배너 보임################
+var isShow = false;
+//##########################################
+initBanner(isShow);
+</script>
+
+	<div class="wrapper mainPageBg" style="display:none">
+		<!-- header -->
+		<div class="headerWrap">
+			<div class="header">
+				<a class="btnMenu" title="메뉴 열기 버튼" href="javascript:void(0);"></a>
+				<div class="headerTop">
+					<h1 class="logo" title="DART시스템 ">
+						<a href="/main.do">홈으로 가기</a>
+					</h1>
+				</div>
+				<div class="headerBottom">
+					<div class="utilMenu">
+						<div class="languageChoice">
+							<ul>
+								<li><a href="https://englishdart.fss.or.kr" target="_blank">ENGLISH</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="gnb positionMain">
+						<ul>
+							<li><a data-click="/dsac001/mainY.do" href="javascript:void(0);">최근공시</a>
+								<ul>
+									<li><a onClick="goMenu('/dsac001/mainY.do', '');" href="javascript:void(0);">유가증권시장</a></li>
+									<li><a onClick="goMenu('/dsac001/mainK.do', '');" href="javascript:void(0);">코스닥시장</a></li>
+									<li><a onClick="goMenu('/dsac001/mainN.do', '');" href="javascript:void(0);">코넥스시장</a></li>
+									<li><a onClick="goMenu('/dsac001/mainG.do', '');" href="javascript:void(0);">기타법인</a></li>
+									<li><a onClick="goMenu('/dsac001/mainAll.do', '');" href="javascript:void(0);">전체</a></li>
+									<li><a onClick="goMenu('/dsac001/mainO.do', '');" href="javascript:void(0);">5%ㆍ임원보고</a></li>
+									<li><a onClick="goMenu('/dsac001/mainF.do', '');" href="javascript:void(0);">펀드공시</a></li>
+									<li><a onClick="goMenu('/dsac001/mainMy.do', '');" href="javascript:void(0);">My공시</a></li>
+								</ul>
+							</li>
+							<li><a data-click="/dsab007/main.do?option=corp" href="javascript:void(0);">공시서류검색</a>
+								<ul>
+									<li><a onClick="goMenu('/dsab007/main.do?option=corp', '');" href="javascript:void(0);">공시통합검색</a></li>
+									<li><a onClick="goMenu('/dsab001/main.do', '');" href="javascript:void(0);">회사별검색</a></li>
+									<li><a onClick="goMenu('/dsab005/main.do', '');" href="javascript:void(0);">펀드공시상세검색</a></li>
+									<li><a onClick="goMenu('/dsac003/mainY.do', '');" href="javascript:void(0);">최근정정보고서</a></li>
+									<li><a onClick="goMenu('/dsac004/main.do', '');" href="javascript:void(0);">최근삭제보고서</a></li>
+									<li><a onClick="goMenu('/dsab009/main.do', '');" href="javascript:void(0);">고급검색</a></li>
+								</ul>
+							</li>
+							<li><a data-click="/dsae001/main.do" href="javascript:void(0);">기업개황</a>
+								<ul>
+									<li><a  onClick="goMenu('/dsae001/main.do', '');" href="javascript:void(0);">기업개황</a></li>
+								</ul>
+							</li>
+							<li><a data-click="/dsac005/main.do" href="javascript:void(0);">공모정보</a>
+								<ul>
+									<li><a onClick="goMenu('/dsac005/main.do', '');" href="javascript:void(0);">공모게시판</a></li>
+									<li><a onClick="goMenu('/dsac006/main.do', '');" href="javascript:void(0);">발행공시 검색</a></li>
+									<li><a onClick="goMenu('/dsac007/main.do', '');" href="javascript:void(0);">모집ㆍ매출 실적</a></li>
+									<li><a onClick="goMenu('/dsac008/main.do', '');" href="javascript:void(0);">청약 달력(지분증권)</a></li>
+								</ul>
+							</li>
+							<li><a data-click="https://opendart.fss.or.kr/disclosureinfo/biz/main.do" href="javascript:void(0);" data-gubun="open">OpenDART</a>
+								<ul>
+									<li><a href="https://opendart.fss.or.kr/disclosureinfo/biz/main.do" target="_blank">공시정보활용마당<i class="outsideLink">외부링크</i></a></li>
+									<li><a href="https://opendart.fss.or.kr/intro/infoApiList.do" target="_blank">오픈API<i class="outsideLink">외부링크</i></a></li>
+								</ul>
+							</li>
+							<li><a data-click="/info/main.do" href="javascript:void(0);" data-gubun="open">공시업무ㆍ제도</a>
+								<ul>
+									<li><a href="/info/main.do" target="_blank">기업공시길라잡이<i class="outsideLink">외부링크</i></a></li>
+									<li><a href="/info/searchGuide.do" target="_blank">기업공시제도일반<i class="outsideLink">외부링크</i></a></li>
+									<li><a href="/info/searchBodo.do" target="_blank">보도자료<i class="outsideLink">외부링크</i></a></li>
+									<li><a href="/info/main.do?menu=410" target="_blank">정기보고서 제출기한<i class="outsideLink">외부링크</i></a></li>
+								</ul>
+							</li>
+							<li><a data-click="/introduction/content1.do" href="javascript:void(0);">DART 소개</a>
+								<ul class="last">
+									<li><a onClick="goMenu('/introduction/content1.do', '');" href="javascript:void(0);">전자공시시스템이란</a></li>
+									<li><a onClick="goMenu('/introduction/content2.do', '');" href="javascript:void(0);">보고서정보</a></li>
+									<li><a onClick="goMenu('/introduction/content3.do', '');" href="javascript:void(0);">관계법규 등</a></li>
+									<li><a onClick="goMenu('/introduction/content4.do', '');" href="javascript:void(0);">정정신고서이용시 유의사항</a></li>
+									<li><a onClick="goMenu('/dsah004/main.do', '');" href="javascript:void(0);">DART알림마당</a></li>
+									<li><a onClick="goMenu('/introduction/content5.do', '');" href="javascript:void(0);">정보이용시 유의사항</a></li>
+									<li><a onClick="goMenu('/introduction/content6.do', '');" href="javascript:void(0);">RSS</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a class="btnMenuAll" title="전체메뉴가기" onclick="location.href='/sitemap.do'" href="javascript:void(0);">전체메뉴보기</a>
+					<a class="btnMenuClose" title="메뉴 닫기 버튼" href="javascript:void(0);"></a>
+					<div class="mask"></div>
+				</div>
+			</div>
+		</div>
+		<!-- //header -->
+		<!-- mainVisualWrap -->
+		<div class="mainVisualWrap">
+			<div class="mainVisual" id="skipStart">
+				<div class="txtWrap">
+					<span class="txt1">신속하고 투명한 전자공시시스템,<span class="imgLogo"></span></span>
+				</div>
+				<!-- mainPop -->
+				
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	function initNotice(){
+		cookiedata = document.cookie;
+		
+		for (var i=1; i<4; i++) {
+			if (cookiedata.indexOf("notice"+i+"=done") < 0) {
+				$j(".mainPop[code=num"+i+"]").show();
+			} else {
+				$j(".mainPop[code=num"+i+"]").remove();
+			}
+		}
+		changePopupPosition();
+	}
+	function toggleMainPop(obj) {
+		var cls = $j(obj).attr("class");
+		var code = $j(obj).attr("code");
+		if (cls == "btnOn") {
+			$j(obj).removeClass("btnOn");
+			$j(obj).addClass("btnOff");
+			$j(".mainPop[code="+code+"]").find(".contWrap[code="+code+"]").hide();
+			$j(obj).attr("title", "show popup");
+		} else {
+			$j(obj).removeClass("btnOff");
+			$j(obj).addClass("btnOn");
+			$j(".mainPop[code="+code+"]").find(".contWrap[code="+code+"]").show();
+			$j(obj).attr("title", "hide popup");
+		}
+	}
+	function stopMainPop(obj) {
+		var nm = $j(obj).attr("name");
+		$j("input[type=checkbox][name=" + nm + "]").not(obj).prop("checked", false);
+	}
+	function closeMainPop(num) {
+		if ($j("#mainPopDay"+num).prop("checked")) {
+			setCookie("notice"+num, "done", 1);
+		} else if ($j("#mainPopWeek"+num).prop("checked")) {
+			setCookie("notice"+num, "done", 7);
+		}
+	
+		$j(".mainPop[code=num"+num+"]").remove();
+		//changePopupPosition();
+	}
+	function changePopupPosition() {
+		$j(".mainPop").each(function(idx, item) {
+			$j(this).removeClass($j(this).attr("class").replace("mainPop ", ""));
+			$j(this).addClass("tp"+(idx+1));
+		});
+	}
+</script>
+
+
+<script type="text/javascript">
+initNotice();
+</script>
+
+				<a class="btnTemplateChange" onclick="fn_templateOrderChangeToggle();" href="javascript:void(0);">템플릿순서변경</a>
+				<div class="img"></div>
+			</div>
+		</div>		
+		<!-- //mainVisualWrap -->
+		<!-- mainSearchWrap -->
+		<div class="mainSearchWrap">
+			<!-- mainSearch -->
+			<div id="mainSearch" class="mainSearch">
+				<!-- titleWrap -->
+				<div class="titleWrap">공시통합검색</div>
+				<!-- searchWrap -->				
+				<div class="searchWrap">
+					<!-- search -->
+					<form name="searchForm2" id="searchForm2" method="post" onsubmit="return false;">
+						<input type="hidden" name="autoSearch" id="autoSearch" value="Y" />
+						<input type="hidden" name="currentPage" id="currentPage" value="" />
+						<input type="hidden" name="maxResults" id="maxResults" value="" />
+						<input type="hidden" name="maxLinks" id="maxLinks" value="" />
+						<input type="hidden" name="sort" id="sort" value="" />
+						<input type="hidden" name="series" id="series" value="" />
+						<input type="hidden" name="textCrpNm" value="" />
+						<input type="hidden" name="option" id="option" value="" />
+						<input type="hidden" name="lateKeyword" value="" />
+						<input type="hidden" name="textCrpCik" value="" />
+						<input type="hidden" name="selDate" id="selDate" value="4"/>
+						<input type="hidden" name="startDate" id="startDate" value=""/>
+						<input type="hidden" name="endDate" id="endDate" value=""/>
+						<input type="hidden" name="textkeyword" id="textkeyword" value=""/>
+						<input type="hidden" name="textPublicType" id="textPublicType" value=""/>
+						<input type="hidden" name="reportNamePopYn" id="reportNamePopYn" value="" />
+						<input type="hidden" name="autoSearchCorp" id="autoSearchCorp" value="Y">
+						
+						<div class="search">
+							<div class="lWrap">
+								<div class="frmSelectCheck">
+									<span class="select" id="selectCheckNm"><p id="selectCheckNmText"><a href="javascript:void(0);">검색조건 : 전체</a></p></span>
+								</div>
+								<!-- selectCheck -->
+								<div class="selectCheck" id="selectCheck" style="display:none;">
+									<ul>
+										<li>
+											<input id="option1" name="chkOption" type="radio" value="" onclick="fn_check(this,'전체')" >
+											<label for="option1"><span class="name" id="option1Text">검색조건 : 전체</span></label>
+										</li>
+										<li>
+											<input id="option2" name="chkOption" type="radio" value="corp" onclick="fn_check(this,'회사명')"  >
+											<label for="option2"><span class="name" id="option2Text">검색조건 : 회사명</span></label>
+										</li>
+										<li>
+											<input id="option3" name="chkOption" type="radio" value="report" onclick="fn_check(this,'보고서명')"  >
+											<label for="option3"><span class="name" id="option3Text">검색조건 : 보고서명</span></label>
+										</li>
+										<li>
+											<input id="option4" name="chkOption" type="radio" value="reportList" onclick="fn_check(this,'보고서목차명')"  >
+											<label for="option4"><span class="name" id="option4Text">검색조건 : 보고서목차명</span></label>
+										</li>
+										<li>
+											<input id="option5" name="chkOption" type="radio" value="contents" onclick="fn_check(this,'본문내용')" >
+											<label for="option5"><span class="name" id="option5Text">검색조건 : 본문내용</span></label>
+										</li>
+										
+										
+										<!-- 공시검색 고도화 추가 -->
+										<li>
+											<input id="option6" name="chkOption" type="radio" value="high" onclick="fn_check(this,'고급검색')" >
+											<label for="option6"><span class="name" id="option6Text">검색조건 : 고급검색</span></label>
+										</li>
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+									</ul>
+									<a class="btnSave" onclick="fn_defaultSaveSearWord()" href="javascript:void(0);">선택한 조건을 기본사용</a>
+									<a class="btnSave" onclick="fn_hideSelect()" href="javascript:void(0);">닫기</a>
+								</div>
+								<!-- //selectCheck-->								
+							</div>
+							<div class="autoWrap">
+							<div class="ui-widget">
+								<span id="searchArea_txt" class="frmInput fL" style="display: none;">
+										<a class="btnDown" id="set_sugicn" href="javascript:void(0);">열기</a>
+										<input id="keyword" name="keyword" type="text" title="검색어를 입력하세요" placeholder="검색어를 입력하세요" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}" />
+								</span>
+								<span id="searchArea_crp2" class="frmInput fL">
+										<input id="textCrpNm2" name="textCrpNm2" type="text" title="회사명/종목코드를 입력하세요" placeholder="회사명/종목코드를 입력하세요" onfocus="clearSearchCorpText2('textCrpNm2', 'searchForm2');" onblur="blurSearchCorp('textCrpNm2', 'searchForm2');" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}" />
+										<a class="comSearch" id="btnCorp" onClick="openSearchCorpWindow('searchForm2', 'textCrpNm2');" href="javascript:void(0);">찾기</a>
+								</span>
+								<span id="searchArea_rpt" class="frmInput fL" style="display: none;">
+										<input id="reportName" name="reportName" type="text" title="보고서명을 입력하세요" placeholder="보고서명을 입력하세요" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}"/>
+										<a class="comSearch" id="btnReport" onClick="openFindReport('searchForm2', 'reportName');" href="javascript:void(0);">찾기</a>
+								</span>
+								<span id="searchArea_toc" class="frmInput fL" style="display: none;">
+										<input id="tocSrch" name="tocSrch" type="text" title="보고서목차명을 입력하세요" placeholder="보고서목차명을 입력하세요" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}"/>
+										<a class="comSearch" id="btnTocSrch" onClick="openFindReportList('searchForm2', 'tocSrch');" href="javascript:void(0);">찾기</a>
+								</span>
+								
+								
+								<!-- 공시검색 고도화 추가 -->
+								<span id="searchArea_high" class="ui_flex frmInput fL" style="display: none;">					
+										<input id="searchWord" name="searchWord" type="text" class="w01" title="회사명 보고서명 입력" placeholder="회사명 보고서명 입력" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}"/>
+										<a class="btnDown" id="set_sugicn" href="javascript:void(0);">열기</a>
+										<input id="contentWord" name="contentWord" type="text" class="w02" title="본문 내용 입력" placeholder="본문 내용 입력" onkeypress="if(event.keyCode==13){search(1, 'btn'); return false;}" />
+								</span>
+							</div>
+							</div>
+							<!-- btnWrap -->
+							<div class="btnWrap">
+								<a class="btnSearch" href="javascript:search(1,  'btn');">검색</a>
+							</div>
+							<div class="rWrap">
+								<span class="frmSelect w01"> 
+									<div class="dropdownDiv" onclick="fn_ulListToggle()">
+										<span class="spanTextMain">최근검색어 선택</span>
+										<span class="spanTextMain mob">최근</span>
+									</div>
+									<div class="dropdown-content" id="dropdownContent"> 
+										<ul class="dropdownUl" id="lateKeyword">
+										</ul>
+									</div>
+								</span>
+							</div>
+						</div>
+						<!-- //search -->
+						<!-- publicType start -->	
+				 		<div id="detailCheckWrap2" class="detailCheckWrap">
+							
+
+<div class="typeCheck" id="subCheck" >
+	<ul>
+		<li id="li_01" onclick="fn_pTypeMaster('01');">
+			<label><img src="/images/cbox_empty_gray.png" alt="정기공시 선택"><span class="name">정기공시</span></label>
+		</li>
+		<li id="li_02" onclick="fn_pTypeMaster('02');">
+ 			<label><img src="/images/cbox_empty_gray.png" alt="주요사항보고 선택"><span class="name">주요사항보고</span></label>
+		</li>
+		<li id="li_03" onclick="fn_pTypeMaster('03');">
+			<label><img src="/images/cbox_empty_gray.png" alt="발행공시 선택"><span class="name">발행공시</span></label>
+		</li>
+		<li id="li_04" onclick="fn_pTypeMaster('04');">
+			<label><img src="/images/cbox_empty_gray.png" alt="지분공시 선택"><span class="name">지분공시</span></label>
+		</li>
+		<li id="li_05" onclick="fn_pTypeMaster('05');">
+			<label><img src="/images/cbox_empty_gray.png" alt="기타공시 선택"><span class="name">기타공시</span></label>
+		</li>
+		<li id="li_06" onclick="fn_pTypeMaster('06');">
+			<label><img src="/images/cbox_empty_gray.png" alt="외부감사관련 선택"><span class="name">외부감사관련</span></label>
+		</li>
+		<li id="li_07" onclick="fn_pTypeMaster('07');">
+			<label><img src="/images/cbox_empty_gray.png" alt="펀드공시 선택"><span class="name">펀드공시</span></label>
+		</li>
+		<li id="li_08" onclick="fn_pTypeMaster('08');">
+			<label><img src="/images/cbox_empty_gray.png" alt="자산유동화 선택"><span class="name">자산유동화</span></label>
+		</li>
+		<li id="li_09" onclick="fn_pTypeMaster('09');" title="한국거래소 소관 공시사항입니다.">
+			<label><img src="/images/cbox_empty_gray.png" alt="거래소공시 선택"><span class="name">거래소공시</span></label>
+		</li>
+		<li id="li_10" onclick="fn_pTypeMaster('10');" title="공정거래위원회 소관 공시사항입니다.">
+			<label><img src="/images/cbox_empty_gray.png" alt="공정위공시 선택"><span class="name">공정위공시</span></label>
+		</li>
+	</ul>
+</div>
+<div class="detailWrap" id="divPublicTypeDetail">
+
+	<div class="detailCheck" id="divPublicTypeDetail_01" style="display:none;">
+		<div class="titleWrap">
+		    <span class="title">정기공시</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_01" onclick="fn_pTypeTotalChoice('01');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_01" onclick="fn_pTypeTotalClose('01', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_A001" name="publicType" class="publicTypeDetail_01" title="사업보고서" value="A001" onclick="fn_pTypeCheckOne('01');"/>
+					<label for="publicTypeDetail_A001">사업보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_A002" name="publicType" class="publicTypeDetail_01" title="반기보고서" value="A002" onclick="fn_pTypeCheckOne('01');"/>
+					<label for="publicTypeDetail_A002">반기보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_A003" name="publicType" class="publicTypeDetail_01" title="분기보고서" value="A003" onclick="fn_pTypeCheckOne('01');"/>
+					<label for="publicTypeDetail_A003">분기보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_A005" name="publicType" class="publicTypeDetail_01" title="소액공모법인결산서류" value="A005" onclick="fn_pTypeCheckOne('01');"/>
+					<label for="publicTypeDetail_A005">소액공모법인결산서류</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_A004" name="publicType" class="publicTypeDetail_01" title="등록법인결산서류(자본시장법 이전)" value="A004" onclick="fn_pTypeCheckOne('01');"/>
+					<label for="publicTypeDetail_A004">등록법인결산서류(자본시장법 이전)</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_02" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">주요사항보고서</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_02" onclick="fn_pTypeTotalChoice('02');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_02" onclick="fn_pTypeTotalClose('02', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_B001" name="publicType" class="publicTypeDetail_02" title="주요사항보고서" value="B001" onclick="fn_pTypeCheckOne('02');"/>
+					<label for="publicTypeDetail_B001">주요사항보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_B002" name="publicType" class="publicTypeDetail_02" title="주요경영사항신고(자본시장법 이전)" value="B002" onclick="fn_pTypeCheckOne('02');"/>
+				 	<label for="publicTypeDetail_B002">주요경영사항신고</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_B003" name="publicType" class="publicTypeDetail_02" title="최대주주등과의거래신고 (자본시장법이전)" value="B003" onclick="fn_pTypeCheckOne('02');"/>
+					<label for="publicTypeDetail_B003">최대주주등과의거래신고</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	
+	<div class="detailCheck" id="divPublicTypeDetail_03" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">발행공시</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_03" onclick="fn_pTypeTotalChoice('03');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_03" onclick="fn_pTypeTotalClose('03', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C001" name="publicType" class="publicTypeDetail_03" title="증권신고(지분증권)" value="C001" onclick="fn_pTypeCheckOne('03');"/>
+				 	<label for="publicTypeDetail_C001">증권신고(지분증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C002" name="publicType" class="publicTypeDetail_03" title="증권신고(채무증권)" value="C002" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C002">증권신고(채무증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C003" name="publicType" class="publicTypeDetail_03" title="증권신고(파생결합증권)" value="C003" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C003">증권신고(파생결합증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C004" name="publicType" class="publicTypeDetail_03" title="증권신고(합병등)" value="C004" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C004">증권신고(합병등)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C005" name="publicType" class="publicTypeDetail_03" title="증권신고(기타)" value="C005" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C005">증권신고(기타)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C006" name="publicType" class="publicTypeDetail_03" title="소액공모(지분증권)" value="C006" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C006">소액공모(지분증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C007" name="publicType" class="publicTypeDetail_03" title="소액공보(채무증권)" value="C007" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C007">소액공모(채무증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C008" name="publicType" class="publicTypeDetail_03" title="소액공모(파생결합증권)" value="C008" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C008">소액공모(파생결합증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C009" name="publicType" class="publicTypeDetail_03" title="소액공모(합병등)" value="C009" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C009">소액공모(합병등)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C010" name="publicType" class="publicTypeDetail_03" title="소액공모(기타)" value="C010" onclick="fn_pTypeCheckOne('03');"/>
+					<label for="publicTypeDetail_C010">소액공모(기타)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_C011" name="publicType" class="publicTypeDetail_03" title="호가중개시스템을통한소액매출" value="C011" onclick="fn_pTypeCheckOne('03');"/>
+				 	<label for="publicTypeDetail_C011">호가중개시스템을통한소액매출 </label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_04" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">지분공시</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_04" onclick="fn_pTypeTotalChoice('04');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_04" onclick="fn_pTypeTotalClose('04', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_D001" name="publicType" class="publicTypeDetail_04" title="주식등의대량보유상황보고서" value="D001" onclick="fn_pTypeCheckOne('04');"/>
+					<label for="publicTypeDetail_D001">주식등의대량보유상황보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_D004" name="publicType" class="publicTypeDetail_04" title="공개매수" value="D004" onclick="fn_pTypeCheckOne('04');"/>
+					<label for="publicTypeDetail_D004">공개매수</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_D003" name="publicType" class="publicTypeDetail_04" title="의결권대리행사권유" value="D003" onclick="fn_pTypeCheckOne('04');"/>
+					<label for="publicTypeDetail_D003">의결권대리행사권유</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_D002" name="publicType" class="publicTypeDetail_04" title="임원 주요주주특정증권등소유상황보고서" value="D002" onclick="fn_pTypeCheckOne('04');"/>
+					<label for="publicTypeDetail_D002">임원ㆍ주요주주특정증권등소유상황보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_D005" name="publicType" class="publicTypeDetail_05" title="임원 주요주주 특정증권등 거래계획보고서" value="D005" onclick="fn_pTypeCheckOne('04');"/>
+					<label for="publicTypeDetail_D005">임원ㆍ주요주주 특정증권등 거래계획보고서</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_05" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">기타공시</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_05" onclick="fn_pTypeTotalChoice('05');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_05" onclick="fn_pTypeTotalClose('05', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E001" name="publicType" class="publicTypeDetail_05" title="자기주식취득 처분" value="E001" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E001">자기주식취득/처분</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E002" name="publicType" class="publicTypeDetail_05" title="신탁계약체결 해지" value="E002" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E002">신탁계약체결/해지</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E003" name="publicType" class="publicTypeDetail_05" title="합병등종료보고서" value="E003" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E003">합병등종료보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E004" name="publicType" class="publicTypeDetail_05" title="주식매수선택권부여에관한신고" value="E004" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E004">주식매수선택권부여에관한신고</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E005" name="publicType" class="publicTypeDetail_05" title="독립이사에관한신고" value="E005" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E005">독립이사에관한신고</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E006" name="publicType" class="publicTypeDetail_05" title="주주총회소집보고서" value="E006" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E006">주주총회소집보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E007" name="publicType" class="publicTypeDetail_05" title="시장조성 안정조작" value="E007" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E007">시장조성/안정조작</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E008" name="publicType" class="publicTypeDetail_05" title="합병등신고서(자본시장법이전)" value="E008" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E008">합병등신고서(자본시장법이전)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E009" name="publicType" class="publicTypeDetail_05" title="금융위등록 취소(자본시장법이전)" value="E009" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E009">금융위등록/취소(자본시장법이전)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_E010" name="publicType" class="publicTypeDetail_05" title="이중상환청구권부채권(커버드본드)" value="E010" onclick="fn_pTypeCheckOne('05');"/>
+					<label for="publicTypeDetail_E010">이중상환청구권부채권(커버드본드)</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_06" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">외부감사관련</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_06" onclick="fn_pTypeTotalChoice('06');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_06" onclick="fn_pTypeTotalClose('06', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_F001" name="publicType" class="publicTypeDetail_06" title="감사보고서" value="F001" onclick="fn_pTypeCheckOne('06');"/>
+					<label for="publicTypeDetail_F001">감사보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_F002" name="publicType" class="publicTypeDetail_06" title="연결감사보고서" value="F002" onclick="fn_pTypeCheckOne('06');"/>
+					<label for="publicTypeDetail_F002">연결감사보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_F003" name="publicType" class="publicTypeDetail_06" title="결합감사보고서" value="F003" onclick="fn_pTypeCheckOne('06');"/>
+					<label for="publicTypeDetail_F003">결합감사보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_F004" name="publicType" class="publicTypeDetail_06" title="회계법인사업보고서" value="F004" onclick="fn_pTypeCheckOne('06');"/>
+					<label for="publicTypeDetail_F004">회계법인사업보고서<sup style="line-height:0">*</sup></label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_F005" name="publicType" class="publicTypeDetail_06" title="감사전재무제표미제출신고서" value="F005" onclick="fn_pTypeCheckOne('06');"/>
+					<label for="publicTypeDetail_F005">감사전재무제표미제출신고서</label>
+				</span> 
+			</li>
+			<div class="infoWrap">* 2016.4.1. 이전 접수된 회계법인 사업보고서 조회 <a href="https://www.fss.or.kr/fss/bbs/B0000137/list.do?menuNo=200733" target="_blank" title="2016.4.1. 이전 접수된 회계법인 사업보고서는 금감원 회계포탈 사이트(링크)에서 조회가능합니다."><font color="blue">바로가기</font></a></div>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_07" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">펀드공시</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_07" onclick="fn_pTypeTotalChoice('07');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_07" onclick="fn_pTypeTotalClose('07', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_G001" name="publicType" class="publicTypeDetail_07" title="증권신고(집합투자증권 신탁형)" value="G001" onclick="fn_pTypeCheckOne('07');"/>
+					<label for="publicTypeDetail_G001">증권신고(집합투자증권-신탁형)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_G002" name="publicType" class="publicTypeDetail_07" title="증권신고(집합투자증권 회사형)" value="G002" onclick="fn_pTypeCheckOne('07');"/>
+					<label for="publicTypeDetail_G002">증권신고(집합투자증권-회사형)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_G003" name="publicType" class="publicTypeDetail_07" title="증권신고(집합투자증권 합병)" value="G003" onclick="fn_pTypeCheckOne('07');"/>
+					<label for="publicTypeDetail_G003">증권신고(집합투자증권-합병)</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_08" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">자산유동화</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_08" onclick="fn_pTypeTotalChoice('08');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_08" onclick="fn_pTypeTotalClose('08', true);" href="javascript:void(0);">닫기</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H001" name="publicType" class="publicTypeDetail_08" title="자산유동화계획 양도등록" value="H001" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H001">자산유동화계획/양도등록</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H002" name="publicType" class="publicTypeDetail_08" title="사업 반기 분기보고서" value="H002" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H002">사업/반기/분기보고서</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H003" name="publicType" class="publicTypeDetail_08" title="증권신고 유동화증권" value="H003" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H003">증권신고(유동화증권)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H004" name="publicType" class="publicTypeDetail_08" title="채권유동화계획 양도등록" value="H004" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H004">채권유동화계획/양도등록</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H005" name="publicType" class="publicTypeDetail_08" title="자산유동화관련 중요사항 발생등 신고" value="H005" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H005">자산유동화관련중요사항발생등보고</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_H006" name="publicType" class="publicTypeDetail_08" title="주요사항보고서" value="H006" onclick="fn_pTypeCheckOne('08');"/>
+					<label for="publicTypeDetail_H006">주요사항보고서</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_09" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">거래소공시</span><span class="title bigo web">(한국거래소 소관)</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_09" onclick="fn_pTypeTotalChoice('09');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_09" onclick="fn_pTypeTotalClose('09', true);" href="javascript:void(0);">닫기</a>
+			</div>
+			<span class="title bigo mob">(거래소 소관)</span>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I001" name="publicType" class="publicTypeDetail_09" title="수시공시" value="I001" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I001">수시공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I002" name="publicType" class="publicTypeDetail_09" title="공정공시" value="I002" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I002">공정공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I003" name="publicType" class="publicTypeDetail_09" title="시장조치 안내" value="I003" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I003">시장조치/안내</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I004" name="publicType" class="publicTypeDetail_09" title="지분공시" value="I004" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I004">지분공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I005" name="publicType" class="publicTypeDetail_09" title="증권투자회사" value="I005" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I005">증권투자회사</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_I006" name="publicType" class="publicTypeDetail_09" title="채권공시" value="I006" onclick="fn_pTypeCheckOne('09');"/>
+					<label for="publicTypeDetail_I006">채권공시</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="detailCheck" id="divPublicTypeDetail_10" style="display:none;">
+		<div class="titleWrap">
+			<span class="title">공정위공시</span><span class="title bigo web">(공정거래위원회 소관)</span>
+			<div class="btnWrap">
+				<a class="btnSelect" id="totalChoice_10" onclick="fn_pTypeTotalChoice('10');" href="javascript:void(0);">전체선택</a>
+				<a class="btnClose" id="totalClose_10" onclick="fn_pTypeTotalClose('10', true);" href="javascript:void(0);">닫기</a>
+			</div>
+			<span class="title bigo mob">(공정위 소관)</span>
+		</div>
+		<ul>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J001" name="publicType" class="publicTypeDetail_10" title="대규모내부거래관련" value="J001" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J001">대규모내부거래관련</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J008" name="publicType" class="publicTypeDetail_10" title="대규모내부거래관련(공익법인용)" value="J008" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J008">대규모내부거래관련(공익법인용)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J002" name="publicType" class="publicTypeDetail_10" title="대규모내부거래관련(구)" value="J002" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J002">대규모내부거래관련(구)</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J004" name="publicType" class="publicTypeDetail_10" title="기업집단현황공시" value="J004" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J004">기업집단현황공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J005" name="publicType" class="publicTypeDetail_10" title="비상장회사중요사항공시" value="J005" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J005">비상장회사중요사항공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J009" name="publicType" class="publicTypeDetail_10" title="하도급대금결제조건공시" value="J009" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J009">하도급대금결제조건공시</label>
+				</span> 
+			</li>
+			<li>
+				<span class="frmCheck">
+					<input type="checkbox" id="publicTypeDetail_J006" name="publicType" class="publicTypeDetail_10" title="기타공정위공시" value="J006" onclick="fn_pTypeCheckOne('10');"/>
+					<label for="publicTypeDetail_J006">기타공정위공시</label>
+				</span> 
+			</li>
+		</ul>
+	</div>
+	<div class="bottomBtnWrap">
+		<a class="btnSG" id="btnSG" onclick="fn_pTypeOpen(false);" href="javascript:void(0);">닫기</a>
+	</div>
+	
+</div>
+
+						</div>
+					<!-- publicType end -->	
+					</form>
+				</div>
+				<!-- //searchWrap -->															
+			</div>
+		</div>
+		<!-- //mainSearchWrap -->
+	
+		<!-- mainInfoNaviWrap -->
+		<div class="mainInfoNaviWrap" id="mainInfoNaviWrap">
+		<form id="searchForm" name="searchForm" method="post" onsubmit="return false;" >
+			<input type="hidden" name="textCrpCik" id="textCrpCik">
+			<!-- mainInfoNavi -->
+			<div class="mainInfoNavi">
+				<!-- titleWrap -->
+				<div class="titleWrap">정기공시 항목별 검색
+					<a class="btnOn" id="searchBtn" onclick="fn_togglegosiSearchWrap()" href="javascript:void(0);">열기/닫기</a>
+				</div>
+							
+				<!-- searchWrap -->
+				<div class="searchWrap" id="gosiSearchWrap" style="display:inline-block;">
+					<!-- search -->
+					<div class="search">
+						<div class="inputWrap">
+							<span id="searchArea_nav" class="frmInput">
+								<div class="ui-widget">
+									<input id="textCrpNm" name="textCrpNm" type="text" title="회사명/종목코드를 입력하세요" placeholder="회사명/종목코드를 입력하세요" onfocus="clearSearchCorpText();clearSearchCorpCik();" onblur="blurSearchCorp('textCrpNm');" onchange="changeCrpNm()" onkeypress="if(event.keyCode==13){searchNavi(); return false;}" />
+									<a class="comSearch" onclick="openSearchCorpWindow('searchForm', 'textCrpNm', 'oneSelect');" href="javascript:void(0);">회사명 찾기</a>
+								</div>
+							</span>
+						</div>
+						<div class="btnWrap">
+							<a class="btnSearch" onclick="searchNavi();" href="javascript:void(0);">검색</a>
+						</div>
+					</div>
+					<!-- //search -->
+					<!-- subCheck -->
+					<div class="subCheckWrap">
+						<ul>
+							<li>
+								<div class="subCheck">
+									<ul>
+										<li class="title">회사현황</li>
+										<li>
+											<input id="navi_A001" name="naviType" type="checkbox" value="A001"/>
+											<label for="navi_A001"><span class="name">회사의 개요</span></label>
+										</li>
+										<li>
+											<input id="navi_A002" name="naviType" type="checkbox" value="A002"/>
+											<label for="navi_A002"><span class="name">사업의 내용</span></label>
+										</li>
+										<li>
+											<input id="navi_A003" name="naviType" type="checkbox" value="A003"/>
+											<label for="navi_A003"><span class="name">경영진단 및 분석의견</span></label>
+										</li>
+										<li>
+											<input id="navi_A004" name="naviType" type="checkbox" value="A004"/>
+											<label for="navi_A004"><span class="name">감사인의 감사의견</span></label>
+										</li>
+										<li>
+											<input id="navi_A005" name="naviType" type="checkbox" value="A005"/>
+											<label for="navi_A005"><span class="name">임원 및 직원의 현황</span></label>
+										</li>
+										<li>
+											<input id="navi_A006" name="naviType" type="checkbox" value="A006"/>
+											<label for="navi_A006"><span class="name">임원의 보수 등</span></label>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="subCheck">
+									<ul>
+										<li class="title">재무정보</li>
+										<li>
+											<input id="navi_B001" name="naviType" type="checkbox" value="B001"/>
+											<label for="navi_B001"><span class="name">요약재무정보</span></label>
+										</li>
+										<li>
+											<input id="navi_B002" name="naviType" type="checkbox" value="B002"/>
+											<label for="navi_B002"><span class="name">연결재무제표</span></label>
+										</li>
+										<li>
+											<input id="navi_B003" name="naviType" type="checkbox" value="B003"/>
+											<label for="navi_B003"><span class="name">연결재무제표 주석</span></label>
+										</li>
+										<li>
+											<input id="navi_B004" name="naviType" type="checkbox" value="B004"/>
+											<label for="navi_B004"><span class="name">개별재무제표</span></label>
+										</li>
+										<li class="end">
+											<input id="navi_B005" name="naviType" type="checkbox" value="B005"/>
+											<label for="navi_B005"><span class="name">개별재무제표 주석</span></label>
+										</li>
+										<li class="title web">&nbsp;</li>
+										<li class="t10">
+											<input id="navi_B006" name="naviType" type="checkbox" value="B006"/>
+											<label for="navi_B006"><span class="name">배당</span></label>
+										</li>
+										<li class="t10">
+											<input id="navi_B007" name="naviType" type="checkbox" value="B007"/>
+											<label for="navi_B007"><span class="name">자금의 조달 및 사용</span></label>
+										</li>
+										<li class="t10">
+											<input id="navi_B008" name="naviType" type="checkbox" value="B008"/>
+											<label for="navi_B008"><span class="name">기타 재무사항</span></label>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="subCheck">
+									<ul>
+										<li class="title">지배구조</li>
+										<li>
+											<input id="navi_C001" name="naviType" type="checkbox" value="C001"/>
+											<label for="navi_C001"><span class="name">최대주주</span></label>
+										</li>
+										<li>
+											<input id="navi_C002" name="naviType" type="checkbox" value="C002"/>
+											<label for="navi_C002"><span class="name">이사회</span></label>
+										</li>
+										<li>
+											<input id="navi_C003" name="naviType" type="checkbox" value="C003"/>
+											<label for="navi_C003"><span class="name">감사제도</span></label>
+										</li>
+										<li>
+											<input id="navi_C004" name="naviType" type="checkbox" value="C004"/>
+											<label for="navi_C004"><span class="name">주주총회</span></label>
+										</li>
+										<li>
+											<input id="navi_C005" name="naviType" type="checkbox" value="C005"/>
+											<label for="navi_C005"><span class="name">대주주와의 거래</span></label>
+										</li>
+										<li>
+											<input id="navi_C006" name="naviType" type="checkbox" value="C006"/>
+											<label for="navi_C006"><span class="name">계열회사</span></label>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- subCheck -->
+				</div>
+				<!-- //searchWrap -->
+			</div>
+			<!-- //mainInfoNavi -->
+		</form>
+		</div>
+		<!-- //mainInfoNaviWrap -->
+		<!-- mainBoard01 -->
+		<div class="mainBoard01">
+			<div class="mainTitle">
+				<h2>오늘의 공시</h2>
+				<p id="currentDateTimeGongsi"><!-- [2020-09-04 16:50]  오늘의 공시는 30초 단위로 갱신됩니다. --></p>
+			</div>
+			<!-- mainTab -->
+			<div class="btnWrap">
+				<a class="btnChange" onclick="fn_tabOrderChangeToggle();" href="javascript:void(0);">탭순서변경</a>
+				<a class="btnStop" onclick="setGongsiTimer()" id="goStop" href="javascript:void(0);">진행</a>
+			</div>
+			<div class="mainTab">
+				<div class="tabWrap" id="todayTab">
+					<ul>
+						<li id="todayLi_all">
+							<a class="today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">전체<sapn class="number" id="today_all_cnt">(0)</sapn></a>
+							<!-- mainTabListWrap -->
+							<!-- 전체 -->
+							<div class="mainTabListWrap" id="toady_all">								
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 전제 리스트</caption> -->
+									<tbody id="today_all_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_y">
+							<a class="today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">유가증권<sapn class="number" id="today_y_cnt">(0)</sapn></a>
+							<!-- 유가증권 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_y">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 유가증권 리스트</caption> -->
+									<tbody id="today_y_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_k">
+							<a class="today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">코스닥<sapn class="number" id="today_k_cnt">(0)</sapn></a>
+							<!-- 코스닥 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_k">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 코스닥 리스트</caption> -->
+									<tbody id="today_k_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_n">
+							<a class="today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">코넥스<sapn class="number" id="today_n_cnt">(0)</sapn></a>
+							<!-- 코넥스 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_n">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 코넥스 리스트</caption> -->
+									<tbody id="today_n_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_g">
+							<a class="today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">기타<sapn class="number" id="today_g_cnt">(0)</sapn></a>
+							<!-- 기타 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_g">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 기타 리스트</caption> -->
+									<tbody id="today_g_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_o">
+							<a class="different today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">5%ㆍ임원보고<sapn class="number" id="today_o_cnt">(0)</sapn></a>
+							<!-- 5%임원보고 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_o">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 5%ㆍ임원보고 리스트</caption> -->
+									<tbody id="today_o_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_f">
+							<a class="different today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">펀드공시<sapn class="number" id="today_f_cnt">(0)</sapn></a>
+							<!-- 펀드공시 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_f">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 펀드공시 리스트</caption> -->
+									<tbody id="today_f_list">
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+		<tr>
+			<td><span class="webOnly"></span>&nbsp;</td>
+			<td class="tL">&nbsp;<span class="webOnly"></span><span class="mobileOnly"></span></td>
+			<td class="tL ellipsis">&nbsp;</td>
+			<td class="tL ellipsis">&nbsp;</td>
+		</tr>
+	
+
+
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li id="todayLi_my">
+							<a class="different today" href="javascript:void(0);" onclick="fn_moveDetail('todayTab')">My공시<sapn class="number" id="today_my_cnt">()</sapn></a>
+							<!-- my공시 -->
+							<div class="mainTabListWrap" style="display:none;"  id="toady_my">
+								<table class="mainTabList" summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+									<!-- <caption>오늘의 공시 my공시 리스트</caption> -->
+									<tbody id="myGosiList">
+										
+									</tbody>
+								</table>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="divMore">
+					<a class="listBtnMore" onclick="fn_moveMore('todayTab')" href="javascript:void(0);">더보기</a>
+				</div>
+			</div>								
+		</div>
+		<!-- //mainBoard01 -->
+		<!-- mainBoard02 -->
+		<div class="mainBoard02">
+			<div class="mainTitle">
+				<h2>많이 본 문서</h2>
+				<p>최근 3영업일 기준 가장 많이 본 공시를 보여줍니다.</p>
+			</div>
+			<div class="wrap">
+				<a class="btnL" onclick="fn_clickLeft();" href="javascript:void(0);">왼쪽이동</a>
+				<div class="mainRollingList" id="mainRollingList">
+					<div class="wrapper" id="mainRollingDiv">
+						<ul>
+							<li>
+	<span class="tagNum">1</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921900053'); return false;" title='2026.09.21 기업설명회(IR)개최 공시뷰어 새창' href="javascript:void(0);">기업설명회(IR)개최</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01526806', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='삼기에너지솔루션즈 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>삼기에너지솔루션즈</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">2</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921900197'); return false;" title='2026.09.21 기업설명회(IR)개최 공시뷰어 새창' href="javascript:void(0);">기업설명회(IR)개최</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00442826', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='대봉엘에스 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>대봉엘에스</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">3</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260922800127'); return false;" title='2026.09.22 유무상증자결정(종속회사의주요경영사항) 공시뷰어 새창' href="javascript:void(0);">유무상증자결정(종속회사의주요경영사항)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00105855', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='엘에스일렉트릭 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>엘에스일렉트릭</a>
+	<span class="date">2026.09.22</span>
+</li><li>
+	<span class="tagNum">4</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260820800709'); return false;" title='2026.08.20 단일판매ㆍ공급계약체결 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01519790', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='엠앤씨솔루션 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>엠앤씨솔루션</a>
+	<span class="date">2026.08.20</span>
+</li><li>
+	<span class="tagNum">5</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921800004'); return false;" title='2026.09.21 투자판단관련주요경영사항 공시뷰어 새창' href="javascript:void(0);">투자판단관련주요경영사항</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00149655', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='삼성물산 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>삼성물산</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">6</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921800302'); return false;" title='2026.09.21 단일판매ㆍ공급계약체결 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00111704', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='한화오션 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>한화오션</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">7</span>
+	<a class="title ellipsis" onclick="openReportViewer('20151023000117'); return false;" title='2015.10.23 사업보고서 공시뷰어 새창' href="javascript:void(0);">사업보고서</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01018617', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='메디쎄이 기업개황 새창' href="javascript:void(0);"><span class="tagCom_konex" title="코넥스시장">넥</span>메디쎄이</a>
+	<span class="date">2015.10.23</span>
+</li><li>
+	<span class="tagNum">8</span>
+	<a class="title ellipsis" onclick="openReportViewer('20220722000193'); return false;" title='2022.07.22 사업보고서 공시뷰어 새창' href="javascript:void(0);">사업보고서</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00533809', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='바스칸바이오제약 기업개황 새창' href="javascript:void(0);"><span class="tagCom_konex" title="코넥스시장">넥</span>바스칸바이오제약</a>
+	<span class="date">2022.07.22</span>
+</li><li>
+	<span class="tagNum">9</span>
+	<a class="title ellipsis" onclick="openReportViewer('20160330000992'); return false;" title='2016.03.30 사업보고서 공시뷰어 새창' href="javascript:void(0);">사업보고서</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01018617', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='메디쎄이 기업개황 새창' href="javascript:void(0);"><span class="tagCom_konex" title="코넥스시장">넥</span>메디쎄이</a>
+	<span class="date">2016.03.30</span>
+</li><li>
+	<span class="tagNum">10</span>
+	<a class="title ellipsis" onclick="openReportViewer('20121114001106'); return false;" title='2012.11.14 분기보고서 공시뷰어 새창' href="javascript:void(0);">분기보고서</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00125910', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='엘티삼보 기업개황 새창' href="javascript:void(0);"><span class="tagCom_etc"  title="기타법인">기</span>엘티삼보</a>
+	<span class="date">2012.11.14</span>
+</li><li>
+	<span class="tagNum">11</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260922800619'); return false;" title='2026.09.22 기타경영사항(자율공시) 공시뷰어 새창' href="javascript:void(0);">기타경영사항(자율공시)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00122694', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='범양건영 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>범양건영</a>
+	<span class="date">2026.09.22</span>
+</li><li>
+	<span class="tagNum">12</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260922800320'); return false;" title='2026.09.22 단일판매ㆍ공급계약체결 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00139834', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='LG씨엔에스 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>LG씨엔에스</a>
+	<span class="date">2026.09.22</span>
+</li><li>
+	<span class="tagNum">13</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260922800581'); return false;" title='2026.09.22 단일판매ㆍ공급계약체결 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00155276', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='포스코퓨처엠 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>포스코퓨처엠</a>
+	<span class="date">2026.09.22</span>
+</li><li>
+	<span class="tagNum">14</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921800165'); return false;" title='2026.09.21 투자판단관련주요경영사항 공시뷰어 새창' href="javascript:void(0);">투자판단관련주요경영사항</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00413046', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='셀트리온 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>셀트리온</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">15</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921000322'); return false;" title='2026.09.21 주요사항보고서(전환사채권발행결정) 공시뷰어 새창' href="javascript:void(0);">주요사항보고서(전환사채권발행결정)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01440153', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='넥사다이내믹스 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>넥사다이내믹스</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">16</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921000369'); return false;" title='2026.09.21 주요사항보고서(유상증자결정) 공시뷰어 새창' href="javascript:void(0);">주요사항보고서(유상증자결정)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01160512', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='헝셩그룹 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>헝셩그룹</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">17</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260921900149'); return false;" title='2026.09.21 단일판매ㆍ공급계약체결 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00231044', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='우리기술 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>우리기술</a>
+	<span class="date">2026.09.21</span>
+</li><li>
+	<span class="tagNum">18</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260908000361'); return false;" title='2026.09.08 주요사항보고서(회사합병결정) 공시뷰어 새창' href="javascript:void(0);">주요사항보고서(회사합병결정)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00599595', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='BGF에코머티리얼즈 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>BGF에코머티리얼즈</a>
+	<span class="date">2026.09.08</span>
+</li><li>
+	<span class="tagNum">19</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260901000174'); return false;" title='2026.09.01 주요사항보고서(유상증자결정) 공시뷰어 새창' href="javascript:void(0);">주요사항보고서(유상증자결정)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('00843900', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='육일씨엔에쓰 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kosdaq" title="코스닥시장">코</span>육일씨엔에쓰</a>
+	<span class="date">2026.09.01</span>
+</li><li>
+	<span class="tagNum">20</span>
+	<a class="title ellipsis" onclick="openReportViewer('20260922800219'); return false;" title='2026.09.22 단일판매ㆍ공급계약체결(자율공시) 공시뷰어 새창' href="javascript:void(0);">단일판매ㆍ공급계약체결(자율공시)</a>
+	<a class="name ellipsis" onclick="openCorpInfoNew('01390344', 'winCorpInfo', '/dsae001/selectPopup.ax'); return false;" title='HD현대중공업 기업개황 새창' href="javascript:void(0);"><span class="tagCom_kospi" title="유가증권시장">유</span>HD현대중공업</a>
+	<span class="date">2026.09.22</span>
+</li>
+						</ul>
+					</div>
+				</div>
+				<a class="btnR" onclick="fn_clickRight();" href="javascript:void(0);">오른쪽이동</a>
+			</div>
+		</div>
+		<!-- //mainBoard02 -->
+		<!-- mainBoard03Bg -->
+		<div class="mainBoard03Bg">
+			<!-- mainBoard03 -->
+			<div class="mainTitle">
+				<h2>공모게시판</h2>
+				<p id="currentDateTimeGongmo"><!-- [2020-09-04 16:50] 공모게시판은 30초 단위로 갱신됩니다. --></p>
+			</div>
+			<div class="mainBoard03">
+				<div class="wrap">
+					<!-- mainBoard03Tab -->
+					<div class="mainBoard03Tab">
+						<div class="tabWrap" id="gongmoTab">
+							<ul>
+								<li class="on" id="gongmoLi_s">
+									<a class="gongmoA" href="javascript:void(0);" onclick="fn_moveDetail('gongmoTab')">지분증권<sapn class="number" id="gongmo_s_cnt">(33)</sapn></a>
+									<!-- 지분증권 -->
+									<div class="mainBoard03ListWrap" id="gongmo_s">
+										<table class="mainBoard03List"summary="분류,회사명,기한,날짜,상태 순으로 되어있습니다.">
+											<!-- <caption>공모 유가 증권 리스트</caption> -->
+											<tbody id="gongmo_s_list">
+												
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('01025617', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="하나에어로다이내믹스 기업개황 새창" >
+					하나에어로다이내믹스
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260921000405'); return false;" id="r_20260921000405" style="cursor:pointer;" title="2026.11.11 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260921000405">
+						2026.11.10~2026.11.11
+					</a></td>
+				<td class="tL">2026.09.21</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('01956751', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="래블업 기업개황 새창" >
+					래블업
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260921000390'); return false;" id="r_20260921000390" style="cursor:pointer;" title="2026.10.23 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260921000390">
+						2026.10.22~2026.10.23
+					</a></td>
+				<td class="tL">2026.09.21</td>
+				<td class="tL"><span title="본 보고서명으로 이미 제출된 보고서의 기재내용이 변경되어 제출된 것임"  class="txtCB">기재정정</span></td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('01754737', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="엘리스그룹 기업개황 새창" >
+					엘리스그룹
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260921000386'); return false;" id="r_20260921000386" style="cursor:pointer;" title="2026.10.08 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260921000386">
+						2026.10.07~2026.10.08
+					</a></td>
+				<td class="tL">2026.09.21</td>
+				<td class="tL"><span title="본 보고서명으로 이미 제출된 보고서의 기재내용이 변경되어 제출된 것임"  class="txtCB">기재정정</span></td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00579342', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="영광 기업개황 새창" >
+					영광
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260921000332'); return false;" id="r_20260921000332" style="cursor:pointer;" title="2026.10.23 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260921000332">
+						2026.10.22~2026.10.23
+					</a></td>
+				<td class="tL">2026.09.21</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+					
+					
+				
+				
+				
+			
+			
+			
+			<tr>
+				<td class="tL"><span class="webOnly">코스닥시장</span><span class="mobileOnly"><span class="tagCom_kosdaq" title="코스닥시장">코</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00232007', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="상지건설 기업개황 새창" >
+					상지건설
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260921000308'); return false;" id="r_20260921000308" style="cursor:pointer;" title="2026.11.03 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260921000308">
+						2026.11.02~2026.11.03
+					</a></td>
+				<td class="tL">2026.09.21</td>
+				<td class="tL"><span title="본 보고서명으로 이미 제출된 보고서의 유가증권 발행조건이 확정되어 제출된 것임"  class="txtCB">발행조건확정</span></td>
+			</tr>
+			
+		
+
+
+											</tbody>
+										</table>
+									</div>
+								</li>
+								<li id="gongmoLi_b">
+									<a class="gongmoA" href="javascript:void(0);" onclick="fn_moveDetail('gongmoTab')">채무증권<sapn class="number" id="gongmo_b_cnt">(127)</sapn></a>
+									<!-- 채무증권 -->
+									<div class="mainBoard03ListWrap" id="gongmo_b" style="display:none;">
+										<table class="mainBoard03List"summary="분류,회사명,기한,날짜,상태 순으로 되어있습니다.">
+											<!-- <caption>공모 채무 증권 리스트</caption> -->
+											<tbody  id="gongmo_b_list">
+												
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00933504', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="메리츠캐피탈 기업개황 새창" >
+					메리츠캐피탈
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000512'); return false;" id="r_20260922000512" style="cursor:pointer;" title="2026.09.23 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000512">
+						2026.09.23~2026.09.23
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+					
+					
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">유가증권시장</span><span class="mobileOnly"><span class="tagCom_kospi" title="유가증권시장">유</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00181712', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="SK 기업개황 새창" >
+					SK
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000501'); return false;" id="r_20260922000501" style="cursor:pointer;" title="2026.10.07 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000501">
+						2026.10.07~2026.10.07
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00137456', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="신한캐피탈 기업개황 새창" >
+					신한캐피탈
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000493'); return false;" id="r_20260922000493" style="cursor:pointer;" title="2026.09.23 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000493">
+						2026.09.23~2026.09.23
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00386937', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="국민은행 기업개황 새창" >
+					국민은행
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000459'); return false;" id="r_20260922000459" style="cursor:pointer;" title="2026.09.23 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000459">
+						2026.09.23~2026.09.23
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00248053', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="지에스엔텍 기업개황 새창" >
+					지에스엔텍
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000458'); return false;" id="r_20260922000458" style="cursor:pointer;" title="2026.10.07 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000458">
+						2026.10.07~2026.10.07
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+
+
+											</tbody>
+										</table>
+									</div>
+								</li>
+								<li id="gongmoLi_d">
+									<a class="gongmoA" href="javascript:void(0);" onclick="fn_moveDetail('gongmoTab')">파생결합증권<sapn class="number" id="gongmo_d_cnt">(60)</sapn></a>
+									<!-- 파생결합증권 -->
+									<div class="mainBoard03ListWrap"  id="gongmo_d" style="display:none;">
+										<table class="mainBoard03List"summary="분류,회사명,기한,날짜,상태 순으로 되어있습니다.">
+											<!-- <caption>공모 파생결합증권 리스트</caption> -->
+											<tbody  id="gongmo_d_list">
+												
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+				
+					
+					
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">유가증권시장</span><span class="mobileOnly"><span class="tagCom_kospi" title="유가증권시장">유</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00131850', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="SK증권 기업개황 새창" >
+					SK증권
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000451'); return false;" id="r_20260922000451" style="cursor:pointer;" title="2026.09.30 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000451">
+						2026.09.23~2026.09.30
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+					
+					
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">유가증권시장</span><span class="mobileOnly"><span class="tagCom_kospi" title="유가증권시장">유</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00148610', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="한화투자증권 기업개황 새창" >
+					한화투자증권
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000324'); return false;" id="r_20260922000324" style="cursor:pointer;" title="2026.09.30 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000324">
+						2026.09.23~2026.09.30
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+					
+					
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">유가증권시장</span><span class="mobileOnly"><span class="tagCom_kospi" title="유가증권시장">유</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00131054', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="유진증권 기업개황 새창" >
+					유진증권
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000258'); return false;" id="r_20260922000258" style="cursor:pointer;" title="2026.10.07 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000258">
+						2026.09.29~2026.10.07
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+					
+					
+				
+				
+				
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">유가증권시장</span><span class="mobileOnly"><span class="tagCom_kospi" title="유가증권시장">유</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00111722', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="미래에셋증권 기업개황 새창" >
+					미래에셋증권
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000101'); return false;" id="r_20260922000101" style="cursor:pointer;" title="2026.10.14 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000101">
+						2026.10.14~2026.10.14
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+			
+				
+				
+				
+				
+					
+					
+				
+			
+			
+			
+				
+			
+			<tr>
+				<td class="tL"><span class="webOnly">기타법인</span><span class="mobileOnly"><span class="tagCom_etc"  title="기타법인">기</span></span></td>
+				<td class="tL ellipsis">
+					<a href="javascript:openCorpInfoNew('00163682', 'winCorpInfo', '/dsae001/selectPopup.ax');" title="메리츠증권 기업개황 새창" >
+					메리츠증권
+					</a>
+				</td>
+				<td class="tL"><a onclick="openReportViewerMain('20260922000061'); return false;" id="r_20260922000061" style="cursor:pointer;" title="2026.10.06 공시뷰어 새창" href="/dsaf001/main.do?rcpNo=20260922000061">
+						2026.09.23~2026.10.06
+					</a></td>
+				<td class="tL">2026.09.22</td>
+				<td class="tL">&nbsp;</td>
+			</tr>
+			
+		
+
+
+											</tbody>
+										</table>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a class="listBtnMore" onclick="fn_moveMore('gongmoTab')" href="javascript:void(0);">더보기</a>
+					</div>
+				</div>
+				<!-- //mainTabListWrap -->
+				<div class="mainBoardTopBg"></div>
+				<div class="mainBoardTopLine"></div>
+			</div>
+			<!-- //mainBoard03 -->
+			<!-- //mainBoardBg -->
+		</div>
+		
+		<div class="mainBoard04Bg">
+			<!-- mainBoard04 -->
+			<div class="mainBoard04">
+				<ul>
+					<li>
+						<div class="titleWrap">기업공시제도일반<a class="btnMore" href="/info/searchGuide.do" target="_blank">더보기</a></div>
+						<div class="mainBoard04ListWrap">
+							<table class="mainBoard04List"summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+								<!-- <caption>기업공시제도 일반 리스트</caption> -->
+								<tbody>
+									
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openGongsiDetailPopup(448); return false;" title="기업공시서식 작성기준(2026.8.3. 시행)" href="/dsaa003/selectGuideMain.ax?seqno=448">
+				기업공시서식 작성기준(2026.8.3. 시행)
+			</a>
+		</td>
+		<td>[2026.08.03]</td>
+	</tr>
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openGongsiDetailPopup(447); return false;" title="기업공시서식 작성기준(2026.7.28. 시행)" href="/dsaa003/selectGuideMain.ax?seqno=447">
+				기업공시서식 작성기준(2026.7.28. 시행)
+			</a>
+		</td>
+		<td>[2026.07.27]</td>
+	</tr>
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openGongsiDetailPopup(446); return false;" title="기업공시서식 작성기준(2026.7.23. 시행)" href="/dsaa003/selectGuideMain.ax?seqno=446">
+				기업공시서식 작성기준(2026.7.23. 시행)
+			</a>
+		</td>
+		<td>[2026.07.23]</td>
+	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+					</li>
+					<li>
+						<div class="titleWrap">보도자료<a class="btnMore" href="/info/searchBodo.do" target="_blank">더보기</a></div>
+						<div class="mainBoard04ListWrap">
+							<table class="mainBoard04List"summary="날짜,분류,회사명,제목 순으로 되어있습니다.">
+								<!-- <caption>보도자료 리스트</caption> -->
+								<tbody>
+									
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openBodoDetailPopup(28460); return false;" title="누군가에게 비상장주식 투자 권유를 받고 있다면 회사정보와 투자권유자의 실체를 반드시 확인하세요"  href="/dsaa003/selectBodoMain.ax?seqno=28460">
+				누군가에게 비상장주식 투자 권유를 받고 있다면 회사정보와 투자권유자의 실체를 반드시 확인하세요
+			</a>
+		</td>
+		<td>[2026.09.07]</td>
+	</tr>
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openBodoDetailPopup(28459); return false;" title="개정 상법 정착 등을 위한 26.3분기 찾아가는 기업공시 설명회 개최"  href="/dsaa003/selectBodoMain.ax?seqno=28459">
+				개정 상법 정착 등을 위한 26.3분기 찾아가는 기업공시 설명회 개최
+			</a>
+		</td>
+		<td>[2026.09.07]</td>
+	</tr>
+
+	<tr>
+		<td class="tL ellipsis">
+			<a onclick="openBodoDetailPopup(28453); return false;" title="토큰증권 정책방향 발표"  href="/dsaa003/selectBodoMain.ax?seqno=28453">
+				토큰증권 정책방향 발표
+			</a>
+		</td>
+		<td>[2026.09.04]</td>
+	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- //mainBoard04 -->
+		</div>
+
+		<!-- wingWrap -->
+		<div class="wingWrap main" id="wingWrapMain">
+			<a class="btnChange" onclick="fn_templateOrderChangeToggle();" href="javascript:void(0);">템플릿 순서변경</a>
+			<div id="wingWrap">
+				<div class="title">오늘본문서</div>
+				<div class="wingBtn">
+					<div class="psNumber">1/5</div>
+					<div class="btnUp">위로</div>
+					<ul>
+					</ul>
+					<div class="btnDown">아래로</div>
+				</div>
+				<div class="wingBanner">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //wingWrap -->
+		<!-- footer -->
+		
+
+<script type="text/javascript">
+	function altChange(){
+		var sIndex = document.getElementById("f_select").options.selectedIndex;
+		document.getElementById("go_confirm").alt = document.getElementById("f_select").options[sIndex].text + " 이동";
+		document.getElementById("go_confirm").title = document.getElementById("f_select").options[sIndex].text + " 이동";
+	}
+
+	function doPrsnInfoPolicy(){
+		var size = getOpenSize(730, 750);
+		var popWin = window.open('/jsp/popup/prsnInfoPolicy.jsp', 'PRSNINFOPOLICY', ''+size+', status=no, scrollbars=yes');
+	   	popWin.focus();
+	}
+
+	function openBanner(ban_type){
+		xajax.initParameter();
+		xajax.addParameter("ban_type", ban_type);
+		xajax.simpleSend("/banner/count.ax");
+	}
+</script>
+
+<a class="btnClose" onclick="fn_scrollTop();" href="javascript:void(0);"><div class="mBtnTop">맨위로</div></a>
+<div id="footerBannerWrap">
+	<div id="footerBanner">
+		<div class="leftCont">
+			<ul>
+				<li><a href="https://www.fss.or.kr" target="_blank" title="새창열림"><img src="../images/footer_banner_01.png" alt="금융감독원 바로가기"></a></li>
+				<li><a href="http://www.fsc.go.kr/" target="_blank" title="새창열림"><img src="../images/footer_banner_02.png" alt="금융위원회 바로가기"></a></li>
+				<li><a href="http://www.ftc.go.kr/" target="_blank" title="새창열림"><img src="../images/footer_banner_03.png" alt="공정거래위원회 바로가기"></a></li>
+			</ul>
+		</div>
+		<div class="rightCont">
+			<ul>
+				<li><a href="https://www.fss.or.kr/fss/job/lrgInfoMain/intro.do?menuNo=200485" target="_blank" title="새창열림"><img src="../images/footer_banner_04.png" alt="금융감독법규 바로가기"></a></li>
+				<li><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200289" target="_blank" title="새창열림"><img src="../images/footer_banner_05.png" alt="불법금융신고센터 바로가기"></a></li>
+				<li><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200427" target="_blank"  title="새창열림"><img src="../images/footer_banner_06.png" alt="금융감독원 회계포탈 바로가기"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footerWrap">
+	<div id="footer">
+		<div class="logo"><img src="../images/footer_logo.png" alt="풋터 로고"></div>
+		<div class="fnbWrap">
+			<div class="fnb">
+				<ul>
+					<li><a href="/jsp/privacy.jsp" target="_blank" title="개인정보처리방침 새창"><b>개인정보 처리방침</b></a></li>
+					<li><a href="/introduction/content5.do">정보이용시 유의사항</a></li>
+					<li><a href="/introduction/content2.do">보고서정보</a></li>
+					<li><a href="/introduction/content6.do">RSS서비스</a></li>
+				</ul>
+			</div>
+			<div class="copy">
+				<p>서울특별시 영등포구 여의대로 38 대표전화 : 02) 3145-5114</p>
+				<p>Copyright ㉿FINANCIAL SUPERVISORY SERVICE ALL Rights Reserved.</p>
+			</div>
+		</div>
+		<div class="inquiry">
+			<p>홈페이지 이용문의 : (국번없이)1332 (5번-&gt;1번-&gt;1번)</p>
+			<p>기업공시 제도문의 : (국번없이)1332 (5번-&gt;1번-&gt;2,3,4,5번)</p>
+		</div>
+		<div class="footeMark"><img src="../images/footer_mark.png" alt="ISO 20000 인증" title="ISO 20000 인증"></div>
+	</div>
+</div>
+
+
+<!-- layer popup wrap -->
+<div id="winCommMsg" style="display:none">
+	<div class="mask" style="display:block"></div>
+	<!-- layer popup wrap -->
+</div>
+
+	</div>
+	
+
+<script type="text/javascript">
+function openReportViewerEng(rcpNo, dcmNo){
+	var url = "/dsbh001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+
+	var size = getOpenSize(1024, 768);
+	window.open(url, rcpNo, size+",resizable=yes");
+	$j("#r_"+rcpNo).css("color","#cd0093");
+}
+
+var win_num = 1;
+function openReportViewer(rcpNo, dcmNo){
+	var url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, rcpNo+win_num, size+",resizable=yes");
+	win_num++;
+	if (dcmNo) {
+		$j("#r_"+rcpNo+dcmNo).css("color","#cd0093");
+	}else{
+		$j("#r_"+rcpNo).css("color","#cd0093");
+	}
+}
+
+function openReportViewerParam(rcpNo, dcmNo, params){
+	var url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+	if (params) {
+		//<![CDATA[
+		url += params;
+		//]]>
+	}
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, rcpNo+win_num, size+",resizable=yes");
+	win_num++;
+	if (dcmNo) {
+		$j("#r_"+rcpNo+dcmNo).css("color","#cd0093");
+	}else{
+		$j("#r_"+rcpNo).css("color","#cd0093");
+	}
+}
+
+function openReportListViewer(rcpNo, dcmNo, eleId){
+
+	var url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+		if(eleId) {
+			url += "&eleId=" + eleId;
+		}
+	}
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, rcpNo+win_num, size+",resizable=yes");
+	win_num++;
+	if (dcmNo) {
+		$j("#r_"+rcpNo+dcmNo).css("color","#cd0093");
+	}else{
+		$j("#r_"+rcpNo).css("color","#cd0093");
+	}
+}
+
+/*
+ * 통합검색용 문서뷰어 팝업 호출
+ * nrseo 2010. 10. 20
+ * 2016.09.30 jsp에 직접 명시 하여 미사용(DSAB007A.jsp)
+ * - a:visited 미작동으로 인한 조치
+ */
+function openReportViewerKeyword(rcpNo, dcmNo, keyword){
+	var url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+	//<![CDATA[
+	url += "&keyword=" + encodeURIComponent(keyword);
+	//]]>
+
+	var size = getOpenSize(1024, 768);
+	window.open(url, rcpNo+win_num, size+",resizable=yes");
+	win_num++;
+	if (dcmNo) {
+		$j("#r_"+rcpNo+dcmNo).css("color","#cd0093");
+	}else{
+		$j("#r_"+rcpNo).css("color","#cd0093");
+	}
+}
+
+/*
+ * 메인화면 전용
+ */
+function openReportViewerMain(rcpNo, dcmNo){
+	var url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, rcpNo+win_num, size+",resizable=yes");
+	win_num++;
+}
+
+/*
+ * 사용(xbrl 미리보기)
+ */
+function openXbrlViewer(rcpNo, dcmNo, lang){
+	var url = "";
+	if (lang == "en") url = "https://englishdart.fss.or.kr/dsbh002/main.do?rcpNo=" + rcpNo;
+	else url = "/dsaf002/main.do?rcpNo=" + rcpNo;
+	
+	if (dcmNo) {
+		//<![CDATA[
+		url += "&dcmNo=" + dcmNo;
+		//]]>
+	}
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, "_blank", size+",resizable=yes");
+}
+
+/*
+ * 사용(xbrl뷰어 열기 팝업(opendart link))
+ */
+function openXbrlViewerNew(opendartUrl, rcpNo, stat, preview) {
+	if (stat == "Y") {
+		var url = opendartUrl + "/xbrl/viewer/main.do?rcpNo=" + rcpNo;
+
+		var size = getOpenSize(1200, 810);
+		window.open( url, rcpNo+win_num, size+",resizable=yes" );
+		win_num++;
+	} else if (stat == "N") {
+		if (preview == "Y") {
+			openXbrlViewer(rcpNo, "", "");
+		} else {
+			alert( '문서 생성중 입니다.\n잠시 후 다시 조회 하시기 바랍니다.' );
+		}
+	} else {
+		alert( '생성된 문서가 없습니다.' );
+	}
+}
+
+//영문보기
+function openViewer(rcpNo, lang){
+	var url = "";
+	if (lang == "en") url = "https://englishdart.fss.or.kr/dsbh001/main.do?rcpNo=" + rcpNo;
+	else url = "/dsaf001/main.do?rcpNo=" + rcpNo;
+
+	var size = getOpenSize(1200, 810);
+	window.open(url, "_blank", size+",resizable=yes");
+}
+
+function openHelp(menu) {
+	var url = "/guide/main.jsp";
+	if (menu) {
+		url += "?menu=" + menu;
+	}
+	var size = getOpenSize(1100, 761);
+	var win = window.open(url, "DartGuide", size + ",resizable=yes,scrollbars=no");
+	if (win == null) {
+		alert("팝업차단을 해제하시기 바랍니다.");
+	} else {
+		win.focus();
+	}
+}
+
+</script>
+<form name="reportForm" method="post" action="/dsaf001/main.do">
+	<input type="hidden" name="rcpNo" />
+	<input type="hidden" name="dcmNo" />
+	<input type="hidden" name="keyword" />
+	<input type="submit" style="display:none;" />
+</form>
+	<div id="winTabOrder" style="display:none;">
+		<!-- layer popup wrap -->
+		<div class="mask" style="display:block"></div>
+		<!-- popup1-->
+		<div class="layerPop layerPopT" style="display:block">
+			<!-- title -->
+			<div class="title">
+				<h2>탭순서 변경</h2>
+				<a class="btnClose" onclick="fn_tabOrderChangeToggle();" href="javascript:void(0);">닫기</a>
+			</div>
+			<!-- cont -->
+			<div class="cont">
+				<!-- messageBox -->
+				<div class="messageBox">
+					<ul>
+						<i class="iconInfo"></i>
+						<li class="info">드래그해서 원하는 위치에 놓으세요.</li>
+					</ul>
+				</div>
+			
+				<!-- changeCont -->
+				<div class="changeCont ui-sortable"  id="sortableA">
+					<div id="totalGosi_template" data-order="totalGosi" class="tabMenuBox ui-sortable-handle">
+						<div class="tabMenu ui-sortable">
+							<ul id="sortableB">
+								<li id="all_template" data-order="all" class="ui-sortable-handle">전체</li>
+								<li id="y_template" data-order="y" class="ui-sortable-handle">유가증권</li>
+								<li id="k_template" data-order="k" class="ui-sortable-handle">코스닥</li>
+								<li id="n_template" data-order="n" class="ui-sortable-handle">코넥스</li>
+								<li id="g_template" data-order="g" class="ui-sortable-handle">기타</li>
+							</ul>
+						</div>
+					</div>
+					<div id="o_template" data-order="o" class="menuBox ui-sortable-handle">5%ㆍ임원보고</div>
+					<div id="f_template" data-order="f" class="menuBox ui-sortable-handle">펀드공시</div>
+					<div id="my_template" data-order="my" class="menuBox ui-sortable-handle">My공시</div>
+				</div>
+				<!-- infoBox -->
+				<div class="infoBox">
+					<ul>
+						<li><span class="colorBoxW"></span>좌우로 이동</li>
+						<li><span class="colorBoxB"></span>상하로 이동</li>
+					</ul>
+				</div>
+				<!-- infoBox -->
+				<!-- btnArea -->
+				<div class="btnArea">
+					<a class="btnLB" onclick="fn_saveTabOrder()" href="javascript:void(0);">저장</a>
+					<a class="btnLG" onclick="fn_removeTabOrder();" href="javascript:void(0);">초기화</a>
+					<a class="btnLG" onclick="fn_tabOrderChangeToggle();" href="javascript:void(0);">닫기</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="winTemplateOrder" style="display:none;">
+		<!-- layer popup wrap -->
+		<div class="mask" style="display:block"></div>
+		<!-- popup1-->
+		<div class="layerPop layerPopT" style="display:block">
+			<!-- title -->
+			<div class="title">
+				<h2>템플릿순서 변경</h2>
+				<a class="btnClose" onclick="fn_templateOrderChangeToggle();" href="javascript:void(0);">닫기</a>
+			</div>
+			<!-- cont -->
+			<div class="cont">
+				<!-- messageBox -->
+				<div class="messageBox">
+					<ul>
+						<i class="iconInfo"></i>
+						<li class="info">드래그해서 원하는 위치에 놓으세요.</li>
+					</ul>
+				</div>
+
+				<div class="changeCont ui-sortable" id="sortableTemplate">
+					<div data-order="totalSearch" id="totalSearchTemplate" class="menuBox ui-sortable-handle">공시통합검색</div>
+					<div data-order="gosiNav" id="gosiNavTemplate" class="menuBox ui-sortable-handle">정기공시 항목별 검색</div>
+					<div data-order="todayGosi" id="todayGosiTemplate" class="menuBox ui-sortable-handle">오늘의 공시</div>
+					<div data-order="reportRank" id="reportRankTemplate" class="menuBox ui-sortable-handle">많이 본 문서</div>
+					<div data-order="gongmo" id="gongmoTemplate" class="menuBox ui-sortable-handle">공모게시판</div>
+					<div data-order="bodo" id="bodoTemplate" class="menuBox ui-sortable-handle">기업공시제도일반 / 보도자료</div>
+				</div>
+				<div class="btnArea">
+					<a class="btnLB" onclick="fn_saveTemplateOrder();" href="javascript:void(0);">저장</a>
+					<a class="btnLG" onclick="fn_removeTemplateOrder();" href="javascript:void(0);">초기화</a><!-- 디자인 후 적용 예정 -->
+					<a class="btnLG" onclick="fn_templateOrderChangeToggle();" href="javascript:void(0);">닫기</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tempGongsi" style="display:none; position: absolute; left: -1000px; top: -1000px;"></div>
+	<form name="searchForm3" id="searchForm3" method="post" onsubmit="return false;">
+		<input type="hidden" name="pageGrouping" id="pageGrouping" value="" />
+	</form>
+</body>
+</html>

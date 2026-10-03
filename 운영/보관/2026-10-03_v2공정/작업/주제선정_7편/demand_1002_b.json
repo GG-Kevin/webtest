@@ -1,0 +1,176 @@
+[
+ {
+  "query": "SCHD 적립식",
+  "n_base": 7,
+  "n_expanded": 7,
+  "top": [
+   "schd 적립식 투자 디시",
+   "schd 적립식 투자",
+   "schd 적립식"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "SCHD 배당",
+  "n_base": 10,
+  "n_expanded": 22,
+  "top": [
+   "schd 배당률",
+   "schd 배당금",
+   "schd 배당"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "환율 높을 때 해외주식",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "나스닥100 ETF",
+  "n_base": 10,
+  "n_expanded": 18,
+  "top": [
+   "나스닥100 etf",
+   "나스닥100 etf 비교",
+   "나스닥100 etf 추천"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "S&P500 환헤지",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "s&p500 환헤지 etf 비교",
+   "s&p500 환헤지 디시",
+   "s&p500 환헤지"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "연말 해외주식 양도세",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "해외주식 양도세 연말"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "연금저축 연말 납입",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "IRP 세액공제 환급",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "irp 세액공제 환급"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "코스피 나스닥 수익률 비교",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "코스피 나스닥 수익률 비교"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "ISA 만기 연금계좌",
+  "n_base": 1,
+  "n_expanded": 1,
+  "top": [
+   "isa 만기 연금계좌"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "TQQQ 장기투자",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "tqqq 장기투자",
+   "tqqq 장기투자 후기 디시",
+   "tqqq 장기투자 디시인사이드"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "월 30만원 적립식",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "미국 배당 ETF 세금",
+  "n_base": 5,
+  "n_expanded": 5,
+  "top": [
+   "미국 배당 etf 세금",
+   "미국 월 배당 etf 세금",
+   "미국 etf 배당 세금 디시"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "배당소득 종합과세",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "배당소득 종합과세",
+   "배당소득 종합과세 기준",
+   "배당소득 종합과세 gross-up"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "연금저축 ETF 추천",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "연금저축 etf 추천",
+   "연금저축 etf 추천 디시",
+   "연금저축 etf 추천 클리앙"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "JEPI 배당",
+  "n_base": 10,
+  "n_expanded": 17,
+  "top": [
+   "jepi 배당금",
+   "jepi 배당수익률",
+   "jepi 배당률"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "나스닥 하락 회복",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "QQQ 적립",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "qqq 적립식 디시",
+   "qqq 적립식 투자 계산기",
+   "qqq 적립식"
+  ],
+  "date": "2026-10-02"
+ }
+]
