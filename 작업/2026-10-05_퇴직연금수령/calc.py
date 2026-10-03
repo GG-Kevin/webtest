@@ -1,3 +1,4 @@
+from fractions import Fraction
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """퇴직연금 수령 방법별 세금 비교 — B1005-2/1 (2026-10-05 게시 예정, 기준일 2026-10-03)
@@ -102,18 +103,19 @@ def ratio_for_year(k):
 
 
 def pension_tax(pay, years, n=YEARS, local=False):
-    """해마다 같은 금액을 받을 때 세금 합계(운용수익 0). 해마다 원 미만 버림, local=True면 지방소득세 더함"""
+    """해마다 같은 금액을 받을 때 세금 합계(운용수익 0). 분수로 계산하고 합계에서 한 번만 원 미만 버림, local=True면 지방소득세(10%)를 더함"""
     t = retirement_tax(pay, n)["퇴직소득세"]
-    per = pay / years
-    total = 0
+    per = Fraction(pay, years)
+    total = Fraction(0)
     for k in range(1, years + 1):
-        y = int(per * t / pay * ratio_for_year(k))
-        total += y + (int(y * LOCAL) if local else 0)
-    return total
+        total += per * t / pay * Fraction(str(ratio_for_year(k)))
+    if local:
+        total += total * Fraction(str(LOCAL))
+    return int(total)
 
 
 def with_local(x):
-    return int(x) + int(x * LOCAL)
+    return int(x) + int(Fraction(int(x)) * Fraction(str(LOCAL)))
 
 
 def limit(balance, year):

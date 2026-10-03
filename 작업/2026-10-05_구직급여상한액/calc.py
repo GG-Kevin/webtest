@@ -54,7 +54,7 @@ def cap_daily():
 
 
 def daily_from_monthly(monthly, year=2026, hours=HOURS):
-    base = monthly * 3 / DAYS3M
+    base = math.floor(monthly * 3 / DAYS3M)  # 기초일액도 원 미만 버림(표에 적힌 값으로 60%를 곱한다)
     mb = min_base(year, hours)
     fl = floor_daily(year, hours)
     if base < mb:
