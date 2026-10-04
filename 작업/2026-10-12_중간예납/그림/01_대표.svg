@@ -18,7 +18,7 @@
 <text x="990" y="285" font-size="26" font-weight="700" fill="#0a6350" text-anchor="middle">2027년 2월 1일(월)</text>
 <text x="990" y="388" font-size="22" fill="#16212e" text-anchor="middle">분납 기한</text>
 <rect x="90" y="440" width="1020" height="110" rx="12" fill="#f7f8f9" stroke="#e6e8ea"/>
-<text x="120" y="485" font-size="24" fill="#16212e">예: 2025년 귀속 세액 3,000만원 → 고지 15,000,000원</text>
-<text x="120" y="525" font-size="24" fill="#16212e">11월 30일까지 10,000,000원 · 2월 1일까지 5,000,000원(1천만원 넘는 몫)</text>
+<text x="120" y="485" font-size="24" fill="#16212e">예: 2025년 귀속 세액 3,200만원 → 고지 16,000,000원</text>
+<text x="120" y="525" font-size="24" fill="#16212e">11월 30일까지 10,000,000원 · 2월 1일까지 6,000,000원(1천만원 넘는 몫)</text>
 <text x="60" y="600" font-size="18" fill="#6b7682">2026년 10월 4일 소득세법·국세청 원문 기준 · 머니프로듀서</text>
 </svg>

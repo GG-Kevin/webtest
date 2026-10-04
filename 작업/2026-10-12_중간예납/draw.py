@@ -31,10 +31,10 @@ def fig1():
         b.append(f'<circle cx="{x}" cy="330" r="16" fill="{c}"/>')
         b.append(f'<text x="{x}" y="285" font-size="26" font-weight="700" fill="{c}" text-anchor="middle">{d}</text>')
         b.append(f'<text x="{x}" y="388" font-size="22" fill="{NAVY}" text-anchor="middle">{what}</text>')
-    t = calc.mid_tax(30_000_000)
+    t = calc.mid_tax(32_000_000)
     i = calc.installment(t)
     b.append(f'<rect x="90" y="440" width="1020" height="110" rx="12" fill="#f7f8f9" stroke="#e6e8ea"/>')
-    b.append(f'<text x="120" y="485" font-size="24" fill="{NAVY}">예: 2025년 귀속 세액 3,000만원 → 고지 {t:,}원</text>')
+    b.append(f'<text x="120" y="485" font-size="24" fill="{NAVY}">예: 2025년 귀속 세액 3,200만원 → 고지 {t:,}원</text>')
     b.append(f'<text x="120" y="525" font-size="24" fill="{NAVY}">11월 30일까지 {t - i:,}원 · 2월 1일까지 {i:,}원(1천만원 넘는 몫)</text>')
     b.append(f'<text x="60" y="600" font-size="18" fill="{GRAY}">{FOOT}</text>')
     open(os.path.join(OUT, "01_대표.svg"), "w", encoding="utf-8").write(
