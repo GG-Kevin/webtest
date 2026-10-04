@@ -488,7 +488,7 @@ def main():
         win = btext[idx: idx + 130] if idx >= 0 else first[:130]
         info.append(f"첫 130자: {win[:50]}…")
         if not (re.search(r"\d", win) or KO_NUM.search(win)):
-            fatal.append("첫 130자(본문 첫 문단부터) 안에 숫자·날짜·금액이 없음")
+            warn.append("첫 130자(본문 첫 문단부터) 안에 숫자·날짜·금액이 없음(참고 — 답을 맨 앞에 두면 독자에게 좋다, H-212)")
         first3 = " ".join(text_of(p) for p in paras[:3])
         if not (re.search(BASIS_ISO, first3) or re.search(BASIS_KO, first3)):
             fatal.append("첫 3단락 안에 기준일 문장 없음(「YYYY-MM-DD 기준」 또는 「YYYY년 M월 D일 … 원문·공고·고시·열람·발표 기준」·「… 기준으로/기준입니다」)")
@@ -512,9 +512,9 @@ def main():
         warn.append(f"h2 {len(h2s)}개(5~9개 밖)")
     nnum = sum(1 for h in h2s if is_numbered(h))
     if h2s and nnum * 2 >= len(h2s):
-        fatal.append(f"번호형 h2 {nnum}/{len(h2s)}(「숫자.」「숫자)」「①」「1단계」 등으로 시작하는 h2가 50% 이상)")
+        warn.append(f"번호형 h2 {nnum}/{len(h2s)}(참고 — 틀 아님, H-212)")
     if len(tables) < 2:
-        fatal.append(f"표 {len(tables)}개(고유 재료 2개 이상 필요)")
+        warn.append(f"표 {len(tables)}개(참고 — 개수 틀 아님, H-212. 고유 자료는 직접 계산·원문 수치로 글마다 채운다)")
     elif len(tables) > 4:
         warn.append(f"표 {len(tables)}개(4개 초과)")
     nocap = sum(1 for t in tables if not any(k.tag == "caption" for k in t.iter()))
@@ -564,18 +564,18 @@ def main():
     if bad_url:
         fatal.append(f"깨진 링크 주소 {len(bad_url)}개: " + ", ".join(bad_url[:3]))
     if len(ext) < 3:
-        fatal.append(f"원문 딥링크 {len(ext)}개(3개 이상, 기관 홈 제외)")
+        warn.append(f"원문 딥링크 {len(ext)}개(참고 — 개수 틀 아님. 공공 원문 1개 이상은 치명으로 유지, H-212)")
     if not pub:
         fatal.append("공공 원문 딥링크 0개(정부·법령·거래소·국세청·금융위·DART 등 1개 이상)")
     if len(intl) < 2:
-        fatal.append(f"우리 글 링크 {len(intl)}개(2개 이상, /숫자 주소)")
+        warn.append(f"우리 글 링크 {len(intl)}개(참고 — 독자가 다음에 찾을 글이 있을 때만, H-212)")
     if sub:
         warn.append(f"서브도메인 링크 {len(sub)}개(gate_frame 치명): " + ", ".join(sorted(sub)[:3]))
 
     # ── 그림(H-161) ──
     good = [i for i in imgs if (i.attrs.get("alt") or "").strip()]
     if not good and not svgs:
-        fatal.append("본문 그림 없음 또는 alt 없음(그림 1장 이상 + alt 문장)")
+        warn.append("본문 그림 없음 또는 alt 없음(참고 — 그림 장수 틀 아님, H-212)")
     if len(imgs) - len(good):
         fatal.append(f"alt 없는 img {len(imgs) - len(good)}개")
     for i in good:
@@ -590,7 +590,7 @@ def main():
     nsum = len(SUMMARY.findall(btext))
     info.append(f"요약 장치 {nsum}개")
     if nsum > 1:
-        fatal.append(f"요약 장치 {nsum}개(한 글에 하나까지)")
+        warn.append(f"요약 장치 {nsum}개(참고, H-212)")
     if re.search(r"FAQPage", raw):
         fatal.append("FAQPage 구조화 데이터(쓰지 않음, B5)")
     faq_h = [text_of(n) for n in body.iter() if n.tag in ("h2", "h3") and re.search(r"자주\s*묻는|FAQ|Q\s*&\s*A|묻고\s*답", text_of(n), re.I)]
@@ -612,8 +612,7 @@ def main():
     if a.revision:
         today = a.date or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d")
         check_revision(body, btext, a.revision, today, fatal, info)
-    elif re.search(r"수정\s*이력|최종\s*수정", btext):
-        warn.append("새 글 본문에 「수정 이력」·「최종 수정」(B3: 실질 수정 때만 단다 — 수정 HTML 이면 --revision 으로 돌린다)")
+    # 새 글의 「게시일 · 최종 수정일 · 수정 이력」은 저자 박스에서 변환기가 넣는다(H-212 · 관문 5) — 경고하지 않는다.
 
     # ── 화살표(표 밖) ──
     outside = text_of(body, skip=lambda n: n.tag == "table")

@@ -2,7 +2,7 @@
 """애드센스 재신청 관문 점검 — 0토큰 한 줄 (전략실 확정본 · 본사 H-197).
 라이브 글 수 · 발행 공백 날짜 · 최근 10편 구성 분포(h2 수·표 수·첫 문단 꼴) · 수정 이력 유무.
 서치 회차 첫 단계에서 돌린다: python3 도구/관문_점검.py [--no-net] — 한 줄을 운영/관문_일지.md 끝에 더한다.
-모델을 부르지 않는다. 관문(재신청 규칙)은 회장 결정 전까지 CLAUDE.md에 넣지 않는다: 이 스크립트는 숫자만 센다."""
+모델을 부르지 않는다. 숫자만 세고 글을 막지 않는다(H-212)."""
 import csv, os, re, sys, datetime, urllib.request, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "운영", "원장.csv")
@@ -64,7 +64,7 @@ def main():
     top = c.most_common(1)[0] if c else ((0, 0), 0)
     c2 = collections.Counter(s[2] for s in shapes)
     top2 = c2.most_common(1)[0] if c2 else ("-", 0)
-    flag = "경고(같은 구성 5편 이상)" if top[1] >= 5 else "통과"
+    flag = "참고: 같은 구성 5편 이상" if top[1] >= 5 else "참고: 문제 없음"
     line = (f"| {today} | 라이브 원장 {n_ledger} · 사이트맵 {site if site is not None else '확인 못 함'} | 대기 {len(files)} | "
             f"최근 14일 발행 공백 {','.join(gaps) if gaps else '없음'} | 최근 {len(recent)}편 최다 구성 h2 {top[0][0]}·표 {top[0][1]} = {top[1]}편 ({flag}) | "
             f"첫 문단 꼴 최다 {top2[0]} = {top2[1]}편 | 수정 이력 {hist}/{len(recent)} |")
