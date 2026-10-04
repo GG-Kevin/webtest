@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="청년미래적금 2차 가입신청, 심사, 사전심사 안내, 이의신청, 최종 결과, 계좌개설 기간을 날짜 축에 나란히 놓은 일정 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="520" fill="#ffffff"/>
+<text x="80" y="62" font-size="34" font-weight="700" fill="#16212e">청년미래적금 2차, 신청에서 계좌개설까지 52일</text>
+<text x="80" y="100" font-size="21" fill="#3d4852">10월 7일 홀수·8일 짝수(출생연도 끝자리), 12일부터 누구나 · 토·일·공휴일 제외</text>
+<rect x="80.0" y="140" width="203.8" height="34" rx="4" fill="#2f6fb0"/>
+<text x="295.8" y="164" font-size="20" fill="#16212e">가입신청 <tspan font-size="17" fill="#5b6670">10.7~10.16</tspan></text>
+<rect x="324.6" y="192" width="530.0" height="34" rx="4" fill="#9aa5b1"/>
+<text x="312.6" y="216" font-size="20" fill="#16212e" text-anchor="end">심사 <tspan font-size="17" fill="#5b6670">10.19~11.13</tspan></text>
+<rect x="548.8" y="244" width="81.5" height="34" rx="4" fill="#e0a526"/>
+<text x="536.8" y="268" font-size="20" fill="#16212e" text-anchor="end">사전심사 안내(잠정) <tspan font-size="17" fill="#5b6670">10.30~11.2</tspan></text>
+<rect x="610.0" y="296" width="81.5" height="34" rx="4" fill="#c0392b"/>
+<text x="598.0" y="320" font-size="20" fill="#16212e" text-anchor="end">이의신청(잠정) <tspan font-size="17" fill="#5b6670">11.2~11.5</tspan></text>
+<rect x="813.8" y="348" width="40.8" height="34" rx="4" fill="#16212e"/>
+<text x="801.8" y="372" font-size="20" fill="#16212e" text-anchor="end">최종 결과 <tspan font-size="17" fill="#5b6670">11.12~11.13</tspan></text>
+<rect x="895.4" y="400" width="244.6" height="34" rx="4" fill="#0a6350"/>
+<text x="883.4" y="424" font-size="20" fill="#16212e" text-anchor="end">계좌개설 <tspan font-size="17" fill="#5b6670">11.16~11.27</tspan></text>
+<line x1="80.0" y1="130" x2="80.0" y2="455" stroke="#c3cbd3" stroke-dasharray="4 4"/>
+<text x="80.0" y="478" font-size="18" fill="#3d4852" text-anchor="middle">10월 7일</text>
+<line x1="589.6" y1="130" x2="589.6" y2="455" stroke="#c3cbd3" stroke-dasharray="4 4"/>
+<text x="589.6" y="478" font-size="18" fill="#3d4852" text-anchor="middle">11월 1일</text>
+<line x1="1140.0" y1="130" x2="1140.0" y2="455" stroke="#c3cbd3" stroke-dasharray="4 4"/>
+<text x="1140.0" y="478" font-size="18" fill="#3d4852" text-anchor="middle">11월 27일</text>
+<text x="80" y="508" font-size="16" fill="#5b6670">2026년 10월 4일 금융위원회 보도자료(2026.9.16·9.30) 원문 기준 · 머니프로듀서</text>
+</svg>
