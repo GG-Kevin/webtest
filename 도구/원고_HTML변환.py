@@ -65,7 +65,7 @@ def inline(t):
     return t
 
 
-def author_box():
+def author_box(meta=None):
     try:
         src = open(AUTHOR_SRC, encoding="utf-8").read()
     except OSError:
@@ -73,7 +73,42 @@ def author_box():
     m = re.search(r'(?ms)^## 1\..*?^```html\n(.*?)^```', src)
     if not m:
         raise SpecError("저자 박스 원본에 「## 1.」 아래 ```html 덩어리가 없다")
-    return m.group(1).strip()
+    return add_dates(m.group(1).strip(), meta)
+
+
+DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+
+
+def add_dates(box_html, meta):
+    """저자 박스(div.author-box) 끝에 게시일·최종 수정일·수정 이력 줄을 넣는다(애드센스 관문 5).
+    meta = {"pub": "YYYY-MM-DD", "mod": "YYYY-MM-DD", "hist": [(날짜, 내용), ...]}. pub 이 없으면 넣지 않는다."""
+    if not meta or not meta.get("pub"):
+        return box_html
+    pub = meta["pub"]
+    mod = meta.get("mod") or pub
+    hist = meta.get("hist") or []
+    rows = [f"{pub} 최초 게시"] + [f"{d} {t}" for d, t in hist]
+    line = (f'<p style="margin:8px 0 0;font-size:.9em;color:#5a6670;">게시일 {pub} · 최종 수정일 {mod}</p>\n'
+            f'<p style="margin:2px 0 0;font-size:.9em;color:#5a6670;">수정 이력: ' + " / ".join(rows) + "</p>\n")
+    i = box_html.rfind("</div>")
+    if i < 0:
+        raise SpecError("저자 박스 끝(</div>)을 찾지 못했다")
+    return box_html[:i] + line + box_html[i:]
+
+
+def read_meta(src, default_pub=None):
+    """원고 머리 주석 <!-- 게시일: --> <!-- 수정일: --> <!-- 수정이력: 날짜 | 내용 --> (없으면 편 폴더 날짜)"""
+    meta = {"pub": default_pub, "mod": None, "hist": []}
+    for m in re.finditer(r'<!--\s*(게시일|수정일|수정이력)\s*:\s*(.*?)\s*-->', src):
+        k, v = m.group(1), m.group(2)
+        if k == "게시일" and DATE_RE.match(v): meta["pub"] = v
+        elif k == "수정일" and DATE_RE.match(v): meta["mod"] = v
+        elif k == "수정이력" and "|" in v:
+            d, t = [x.strip() for x in v.split("|", 1)]
+            if DATE_RE.match(d) and t: meta["hist"].append((d, t))
+    if meta["hist"] and not meta["mod"]:
+        meta["mod"] = max(d for d, _ in meta["hist"])
+    return meta
 
 
 def split_head(src):
@@ -102,8 +137,9 @@ def split_head(src):
     return title or h1, disc, body
 
 
-def convert_text(src):
+def convert_text(src, default_pub=None):
     title, disc, lines = split_head(src)
+    meta = read_meta(src, default_pub)
     out, h2s, k = [], [], 0
     pending_cap = None
     toc_at = None
@@ -132,7 +168,7 @@ def convert_text(src):
             if inner == "목차":
                 toc_at = len(out); out.append(None)
             elif inner == "저자 박스":
-                out.append(author_box())
+                out.append(author_box(meta))
             elif re.match(r'같은\s*묶음\s*:', inner):
                 out.append("<!-- " + inner.replace("--", "—") + " -->")
             else:
@@ -209,7 +245,8 @@ def convert_text(src):
 
 
 def convert(md_path):
-    return convert_text(open(md_path, encoding="utf-8").read())
+    m = re.search(r'(\d{4}-\d{2}-\d{2})_', os.path.basename(os.path.dirname(os.path.abspath(md_path))))
+    return convert_text(open(md_path, encoding="utf-8").read(), m.group(1) if m else None)
 
 
 # ───────────────────────── 자체 시험 ─────────────────────────
