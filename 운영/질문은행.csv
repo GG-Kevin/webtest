@@ -64,3 +64,8 @@
 2026-10-04,주택청약 최소금액,7,3,press02;ya_nt,2,https://blog.naver.com/ya_nt/224428373037 https://blog.naver.com/press02/224430066484,-,-,https://nhuf.molit.go.kr/,열림,통과
 2026-10-04,주택청약 해지,10,10,press02;ya_nt,2,https://blog.naver.com/ya_nt/224428373037 https://blog.naver.com/press02/224430066484,-,-,https://nhuf.molit.go.kr/,열림,실패: 진행분 검색어 「주택청약 해지」 ← 원장 줄33(B1006-1/2 대기)
 2026-10-04,결혼 증여세 공제,4,10,8starstarstar8;secretbankbook,2,https://blog.naver.com/secretbankbook/224429315835 https://blog.naver.com/8starstarstar8/224429715684,-,-,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2338&cntntsId=7726,열림,통과
+2026-10-04,연금저축 계좌 irp 차이,2,0,meaning87;secretbankbook;ya_nt,3,https://blog.naver.com/ya_nt/224429187067 https://blog.naver.com/ya_nt/224428292264 https://blog.naver.com/secretbankbook/224429921368 https://blog.naver.com/meaning87/224428672049,-,-,https://www.law.go.kr/법령/소득세법,못 열림(본문 짧음 — JS 화면일 수 있음),실패: IRP ← W-17(반려대장 줄39) [일정형 예외 안 됨: 문구에서 찾은 안 다룬 달력 사건 없음 · 날짜 토큰 없음]
+2026-10-04,보금자리론 조건,10,10,cs1487;meaning87,2,https://blog.naver.com/cs1487/224431094502 https://blog.naver.com/meaning87/224430106709,-,-,https://www.hf.go.kr/,열림,통과
+2026-10-04,보금자리론 금리,10,10,cs1487;meaning87,2,https://blog.naver.com/cs1487/224431094502 https://blog.naver.com/meaning87/224430106709,-,-,https://www.hf.go.kr/,열림,통과
+2026-10-04,보금자리론 대출,10,10,cs1487;meaning87,2,https://blog.naver.com/cs1487/224431094502 https://blog.naver.com/meaning87/224430106709,-,-,https://www.hf.go.kr/,열림,통과
+2026-10-04,퇴직금 수령 irp 계좌 개설,10,0,meaning87;ya_nt,2,https://blog.naver.com/ya_nt/224429465230 https://blog.naver.com/meaning87/224429275537,-,-,https://www.easylaw.go.kr/CSP/Main.laf,열림,실패: IRP ← W-17(반려대장 줄39) [일정형 예외 안 됨: 문구에서 찾은 안 다룬 달력 사건 없음 · 날짜 토큰 없음]
