@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#ffffff"/>
+<text x="80" y="50" font-size="28" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">부부가 따로 월세를 낼 때 1,000만원을 나누는 법</text>
+<text x="80" y="84" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">세대주 월 60만원 · 배우자 월 50만원 · 2026년 이후 지급분(조세특례제한법 제95조의2 제2항)</text>
+<rect x="80" y="140" width="567.3" height="90" fill="#2563eb"/>
+<text x="363.6" y="195" font-size="22" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">세대주 720만원 전부 대상</text>
+<rect x="647.3" y="140" width="220.6" height="90" fill="#60a5fa"/>
+<text x="757.6" y="195" font-size="20" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">배우자 280만원</text>
+<rect x="867.9" y="140" width="252.1" height="90" fill="#e5e7eb" stroke="#9ca3af" stroke-dasharray="6 4"/>
+<text x="993.9" y="195" font-size="20" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">제외 320만원</text>
+<line x1="867.9" y1="120" x2="867.9" y2="250" stroke="#dc2626" stroke-width="3"/>
+<text x="867.9" y="278" font-size="19" text-anchor="middle" fill="#dc2626" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">두 사람 합계 1,000만원 선</text>
+<text x="80" y="360" font-size="21" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">세액공제(17%): 세대주 1,224,000원 · 배우자 476,000원</text>
+<text x="80" y="392" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">배우자는 세대주와 주소지 시·군·구가 달라야 하고, 본인도 무주택·총급여 요건을 따로 갖춰야 합니다</text>
+</svg>
