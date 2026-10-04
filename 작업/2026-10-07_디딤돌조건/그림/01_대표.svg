@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="디딤돌대출 2억원을 10년부터 30년까지 원리금균등으로 갚을 때 한 달 상환액과 총이자를 기간별로 나란히 놓은 막대그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="64" fill="#16212e"/>
+<text x="60" y="42" font-size="24" font-weight="700" fill="#ffffff">디딤돌대출 2억원, 기간별로 한 달에 갚는 돈과 총이자</text>
+<text x="60" y="108" font-size="20" fill="#3d4852">부부합산 연소득 4천만원 초과 7천만원 이하 금리 · 우대·지방 인하·금리 방식 가산 전</text>
+<rect x="60" y="128" width="22" height="22" fill="#0a6350"/><text x="92" y="146" font-size="19" fill="#16212e">월 상환액</text>
+<rect x="250" y="128" width="22" height="22" fill="#d9a441"/><text x="282" y="146" font-size="19" fill="#16212e">총이자</text>
+<text x="60" y="220" font-size="26" font-weight="700" fill="#16212e">10년</text>
+<text x="60" y="250" font-size="19" fill="#5b6b7a">연 3.55%</text>
+<rect x="300" y="194" width="520" height="32" rx="4" fill="#0a6350"/>
+<text x="832" y="218" font-size="21" font-weight="700" fill="#0a6350">월 1,982,405원</text>
+<rect x="300" y="232" width="145" height="26" rx="4" fill="#d9a441"/>
+<text x="457" y="252" font-size="19" fill="#7a5200">총이자 37,888,600원</text>
+<text x="60" y="318" font-size="26" font-weight="700" fill="#16212e">15년</text>
+<text x="60" y="348" font-size="19" fill="#5b6b7a">연 3.65%</text>
+<rect x="300" y="292" width="379" height="32" rx="4" fill="#0a6350"/>
+<text x="691" y="316" font-size="21" font-weight="700" fill="#0a6350">월 1,444,542원</text>
+<rect x="300" y="330" width="230" height="26" rx="4" fill="#d9a441"/>
+<text x="542" y="350" font-size="19" fill="#7a5200">총이자 60,017,560원</text>
+<text x="60" y="416" font-size="26" font-weight="700" fill="#16212e">20년</text>
+<text x="60" y="446" font-size="19" fill="#5b6b7a">연 3.75%</text>
+<rect x="300" y="390" width="311" height="32" rx="4" fill="#0a6350"/>
+<text x="623" y="414" font-size="21" font-weight="700" fill="#0a6350">월 1,185,776원</text>
+<rect x="300" y="428" width="325" height="26" rx="4" fill="#d9a441"/>
+<text x="637" y="448" font-size="19" fill="#7a5200">총이자 84,586,240원</text>
+<text x="60" y="514" font-size="26" font-weight="700" fill="#16212e">30년</text>
+<text x="60" y="544" font-size="19" fill="#5b6b7a">연 3.80%</text>
+<rect x="300" y="488" width="244" height="32" rx="4" fill="#0a6350"/>
+<text x="556" y="512" font-size="21" font-weight="700" fill="#0a6350">월 931,914원</text>
+<rect x="300" y="526" width="520" height="26" rx="4" fill="#d9a441"/>
+<text x="832" y="546" font-size="19" fill="#7a5200">총이자 135,489,040원</text>
+<text x="1160" y="610" font-size="15" text-anchor="end" fill="#8a96a3">2026년 10월 5일 주택도시기금 상품안내 금리로 계산 · 원리금균등·비거치 · 머니프로듀서</text>
+</svg>
