@@ -1,0 +1,53 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,12월 1일,날,납부기간 시작,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제16조①,2026-10-04,12월 1일부터,PAY_START
+2,12월 15일,날,납부기간 끝,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제16조①,2026-10-04,"12월 15일(이하 ""납부기간""",PAY_END
+3,5,일,고지서 발급 기한(개시 전 일수),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제16조②,2026-10-04,납부기간 개시 5일 전까지,NOTICE_DAYS
+4,15,일(12월),국세청 세무일정 종부세 납부기한,https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=12&mi=135747,2026년 12월,2026-10-04,15 종합부동산세 납부기한,PAY_END
+5,12.15.,날,국세청 안내 납부기간 끝,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2352&cntntsId=7734,납부기간,2026-10-04,매년 12.1. ～ 12.15.,PAY_END
+6,2500000,원,분납 가능 세액 기준(초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제20조,2026-10-04,250만원을 초과하는 경우,SPLIT_MIN
+7,6,개월,분납 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제20조,2026-10-04,6개월 이내에 분납,SPLIT_MONTHS
+8,5백만,원,분납 한도 구간 경계,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290557&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제16조①,2026-10-04,5백만원 이하인 때,SPLIT_MID
+9,50,%,500만원 초과 시 분납 한도(100분의 50),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290557&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제16조①2호,2026-10-04,100분의 50 이하의 금액,SPLIT_RATE
+10,20,%,농어촌특별세율(종부세액 대비),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2352&cntntsId=7734,농어촌특별세,2026-10-04,종합부동산세액의 20%,RURAL_RATE
+11,1200000000,원,1세대 1주택자 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제8조①,2026-10-04,12억원,DED_ONE
+12,900000000,원,그 밖 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제8조①,2026-10-04,9억원,DED_GEN
+13,60,%,주택분 공정시장가액비율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 공정시장가액비율,2026-10-04,주택분 60%,FMV
+14,0.5,%,3억원 이하 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율 2주택 이하,2026-10-04,3억원 이하 세율 0.5%,BANDS
+15,0.7,%,6억원 이하 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율 2주택 이하,2026-10-04,6억원 이하 세율 0.7%,BANDS
+16,1.0,%,12억원 이하 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율 2주택 이하,2026-10-04,12억원 이하 세율 1.0%,BANDS
+17,2.7,%,94억원 초과 세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율 2주택 이하,2026-10-04,94억원 초과 세율 2.7%,BANDS
+18,300000000,원,첫 구간 상한(3억원),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율,2026-10-04,3억원 이하,BANDS
+19,9400000000,원,마지막 구간 경계(94억원),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율,2026-10-04,94억원 초과,BANDS
+20,600000,원,6억원 이하 구간 누진공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율,2026-10-04,누진공제 60만원,BANDS
+21,2400000,원,12억원 이하 구간 누진공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세율,2026-10-04,누진공제 240만원,BANDS
+22,20,%,보유 5년·나이 60세 세액공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세액공제,2026-10-04,5년(20),-
+23,40,%,보유 10년·나이 70세 세액공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세액공제,2026-10-04,10년(40),-
+24,50,%,보유 15년 세액공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세액공제,2026-10-04,15년(50),-
+25,30,%,나이 65세 세액공제,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세액공제,2026-10-04,65세(30),-
+26,80,%,세액공제 합산 한도,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세액공제,2026-10-04,한도 80%,-
+27,150,%,세부담상한율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2353&cntntsId=7735,흐름도 세부담상한,2026-10-04,세부담상한율 : 150%,-
+28,60,세,납부유예 나이 조건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①2호,2026-10-04,만 60세 이상,DEFER_AGE
+29,5,년,납부유예 보유 조건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①2호,2026-10-04,5년 이상 보유,DEFER_HOLD
+30,70000000,원,납부유예 총급여 조건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①3호가목,2026-10-04,총급여액이 7천만원 이하,DEFER_WAGE
+31,60000000,원,납부유예 종합소득금액 조건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①3호나목,2026-10-04,6천만원 이하,DEFER_INCOME
+32,1000000,원,납부유예 세액 조건(초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①4호,2026-10-04,100만원을 초과할 것,DEFER_TAX
+33,3,일,납부유예 신청 기한(만료 전 일수),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280417&joNo=0020&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,제20조의2①,2026-10-04,납부기한 만료 3일 전까지,DEFER_DAYS
+34,토요일,-,기한 특례 대상 날,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제5조①1호,2026-10-04,토요일 및 일요일,next_weekday
+35,3,%,지정납부기한 미납 가산세(100분의 3),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0047&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,제47조의4①3호,2026-10-04,100분의 3,LATE_RATE
+36,1500000000,원,1세대 1주택·2주택 15억원 예시 공시가격(가정),계산,표 3,2026-10-04,-,CASES
+37,480000000,원,1세대 1주택 20억원 과세표준,계산,표 3,2026-10-04,-,compute.base
+38,2760000,원,1세대 1주택 20억원 세율 적용 세액,계산,표 3,2026-10-04,-,compute.tax
+39,260000,원,276만원의 분납 가능 최대,계산,표 2·3,2026-10-04,-,split_max
+40,23,만원,276만원의 한 달 환산,계산,참고 숫자,2026-10-04,-,main
+41,82800,원,276만원 미납 시 3% 가산세,계산,참고 숫자,2026-10-04,-,late
+42,1500000,원,400만원 고지 시 분납 가능 종부세,계산,표 2,2026-10-04,-,split_plan.split
+43,800000,원,400만원 고지 시 농특세,계산,표 2,2026-10-04,-,split_plan.rural
+44,300000,원,400만원 고지 시 농특세 중 분납,계산,표 2,2026-10-04,-,split_plan.rural_split
+45,3000000,원,400만원 고지 시 12월 합계,계산,표 2,2026-10-04,-,split_plan.dec_total
+46,1800000,원,400만원 고지 시 6월 합계,계산,표 2,2026-10-04,-,split_plan.jun_total
+47,400000,원,200만원 고지 시 농특세,계산,표 2,2026-10-04,-,split_plan.rural
+48,2400000,원,200만원 고지 시 12월 합계,계산,표 2,2026-10-04,-,split_plan.dec_total
+49,2026-11-26,날,고지서 발급 기한(12월 1일 − 5일),계산,표 1,2026-10-04,-,schedule.notice
+50,2026-12-12,날,납부유예 신청 기한 원래 날(토),계산,표 1,2026-10-04,-,schedule.defer_raw
+51,2026-12-14,날,납부유예 신청 기한 특례 적용(월),계산,표 1,2026-10-04,-,schedule.defer
+52,2027-06-15,날,분납분 기한(6개월 날로 센 날),계산,표 1,2026-10-04,-,schedule.split_end

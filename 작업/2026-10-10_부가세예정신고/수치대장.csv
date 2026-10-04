@@ -1,0 +1,49 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,26,일,2026년 제2기 예정신고·납부 기한(10월 26일),https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=10&mi=135747,세무일정 2026년 10월 26일 칸,2026-10-04,2026.2기 부가가치세 예정신고 납부,DEADLINE
+2,25,일,예정신고기간 끝난 후 25일 이내,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276117&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제48조①,2026-10-04,끝난 후 25일 이내에,DAYS_AFTER
+3,25,일,국세청 표의 제2기 예정 신고납부기간 끝(10.25.),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,신고납부기한 표,2026-10-04,10.1.~10.25.,
+4,30,일,제2기 예정신고기간 끝(9.30.),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,신고납부기한 표,2026-10-04,7.1.~9.30.,PERIOD_END
+5,4,회,법인사업자 한 해 신고 횟수,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,신고납부기한 본문,2026-10-04,법인사업자는 1년에 4회,
+6,2,회,개인사업자 한 해 신고 횟수,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,신고납부기한 본문,2026-10-04,개인사업자는 2회 신고,
+7,1억5천만,원,고지 대상 법인의 직전 과세기간 공급가액 상한(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=283641&joNo=0090&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제90조④,2026-10-04,합계액이 1억5천만원 미만,CORP_LIMIT
+8,50,%,직전 과세기간 납부세액 대비 예정고지 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276117&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제48조③,2026-10-04,50퍼센트,HALF_NUM
+9,1천,원,고지세액 1천원 미만 버림,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276117&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제48조③,2026-10-04,1천원 미만인 단수,CUT
+10,50만,원,징수하지 않는 금액 기준(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276117&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제48조③1,2026-10-04,50만원 미만인 경우,MIN_COLLECT
+11,3,분의 1,예정신고 선택 사유 — 직전 과세기간의 3분의 1 미달,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=283641&joNo=0090&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제90조⑥1,2026-10-04,3분의 1에 미달하는 자,
+12,20,%,일반 무신고가산세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2276&cntntsId=7697,가산세 표 무신고,2026-10-04,일반 무신고납부세액×20%,NONFILE_RATE
+13,40,%,부당 무신고가산세율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2276&cntntsId=7697,가산세 표 무신고,2026-10-04,부당 무신고납부세액×40%,
+14,"22/100,000",,납부지연가산세 1일 이자율,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2276&cntntsId=7697,가산세 표 납부불성실,2026-10-04,"이자율(1일 22/100,000)",LATE_NUM
+15,50,%,예정신고 무신고 뒤 확정신고기한까지 기한 후 신고 시 무신고가산세 감면율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0048&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국세기본법 제48조②3라,2026-10-04,100분의 50에 상당하는 금액,REDUCE_PCT
+16,12,월,간이과세자 과세기간 끝(12.31.),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,간이과세자 표,2026-10-04,1.1.~12.31.,
+17,6,월,간이과세자 예정부과기간 끝(6.30.),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,간이과세자 본문,2026-10-04,예정부과기간(1.1.~6.30.),
+18,25,일,확정신고 기한(다음해 1.25.),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694,신고납부기한 표,2026-10-04,다음해 1.1.~1.25.,
+19,"400,000",원,1기 80만원일 때 절반·고지 전 금액,계산,calc.py 출력,2026-10-04,,notice_tax(800000)
+20,"499,500",원,1기 99만9천원일 때 절반,계산,calc.py 출력,2026-10-04,,notice_tax(999000)
+21,"499,000",원,1기 99만9천원일 때 1천원 미만 버림,계산,calc.py 출력,2026-10-04,,notice_tax(999000)
+22,"500,000",원,1기 100만원일 때 고지세액,계산,calc.py 출력,2026-10-04,,notice_tax(1000000)
+23,"1,172,839",원,"1기 2,345,678원일 때 절반",계산,calc.py 출력,2026-10-04,,notice_tax(2345678)
+24,"1,172,000",원,"1기 2,345,678원일 때 고지세액",계산,calc.py 출력,2026-10-04,,notice_tax(2345678)
+25,"3,000,000",원,1기 600만원일 때 고지세액,계산,calc.py 출력,2026-10-04,,notice_tax(6000000)
+26,"1,000,000",원,고지가 나오는 1기 납부세액 하한(=50만원×2) · 600만원일 때 월 환산,계산,calc.py 출력,2026-10-04,,notice_tax
+27,"10,000,000",원,1~6월 6천만원 월평균,계산,calc.py 출력,2026-10-04,,slump_line(60000000)
+28,"20,000,000",원,1~6월 6천만원 문턱 · 1억2천만원 월평균,계산,calc.py 출력,2026-10-04,,slump_line
+29,"6,666,666",원,6천만원 문턱 월평균,계산,calc.py 출력,2026-10-04,,slump_line(60000000)
+30,"40,000,000",원,1억2천만원 문턱(7~9월 합계),계산,calc.py 출력,2026-10-04,,slump_line(120000000)
+31,"13,333,333",원,"1억2천만원 문턱 월평균(약 1,333만원)",계산,calc.py 출력,2026-10-04,,slump_line(120000000)
+32,"50,000,000",원,3억원 월평균,계산,calc.py 출력,2026-10-04,,slump_line(300000000)
+33,"100,000,000",원,3억원 문턱,계산,calc.py 출력,2026-10-04,,slump_line(300000000)
+34,"33,333,333",원,3억원 문턱 월평균,계산,calc.py 출력,2026-10-04,,slump_line(300000000)
+35,0.6667,,"문턱 월평균 ÷ 직전 월평균(3분의 2, 약 33% 감소)",계산,calc.py 출력,2026-10-04,,slump_line
+36,"2,000,000",원,가정 납부세액 1천만원의 무신고가산세 20%,계산,calc.py 출력,2026-10-04,,penalty
+37,"-1,000,000",원,기한 후 신고 감면액,계산,calc.py 출력,2026-10-04,,penalty
+38,90,일,납부지연 일수(10/27~1/24),계산,calc.py 출력,2026-10-04,,days
+39,"198,000",원,납부지연가산세,계산,calc.py 출력,2026-10-04,,penalty
+40,"1,198,000",원,가산세 합계,계산,calc.py 출력,2026-10-04,,penalty
+41,"2,200",원,1천만원당 하루 납부지연가산세,계산,calc.py 출력,2026-10-04,,penalty
+42,"800,000",원,가정 입력 — 1기 납부세액,계산,calc.py 출력,2026-10-04,,CASES
+43,"999,000",원,"가정 입력 — 1기 납부세액(49만9,500원·49만9천원 사례)",계산,calc.py 출력,2026-10-04,,CASES
+44,"2,345,678",원,가정 입력 — 1기 납부세액,계산,calc.py 출력,2026-10-04,,CASES
+45,"6,000,000",원,가정 입력 — 1기 납부세액 600만원,계산,calc.py 출력,2026-10-04,,CASES
+46,"60,000,000",원,가정 입력 — 1~6월 공급가액,계산,calc.py 출력,2026-10-04,,slump_line
+47,"120,000,000",원,가정 입력 — 1~6월 공급가액 1억2천만원,계산,calc.py 출력,2026-10-04,,slump_line
+48,"300,000,000",원,가정 입력 — 1~6월 공급가액,계산,calc.py 출력,2026-10-04,,slump_line
