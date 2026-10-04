@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="1964년생부터 1972년생까지 60세 정년과 연금 개시 연령 사이 공백을 견준 막대 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="600" fill="#ffffff"/>
+<text x="60" y="62" font-size="32" font-weight="700" fill="#16212e">60세 정년이면 연금 개시까지 3~5년이 빕니다</text>
+<text x="60" y="102" font-size="21" fill="#3d4852">출생연도별 공백(연금 개시 연령 − 정년 60세, 단위 년) · 우리 계산</text>
+<line x1="140" y1="500.0" x2="1140" y2="500.0" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="507.0" font-size="18" text-anchor="end" fill="#3d4852">0년</text>
+<line x1="140" y1="441.7" x2="1140" y2="441.7" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="448.7" font-size="18" text-anchor="end" fill="#3d4852">1년</text>
+<line x1="140" y1="383.3" x2="1140" y2="383.3" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="390.3" font-size="18" text-anchor="end" fill="#3d4852">2년</text>
+<line x1="140" y1="325.0" x2="1140" y2="325.0" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="332.0" font-size="18" text-anchor="end" fill="#3d4852">3년</text>
+<line x1="140" y1="266.7" x2="1140" y2="266.7" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="273.7" font-size="18" text-anchor="end" fill="#3d4852">4년</text>
+<line x1="140" y1="208.3" x2="1140" y2="208.3" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="215.3" font-size="18" text-anchor="end" fill="#3d4852">5년</text>
+<line x1="140" y1="150.0" x2="1140" y2="150.0" stroke="#e3e7eb" stroke-width="1"/>
+<text x="130" y="157.0" font-size="18" text-anchor="end" fill="#3d4852">6년</text>
+<rect x="169.8" y="325.0" width="70.4" height="175.0" fill="#5f8f84"/>
+<text x="205.0" y="313.0" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">3년</text>
+<text x="205.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">64년생</text>
+<text x="205.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 63세</text>
+<rect x="279.8" y="266.7" width="70.4" height="233.3" fill="#5f8f84"/>
+<text x="315.0" y="254.7" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">4년</text>
+<text x="315.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">65년생</text>
+<text x="315.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 64세</text>
+<rect x="389.8" y="266.7" width="70.4" height="233.3" fill="#5f8f84"/>
+<text x="425.0" y="254.7" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">4년</text>
+<text x="425.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">66년생</text>
+<text x="425.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 64세</text>
+<rect x="499.8" y="266.7" width="70.4" height="233.3" fill="#5f8f84"/>
+<text x="535.0" y="254.7" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">4년</text>
+<text x="535.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">67년생</text>
+<text x="535.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 64세</text>
+<rect x="609.8" y="266.7" width="70.4" height="233.3" fill="#5f8f84"/>
+<text x="645.0" y="254.7" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">4년</text>
+<text x="645.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">68년생</text>
+<text x="645.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 64세</text>
+<rect x="719.8" y="208.3" width="70.4" height="291.7" fill="#0a6350"/>
+<text x="755.0" y="196.3" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">5년</text>
+<text x="755.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">69년생</text>
+<text x="755.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 65세</text>
+<rect x="829.8" y="208.3" width="70.4" height="291.7" fill="#0a6350"/>
+<text x="865.0" y="196.3" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">5년</text>
+<text x="865.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">70년생</text>
+<text x="865.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 65세</text>
+<rect x="939.8" y="208.3" width="70.4" height="291.7" fill="#0a6350"/>
+<text x="975.0" y="196.3" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">5년</text>
+<text x="975.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">71년생</text>
+<text x="975.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 65세</text>
+<rect x="1049.8" y="208.3" width="70.4" height="291.7" fill="#0a6350"/>
+<text x="1085.0" y="196.3" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e">5년</text>
+<text x="1085.0" y="532" font-size="19" text-anchor="middle" fill="#16212e">72년생</text>
+<text x="1085.0" y="558" font-size="16" text-anchor="middle" fill="#6b7682">연금 65세</text>
+<text x="1140" y="586" font-size="16" text-anchor="end" fill="#8a96a3">고령자고용법 제19조 · 국민연금공단 출생연도별 지급개시연령 · 2026년 10월 4일 원문 기준</text>
+</svg>

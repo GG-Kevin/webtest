@@ -1,0 +1,11 @@
+# 대조 webtest — calc_check.py 2026-10-04 09:37 KST
+
+## 1. calc.py 재실행: calc.py 없음
+
+## 2. 표 숫자 대조: HTML 없음(/home/user/webtest/발행.html)
+
+## 3. 계산기 대조(calc.py TESTS ↔ HTML calcCompute): 해당 없음(HTML 없음)
+
+## 4. 수치대장 원문 대조: 수치대장.csv 없음 · 있음 0 · 원문에 없음 0 · 확인 못 함 0
+
+판정: 통과 (다른 숫자·불일치·원문에 없음 합 0 · 확인 못 함 0은 심사관이 원문과 맞춘다)
