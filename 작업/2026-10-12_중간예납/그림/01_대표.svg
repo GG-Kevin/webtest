@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="중간예납 고지서 발급부터 분납 기한까지 네 날짜를 이은 일정 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="64" fill="#16212e"/>
+<text x="60" y="42" font-size="24" font-weight="700" fill="#ffffff">종합소득세 중간예납 · 2026년 일정</text>
+<text x="60" y="128" font-size="36" font-weight="800" fill="#16212e">납부기한 11월 30일(월), 분납은 2월 1일(월)까지</text>
+<text x="60" y="176" font-size="24" fill="#6b7682">고지액 = 2025년 귀속 소득세의 절반 · 50만원 미만이면 고지하지 않음</text>
+<line x1="90" y1="330" x2="1110" y2="330" stroke="#16212e" stroke-width="4"/>
+<circle cx="150" cy="330" r="16" fill="#0a6350"/>
+<text x="150" y="285" font-size="26" font-weight="700" fill="#0a6350" text-anchor="middle">11월 1일~15일</text>
+<text x="150" y="388" font-size="22" fill="#16212e" text-anchor="middle">고지서 발급</text>
+<circle cx="420" cy="330" r="16" fill="#16212e"/>
+<text x="420" y="285" font-size="26" font-weight="700" fill="#16212e" text-anchor="middle">11월 30일(월)</text>
+<text x="420" y="388" font-size="22" fill="#16212e" text-anchor="middle">납부·추계액 신고 마감</text>
+<circle cx="690" cy="330" r="16" fill="#9a5b00"/>
+<text x="690" y="285" font-size="26" font-weight="700" fill="#9a5b00" text-anchor="middle">2027년 1월 1일~15일</text>
+<text x="690" y="388" font-size="22" fill="#16212e" text-anchor="middle">못 낸 분납 가능액 다시 고지</text>
+<circle cx="990" cy="330" r="16" fill="#0a6350"/>
+<text x="990" y="285" font-size="26" font-weight="700" fill="#0a6350" text-anchor="middle">2027년 2월 1일(월)</text>
+<text x="990" y="388" font-size="22" fill="#16212e" text-anchor="middle">분납 기한</text>
+<rect x="90" y="440" width="1020" height="110" rx="12" fill="#f7f8f9" stroke="#e6e8ea"/>
+<text x="120" y="485" font-size="24" fill="#16212e">예: 2025년 귀속 세액 3,000만원 → 고지 15,000,000원</text>
+<text x="120" y="525" font-size="24" fill="#16212e">11월 30일까지 10,000,000원 · 2월 1일까지 5,000,000원(1천만원 넘는 몫)</text>
+<text x="60" y="600" font-size="18" fill="#6b7682">2026년 10월 4일 소득세법·국세청 원문 기준 · 머니프로듀서</text>
+</svg>
