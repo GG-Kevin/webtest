@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="고지액 500만원과 상반기 소득별 추계액을 30% 선과 견준 막대 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="60" font-size="30" font-weight="800" fill="#16212e">기준액 1,000만원일 때 상반기 소득별 추계액</text>
+<text x="60" y="100" font-size="22" fill="#6b7682">종합소득공제 300만원·공제감면·원천징수 0원 가정 · 점선 = 기준액의 30%(3,000,000원)</text>
+<rect x="140" y="150" width="150" height="380" fill="#16212e"/>
+<text x="215.0" y="138" font-size="22" font-weight="700" fill="#16212e" text-anchor="middle">5,000,000원</text>
+<text x="215.0" y="564" font-size="22" fill="#16212e" text-anchor="middle">고지액</text>
+<rect x="340" y="481" width="150" height="49" fill="#0a6350"/>
+<text x="415.0" y="469" font-size="22" font-weight="700" fill="#0a6350" text-anchor="middle">645,000원</text>
+<text x="415.0" y="564" font-size="22" fill="#16212e" text-anchor="middle">상반기 1,000만원</text>
+<rect x="540" y="424" width="150" height="106" fill="#0a6350"/>
+<text x="615.0" y="412" font-size="22" font-weight="700" fill="#0a6350" text-anchor="middle">1,395,000원</text>
+<text x="615.0" y="564" font-size="22" fill="#16212e" text-anchor="middle">상반기 1,500만원</text>
+<rect x="740" y="310" width="150" height="220" fill="#0a6350"/>
+<text x="815.0" y="298" font-size="22" font-weight="700" fill="#0a6350" text-anchor="middle">2,895,000원</text>
+<text x="815.0" y="564" font-size="22" fill="#16212e" text-anchor="middle">상반기 2,500만원</text>
+<rect x="940" y="229" width="150" height="301" fill="#9a5b00"/>
+<text x="1015.0" y="217" font-size="22" font-weight="700" fill="#9a5b00" text-anchor="middle">3,960,000원</text>
+<text x="1015.0" y="564" font-size="22" fill="#16212e" text-anchor="middle">상반기 3,000만원</text>
+<line x1="110" y1="302" x2="1130" y2="302" stroke="#c0392b" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="110" y1="530" x2="1130" y2="530" stroke="#16212e" stroke-width="2"/>
+<text x="60" y="615" font-size="18" fill="#6b7682">2026년 10월 4일 소득세법·국세청 원문 기준 · 머니프로듀서 · 계산: 머니프로듀서</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="2026년 종합부동산세 고지서 발급부터 납부기간, 납부유예 신청, 분납 기한까지 날짜를 한 줄에 놓은 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="64" fill="#16212e"/>
+<text x="60" y="42" font-size="24" font-weight="700" fill="#ffffff">2026년 종합부동산세 날짜판 · 종합부동산세법 제16조·제20조·제20조의2</text>
+<text x="60" y="126" font-size="40" font-weight="700" fill="#16212e">납부기간 12월 1일(화) ~ 12월 15일(화)</text>
+<text x="60" y="172" font-size="24" fill="#3d4852">세액이 250만원을 넘으면 일부를 납부기한 뒤 6개월 안에 나눠 낼 수 있습니다</text>
+<line x1="80" y1="330" x2="1120" y2="330" stroke="#c9d1d9" stroke-width="6"/>
+<rect x="330" y="308" width="420" height="44" rx="10" fill="#0a6350"/>
+<text x="540" y="339" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">납부기간 15일</text>
+<circle cx="150" cy="330" r="13" fill="#5b6b7a" stroke="#ffffff" stroke-width="4"/>
+<line x1="150" y1="316" x2="150" y2="268" stroke="#5b6b7a" stroke-width="2"/>
+<text x="150" y="206" font-size="24" font-weight="700" fill="#5b6b7a" text-anchor="middle">11월 26일(목)</text>
+<text x="150" y="236" font-size="21" fill="#16212e" text-anchor="middle">고지서 발급 기한</text>
+<text x="150" y="262" font-size="17" fill="#5b6b7a" text-anchor="middle">개시 5일 전까지</text>
+<circle cx="330" cy="330" r="13" fill="#0a6350" stroke="#ffffff" stroke-width="4"/>
+<line x1="330" y1="344" x2="330" y2="380" stroke="#0a6350" stroke-width="2"/>
+<text x="330" y="410" font-size="24" font-weight="700" fill="#0a6350" text-anchor="middle">12월 1일(화)</text>
+<text x="330" y="440" font-size="21" fill="#16212e" text-anchor="middle">납부 시작</text>
+<text x="330" y="468" font-size="17" fill="#5b6b7a" text-anchor="middle">고지분·신고납부 같은 날</text>
+<circle cx="640" cy="330" r="13" fill="#9a5b00" stroke="#ffffff" stroke-width="4"/>
+<line x1="640" y1="316" x2="640" y2="268" stroke="#9a5b00" stroke-width="2"/>
+<text x="640" y="206" font-size="24" font-weight="700" fill="#9a5b00" text-anchor="middle">12월 14일(월)</text>
+<text x="640" y="236" font-size="21" fill="#16212e" text-anchor="middle">납부유예 신청</text>
+<text x="640" y="262" font-size="17" fill="#5b6b7a" text-anchor="middle">만료 3일 전(12일 토요일)</text>
+<circle cx="750" cy="330" r="13" fill="#0a6350" stroke="#ffffff" stroke-width="4"/>
+<line x1="750" y1="344" x2="750" y2="380" stroke="#0a6350" stroke-width="2"/>
+<text x="750" y="410" font-size="24" font-weight="700" fill="#0a6350" text-anchor="middle">12월 15일(화)</text>
+<text x="750" y="440" font-size="21" fill="#16212e" text-anchor="middle">납부 마감</text>
+<text x="750" y="468" font-size="17" fill="#5b6b7a" text-anchor="middle">분납 신청서도 이날까지</text>
+<circle cx="1050" cy="330" r="13" fill="#16212e" stroke="#ffffff" stroke-width="4"/>
+<line x1="1050" y1="316" x2="1050" y2="268" stroke="#16212e" stroke-width="2"/>
+<text x="1050" y="206" font-size="24" font-weight="700" fill="#16212e" text-anchor="middle">2027년 6월 15일(화)</text>
+<text x="1050" y="236" font-size="21" fill="#16212e" text-anchor="middle">분납분 납부</text>
+<text x="1050" y="262" font-size="17" fill="#5b6b7a" text-anchor="middle">6개월 이내</text>
+<text x="1140" y="600" font-size="16" text-anchor="end" fill="#8a96a3">2026년 10월 4일 국가법령정보센터·국세청 원문 기준 · 머니프로듀서</text>
+</svg>
