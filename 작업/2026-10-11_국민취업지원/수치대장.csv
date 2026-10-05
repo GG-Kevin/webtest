@@ -1,0 +1,58 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,60,%,1유형 가구 소득선(중위소득 100분의 60 이내),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0007&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제7조①2,2026-10-06,100분의 60 이내의 범위,
+2,6억,원,재산 상한(법률 위임 한도),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0007&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제7조①3,2026-10-06,6억원 이내의 범위에서,
+3,2,년,취업경험 보는 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0007&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제7조①4,2026-10-06,이전 2년 이내의 범위,
+4,6,개월,구직급여 뒤 제외 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0007&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제7조③3,2026-10-06,6개월이 지나지 아니한,
+5,15,세,나이 하한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제6조①2,2026-10-06,15세 이상 64세 이하,
+6,64,세,나이 상한(법 본문),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제6조①2,2026-10-06,15세 이상 64세 이하,
+7,100,%,취업지원서비스 소득선,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제6조①3,2026-10-06,100분의 100 이하,
+8,120,%,15~34세 소득선,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제6조①3 단서,2026-10-06,100분의 120 이하,
+9,34,세,청년 나이 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제6조①3 단서,2026-10-06,15세 이상 34세 이하,
+10,4억,원,재산 합계 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=260081&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조③,2026-10-06,4억원을 말한다,ASSET_GENERAL
+11,100,일,취업경험 일수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=260081&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조④,2026-10-06,100일 또는 800시간,WORK_DAYS
+12,800,시간,취업경험 시간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=260081&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조④,2026-10-06,100일 또는 800시간,WORK_HOURS
+13,60,%,본인 소득 제외선(1인 중위 60%),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=260081&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제5조④,2026-10-06,100분의 60을 말한다,
+14,6,개월,구직촉진수당 기본 지급기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제20조①,2026-10-06,6개월이 되는 날까지,MONTHS
+15,1,년,연장 시 최대 지급기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제20조②,2026-10-06,최대 1년까지,EXTEND_MONTHS
+16,7,일,지정일 연기 범위,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제20조⑤,2026-10-06,7일 이내의 범위,
+17,3,회,지급정지 횟수(자격 철회),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0021&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,구직자취업촉진법 제21조⑤,2026-10-06,지급정지 횟수가 3회,
+18,5억,원,15~34세 재산 상한,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제5조의2,2026-10-06,5억원으로 한다,ASSET_YOUTH
+19,9,년,재산 제외 자동차 사용연수,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제5조1호,2026-10-06,사용연수가 9년 이상,
+20,4천만,원,재산 제외 자동차 가액,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제5조2호,2026-10-06,4천만원 이하인 경우,
+21,50만,원,다른 구직수당 월평균 기준,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제9조,2026-10-06,50만원 이상이거나,
+22,300만,원,다른 구직수당 총액 기준,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제9조,2026-10-06,300만원 이상인 수당,
+23,69,세,취업취약계층 나이 상한,https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280036&chrClsCd=010201,운영규정 제2조,2026-10-06,15세 이상 69세 이하,
+24,60만,원,구직촉진수당 월 금액,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 구직촉진수당 수당 지급,2026-10-06,매월 60만원을 지급,BASE
+25,10만,원,부양가족 1인당 추가,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 가족 수당,2026-10-06,1인당 구직촉진수당 10만원,FAMILY_ADD
+26,40만,원,부양가족 추가 한도,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 가족 수당,2026-10-06,(최대 40만원),FAMILY_CAP
+27,20만,원,중복 대상 1인 추가,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 가족 수당,2026-10-06,중복지급 가능(1인 20만원),
+28,50만,원,취업성공수당 6개월,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 취업성공수당,2026-10-06,6개월 계속 근무 시 50만원,SUCCESS_6
+29,100만,원,취업성공수당 추가 6개월,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 취업성공수당,2026-10-06,추가 6개월 계속 근무 시,SUCCESS_12_ADD
+30,150만,원,취업성공수당 합계,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 취업성공수당,2026-10-06,12개월 계속 근무 시 150만원,
+31,15만,원,2유형 참여수당 기본,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 참여수당,2026-10-06,기본 지급액 15만원,
+32,10만,원,2유형 참여수당 추가 상한,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 참여수당,2026-10-06,3~10만원 추가 지급,
+33,69,세,1유형 나이(고용24 표기),https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 수급자격 표,2026-10-06,15~69세,
+34,"1,538,543",원,1인 60% 고용24 표기,https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do,고용24 본인 소득 기준,2026-10-06,"60%(1,538,543원)",
+35,"2,564,238",원,2026 1인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"1인 2,564,238",MEDIAN_2026
+36,"4,199,292",원,2026 2인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"2인 4,199,292",MEDIAN_2026
+37,"5,359,036",원,2026 3인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"3인 5,359,036",MEDIAN_2026
+38,"6,494,738",원,2026 4인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"4인 6,494,738",MEDIAN_2026
+39,"7,556,719",원,2026 5인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"5인 7,556,719",MEDIAN_2026
+40,"8,555,952",원,2026 6인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098,보건복지부 2025-07-31 보도자료,2026-10-06,"6인 8,555,952",MEDIAN_2026
+41,6.70,%,2027 기준 중위소득 인상률,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,6.70% 역대 최대 인상,
+42,"2,736,042",원,2027 1인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"1인 2,736,042",MEDIAN_2027
+43,"4,480,645",원,2027 2인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"2인 4,480,645",MEDIAN_2027
+44,"5,718,091",원,2027 3인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"3인 5,718,091",MEDIAN_2027
+45,"6,929,885",원,2027 4인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"4인 6,929,885",MEDIAN_2027
+46,"8,063,019",원,2027 5인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"5인 8,063,019",MEDIAN_2027
+47,"9,129,201",원,2027 6인 기준 중위소득,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453,보건복지부 2026-07-28 보도자료,2026-10-06,"6인 9,129,201",MEDIAN_2027
+48,"3,896,843",원,2026 4인 60% 소득선,계산,calc.py 출력,2026-10-06,,"line(4,60)"
+49,"1,538,543",원,2026 1인 60% 소득선,계산,calc.py 출력,2026-10-06,,"line(1,60)"
+50,"3,600,000",원,부양가족 0명 6개월 합계,계산,calc.py 출력,2026-10-06,,total(0)
+51,"6,000,000",원,부양가족 4명 이상 6개월 합계,계산,calc.py 출력,2026-10-06,,total(4)
+52,"5,100,000",원,수당 6개월+취업성공수당(부양가족 0명),계산,calc.py 출력,2026-10-06,,total(0)+SUCCESS
+53,"18,462,516",원,본인 소득 제외선 연 환산,계산,calc.py 출력,2026-10-06,,"line(1,60)*12"
+54,"3,215,422",원,2026 3인 60% 소득선,계산,calc.py 출력,2026-10-06,,"line(3,60)"
+55,"2,519,575",원,2026 2인 60% 소득선,계산,calc.py 출력,2026-10-06,,"line(2,60)"
+56,"4,157,931",원,2027 4인 60% 소득선,계산,calc.py 출력,2026-10-06,,"line(4,60,MEDIAN_2027)"
+57,"261,088",원,4인 60% 소득선 오르는 폭,계산,calc.py 출력,2026-10-06,,"line(4,60,2027)-line(4,60)"

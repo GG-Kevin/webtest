@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="110" y="54" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">국민취업지원제도 가구 소득선 (2026년, 월)</text>
+<text x="110" y="92" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2026년 기준 중위소득 × 60% · 100% · 120% · 원 미만 반올림 · 2026년 10월 6일 원문 기준</text>
+<line x1="110" y1="580.0" x2="1160" y2="580.0" stroke="#e5e7eb"/>
+<text x="98" y="586.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="110" y1="498.2" x2="1160" y2="498.2" stroke="#e5e7eb"/>
+<text x="98" y="504.2" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200만</text>
+<line x1="110" y1="416.4" x2="1160" y2="416.4" stroke="#e5e7eb"/>
+<text x="98" y="422.4" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">400만</text>
+<line x1="110" y1="334.5" x2="1160" y2="334.5" stroke="#e5e7eb"/>
+<text x="98" y="340.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">600만</text>
+<line x1="110" y1="252.7" x2="1160" y2="252.7" stroke="#e5e7eb"/>
+<text x="98" y="258.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">800만</text>
+<line x1="110" y1="170.9" x2="1160" y2="170.9" stroke="#e5e7eb"/>
+<text x="98" y="176.9" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,000만</text>
+<rect x="129.2" y="517.1" width="40.5" height="62.9" fill="#0f766e"/>
+<text x="149.5" y="509.1" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">154만</text>
+<rect x="174.8" y="475.1" width="40.5" height="104.9" fill="#60a5fa"/>
+<text x="195.0" y="467.1" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">256만</text>
+<rect x="220.2" y="454.1" width="40.5" height="125.9" fill="#f59e0b"/>
+<text x="240.5" y="446.1" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">308만</text>
+<text x="197.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1인 가구</text>
+<rect x="304.2" y="476.9" width="40.5" height="103.1" fill="#0f766e"/>
+<text x="324.5" y="468.9" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">252만</text>
+<rect x="349.8" y="408.2" width="40.5" height="171.8" fill="#60a5fa"/>
+<text x="370.0" y="400.2" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">420만</text>
+<rect x="395.2" y="373.9" width="40.5" height="206.1" fill="#f59e0b"/>
+<text x="415.5" y="365.9" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">504만</text>
+<text x="372.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2인 가구</text>
+<rect x="479.2" y="448.5" width="40.5" height="131.5" fill="#0f766e"/>
+<text x="499.5" y="440.5" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">322만</text>
+<rect x="524.8" y="360.8" width="40.5" height="219.2" fill="#60a5fa"/>
+<text x="545.0" y="352.8" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">536만</text>
+<rect x="570.2" y="316.9" width="40.5" height="263.1" fill="#f59e0b"/>
+<text x="590.5" y="308.9" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">643만</text>
+<text x="547.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3인 가구</text>
+<rect x="654.2" y="420.6" width="40.5" height="159.4" fill="#0f766e"/>
+<text x="674.5" y="412.6" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">390만</text>
+<rect x="699.8" y="314.3" width="40.5" height="265.7" fill="#60a5fa"/>
+<text x="720.0" y="306.3" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">649만</text>
+<rect x="745.2" y="261.2" width="40.5" height="318.8" fill="#f59e0b"/>
+<text x="765.5" y="253.2" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">779만</text>
+<text x="722.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4인 가구</text>
+<rect x="829.2" y="394.5" width="40.5" height="185.5" fill="#0f766e"/>
+<text x="849.5" y="386.5" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">453만</text>
+<rect x="874.8" y="270.9" width="40.5" height="309.1" fill="#60a5fa"/>
+<text x="895.0" y="262.9" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">756만</text>
+<rect x="920.2" y="209.0" width="40.5" height="371.0" fill="#f59e0b"/>
+<text x="940.5" y="201.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">907만</text>
+<text x="897.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5인 가구</text>
+<rect x="1004.2" y="370.0" width="40.5" height="210.0" fill="#0f766e"/>
+<text x="1024.5" y="362.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">513만</text>
+<rect x="1049.8" y="230.0" width="40.5" height="350.0" fill="#60a5fa"/>
+<text x="1070.0" y="222.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">856만</text>
+<rect x="1095.2" y="160.0" width="40.5" height="420.0" fill="#f59e0b"/>
+<text x="1115.5" y="152.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,027만</text>
+<text x="1072.5" y="614" font-size="21" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">6인 가구</text>
+<rect x="110" y="643" width="22" height="22" fill="#0f766e"/>
+<text x="142" y="661" font-size="19" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60% 이하: 1유형(수당 월 60만원)</text>
+<rect x="460" y="643" width="22" height="22" fill="#60a5fa"/>
+<text x="492" y="661" font-size="19" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">100% 이하: 2유형 중장년</text>
+<rect x="810" y="643" width="22" height="22" fill="#f59e0b"/>
+<text x="842" y="661" font-size="19" fill="#111827" font-family="'Noto Sans KR','Nanum Gothic','Malgun Gothic','Apple SD Gothic Neo',sans-serif">120% 이하: 청년 특례선</text>
+</svg>
