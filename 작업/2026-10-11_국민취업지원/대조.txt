@@ -1,0 +1,32 @@
+# 대조 2026-10-11_국민취업지원 — calc_check.py 2026-10-06 05:28 KST
+
+## 1. calc.py 재실행: 종료 0 · 출력 숫자 88개
+
+## 2. 표 숫자 대조: 표 4개 · 숫자 75개 · calc 출력에 없는 숫자 0개
+
+## 3. 계산기 대조(calc.py TESTS ↔ HTML calcCompute): 해당 없음(HTML에 calcCompute 없음 — 계산기 쪽이 아니면 정상)
+
+## 4. 수치대장 원문 대조: 57줄 · 있음 36 · 원문에 없음 6 · 확인 못 함 15
+- 줄6: 15 세 ← https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR — 확인 못 함(연결 실패([Errno 104] Connection reset by peer))
+- 줄7: 64 세 ← https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR — 확인 못 함(연결 실패([Errno 104] Connection reset by peer))
+- 줄8: 100 % ← https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR — 확인 못 함(연결 실패([Errno 104] Connection reset by peer))
+- 줄9: 120 % ← https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR — 확인 못 함(연결 실패([Errno 104] Connection reset by peer))
+- 줄10: 34 세 ← https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=253641&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR — 확인 못 함(연결 실패([Errno 104] Connection reset by peer))
+- 줄36: 2,564,238 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄37: 4,199,292 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄38: 5,359,036 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄39: 6,494,738 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄40: 7,556,719 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄41: 8,555,952 원 ← https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098 — 원문에 없음
+- 줄49: 3,896,843 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄50: 1,538,543 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄51: 3,600,000 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄52: 6,000,000 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄53: 5,100,000 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄54: 18,462,516 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄55: 3,215,422 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄56: 2,519,575 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄57: 4,157,931 원 ← 계산 — 확인 못 함(URL 없음)
+- 줄58: 261,088 원 ← 계산 — 확인 못 함(URL 없음)
+
+판정: 다른 숫자 있음 (다른 숫자·불일치·원문에 없음 합 6 · 확인 못 함 15은 심사관이 원문과 맞춘다)

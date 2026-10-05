@@ -1,0 +1,50 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,100분의 25,비율,최저사용금액 = 총급여 × 25%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2①,2026-10-06,총급여액의 100분의 25,MIN_PCT
+2,2028년 12월 31일,날,공제 대상 사용 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2①,2026-10-06,2028년 12월 31일까지,
+3,100분의 40,비율,전통시장·대중교통 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2②1·2,2026-10-06,전통시장사용분 × 100분의 40,R_MARKET
+4,100분의 30,비율,문화체육·직불카드등 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2②3·4,2026-10-06,× 100분의 30,R_DEBIT
+5,100분의 15,비율,신용카드사용분 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2②5,2026-10-06,× 100분의 15,R_CREDIT
+6,7천만,원,총급여 구분선,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2②·⑩,2026-10-06,총급여액이 7천만원 이하,WAGE_LINE
+7,3000000,원,기본 한도(7천만 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩,2026-10-06,연간 300만원,LIMIT
+8,2500000,원,기본 한도(7천만 초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩,2026-10-06,연간 250만원,LIMIT
+9,3500000,원,자녀등 1명 한도(7천만 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩1,2026-10-06,1명인 경우 연간 350만원,LIMIT
+10,4000000,원,자녀등 2명 이상 한도(7천만 이하),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩1,2026-10-06,2명 이상인 경우 연간 400만원,LIMIT
+11,2750000,원,자녀등 1명 한도(7천만 초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩2,2026-10-06,연간 275만원,LIMIT
+12,2000000,원,추가 한도(7천만 초과),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑪1,2026-10-06,연간 200만원을 한도,EXTRA_CAP
+13,2025. 12. 23.,날,제10항 개정·제11항 신설일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0126&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제126조의2⑩⑪,2026-10-06,개정 2025. 12. 23.,
+14,2026년 1월 1일,날,개정 법률 시행일(부칙 제1조),https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=284389&efYd=20260918&chrClsCd=010202&ancYnChk=0,부칙 법률 제21223호 제1조·제47조(법령 전문),2026-10-06,2026년 1월 1일부터 시행,
+15,20세,나이,자녀등 나이 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0121&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제121조의2⑱2,2026-10-06,20세 이하,
+16,1000000,원,자녀등·가족 소득금액 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0121&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제121조의2③·⑱1,2026-10-06,100만원 이하,
+17,5000000,원,근로소득만 있는 가족 총급여 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0121&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제121조의2③·⑱1,2026-10-06,총급여액 500만원 이하,
+18,2026. 2. 27.,날,제18항 신설일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0121&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제121조의2⑱,2026-10-06,신설 2026. 2. 27.,
+19,100분의 10,비율,중고차 구입액 중 사용액 포함 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0121&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제121조의2⑮,2026-10-06,구입금액의 100분의 10,
+20,100분의 10,비율,개인지방소득세 = 원천징수 소득세의 10%,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13①,2026-10-06,소득세의 100분의 10,LOCAL_PCT
+21,5월 31일,날,종합소득 확정신고 기간 끝,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제70조①,2026-10-06,5월 1일부터 5월 31일까지,
+22,15%,비율,"과세표준 1,400만~5,000만원 세율",https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,국세청 종합소득세 세율표,2026-10-06,세율 15%,TAX_RATE
+23,"14,000,000",원,15% 구간 하한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,국세청 종합소득세 세율표,2026-10-06,"14,000,000원 초과",
+24,"50,000,000",원,15% 구간 상한,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,국세청 종합소득세 세율표,2026-10-06,"50,000,000원 이하",
+25,68,백만원,사례1 총급여,PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=88c482e8d69eb1653515871654a4ab42,책자 137쪽 사례1,2026-10-06,총급여 68백만원,
+26,"4,300만",원,사례1 사용액 합계,PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=88c482e8d69eb1653515871654a4ab42,책자 137쪽 사례1,2026-10-06,"4,300만 원",
+27,530만,원,사례1 국세청 답(2025년 한도),PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=88c482e8d69eb1653515871654a4ab42,책자 138쪽 사례1,2026-10-06,530만원임,NTS_CASE
+28,137,쪽,중복 공제 표·사례1 쪽,PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=88c482e8d69eb1653515871654a4ab42,책자 137쪽,2026-10-06,중복 적용 여부,
+29,10000000,원,총급여 4천만원 최저사용금액,계산,calc.min_usage,2026-10-06,,min_usage
+30,15000000,원,총급여 6천만원 최저사용금액,계산,calc.min_usage,2026-10-06,,min_usage
+31,83.3만,원,4천만원 문턱 한 달 몫,계산,calc.month_man,2026-10-06,,month_man
+32,1200000,원,"4천만원·신용만 1,800만원 공제액",계산,calc.deduction,2026-10-06,,deduction
+33,2400000,원,"4천만원·문턱 이하 신용 1,800만원 공제액",계산,calc.deduction,2026-10-06,,deduction
+34,2700000,원,"신용만 1,800만원 계산 전 금액",계산,calc.deduction,2026-10-06,,deduction
+35,5400000,원,"체크만 1,800만원 계산 전 금액",계산,calc.deduction,2026-10-06,,deduction
+36,30000000,원,신용만 한도 도달 사용액(4천만원),계산,calc.main,2026-10-06,,min_usage
+37,20000000,원,체크만 한도 도달 사용액(4천만원),계산,calc.main,2026-10-06,,min_usage
+38,4500000,원,4천만원 예시 계산 전 금액,계산,calc.deduction,2026-10-06,,deduction
+39,1500000,원,4천만원 예시 문턱분,계산,calc.deduction,2026-10-06,,deduction
+40,495000,원,4천만원 예시 세금 감소,계산,calc.tax_cut,2026-10-06,,tax_cut
+41,45000,원,4천만원 예시 지방소득세 감소,계산,calc.tax_cut,2026-10-06,,tax_cut
+42,371250,원,6천만원 예시 세금 감소,계산,calc.tax_cut,2026-10-06,,tax_cut
+43,2250000,원,6천만원 예시 공제액,계산,calc.deduction,2026-10-06,,deduction
+44,6350000,원,사례1 공제 가능액,계산,calc.deduction,2026-10-06,,deduction
+45,2300000,원,사례1 추가 공제,계산,calc.deduction,2026-10-06,,deduction
+46,5800000,원,사례1 자녀등 1명,계산,calc.deduction,2026-10-06,,deduction
+47,6300000,원,사례1 자녀등 2명 이상,계산,calc.deduction,2026-10-06,,deduction
+48,500000,원,자녀 1명으로 늘어난 공제액,계산,calc.main,2026-10-06,,deduction
+49,82500,원,자녀 1명 세금 감소(15% 구간),계산,calc.tax_cut,2026-10-06,,tax_cut
