@@ -1,0 +1,66 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,2.3,%,1개월 초과 1년 미만 약정이율,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,약정이율 표,2026-10-06,연 2.3%,R1
+2,2.8,%,1년 이상 2년 미만 약정이율,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,약정이율 표,2026-10-06,연 2.8%,R2
+3,3.1,%,2년 이상 약정이율,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,약정이율 표,2026-10-06,연 3.1%,R3
+4,2.3,%,해지 시 이율(1년 미만),https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010102.jsp,FAQ 해지 이율 적용,2026-10-06,연 2.3%,R1
+5,3.1,%,해지 시 이율(2년 이상),https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010102.jsp,FAQ 해지 이율 적용,2026-10-06,연 3.1%,R3
+6,32,건,자주하는질문 문항 수,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010102.jsp,FAQ 목록,2026-10-06,총 32건의 게시물,
+7,2,만원,월 납입 하한,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,적립금액,2026-10-06,매월 2만원 이상,
+8,50,만원,월 납입 상한,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,적립금액,2026-10-06,50만원 이하의 금액,
+9,"1,500",만원,일시예치 한도 잔액,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp,적립금액,2026-10-06,"잔액 1,500만원까지",LUMP_MAX
+10,3.1,%,10년 초과 주택청약종합저축 이율,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,이자율 비교표,2026-10-06,연 3.1%,R3
+11,4.5,%,청년 주택드림 2년 이상 이율,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,이자율 비교표,2026-10-06,연 4.5%,R_YOUTH
+12,10,년,청년 이율 적용 기간,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,적용 이자율,2026-10-06,가입일로부터 10년 이내,
+13,"5,000",만원,청년 이율 원금 한도,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,적용 이자율,2026-10-06,"5,000만원 한도",
+14,19,세,청년 가입 하한 나이,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,가입 대상,2026-10-06,만 19세 이상,
+15,34,세,청년 가입 상한 나이,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,가입 대상,2026-10-06,만 34세 이하,
+16,5천만,원,청년 가입 연소득 상한,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,가입 대상,2026-10-06,연소득 5천만 원 이하,
+17,500,만원,청년 비과세 이자 한도,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,비과세 혜택,2026-10-06,이자소득 합계액 500만원,
+18,600,만원,청년 비과세 원금 연 한도,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,비과세 혜택,2026-10-06,원금 연600만원 한도,
+19,3천6백만,원,청년 비과세 총급여 요건,https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp,비과세 혜택,2026-10-06,3천6백만원 이하,
+20,14,%,이자소득 원천징수세율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0129&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제129조①1라,2026-10-06,100분의 14,TAX
+21,10,%,지방소득세 특별징수(소득세의),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13①,2026-10-06,100분의 10,LOCAL
+22,65,세,비과세종합저축 대상 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0088&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제88조의2①1,2026-10-06,65세 이상인 거주자,
+23,5천만,원,비과세종합저축 원금 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0088&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제88조의2①,2026-10-06,저축원금이 5천만원,
+24,25,만원,국민주택 월납입 인정 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=286965&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,주택공급에 관한 규칙 제10조⑤1,2026-10-06,25만원을 초과한 경우,CAP_RECOG
+25,7천만,원,청약 소득공제 총급여 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0087&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제87조②,2026-10-06,7천만원 이하,
+26,300,만원,청약 소득공제 연 납입 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0087&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제87조②,2026-10-06,연 300만원을 납입한도,
+27,40,%,청약 소득공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0087&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제87조②,2026-10-06,100분의 40,
+28,15.4,%,계산 결과,계산,calc.py,2026-10-06,,TAX+LOCAL
+29,"1,917",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+30,"2,333",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+31,"2,583",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+32,"23,000",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+33,"28,000",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+34,"31,000",원,계산 결과,계산,calc.py,2026-10-06,,table_rates
+35,"12,650",원,계산 결과,계산,calc.py,2026-10-06,,interest(11)
+36,"18,200",원,계산 결과,계산,calc.py,2026-10-06,,interest(12)
+37,"64,400",원,계산 결과,계산,calc.py,2026-10-06,,interest(23)
+38,"77,500",원,계산 결과,계산,calc.py,2026-10-06,,interest(24)
+39,"172,050",원,계산 결과,계산,calc.py,2026-10-06,,interest(36)
+40,"472,750",원,계산 결과,계산,calc.py,2026-10-06,,interest(60)
+41,"1,948",원,계산 결과,계산,calc.py,2026-10-06,,taxes(11)
+42,"2,802",원,계산 결과,계산,calc.py,2026-10-06,,taxes(12)
+43,"9,917",원,계산 결과,계산,calc.py,2026-10-06,,taxes(23)
+44,"11,935",원,계산 결과,계산,calc.py,2026-10-06,,taxes(24)
+45,"26,495",원,계산 결과,계산,calc.py,2026-10-06,,taxes(36)
+46,"72,803",원,계산 결과,계산,calc.py,2026-10-06,,taxes(60)
+47,"10,702",원,계산 결과,계산,calc.py,2026-10-06,,net(11)
+48,"15,398",원,계산 결과,계산,calc.py,2026-10-06,,net(12)
+49,"54,483",원,계산 결과,계산,calc.py,2026-10-06,,net(23)
+50,"65,565",원,계산 결과,계산,calc.py,2026-10-06,,net(24)
+51,"145,555",원,계산 결과,계산,calc.py,2026-10-06,,net(36)
+52,"399,947",원,계산 결과,계산,calc.py,2026-10-06,,net(60)
+53,"77,241",원,계산 결과,계산,calc.py,2026-10-06,,hold
+54,"12,841",원,계산 결과,계산,calc.py,2026-10-06,,hold-i23
+55,"2,731",원,계산 결과,계산,calc.py,2026-10-06,,net24/24
+56,"15,500",원,계산 결과,계산,calc.py,2026-10-06,,"interest(2만,24)"
+57,"193,750",원,계산 결과,계산,calc.py,2026-10-06,,"interest(25만,24)"
+58,"387,500",원,계산 결과,계산,calc.py,2026-10-06,,"interest(50만,24)"
+59,"465,000",원,계산 결과,계산,calc.py,2026-10-06,,lump
+60,"393,390",원,계산 결과,계산,calc.py,2026-10-06,,net(lump)
+61,"32,782",원,계산 결과,계산,calc.py,2026-10-06,,net(lump)/12
+62,"112,500",원,계산 결과,계산,calc.py,2026-10-06,,interest(youth)
+63,"95,175",원,계산 결과,계산,calc.py,2026-10-06,,net(youth)
+64,"46,935",원,계산 결과,계산,calc.py,2026-10-06,,youth-g_net
+65,1.4,%,계산 결과,계산,calc.py,2026-10-06,,TAX*LOCAL

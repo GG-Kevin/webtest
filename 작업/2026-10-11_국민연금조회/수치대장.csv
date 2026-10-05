@@ -1,0 +1,48 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,"3,193,511",원,2026년 적용 A값,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 소득활동 감액 주,2026-10-06,2026년 기준 3,A_2026
+2,32,종,앱 개인 조회 서비스 수,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0095M0.do?menuId=MN24001131,자주찾는 질문 앱 문항,2026-10-06,조회 (32종),APP_PERSONAL_INQ
+3,119,종,앱 전체 서비스 수,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0095M0.do?menuId=MN24001131,자주찾는 질문 앱 문항,2026-10-06,증명발급 등 119종 서비스,APP_SERVICES
+4,20,%,모의계산 예상소득상승률 상한,https://csa.nps.or.kr/ohkd/ntpsidnty/anpnctng/UHKD7701M0.do,기본정보 입력,2026-10-06,예상소득상승률(0~20%),GROWTH_MAX
+5,1355,-,공단 고객센터 번호,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,간단계산 안내 문구,2026-10-06,국번없이 1355,CALL
+6,10,년,노령연금 최소 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제61조①,2026-10-06,가입기간이 10년 이상인,-
+7,120,개월,10년을 개월로,계산,10년 × 12,2026-10-06,-,-
+8,60,세,가입 대상 상한(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0006&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제6조,2026-10-06,18세 이상 60세 미만,-
+9,1천290,천분의,기본연금액 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제51조①,2026-10-06,1천분의 1천290,RATIO_2026_PERMIL
+10,50,천분율,20년 초과 1년마다 가산,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제51조① 단서,2026-10-06,1천분의 50을 곱한,EXTRA_PERMIL
+11,500,천분율,10년 지급률,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0063&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제63조①2호,2026-10-06,기본연금액의 1천분의 500,pay_rate
+12,"7,989,629",원,B 300만원 연 기본연금액,계산,1.29×(A+B),2026-10-06,-,base_annual
+13,"665,800",원,B 300만원 20년 월 노령연금,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 B 300만원 20년,2026-10-06,"665,800",CASE_2026
+14,"450,800",원,월액표 B 100만원 20년,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표,2026-10-06,"450,800",NPS_TABLE
+15,"332,900",원,월액표 B 300만원 10년,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표,2026-10-06,"332,900",NPS_TABLE
+16,"410,000",원,월액표 B 41만원 25년(상한),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표,2026-10-06,"410,000",NPS_TABLE
+17,"1,159,950",원,월액표 B 400만원 30년,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표,2026-10-06,"1,159,950",NPS_TABLE
+18,1.8,배,2007년 가입월 비율,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,유족연금 유의사항 1,2026-10-06,1.8(A+B)xP2/P,ratio_permil
+19,1.5,배,2008년 가입월 비율,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,유족연금 유의사항 1,2026-10-06,1.5(A+B)xP3/P,ratio_permil
+20,1.245,배,2025년 가입월 비율,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,유족연금 유의사항 1,2026-10-06,1.245(A+B)xP20/P,ratio_permil
+21,1.29,배,2026년 이후 가입월 비율,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,노령연금 유의사항 1,2026-10-06,1.29(A+B)xP21/P,RATIO_2026_PERMIL
+22,1.30125,배,2016~2035 평균 비율,계산,연도별 비율 가중평균,2026-10-06,-,avg_ratio
+23,1.38975,배,2007~2026 평균 비율,계산,연도별 비율 가중평균,2026-10-06,-,avg_ratio
+24,"671,600",원,2016년부터 20년 월 노령연금,계산,표 2,2026-10-06,-,CASE_2016
+25,"717,280",원,2007년부터 20년 월 노령연금,계산,표 2,2026-10-06,-,CASE_2007
+26,"5,800",원,2016년 시작 차이,계산,표 2,2026-10-06,-,CASE_2016
+27,"51,480",원,2007년 시작 차이,계산,표 2,2026-10-06,-,DIFF_2007
+28,"617,760",원,2007년 시작 차이 연간,계산,51480×12,2026-10-06,-,DIFF_2007
+29,"25,550",원,배우자 부양가족연금 월,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,노령연금 유의사항 2,2026-10-06,"(월 25,550원)",-
+30,"17,030",원,자녀·부모 부양가족연금 월,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,노령연금 유의사항 2,2026-10-06,"(월 17,030원)",-
+31,"306,630",원,배우자 부양가족연금 연,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,노령연금 유의사항 2,2026-10-06,"연 306,630원",-
+32,"204,360",원,자녀·부모 부양가족연금 연,https://www.nps.or.kr/comm/quick/getOHAH0011P0.do,노령연금 유의사항 2,2026-10-06,"연 204,360원",-
+33,1.25,배,25년 가입 20년 초과 가산,계산,1+0.05×60/12,2026-10-06,-,base_annual
+34,"883,730",원,25년 월 노령연금,계산,표 3,2026-10-06,-,CONT
+35,"166,450",원,25년과 20년 월 차이,계산,표 3,2026-10-06,-,UP
+36,"1,997,400",원,25년과 20년 연 차이,계산,166450×12,2026-10-06,-,UP
+37,"19,800,000",원,5년 추가 보험료 전체,계산,표 3,2026-10-06,-,PREM_TOTAL
+38,"9,900,000",원,5년 추가 보험료 본인 몫,계산,표 3,2026-10-06,-,PREM_HALF
+39,9.5,%,2026년 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,연금보험료 사업장가입자,2026-10-06,9.5%로 부과된,premium_rate_permil
+40,13,%,2033년 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,연금보험료 사업장가입자,2026-10-06,2033년부터는 13%,premium_rate_permil
+41,0.5,%,해마다 인상 폭(%p),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,연금보험료 사업장가입자,2026-10-06,매년 0.5%p씩,premium_rate_permil
+42,"300,000",원,2027년 월 보험료(B 300만원),계산,300만원×10%,2026-10-06,-,premium_rate_permil
+43,"360,000",원,2031년 월 보험료(B 300만원),계산,300만원×12%,2026-10-06,-,premium_rate_permil
+44,65,세,1969년 이후 출생 지급개시연령,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 지급연령,2026-10-06,65세(조기노령연금의,-
+45,65,세,임의계속가입 신청 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0013&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제13조,2026-10-06,65세가 될 때까지,-
+46,60,개월,25년 중 20년 초과 월수,계산,300−240,2026-10-06,-,base_annual
+47,0.015,배,2008~2025 해마다 내려간 비율,계산,(1.5−1.245)÷17,2026-10-06,-,ratio_permil

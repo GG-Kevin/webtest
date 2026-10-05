@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="60" y="58" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">근속 10년, 5년차에 퇴직금을 중간정산하면</text>
+<text x="60" y="94" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30일분 평균임금 5년차 400만원 · 10년차 500만원 가정 · 2026년 10월 6일 근로자퇴직급여 보장법·소득세법 원문 기준</text>
+<text x="60" y="160" font-size="24" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">받는 퇴직금 합계</text>
+<text x="60" y="226" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">중간정산 없음</text>
+<text x="60" y="252" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10년 뒤 한 번에</text>
+<rect x="310" y="208" width="190.0" height="48" fill="#0f766e" rx="4"/>
+<text x="510.0" y="240" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5,000만원</text>
+<text x="60" y="336" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5년차 중간정산</text>
+<text x="60" y="362" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직 때 따로 계산</text>
+<rect x="310" y="318" width="171.0" height="48" fill="#94a3b8" rx="4"/>
+<text x="491.0" y="350" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4,500만원</text>
+<text x="60" y="446" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5년차 중간정산</text>
+<text x="60" y="472" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직 때 합산 정산</text>
+<rect x="310" y="428" width="171.0" height="48" fill="#2563eb" rx="4"/>
+<text x="491.0" y="460" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4,500만원</text>
+<text x="640" y="160" font-size="24" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직소득세 + 지방소득세</text>
+<text x="640" y="226" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">중간정산 없음</text>
+<text x="640" y="252" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10년 뒤 한 번에</text>
+<rect x="890" y="208" width="157.9" height="48" fill="#0f766e" rx="4"/>
+<text x="1057.9" y="240" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">748,000원</text>
+<text x="640" y="336" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5년차 중간정산</text>
+<text x="640" y="362" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직 때 따로 계산</text>
+<rect x="890" y="318" width="175.3" height="48" fill="#94a3b8" rx="4"/>
+<text x="1075.3" y="350" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">830,500원</text>
+<text x="640" y="446" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5년차 중간정산</text>
+<text x="640" y="472" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직 때 합산 정산</text>
+<rect x="890" y="428" width="130.0" height="48" fill="#2563eb" rx="4"/>
+<text x="1030.0" y="460" font-size="20" font-weight="700" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">616,000원</text>
+<text x="60" y="645" font-size="17" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">퇴직금 = 30일분 평균임금 × 근속연수(법 최저 기준) · 비과세 퇴직소득 없음 · 두 시점 모두 2026년 현행 세법 적용</text>
+</svg>
