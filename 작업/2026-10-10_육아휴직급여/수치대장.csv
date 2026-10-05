@@ -1,0 +1,67 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,250만,원,1~3개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①1,2026-10-06,250만원을 넘는 경우,CAP_1_3
+2,200만,원,4~6개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①2,2026-10-06,200만원을 넘는 경우,CAP_4_6
+3,80,%,7개월째부터 지급률,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①3,2026-10-06,월 통상임금의 100분의 80,RATE_7
+4,160만,원,7개월째부터 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①3,2026-10-06,160만원을 넘는 경우,CAP_7
+5,70만,원,하한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①,2026-10-06,70만원보다 적은 경우,FLOOR
+6,3,개월,첫 구간 끝,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①1,2026-10-06,시작일부터 3개월까지,
+7,6,개월,둘째 구간 끝,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①2,2026-10-06,4개월째부터 6개월째까지,
+8,7,개월,셋째 구간 시작,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조①3,2026-10-06,7개월째부터 종료일까지,
+9,2024. 12. 24.,날짜,사후 지급 근거 ④ 삭제일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조④,2026-10-06,삭제 <2024. 12. 24.>,
+10,30,일,급여 대상 휴직 최소 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조①,2026-10-06,육아휴직을 30일,
+11,180,일,피보험 단위기간 합산,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조①,2026-10-06,합산하여 180일 이상,
+12,7,일,1~2주 육아휴직 최소 부여일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조①,2026-10-06,육아휴직을 7일,
+13,12,개월,신청 기한(끝난 날 이후),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조②,2026-10-06,끝난 날 이후 12개월,
+14,1,개월,신청 시작(시작일 이후),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조②,2026-10-06,이후 1개월부터,
+15,30,일,사유 끝난 뒤 신청,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제70조②,2026-10-06,끝난 후 30일 이내,
+16,18,개월,부모 특례 자녀 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①,2026-10-06,출생 후 18개월,
+17,250만,원,부모 특례 1·2개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①1,2026-10-06,월 250만원,CAP_BOTH
+18,300만,원,부모 특례 3개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①1,2026-10-06,세 번째 달은 월 300만원,CAP_BOTH
+19,350만,원,부모 특례 4개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①1,2026-10-06,네 번째 달은 월 350만원,CAP_BOTH
+20,400만,원,부모 특례 5개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①1,2026-10-06,다섯 번째 달은 월 400만원,CAP_BOTH
+21,450만,원,부모 특례 6개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3①1,2026-10-06,여섯 번째 달은 월 450만원,CAP_BOTH
+22,300만,원,한부모 1~3개월째 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288717&joNo=0095&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제95조의3③1,2026-10-06,300만원을 넘는 경우,CAP_SINGLE_1_3
+23,1,년,육아휴직 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조②,2026-10-06,1년 이내로 한다,
+24,6,개월,추가 사용 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조②,2026-10-06,6개월 이내에서 추가로,
+25,3,개월,부모 각각 사용 요건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조②1,2026-10-06,각각 3개월 이상 사용,
+26,8,세,대상 자녀 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조①,2026-10-06,만 8세 이하,
+27,2,학년,대상 자녀 학년,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조①,2026-10-06,초등학교 2학년 이하,
+28,2026. 2. 19.,날짜,1~2주 육아휴직 신설,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조⑥⑦,2026-10-06,신설 2026. 2. 19.,
+29,2026. 9. 18.,날짜,조문 시행판,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,머리글,2026-10-06,시행 2026. 9. 18.,
+30,1,회,1~2주 육아휴직 연 횟수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조⑦,2026-10-06,1년에 1회에 한정,
+31,2,주,1~2주 육아휴직 길이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조⑦,2026-10-06,1주 또는 2주로 한다,
+32,3,회,나눠 쓰기 횟수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조의4①,2026-10-06,3회에 한정하여,
+33,1,개월,단축 1회 최소 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284457&joNo=0019&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,남녀고용평등법 제19조의4②,2026-10-06,1회의 기간은 1개월,
+34,30,일,단축급여 최소 실시 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0073&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제73조의2①,2026-10-06,단축을 30일,
+35,180,일,단축급여 피보험 단위기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0073&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제73조의2①,2026-10-06,합산하여 180일 이상,
+36,12,개월,단축급여 신청 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284449&joNo=0073&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,고용보험법 제73조의2②,2026-10-06,끝난 날 이후 12개월,
+37,15,시간,취업으로 보는 주 소정근로시간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288723&joNo=0116&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행규칙 제116조③1,2026-10-06,15시간 이상인 경우,
+38,150만,원,취업으로 보는 월 소득,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288723&joNo=0116&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행규칙 제116조③2,2026-10-06,월 150만원 이상인 경우,
+39,100,호,급여 신청서 서식 번호,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288723&joNo=0116&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행규칙 제116조①,2026-10-06,별지 제100호서식,
+40,2025. 1. 1.,날짜,종전 규정 적용 경계(부칙 제7조),"부칙 대통령령 제35100호 제7조 — 국가법령정보센터 전문 화면(POST lsInfoR.do, lsiSeq=288717)에서만 읽힘",시행령 부칙 제7조,2026-10-06,2025년 1월 1일 전에,
+41,150만,원,가정 통상임금,계산,calc.py,2026-10-06,,WAGES
+42,200만,원,가정 통상임금,계산,calc.py,2026-10-06,,WAGES
+43,300만,원,가정 통상임금,계산,calc.py,2026-10-06,,WAGES
+44,500만,원,가정 통상임금,계산,calc.py,2026-10-06,,WAGES
+45,120만,원,150만원 7개월째 월액,계산,calc.py,2026-10-06,,month_pay
+46,900만,원,150만원 6개월 합계,계산,calc.py,2026-10-06,,total
+47,"1,620만",원,150만원 12개월 합계,계산,calc.py,2026-10-06,,total
+48,"1,200만",원,200만원 6개월 합계,계산,calc.py,2026-10-06,,total
+49,"2,160만",원,200만원 12개월 합계,계산,calc.py,2026-10-06,,total
+50,"1,350만",원,300·500만원 6개월 합계,계산,calc.py,2026-10-06,,total
+51,"2,310만",원,300·500만원 12개월 합계,계산,calc.py,2026-10-06,,total
+52,192만,원,300만원 12개월 월평균,계산,calc.py,2026-10-06,,t12
+53,"1,700만",원,300만원 부모 특례 6개월,계산,calc.py,2026-10-06,,total
+54,"2,000만",원,500만원 부모 특례 6개월,계산,calc.py,2026-10-06,,total
+55,350만,원,300만원 부모 특례 차이,계산,calc.py,2026-10-06,,total
+56,650만,원,500만원 부모 특례 차이,계산,calc.py,2026-10-06,,total
+57,0,원,200만원 부모 특례 차이,계산,calc.py,2026-10-06,,total
+58,"2,660만",원,300만원 부모 특례 포함 12개월,계산,calc.py,2026-10-06,,total
+59,"4,000만",원,500만원 부부 두 사람 6개월,계산,calc.py,2026-10-06,,total
+60,960만,원,13~18개월째 추가분,계산,calc.py,2026-10-06,,ext
+61,"3,270만",원,18개월 합계,계산,calc.py,2026-10-06,,total
+62,100만,원,가정 회사 지급 금품,계산,calc.py,2026-10-06,,company
+63,50만,원,통상임금 초과분,계산,calc.py,2026-10-06,,reduce_pay
+64,200만,원,감액 뒤 급여,계산,calc.py,2026-10-06,,reduce_pay
+65,150만,원,한부모 1~3개월 추가분,계산,calc.py,2026-10-06,,s
+66,"2,460만",원,한부모 12개월 합계,계산,calc.py,2026-10-06,,total
