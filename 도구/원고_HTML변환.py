@@ -190,6 +190,7 @@ def convert_text(src, default_pub=None):
             if len(alt) < 10:
                 raise SpecError(f"그림 alt가 10자 미만: 「{alt}」({src_})")
             out.append(f'<figure style="{FIG}"><img src="{H.escape(src_)}" alt="{H.escape(alt)}" style="{IMG}"></figure>')
+            out.append(f'<p style="{P}">&nbsp;</p>')  # H-233: 그림 다음 빈 줄 하나
             k += 1; continue
         if s.startswith(">"):
             buf = []

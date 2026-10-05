@@ -31,6 +31,7 @@
 </tbody></table></div>
 <p style="margin:0 0 19px;line-height:1.85;">이 글이 올라가는 10월 9일에는 위의 세 곳(멜콘·진코스텍·엘리스그룹)이 이미 청약을 마쳤습니다. 하루에 가장 많이 겹치는 날은 10월 20일(화)로, 다섯 곳이 동시에 청약을 받습니다. 진코스텍은 10월 2일(금)에 시작해 6일(화)에 끝나는데, 그 사이 3일 개천절과 5일 대체공휴일이 있어 실제 청약일은 이틀입니다. 10월 5일 국내 증시가 쉬는 이유와 미국 시장과의 차이는 <a href="https://moneyproducer.co.kr/27" style="color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;text-decoration:none;padding-bottom:1px;">2026년 10월 5일 쉬는 날 맞나요</a>에 따로 정리해 두었으니, 날짜가 헷갈리는 분은 거기서 함께 보면 됩니다.</p>
 <figure style="margin:28px 0;text-align:center;"><img src="그림/01_대표.svg" alt="2026년 10월 달력 위에 날짜마다 청약을 받는 공모 수와 환불되는 곳 수를 표시한 그림" style="max-width:100%;height:auto;"></figure>
+<p style="margin:0 0 19px;line-height:1.85;">&nbsp;</p>
 <h2 id="q2" style="margin:52px 0 18px;font-size:1.34em;line-height:1.45;font-weight:800;color:#16212e;">공모주 청약 증거금은 얼마를 넣어야 하나요</h2>
 <p style="margin:0 0 19px;line-height:1.85;">증거금은 「공모가 × 청약 수량 × 증거금률」입니다. 18곳 모두 일반청약자 증거금률이 증권신고서에 적혀 있는데, 일반 공모 15곳은 50%, 스팩 3곳은 100%였습니다.</p>
 <p style="margin:0 0 19px;line-height:1.85;">최소 금액을 정하는 건 최소 청약 수량입니다. 18곳 중 11곳은 10주부터, 7곳은 20주부터 받습니다. 예를 들어 <a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000656" target="_blank" rel="noopener" style="color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;text-decoration:none;padding-bottom:1px;">엘리스그룹 증권신고서</a>는 희망공모가 70,400~90,500원, 청약단위 20주부터, 증거금률 50%입니다. 그러면 최소 증거금은 704,000~905,000원이 됩니다. 반대로 스팩은 공모가 2,000원에 10주, 증거금 100%라서 2만원이면 됩니다.</p>

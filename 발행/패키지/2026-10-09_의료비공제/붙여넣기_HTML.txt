@@ -44,6 +44,7 @@
 <tr><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">1억원</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">300만원</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">25만원</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">1,000만원</td></tr>
 </tbody></table></div>
 <figure style="margin:28px 0;text-align:center;"><img src="그림/01_대표.svg" alt="총급여 4천만원과 6천만원일 때 의료비 지출이 늘면서 소득세 공제액이 3% 문턱 뒤부터 오르다가 105만원에서 멈추는 모양을 비교한 그림" style="max-width:100%;height:auto;"></figure>
+<p style="margin:0 0 19px;line-height:1.85;">&nbsp;</p>
 <p style="margin:0 0 19px;line-height:1.85;">본인이나 65세 이상 부모처럼 한도가 없는 사람의 의료비가 섞이면 결과가 달라집니다. 총급여 6천만원인 근로자가 배우자 의료비 1,000만원과 70세 부모 의료비 300만원을 냈다고 놓아 보겠습니다. 문턱 180만원은 배우자 몫에서 빠지고, 남은 820만원 가운데 700만원만 대상이 되어 120만원은 잘립니다. 부모 몫 300만원은 한도 없이 전부 들어가서 소득세 공제는 150만원, 지방소득세까지 165만원입니다.</p>
 <h2 id="q4" style="margin:52px 0 18px;font-size:1.34em;line-height:1.45;font-weight:800;color:#16212e;">3% 문턱은 어느 의료비에서 먼저 빠지나요</h2>
 <p style="margin:0 0 19px;line-height:1.85;">조문 순서대로 빠집니다. 제1호(일반 부양가족)에서 먼저 빼고, 모자라면 제2호(본인·65세 이상 등), 그다음 제3호(미숙아·선천성이상아), 마지막으로 제4호(난임시술비)에서 뺍니다. 각 호의 단서가 「앞 호의 의료비가 3%에 미달하면 그 미달 금액을 뺀다」고 적어 두었기 때문입니다. 공제율이 낮은 의료비가 문턱을 먼저 채우므로, 공제율 30%인 난임시술비는 최대한 남게 됩니다.</p>
@@ -57,6 +58,7 @@
 <tr><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">합계</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">550만원</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">150만원</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">-</td><td style="padding:10px 12px;border-bottom:1px solid #e6e8ea;vertical-align:top;">1,200,000원</td></tr>
 </tbody></table></div>
 <figure style="margin:28px 0;text-align:center;"><img src="그림/02_순서.svg" alt="총급여 5천만원의 3% 문턱 150만원이 배우자 50만원과 본인 100만원 의료비에서 먼저 빠지고 난임시술비 400만원은 그대로 30% 공제 대상으로 남는 순서를 나타낸 그림" style="max-width:100%;height:auto;"></figure>
+<p style="margin:0 0 19px;line-height:1.85;">&nbsp;</p>
 <p style="margin:0 0 19px;line-height:1.85;">문턱을 난임시술비에서 먼저 뺀다고 잘못 놓으면 공제액이 975,000원으로 나와 조문대로 계산한 값보다 225,000원 적습니다. 지방소득세까지 넣으면 조문대로 계산한 금액은 132만원입니다.</p>
 <p style="margin:0 0 19px;line-height:1.85;">위 표와 그림의 숫자를 어떻게 맞췄는지도 적어 둡니다. 10월 5일에 소득세법 제59조의4·제61조, 시행령 제113조·제118조의5·제216조의3, 시행규칙 제58조를 법령 사이트에서 조문 하나씩 열어 공제율·한도·순서 문구를 받아 적었고, 그 문구를 파이썬 함수로 바꿔 예시 금액을 넣고 돌린 출력이 이 글의 표입니다. 공제가 안 되는 비용 목록은 같은 날 국세청 원천세 안내의 <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6595&amp;cntntsId=7874" target="_blank" rel="noopener" style="color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;text-decoration:none;padding-bottom:1px;">특별세액공제 화면</a>에서 옮겼습니다.</p>
 <h2 id="q5" style="margin:52px 0 18px;font-size:1.34em;line-height:1.45;font-weight:800;color:#16212e;">안경·콘택트렌즈·산후조리원은 얼마까지 들어가나요</h2>
