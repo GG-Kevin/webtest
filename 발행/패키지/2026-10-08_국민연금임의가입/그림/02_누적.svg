@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#ffffff"/>
+<text x="120" y="50" font-size="30" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">연금 누적액이 10년 보험료 합계를 넘는 달</text>
+<text x="120" y="84" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">최저선으로 2027년부터 10년 납부 · 물가·재평가 없는 명목 계산</text>
+<line x1="120" y1="510.0" x2="1150" y2="510.0" stroke="#e5e7eb"/>
+<text x="108" y="516.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="120" y1="410.0" x2="1150" y2="410.0" stroke="#e5e7eb"/>
+<text x="108" y="416.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">500만</text>
+<line x1="120" y1="310.0" x2="1150" y2="310.0" stroke="#e5e7eb"/>
+<text x="108" y="316.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,000만</text>
+<line x1="120" y1="210.0" x2="1150" y2="210.0" stroke="#e5e7eb"/>
+<text x="108" y="216.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,500만</text>
+<line x1="120" y1="110.0" x2="1150" y2="110.0" stroke="#e5e7eb"/>
+<text x="108" y="116.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2,000만</text>
+<text x="120.0" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0개월</text>
+<text x="267.1" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12개월</text>
+<text x="414.3" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">24개월</text>
+<text x="561.4" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">36개월</text>
+<text x="708.6" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">48개월</text>
+<text x="855.7" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60개월</text>
+<text x="1002.9" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">72개월</text>
+<text x="1150.0" y="540" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">84개월</text>
+<line x1="120" y1="219.5" x2="1150" y2="219.5" stroke="#94a3b8" stroke-width="3" stroke-dasharray="10 6"/>
+<text x="1150" y="207.5" font-size="18" text-anchor="end" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10년 낸 보험료 합계 14,526,240원</text>
+<line x1="120.0" y1="510.0" x2="1150.0" y2="130.2" stroke="#0a6350" stroke-width="4"/>
+<text x="365.2" y="405.6" font-size="18" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 226,090원씩 쌓이는 연금</text>
+<circle cx="917.0" cy="216.1" r="9" fill="#b45309"/>
+<text x="931.0" y="256.1" font-size="20" font-weight="700" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">65개월째</text>
+<text x="635.0" y="580" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">연금 받기 시작한 뒤 개월 수 · A값 3,193,511원 가정</text>
+</svg>

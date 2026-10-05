@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="110" y="54" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 수별 국민연금 추가 가입기간</text>
+<text x="110" y="92" font-size="20" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">국민연금법 제19조 · 2026년 10월 5일 국가법령정보센터 원문 기준 · 단위 개월</text>
+<line x1="110" y1="575.0" x2="1160" y2="575.0" stroke="#e5e7eb"/>
+<text x="98" y="581.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0</text>
+<line x1="110" y1="502.5" x2="1160" y2="502.5" stroke="#e5e7eb"/>
+<text x="98" y="508.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">15</text>
+<line x1="110" y1="430.0" x2="1160" y2="430.0" stroke="#e5e7eb"/>
+<text x="98" y="436.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30</text>
+<line x1="110" y1="357.5" x2="1160" y2="357.5" stroke="#e5e7eb"/>
+<text x="98" y="363.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">45</text>
+<line x1="110" y1="285.0" x2="1160" y2="285.0" stroke="#e5e7eb"/>
+<text x="98" y="291.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60</text>
+<line x1="110" y1="212.5" x2="1160" y2="212.5" stroke="#e5e7eb"/>
+<text x="98" y="218.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">75</text>
+<line x1="110" y1="140.0" x2="1160" y2="140.0" stroke="#e5e7eb"/>
+<text x="98" y="146.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">90</text>
+<line x1="110" y1="333.3" x2="1160" y2="333.3" stroke="#b91c1c" stroke-dasharray="8 6" stroke-width="2"/>
+<text x="1154" y="325.3" font-size="17" text-anchor="end" fill="#b91c1c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">종전 상한 50개월(2026년부터 없어짐)</text>
+<rect x="143.6" y="517.0" width="61.2" height="58.0" fill="#0a6350"/>
+<text x="174.2" y="509.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12</text>
+<rect x="210.8" y="575.0" width="61.2" height="0.0" fill="#9aa5b1"/>
+<text x="241.4" y="567.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0</text>
+<text x="215.0" y="609" font-size="20" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 1명</text>
+<rect x="353.6" y="459.0" width="61.2" height="116.0" fill="#0a6350"/>
+<text x="384.2" y="451.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">24</text>
+<rect x="420.8" y="517.0" width="61.2" height="58.0" fill="#9aa5b1"/>
+<text x="451.4" y="509.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12</text>
+<text x="425.0" y="609" font-size="20" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 2명</text>
+<rect x="563.6" y="372.0" width="61.2" height="203.0" fill="#0a6350"/>
+<text x="594.2" y="364.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">42</text>
+<rect x="630.8" y="430.0" width="61.2" height="145.0" fill="#9aa5b1"/>
+<text x="661.4" y="422.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30</text>
+<text x="635.0" y="609" font-size="20" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 3명</text>
+<rect x="773.6" y="285.0" width="61.2" height="290.0" fill="#0a6350"/>
+<text x="804.2" y="277.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60</text>
+<rect x="840.8" y="343.0" width="61.2" height="232.0" fill="#9aa5b1"/>
+<text x="871.4" y="335.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">48</text>
+<text x="845.0" y="609" font-size="20" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 4명</text>
+<rect x="983.6" y="198.0" width="61.2" height="377.0" fill="#0a6350"/>
+<text x="1014.2" y="190.0" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">78</text>
+<rect x="1050.8" y="333.3" width="61.2" height="241.7" fill="#9aa5b1"/>
+<text x="1081.4" y="325.3" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">50</text>
+<text x="1055.0" y="609" font-size="20" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 5명</text>
+<rect x="110" y="629" width="20" height="20" fill="#0a6350"/>
+<text x="140" y="645" font-size="18" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">첫째를 2026년 1월 1일 이후 얻은 경우</text>
+<rect x="540" y="629" width="20" height="20" fill="#9aa5b1"/>
+<text x="570" y="645" font-size="18" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀를 모두 2008~2025년에 얻은 경우</text>
+</svg>

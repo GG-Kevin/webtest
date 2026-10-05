@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="120.0" y="56.0" font-size="32" font-weight="700" text-anchor="start" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">국민연금 추납, 내는 돈과 늘어나는 월 연금</text>
+<text x="120.0" y="92.0" font-size="19" font-weight="400" text-anchor="start" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">기준소득월액 100만원 · 2026년 보험료율 9.5% · 늘어나는 연금은 2026년 A값과 B = 100만원 가정</text>
+<text x="120.0" y="120.0" font-size="17" font-weight="400" text-anchor="start" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2026년 10월 5일 국민연금법 제51조·제92조, 국민연금공단 추납 안내 원문으로 계산</text>
+<line x1="120" y1="565.0" x2="1140" y2="565.0" stroke="#e5e7eb"/>
+<text x="108.0" y="571.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="120" y1="505.7" x2="1140" y2="505.7" stroke="#e5e7eb"/>
+<text x="108.0" y="511.7" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200만</text>
+<line x1="120" y1="446.4" x2="1140" y2="446.4" stroke="#e5e7eb"/>
+<text x="108.0" y="452.4" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">400만</text>
+<line x1="120" y1="387.1" x2="1140" y2="387.1" stroke="#e5e7eb"/>
+<text x="108.0" y="393.1" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">600만</text>
+<line x1="120" y1="327.9" x2="1140" y2="327.9" stroke="#e5e7eb"/>
+<text x="108.0" y="333.9" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">800만</text>
+<line x1="120" y1="268.6" x2="1140" y2="268.6" stroke="#e5e7eb"/>
+<text x="108.0" y="274.6" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,000만</text>
+<line x1="120" y1="209.3" x2="1140" y2="209.3" stroke="#e5e7eb"/>
+<text x="108.0" y="215.3" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,200만</text>
+<line x1="120" y1="150.0" x2="1140" y2="150.0" stroke="#e5e7eb"/>
+<text x="108.0" y="156.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,400만</text>
+<rect x="188.8" y="531.2" width="117.3" height="33.8" fill="#0a6350" rx="4"/>
+<text x="247.5" y="491.2" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추납 1,140,000원</text>
+<text x="247.5" y="517.2" font-size="19" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 연금 +22,540원</text>
+<text x="247.5" y="599.0" font-size="21" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12개월</text>
+<rect x="443.9" y="463.6" width="117.3" height="101.4" fill="#0a6350" rx="4"/>
+<text x="502.5" y="423.6" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추납 3,420,000원</text>
+<text x="502.5" y="449.6" font-size="19" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 연금 +67,620원</text>
+<text x="502.5" y="599.0" font-size="21" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">36개월</text>
+<rect x="698.9" y="396.0" width="117.3" height="169.0" fill="#0a6350" rx="4"/>
+<text x="757.5" y="356.0" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추납 5,700,000원</text>
+<text x="757.5" y="382.0" font-size="19" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 연금 +112,700원</text>
+<text x="757.5" y="599.0" font-size="21" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60개월</text>
+<rect x="953.9" y="229.9" width="117.3" height="335.1" fill="#0a6350" rx="4"/>
+<text x="1012.5" y="189.9" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추납 11,305,000원</text>
+<text x="1012.5" y="215.9" font-size="19" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 연금 +223,522원</text>
+<text x="1012.5" y="599.0" font-size="21" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">119개월</text>
+<text x="120.0" y="645.0" font-size="16" font-weight="400" text-anchor="start" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">늘어나는 월 연금은 물가·재평가를 넣지 않은 단순 계산입니다. 본인 가입 이력에 따라 달라집니다.</text>
+</svg>

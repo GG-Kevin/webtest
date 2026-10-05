@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="#ffffff"/>
+<text x="60.0" y="56.0" font-size="30" font-weight="700" text-anchor="start" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">일시납 추납은 신청한 다음 달 말일이 납부기한입니다</text>
+<text x="60.0" y="92.0" font-size="19" font-weight="400" text-anchor="start" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">보험료율은 납부기한이 든 달 기준 · 기준소득월액 100만원, 36개월 일시납 예시</text>
+<line x1="80" y1="250" x2="1120" y2="250" stroke="#9aa5b1" stroke-width="3"/>
+<line x1="640" y1="140" x2="640" y2="400" stroke="#b45309" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="630.0" y="132.0" font-size="18" font-weight="700" text-anchor="end" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2026년</text>
+<text x="650.0" y="132.0" font-size="18" font-weight="700" text-anchor="start" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2027년</text>
+<rect x="80" y="320" width="560" height="54" fill="#e8f4f0"/>
+<text x="360.0" y="354.0" font-size="21" font-weight="700" text-anchor="middle" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">보험료율 9.5%</text>
+<rect x="640" y="320" width="480" height="54" fill="#fdf1e3"/>
+<text x="880.0" y="354.0" font-size="21" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">보험료율 10.0%</text>
+<circle cx="180" cy="250" r="9" fill="#16212e"/>
+<circle cx="420" cy="250" r="9" fill="#16212e"/>
+<circle cx="520" cy="250" r="9" fill="#16212e"/>
+<circle cx="860" cy="250" r="9" fill="#16212e"/>
+<text x="180.0" y="226.0" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">11월 신청</text>
+<text x="420.0" y="226.0" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12월 31일 기한</text>
+<text x="300.0" y="190.0" font-size="22" font-weight="700" text-anchor="middle" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3,420,000원</text>
+<text x="520.0" y="290.0" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12월 신청</text>
+<text x="860.0" y="290.0" font-size="19" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1월 31일 기한</text>
+<text x="760.0" y="190.0" font-size="22" font-weight="700" text-anchor="middle" fill="#b45309" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3,600,000원</text>
+<text x="60.0" y="480.0" font-size="17" font-weight="400" text-anchor="start" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">같은 36개월, 같은 기준소득월액이어도 차이 180,000원 · 분할 납부의 기준 달은 원문에서 확인되지 않았습니다.</text>
+</svg>

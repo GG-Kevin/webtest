@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="120" y="54" font-size="32" font-weight="700" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">의료비가 늘 때 소득세 공제액은 이렇게 움직입니다</text>
+<text x="120" y="92" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">일반 부양가족 의료비 기준 · 총급여 3% 문턱 뒤 15% · 연 700만원 한도 · 2026년 10월 5일 소득세법 제59조의4 기준</text>
+<line x1="120" y1="575.0" x2="1140" y2="575.0" stroke="#e5e7eb"/>
+<text x="108" y="581.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="120" y1="500.8" x2="1140" y2="500.8" stroke="#e5e7eb"/>
+<text x="108" y="506.8" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">20만</text>
+<line x1="120" y1="426.7" x2="1140" y2="426.7" stroke="#e5e7eb"/>
+<text x="108" y="432.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">40만</text>
+<line x1="120" y1="352.5" x2="1140" y2="352.5" stroke="#e5e7eb"/>
+<text x="108" y="358.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60만</text>
+<line x1="120" y1="278.3" x2="1140" y2="278.3" stroke="#e5e7eb"/>
+<text x="108" y="284.3" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">80만</text>
+<line x1="120" y1="204.2" x2="1140" y2="204.2" stroke="#e5e7eb"/>
+<text x="108" y="210.2" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">100만</text>
+<line x1="120" y1="130.0" x2="1140" y2="130.0" stroke="#e5e7eb"/>
+<text x="108" y="136.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">120만</text>
+<text x="120.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<text x="290.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200만</text>
+<text x="460.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">400만</text>
+<text x="630.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">600만</text>
+<text x="800.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">800만</text>
+<text x="970.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,000만</text>
+<text x="1140.0" y="605" font-size="17" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1,200만</text>
+<text x="630.0" y="651" font-size="18" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1년 의료비 지출(원)</text>
+<polyline points="120.0,575.0 128.5,575.0 137.0,575.0 145.5,575.0 154.0,575.0 162.5,575.0 171.0,575.0 179.5,575.0 188.0,575.0 196.5,575.0 205.0,575.0 213.5,575.0 222.0,575.0 230.5,569.4 239.0,563.9 247.5,558.3 256.0,552.8 264.5,547.2 273.0,541.6 281.5,536.1 290.0,530.5 298.5,524.9 307.0,519.4 315.5,513.8 324.0,508.2 332.5,502.7 341.0,497.1 349.5,491.6 358.0,486.0 366.5,480.4 375.0,474.9 383.5,469.3 392.0,463.8 400.5,458.2 409.0,452.6 417.5,447.1 426.0,441.5 434.5,435.9 443.0,430.4 451.5,424.8 460.0,419.2 468.5,413.7 477.0,408.1 485.5,402.6 494.0,397.0 502.5,391.4 511.0,385.9 519.5,380.3 528.0,374.8 536.5,369.2 545.0,363.6 553.5,358.1 562.0,352.5 570.5,346.9 579.0,341.4 587.5,335.8 596.0,330.2 604.5,324.7 613.0,319.1 621.5,313.6 630.0,308.0 638.5,302.4 647.0,296.9 655.5,291.3 664.0,285.8 672.5,280.2 681.0,274.6 689.5,269.1 698.0,263.5 706.5,257.9 715.0,252.4 723.5,246.8 732.0,241.2 740.5,235.7 749.0,230.1 757.5,224.6 766.0,219.0 774.5,213.4 783.0,207.9 791.5,202.3 800.0,196.8 808.5,191.2 817.0,185.6 825.5,185.6 834.0,185.6 842.5,185.6 851.0,185.6 859.5,185.6 868.0,185.6 876.5,185.6 885.0,185.6 893.5,185.6 902.0,185.6 910.5,185.6 919.0,185.6 927.5,185.6 936.0,185.6 944.5,185.6 953.0,185.6 961.5,185.6 970.0,185.6 978.5,185.6 987.0,185.6 995.5,185.6 1004.0,185.6 1012.5,185.6 1021.0,185.6 1029.5,185.6 1038.0,185.6 1046.5,185.6 1055.0,185.6 1063.5,185.6 1072.0,185.6 1080.5,185.6 1089.0,185.6 1097.5,185.6 1106.0,185.6 1114.5,185.6 1123.0,185.6 1131.5,185.6 1140.0,185.6" fill="none" stroke="#0a6350" stroke-width="4"/>
+<circle cx="222.0" cy="575.0" r="7" fill="#0a6350"/>
+<circle cx="817.0" cy="185.6" r="7" fill="#0a6350"/>
+<text x="222.0" y="559.0" font-size="17" text-anchor="middle" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">120만부터</text>
+<text x="827.0" y="219.6" font-size="17" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">820만에서 한도</text>
+<rect x="150" y="140" width="26" height="8" fill="#0a6350"/>
+<text x="186" y="150" font-size="19" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">총급여 4,000만원</text>
+<polyline points="120.0,575.0 128.5,575.0 137.0,575.0 145.5,575.0 154.0,575.0 162.5,575.0 171.0,575.0 179.5,575.0 188.0,575.0 196.5,575.0 205.0,575.0 213.5,575.0 222.0,575.0 230.5,575.0 239.0,575.0 247.5,575.0 256.0,575.0 264.5,575.0 273.0,575.0 281.5,569.4 290.0,563.9 298.5,558.3 307.0,552.8 315.5,547.2 324.0,541.6 332.5,536.1 341.0,530.5 349.5,524.9 358.0,519.4 366.5,513.8 375.0,508.2 383.5,502.7 392.0,497.1 400.5,491.6 409.0,486.0 417.5,480.4 426.0,474.9 434.5,469.3 443.0,463.8 451.5,458.2 460.0,452.6 468.5,447.1 477.0,441.5 485.5,435.9 494.0,430.4 502.5,424.8 511.0,419.2 519.5,413.7 528.0,408.1 536.5,402.6 545.0,397.0 553.5,391.4 562.0,385.9 570.5,380.3 579.0,374.8 587.5,369.2 596.0,363.6 604.5,358.1 613.0,352.5 621.5,346.9 630.0,341.4 638.5,335.8 647.0,330.2 655.5,324.7 664.0,319.1 672.5,313.6 681.0,308.0 689.5,302.4 698.0,296.9 706.5,291.3 715.0,285.8 723.5,280.2 732.0,274.6 740.5,269.1 749.0,263.5 757.5,257.9 766.0,252.4 774.5,246.8 783.0,241.2 791.5,235.7 800.0,230.1 808.5,224.6 817.0,219.0 825.5,213.4 834.0,207.9 842.5,202.3 851.0,196.8 859.5,191.2 868.0,185.6 876.5,185.6 885.0,185.6 893.5,185.6 902.0,185.6 910.5,185.6 919.0,185.6 927.5,185.6 936.0,185.6 944.5,185.6 953.0,185.6 961.5,185.6 970.0,185.6 978.5,185.6 987.0,185.6 995.5,185.6 1004.0,185.6 1012.5,185.6 1021.0,185.6 1029.5,185.6 1038.0,185.6 1046.5,185.6 1055.0,185.6 1063.5,185.6 1072.0,185.6 1080.5,185.6 1089.0,185.6 1097.5,185.6 1106.0,185.6 1114.5,185.6 1123.0,185.6 1131.5,185.6 1140.0,185.6" fill="none" stroke="#c2410c" stroke-width="4"/>
+<circle cx="273.0" cy="575.0" r="7" fill="#c2410c"/>
+<circle cx="868.0" cy="185.6" r="7" fill="#c2410c"/>
+<text x="273.0" y="533.0" font-size="17" text-anchor="middle" fill="#c2410c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">180만부터</text>
+<text x="878.0" y="245.6" font-size="17" fill="#c2410c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">880만에서 한도</text>
+<rect x="150" y="174" width="26" height="8" fill="#c2410c"/>
+<text x="186" y="184" font-size="19" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">총급여 6,000만원</text>
+<text x="1012.5" y="171.6" font-size="18" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">최대 105만원</text>
+</svg>

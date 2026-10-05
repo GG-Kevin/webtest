@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="110" y="52" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">주택연금 월지급금, 나이와 집값에 따라 이렇게 달라집니다</text>
+<text x="110" y="90" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">종신지급방식 정액형 · 일반주택 · 한국주택금융공사 월지급금 예시(2026년 10월 5일 열람 기준) · 단위 만원</text>
+<line x1="110" y1="580.0" x2="1050" y2="580.0" stroke="#e5e7eb"/>
+<text x="98" y="586.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0</text>
+<line x1="110" y1="529.4" x2="1050" y2="529.4" stroke="#e5e7eb"/>
+<text x="98" y="535.4" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">50</text>
+<line x1="110" y1="478.9" x2="1050" y2="478.9" stroke="#e5e7eb"/>
+<text x="98" y="484.9" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">100</text>
+<line x1="110" y1="428.3" x2="1050" y2="428.3" stroke="#e5e7eb"/>
+<text x="98" y="434.3" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">150</text>
+<line x1="110" y1="377.8" x2="1050" y2="377.8" stroke="#e5e7eb"/>
+<text x="98" y="383.8" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200</text>
+<line x1="110" y1="327.2" x2="1050" y2="327.2" stroke="#e5e7eb"/>
+<text x="98" y="333.2" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<line x1="110" y1="276.7" x2="1050" y2="276.7" stroke="#e5e7eb"/>
+<text x="98" y="282.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300</text>
+<line x1="110" y1="226.1" x2="1050" y2="226.1" stroke="#e5e7eb"/>
+<text x="98" y="232.1" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">350</text>
+<line x1="110" y1="175.6" x2="1050" y2="175.6" stroke="#e5e7eb"/>
+<text x="98" y="181.6" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">400</text>
+<line x1="110" y1="125.0" x2="1050" y2="125.0" stroke="#e5e7eb"/>
+<text x="98" y="131.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">450</text>
+<text x="110.0" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1억</text>
+<text x="195.5" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2억</text>
+<text x="280.9" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3억</text>
+<text x="366.4" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4억</text>
+<text x="451.8" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5억</text>
+<text x="537.3" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">6억</text>
+<text x="622.7" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">7억</text>
+<text x="708.2" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">8억</text>
+<text x="793.6" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">9억</text>
+<text x="879.1" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10억</text>
+<text x="964.5" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">11억</text>
+<text x="1050.0" y="610" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12억</text>
+<text x="580.0" y="644" font-size="18" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">공사가 인정하는 주택 시세(12억원을 넘으면 12억원으로 봄)</text>
+<polyline points="110.0,564.2 195.5,548.5 280.9,532.7 366.4,516.9 451.8,501.1 537.3,485.4 622.7,469.6 708.2,453.8 793.6,438.0 879.1,422.3 964.5,406.5 1050.0,390.7" fill="none" stroke="#94a3b8" stroke-width="4"/>
+<circle cx="110.0" cy="564.2" r="4.5" fill="#94a3b8"/>
+<circle cx="195.5" cy="548.5" r="4.5" fill="#94a3b8"/>
+<circle cx="280.9" cy="532.7" r="4.5" fill="#94a3b8"/>
+<circle cx="366.4" cy="516.9" r="4.5" fill="#94a3b8"/>
+<circle cx="451.8" cy="501.1" r="4.5" fill="#94a3b8"/>
+<circle cx="537.3" cy="485.4" r="4.5" fill="#94a3b8"/>
+<circle cx="622.7" cy="469.6" r="4.5" fill="#94a3b8"/>
+<circle cx="708.2" cy="453.8" r="4.5" fill="#94a3b8"/>
+<circle cx="793.6" cy="438.0" r="4.5" fill="#94a3b8"/>
+<circle cx="879.1" cy="422.3" r="4.5" fill="#94a3b8"/>
+<circle cx="964.5" cy="406.5" r="4.5" fill="#94a3b8"/>
+<circle cx="1050.0" cy="390.7" r="4.5" fill="#94a3b8"/>
+<text x="1064.0" y="396.7" font-size="19" font-weight="700" fill="#94a3b8" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">55세 187.2만원</text>
+<polyline points="110.0,554.5 195.5,528.9 280.9,503.4 366.4,477.8 451.8,452.2 537.3,426.6 622.7,401.0 708.2,375.5 793.6,349.9 879.1,324.3 964.5,298.7 1050.0,273.1" fill="none" stroke="#0a6350" stroke-width="4"/>
+<circle cx="110.0" cy="554.5" r="4.5" fill="#0a6350"/>
+<circle cx="195.5" cy="528.9" r="4.5" fill="#0a6350"/>
+<circle cx="280.9" cy="503.4" r="4.5" fill="#0a6350"/>
+<circle cx="366.4" cy="477.8" r="4.5" fill="#0a6350"/>
+<circle cx="451.8" cy="452.2" r="4.5" fill="#0a6350"/>
+<circle cx="537.3" cy="426.6" r="4.5" fill="#0a6350"/>
+<circle cx="622.7" cy="401.0" r="4.5" fill="#0a6350"/>
+<circle cx="708.2" cy="375.5" r="4.5" fill="#0a6350"/>
+<circle cx="793.6" cy="349.9" r="4.5" fill="#0a6350"/>
+<circle cx="879.1" cy="324.3" r="4.5" fill="#0a6350"/>
+<circle cx="964.5" cy="298.7" r="4.5" fill="#0a6350"/>
+<circle cx="1050.0" cy="273.1" r="4.5" fill="#0a6350"/>
+<text x="1064.0" y="279.1" font-size="19" font-weight="700" fill="#0a6350" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">65세 303.5만원</text>
+<polyline points="110.0,541.5 195.5,503.0 280.9,464.4 366.4,425.8 451.8,387.3 537.3,348.8 622.7,310.1 708.2,271.6 793.6,233.1 879.1,209.3 964.5,209.3 1050.0,209.3" fill="none" stroke="#c2410c" stroke-width="4"/>
+<circle cx="110.0" cy="541.5" r="4.5" fill="#c2410c"/>
+<circle cx="195.5" cy="503.0" r="4.5" fill="#c2410c"/>
+<circle cx="280.9" cy="464.4" r="4.5" fill="#c2410c"/>
+<circle cx="366.4" cy="425.8" r="4.5" fill="#c2410c"/>
+<circle cx="451.8" cy="387.3" r="4.5" fill="#c2410c"/>
+<circle cx="537.3" cy="348.8" r="4.5" fill="#c2410c"/>
+<circle cx="622.7" cy="310.1" r="4.5" fill="#c2410c"/>
+<circle cx="708.2" cy="271.6" r="4.5" fill="#c2410c"/>
+<circle cx="793.6" cy="233.1" r="4.5" fill="#c2410c"/>
+<circle cx="879.1" cy="209.3" r="4.5" fill="#c2410c"/>
+<circle cx="964.5" cy="209.3" r="4.5" fill="#c2410c"/>
+<circle cx="1050.0" cy="209.3" r="4.5" fill="#c2410c"/>
+<text x="1064.0" y="215.3" font-size="19" font-weight="700" fill="#c2410c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">75세 366.6만원</text>
+<polyline points="110.0,531.2 195.5,482.3 280.9,433.5 366.4,384.7 451.8,335.7 537.3,286.9 622.7,238.0 708.2,189.2 793.6,169.5 879.1,169.5 964.5,169.5 1050.0,169.5" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+<circle cx="110.0" cy="531.2" r="4.5" fill="#1d4ed8"/>
+<circle cx="195.5" cy="482.3" r="4.5" fill="#1d4ed8"/>
+<circle cx="280.9" cy="433.5" r="4.5" fill="#1d4ed8"/>
+<circle cx="366.4" cy="384.7" r="4.5" fill="#1d4ed8"/>
+<circle cx="451.8" cy="335.7" r="4.5" fill="#1d4ed8"/>
+<circle cx="537.3" cy="286.9" r="4.5" fill="#1d4ed8"/>
+<circle cx="622.7" cy="238.0" r="4.5" fill="#1d4ed8"/>
+<circle cx="708.2" cy="189.2" r="4.5" fill="#1d4ed8"/>
+<circle cx="793.6" cy="169.5" r="4.5" fill="#1d4ed8"/>
+<circle cx="879.1" cy="169.5" r="4.5" fill="#1d4ed8"/>
+<circle cx="964.5" cy="169.5" r="4.5" fill="#1d4ed8"/>
+<circle cx="1050.0" cy="169.5" r="4.5" fill="#1d4ed8"/>
+<text x="1064.0" y="175.5" font-size="19" font-weight="700" fill="#1d4ed8" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">80세 406만원</text>
+<rect x="783.6" y="119" width="276.4" height="118.3" fill="none" stroke="#c2410c" stroke-dasharray="7 6" stroke-width="2"/>
+<text x="775.6" y="147" font-size="17" text-anchor="end" fill="#c2410c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">75세는 10억원, 80세는 9억원부터 금액이 같습니다</text>
+</svg>

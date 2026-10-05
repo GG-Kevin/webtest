@@ -1,0 +1,79 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,9.5,%,2026년 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,보험료 금액 및 보험료율,2026-10-05,보험료율 9.5%로 부과된,RATE_2026
+2,9,%,2025년까지 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,보험료율,2026-10-05,9%의 보험료율이 적용,rate(2025)
+3,41만,원,기준소득월액 하한(2026.7.~2027.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,기준소득월액 상·하한,2026-10-05,(최저) 41만원,FLOOR
+4,659만,원,기준소득월액 상한(2026.7.~2027.6.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,기준소득월액 상·하한,2026-10-05,(최고) 659만원,CEIL
+5,10,년,추납 범위 10년 미만,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0092&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제92조①,2026-10-05,10년 미만의 범위에서,MAX_MONTHS
+6,119,개월,군 복무 포함 최대 추납 개월,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,추납대상기간,2026-10-05,최대 119개월까지만,MAX_MONTHS
+7,"3,193,511",원,2026년 A값(월),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,추납보험료 산정기준,2026-10-05,"월 3,193,511원",A_2026
+8,60,회,분할 납부 최대 횟수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=272577&joNo=0062&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제62조③,2026-10-05,60회의 범위에서,"divmod(119,60)"
+9,60,회,분할 납부 최대 횟수(공단),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,납부방법,2026-10-05,최대 60회 분할,"divmod(119,60)"
+10,1천290,,기본연금액 비례 상수(1천분의),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조①,2026-10-05,1천분의 1천290,COEF
+11,50,,20년 초과 1년마다 가산(1천분의),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조① 단서,2026-10-05,1천분의 50을 곱한,STEP
+12,50,,10~20년 구간 1년마다 가산(1천분의),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0063&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제63조①2,2026-10-05,1천분의 50에 해당,STEP
+13,10,년,노령연금 최소 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제61조①,2026-10-05,10년 이상인 가입자,-
+14,13,%,2033년 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0104M0.do?menuId=MN25059919,연금개혁 문답,2026-10-05,2033년 13%에 도달,rate(2033)
+15,0.5,%p,해마다 보험료율 인상폭,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0104M0.do?menuId=MN25059919,연금개혁 문답,2026-10-05,매년 0.5%p씩,rate()
+16,11~15,일,고지서 발송 시기(신청 다음 달),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,납부기한,2026-10-05,다음달 11~15일경,-
+17,1355,번,국민연금 고객센터,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,담당,2026-10-05,고객센터 (1355),-
+18,0.8,%,신용카드 수납수수료,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0045M0.do?menuId=MN24001114,신용카드 납부,2026-10-05,신용(체크)카드 0.8%(0.5%),card
+19,0.5,%,체크카드 수납수수료,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0045M0.do?menuId=MN24001114,신용카드 납부,2026-10-05,0.8% → 0.5%,card
+20,6,%,종합소득세 최저 세율 구간,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,종합소득세 세율표,2026-10-05,6%,tax r=6
+21,15,%,종합소득세 세율 구간,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,종합소득세 세율표,2026-10-05,15%,tax r=15
+22,24,%,종합소득세 세율 구간,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667,종합소득세 세율표,2026-10-05,24%,tax r=24
+23,10,%,지방소득세(소득세의 100분의 10),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13,2026-10-05,100분의 10,local
+24,2006,년,추납보험료 공제 포함 시작,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,연금보험료에 대한 소득공제,2026-10-05,2006년도부터 추납보험료 포함,-
+25,1988,년,군 복무 추납 기산(1988.1.1. 이후),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0092&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제92조①3다,2026-10-05,1988년 1월 1일 전에,-
+26,2008,년,제적등본 추가 기준(2008년 전 이혼·사별),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116,필수제출서류,2026-10-05,2008년 전 이혼,-
+27,100만,원,예시 기준소득월액(가정),계산,calc.py,2026-10-05,-,inc
+28,400만,원,임의가입자 상한 예시 기준소득월액(가정),계산,calc.py,2026-10-05,-,inc
+29,114만,원,100만원·12개월 추납보험료,계산,calc.py,2026-10-05,-,"lump(1000000,12)"
+30,9만5천,원,100만원 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+31,"38,950",원,41만원 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+32,"95,000",원,100만원 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+33,"190,000",원,200만원 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+34,"285,000",원,300만원 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+35,"467,400",원,41만원 12개월,계산,calc.py,2026-10-05,-,lump
+36,"1,402,200",원,41만원 36개월,계산,calc.py,2026-10-05,-,lump
+37,"2,337,000",원,41만원 60개월,계산,calc.py,2026-10-05,-,lump
+38,"4,635,050",원,41만원 119개월,계산,calc.py,2026-10-05,-,lump
+39,"1,140,000",원,100만원 12개월,계산,calc.py,2026-10-05,-,lump
+40,"3,420,000",원,100만원 36개월(=300만원 12개월),계산,calc.py,2026-10-05,-,lump
+41,"5,700,000",원,100만원 60개월,계산,calc.py,2026-10-05,-,lump
+42,"11,305,000",원,100만원 119개월,계산,calc.py,2026-10-05,-,lump
+43,"2,280,000",원,200만원 12개월,계산,calc.py,2026-10-05,-,lump
+44,"6,840,000",원,200만원 36개월,계산,calc.py,2026-10-05,-,lump
+45,"11,400,000",원,200만원 60개월,계산,calc.py,2026-10-05,-,lump
+46,"22,610,000",원,200만원 119개월,계산,calc.py,2026-10-05,-,lump
+47,"10,260,000",원,300만원 36개월,계산,calc.py,2026-10-05,-,lump
+48,"17,100,000",원,300만원 60개월,계산,calc.py,2026-10-05,-,lump
+49,"33,915,000",원,300만원 119개월,계산,calc.py,2026-10-05,-,lump
+50,"22,540",원,100만원·12개월 늘어나는 월 연금,계산,calc.py,2026-10-05,-,pension_up_month
+51,"67,620",원,100만원·36개월 늘어나는 월 연금,계산,calc.py,2026-10-05,-,pension_up_month
+52,"27,915",원,200만원·12개월 늘어나는 월 연금,계산,calc.py,2026-10-05,-,pension_up_month
+53,"83,745",원,200만원·36개월 늘어나는 월 연금,계산,calc.py,2026-10-05,-,pension_up_month
+54,"112,700",원,100만원·60개월 늘어나는 월 연금(그림),계산,calc.py,2026-10-05,-,pension_up_month
+55,"223,522",원,100만원·119개월 늘어나는 월 연금(그림),계산,calc.py,2026-10-05,-,pension_up_month
+56,51,개월,100만원 단순 회수 기간,계산,calc.py,2026-10-05,-,payback_months
+57,4.2,년,100만원 단순 회수 기간,계산,calc.py,2026-10-05,-,payback_months/12
+58,82,개월,200만원 단순 회수 기간,계산,calc.py,2026-10-05,-,payback_months
+59,6.8,년,200만원 단순 회수 기간,계산,calc.py,2026-10-05,-,payback_months/12
+60,1.29,,기본연금액 비례 상수(소수),계산,calc.py,2026-10-05,-,COEF
+61,0.05,,1년 가산 비율(소수),계산,calc.py,2026-10-05,-,STEP
+62,10.0,%,2027년 보험료율(9.5%+0.5%p),계산,calc.py,2026-10-05,-,rate(2027)
+63,"3,600,000",원,12월 신청 36개월 일시납,계산,calc.py,2026-10-05,-,"lump(...,2027)"
+64,18만,원,11월·12월 신청 차이,계산,calc.py,2026-10-05,-,dec-nov
+65,"303,383",원,임의가입자 월 보험료 상한(2026),계산,calc.py,2026-10-05,-,A_2026*rate(2026)
+66,38만,원,400만원 지역가입자 월 보험료,계산,calc.py,2026-10-05,-,monthly_premium
+67,"2,758,212",원,400만원 36개월 상한 차이,계산,calc.py,2026-10-05,-,(reg-vol)*36
+68,"513,000",원,15% 구간 소득세 감소,계산,calc.py,2026-10-05,-,tax
+69,"51,300",원,15% 구간 지방소득세 감소,계산,calc.py,2026-10-05,-,local
+70,"564,300",원,15% 구간 합계,계산,calc.py,2026-10-05,-,tax+local
+71,"225,720",원,6% 구간 합계,계산,calc.py,2026-10-05,-,tax+local
+72,"902,880",원,24% 구간 합계,계산,calc.py,2026-10-05,-,tax+local
+73,342만,원,36개월 추납보험료,계산,calc.py,2026-10-05,-,lump
+74,"27,360",원,신용카드 수수료,계산,calc.py,2026-10-05,-,card
+75,"17,100",원,체크카드 수수료,계산,calc.py,2026-10-05,-,card
+76,59,회,119개월 60회 분할 중 2개월분 회차,계산,calc.py,2026-10-05,-,divmod
+77,2,개월,2개월분,계산,calc.py,2026-10-05,-,divmod
+78,1,회,1개월분 회차,계산,calc.py,2026-10-05,-,divmod
