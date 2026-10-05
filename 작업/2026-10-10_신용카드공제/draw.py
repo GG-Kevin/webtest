@@ -22,7 +22,7 @@ def lines_chart():
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
          f'<rect width="{W}" height="{H}" fill="#ffffff"/>',
          f'<text x="{left}" y="56" font-size="32" font-weight="700" fill="#16212e" {FONT}>총급여 4천만원, 1년 카드 사용액과 소득공제액</text>',
-         f'<text x="{left}" y="96" font-size="19" fill="#4b5563" {FONT}>문턱 1,000만원(총급여 25%) · 신용 15% / 체크·현금영수증 30% · 한도 300만원 · 2026년 10월 6일 조세특례제한법 제126조의2 기준</text>']
+         f'<text x="{left}" y="96" font-size="19" fill="#4b5563" {FONT}>문턱 1,000만원 · 신용 15% · 체크·현금영수증 30% · 한도 300만원 · 2026년 10월 6일 원문 기준</text>']
     for v in range(0, ymax + 1, 500_000):
         y = Y(v)
         s.append(f'<line x1="{left}" y1="{y:.1f}" x2="{W - right}" y2="{y:.1f}" stroke="#e5e7eb"/>')
@@ -46,7 +46,7 @@ def lines_chart():
         full = mn + lim * 100 // (calc.R_CREDIT if key == "credit" else calc.R_DEBIT)
         s.append(f'<circle cx="{X(full):.1f}" cy="{Y(lim):.1f}" r="7" fill="{col}"/>')
         s.append(f'<text x="{X(full):.1f}" y="{Y(lim) + 30:.1f}" font-size="17" text-anchor="middle" fill="{col}" {FONT}>{full // 10_000:,}만원에서 한도</text>')
-        lx, ly = left + 30, top + 10 + 34 * i
+        lx, ly = left + pw - 420, top + ph - 90 + 34 * i
         s.append(f'<rect x="{lx}" y="{ly}" width="26" height="8" fill="{col}"/>')
         s.append(f'<text x="{lx + 36}" y="{ly + 10}" font-size="19" fill="#1f2937" {FONT}>{lab}</text>')
     s.append('</svg>')
@@ -63,7 +63,7 @@ def kids_bars():
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
          f'<rect width="{W}" height="{H}" fill="#ffffff"/>',
          f'<text x="60" y="56" font-size="30" font-weight="700" fill="#16212e" {FONT}>같은 사용액, 2026년 자녀 한도를 넣으면</text>',
-         f'<text x="60" y="94" font-size="19" fill="#4b5563" {FONT}>국세청 2025년 연말정산 신고안내 사례1(총급여 6,800만원·4,300만원 사용)을 2026년 조문으로 다시 계산</text>']
+         f'<text x="60" y="94" font-size="19" fill="#4b5563" {FONT}>국세청 2025년 연말정산 책자 사례1(총급여 6,800만원·4,300만원 사용) · 2026년 조문으로 계산</text>']
     labels = ((0, "자녀등 없음"), (1, "자녀등 1명"), (2, "자녀등 2명 이상"))
     for i, (k, lab) in enumerate(labels):
         r = calc.deduction(kids=k, **calc.NTS_CASE)
