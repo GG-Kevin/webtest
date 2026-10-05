@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="130.0" y="58.0" font-size="28" font-weight="700" text-anchor="start" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60세 전 5년을 더 내면 월 노령연금이 이렇게 바뀝니다</text>
+<text x="130.0" y="96.0" font-size="19" font-weight="400" text-anchor="start" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2007년 1월 첫 가입 · B값 300만원 · 20년에서 멈춤과 25년까지 계속을 나란히 계산</text>
+<text x="130.0" y="126.0" font-size="17" font-weight="400" text-anchor="start" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2026년 10월 6일 국민연금법 제51조·제63조, 국민연금공단 예상연금 산식 원문으로 계산</text>
+<line x1="130" y1="555.0" x2="1140" y2="555.0" stroke="#e5e7eb"/>
+<text x="118.0" y="561.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만원</text>
+<line x1="130" y1="476.0" x2="1140" y2="476.0" stroke="#e5e7eb"/>
+<text x="118.0" y="482.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">20만원</text>
+<line x1="130" y1="397.0" x2="1140" y2="397.0" stroke="#e5e7eb"/>
+<text x="118.0" y="403.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">40만원</text>
+<line x1="130" y1="318.0" x2="1140" y2="318.0" stroke="#e5e7eb"/>
+<text x="118.0" y="324.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60만원</text>
+<line x1="130" y1="239.0" x2="1140" y2="239.0" stroke="#e5e7eb"/>
+<text x="118.0" y="245.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">80만원</text>
+<line x1="130" y1="160.0" x2="1140" y2="160.0" stroke="#e5e7eb"/>
+<text x="118.0" y="166.0" font-size="16" font-weight="400" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">100만원</text>
+<rect x="276.4" y="271.7" width="212.1" height="283.3" fill="#9aa5b1" rx="4"/>
+<text x="382.5" y="257.7" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 717,280원</text>
+<text x="382.5" y="589.0" font-size="20" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">20년(2026년까지)</text>
+<rect x="781.5" y="205.9" width="212.1" height="349.1" fill="#0a6350" rx="4"/>
+<text x="887.5" y="191.9" font-size="22" font-weight="700" text-anchor="middle" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 883,730원</text>
+<text x="887.5" y="589.0" font-size="20" font-weight="700" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">25년(2031년까지)</text>
+<text x="130.0" y="641.0" font-size="16" font-weight="400" text-anchor="start" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">더 내는 5년 보험료는 해마다 오르는 요율(2027년 10%~2031년 12%)로 계산했습니다.</text>
+</svg>

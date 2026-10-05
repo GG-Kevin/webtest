@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="110" y="52" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 10만원 청약통장, 해지 시점별 세전 이자</text>
+<text x="110" y="88" font-size="20" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">매월 같은 날 납입 · 단리 월 단위 근사 · 2026년 10월 6일 주택도시기금 약정이율 기준</text>
+<rect x="110" y="108" width="22" height="22" fill="#93c5fd"/>
+<text x="140" y="126" font-size="19" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1년 미만 2.3%</text>
+<rect x="340" y="108" width="22" height="22" fill="#60a5fa"/>
+<text x="370" y="126" font-size="19" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1년 이상 2.8%</text>
+<rect x="570" y="108" width="22" height="22" fill="#1d4ed8"/>
+<text x="600" y="126" font-size="19" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2년 이상 3.1%</text>
+<line x1="110" y1="575.0" x2="1160" y2="575.0" stroke="#e5e7eb"/>
+<text x="98" y="581.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="110" y1="514.3" x2="1160" y2="514.3" stroke="#e5e7eb"/>
+<text x="98" y="520.3" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2만</text>
+<line x1="110" y1="453.6" x2="1160" y2="453.6" stroke="#e5e7eb"/>
+<text x="98" y="459.6" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4만</text>
+<line x1="110" y1="392.9" x2="1160" y2="392.9" stroke="#e5e7eb"/>
+<text x="98" y="398.9" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">6만</text>
+<line x1="110" y1="332.1" x2="1160" y2="332.1" stroke="#e5e7eb"/>
+<text x="98" y="338.1" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">8만</text>
+<line x1="110" y1="271.4" x2="1160" y2="271.4" stroke="#e5e7eb"/>
+<text x="98" y="277.4" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10만</text>
+<line x1="110" y1="210.7" x2="1160" y2="210.7" stroke="#e5e7eb"/>
+<text x="98" y="216.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12만</text>
+<line x1="110" y1="150.0" x2="1160" y2="150.0" stroke="#e5e7eb"/>
+<text x="98" y="156.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">14만</text>
+<rect x="114.2" y="575.0" width="26.6" height="0.0" fill="#d1d5db"/>
+<text x="127.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1</text>
+<rect x="149.2" y="573.3" width="26.6" height="1.7" fill="#93c5fd"/>
+<rect x="184.2" y="571.5" width="26.6" height="3.5" fill="#93c5fd"/>
+<text x="197.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3</text>
+<rect x="219.2" y="569.2" width="26.6" height="5.8" fill="#93c5fd"/>
+<rect x="254.2" y="566.3" width="26.6" height="8.7" fill="#93c5fd"/>
+<rect x="289.2" y="562.8" width="26.6" height="12.2" fill="#93c5fd"/>
+<text x="302.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">6</text>
+<rect x="324.2" y="558.7" width="26.6" height="16.3" fill="#93c5fd"/>
+<rect x="359.2" y="554.1" width="26.6" height="20.9" fill="#93c5fd"/>
+<rect x="394.2" y="548.8" width="26.6" height="26.2" fill="#93c5fd"/>
+<text x="407.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">9</text>
+<rect x="429.2" y="543.0" width="26.6" height="32.0" fill="#93c5fd"/>
+<rect x="464.2" y="536.6" width="26.6" height="38.4" fill="#93c5fd"/>
+<text x="477.5" y="526.6" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12,650</text>
+<rect x="499.2" y="519.8" width="26.6" height="55.2" fill="#60a5fa"/>
+<text x="512.5" y="509.8" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">18,200</text>
+<text x="512.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12</text>
+<rect x="534.2" y="510.5" width="26.6" height="64.5" fill="#60a5fa"/>
+<rect x="569.2" y="500.6" width="26.6" height="74.4" fill="#60a5fa"/>
+<rect x="604.2" y="490.0" width="26.6" height="85.0" fill="#60a5fa"/>
+<text x="617.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">15</text>
+<rect x="639.2" y="478.7" width="26.6" height="96.3" fill="#60a5fa"/>
+<rect x="674.2" y="466.6" width="26.6" height="108.4" fill="#60a5fa"/>
+<rect x="709.2" y="453.9" width="26.6" height="121.1" fill="#60a5fa"/>
+<text x="722.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">18</text>
+<rect x="744.2" y="440.4" width="26.6" height="134.6" fill="#60a5fa"/>
+<rect x="779.2" y="426.2" width="26.6" height="148.8" fill="#60a5fa"/>
+<rect x="814.2" y="411.4" width="26.6" height="163.6" fill="#60a5fa"/>
+<text x="827.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">21</text>
+<rect x="849.2" y="395.8" width="26.6" height="179.2" fill="#60a5fa"/>
+<rect x="884.2" y="379.5" width="26.6" height="195.5" fill="#60a5fa"/>
+<text x="897.5" y="369.5" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">64,400</text>
+<rect x="919.2" y="339.7" width="26.6" height="235.3" fill="#1d4ed8"/>
+<text x="932.5" y="329.7" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">77,500</text>
+<text x="932.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">24</text>
+<rect x="954.2" y="320.1" width="26.6" height="254.9" fill="#1d4ed8"/>
+<rect x="989.2" y="299.7" width="26.6" height="275.3" fill="#1d4ed8"/>
+<rect x="1024.2" y="278.6" width="26.6" height="296.4" fill="#1d4ed8"/>
+<text x="1037.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">27</text>
+<rect x="1059.2" y="256.6" width="26.6" height="318.4" fill="#1d4ed8"/>
+<rect x="1094.2" y="233.9" width="26.6" height="341.1" fill="#1d4ed8"/>
+<rect x="1129.2" y="210.3" width="26.6" height="364.7" fill="#1d4ed8"/>
+<text x="1142.5" y="200.3" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">120,125</text>
+<text x="1142.5" y="603" font-size="17" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30</text>
+<text x="635" y="637" font-size="19" text-anchor="middle" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">가입일부터 해지일까지 개월 수(= 넣은 횟수) · 막대 위 숫자는 원</text>
+</svg>
