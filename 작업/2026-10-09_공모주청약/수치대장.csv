@@ -1,0 +1,210 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,10월 01일,일,멜콘 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=13&offset=1032108&length=44408&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 01일(목) 종료일 2,
+2,10월 02일,일,멜콘 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=13&offset=1032108&length=44408&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 02일(금) 일반투자자,
+3,10월 07일,일,멜콘 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=13&offset=1032108&length=44408&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 07일(수) 주1) 주,
+4,10주 이상,주,멜콘 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=13&offset=1032108&length=44408&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+5,청약금액의 50%,%,멜콘 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=13&offset=1032108&length=44408&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+6,"10,700원",원,멜콘 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=7&offset=882481&length=16666&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 10,700원 ~ 12,300",
+7,"12,300원",원,멜콘 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000381&dcmNo=11572589&eleId=7&offset=882481&length=16666&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"원 ~ 12,300원 중 최저가액인",
+8,10월 02일,일,진코스텍 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=13&offset=533580&length=42765&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 02일 (금) 종료일,
+9,10월 06일,일,진코스텍 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=13&offset=533580&length=42765&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 06일 (화) 일반투자,
+10,10월 08일,일,진코스텍 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=13&offset=533580&length=42765&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 08일 (목) 주1),
+11,10주 이상,주,진코스텍 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=13&offset=533580&length=42765&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+12,청약금액의 50%,%,진코스텍 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=13&offset=533580&length=42765&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+13,"19,500원",원,진코스텍 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=7&offset=384383&length=16319&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 19,500원 ~23,500원",
+14,"23,500원",원,진코스텍 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260910000579&dcmNo=11575443&eleId=7&offset=384383&length=16319&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"0원 ~23,500원 중 최저가액 기",
+15,10월 7일,일,엘리스그룹 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 7일(수) 종료일 20,
+16,10월 8일,일,엘리스그룹 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 8일(목) 일반청약자,
+17,10월 13일,일,엘리스그룹 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 13일(화) 주1) 주,
+18,20주 이상,주,엘리스그룹 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+19,청약금액의 50%,%,엘리스그룹 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+20,"70,400원",원,엘리스그룹 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=7&offset=195773&length=17493&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 70,400원 ~ 90,500",
+21,"90,500원",원,엘리스그룹 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 90,500원 중 최저가액인",
+22,10월 12일,일,엠에스바이오 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 12일(월) 종료일 2,
+23,10월 13일,일,엠에스바이오 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 13일(화) 일반투자자,
+24,10월 15일,일,엠에스바이오 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 15일(목) 주1) 주,
+25,10주 이상,주,엠에스바이오 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+26,청약금액의 50%,%,엠에스바이오 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+27,"6,800원",원,엠에스바이오 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=7&offset=562183&length=16362&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 6,800원 ~ 7,800원",
+28,"7,800원",원,엠에스바이오 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000496&dcmNo=11594673&eleId=13&offset=720349&length=52019&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 7,800원 중 최저가액 기준",
+29,10월 13일,일,디티에스 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=13&offset=675517&length=55663&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 13일(화) 종료일 2,
+30,10월 14일,일,디티에스 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=13&offset=675517&length=55663&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 14일(수) 일반투자자,
+31,10월 16일,일,디티에스 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=13&offset=675517&length=55663&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 16일(금) 주1) 주,
+32,10주 이상,주,디티에스 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=13&offset=675517&length=55663&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+33,청약금액의 50%,%,디티에스 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=13&offset=675517&length=55663&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+34,"17,000원",원,디티에스 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=7&offset=531614&length=17279&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 17,000원 ~ 18,500",
+35,"18,500원",원,디티에스 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000078&dcmNo=11598672&eleId=7&offset=531614&length=17279&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"원 ~ 18,500원 중 최저가액인",
+36,10월 15일,일,에스케이증권제14호기업인수목적 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=13&offset=307918&length=38656&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 15일 종료일 2026,
+37,10월 16일,일,에스케이증권제14호기업인수목적 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=13&offset=307918&length=38656&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 16일 일반투자자 개시,
+38,납입기일 전일,일,에스케이증권제14호기업인수목적 환불일 (납입기일 전일),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=13&offset=307918&length=38656&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"를 주금납입기일 전일 반환하며, 이",
+39,10주 이상,주,에스케이증권제14호기업인수목적 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=13&offset=307918&length=38656&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+40,청약금액의 100%,%,에스케이증권제14호기업인수목적 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=13&offset=307918&length=38656&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 100%로 합니다.,
+41,"2,000원",원,에스케이증권제14호기업인수목적 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000174&dcmNo=11571706&eleId=7&offset=165515&length=27337&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"망가액 2,000원 기준입니다. 2.",
+42,10월 19일,일,다비오 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=11&offset=217067&length=45526&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 19일(월) 종료일 2,
+43,10월 20일,일,다비오 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=11&offset=217067&length=45526&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 20일(화) 일반투자자,
+44,10월 22일,일,다비오 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=11&offset=217067&length=45526&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일(목) 주1) 주,
+45,10주 이상,주,다비오 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=11&offset=217067&length=45526&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+46,청약금액의 50%,%,다비오 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=11&offset=217067&length=45526&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+47,"12,300원",원,다비오 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=5&offset=65238&length=16492&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 12,300원 ~ 16,600",
+48,"16,600원",원,다비오 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260915000390&dcmNo=11580306&eleId=5&offset=65238&length=16492&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"원 ~ 16,600원 중 최저가액인",
+49,10월 19일,일,유캐스트 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 19일 (월) 종료일,
+50,10월 20일,일,유캐스트 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 20일 (화) 일반투자,
+51,10월 22일,일,유캐스트 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일 (목) 주1),
+52,10주 이상,주,유캐스트 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+53,일반투자자 50%,%,유캐스트 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,0% 일반투자자 50% 납입기일 2,
+54,"21,000",원,유캐스트 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=5&offset=49379&length=16838&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"500 21,000 16,800,00",
+55,"26,000원",원,유캐스트 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260909000378&dcmNo=11572562&eleId=11&offset=202752&length=55443&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 26,000원 중 최저가액인",
+56,10월 20일,일,크리에이츠 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 20일(화) 종료일 2,
+57,10월 21일,일,크리에이츠 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 21일(수) 일반청약자,
+58,10월 23일,일,크리에이츠 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일(금) 주1) 주,
+59,20주 이상,주,크리에이츠 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+60,청약금액의 50%,%,크리에이츠 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+61,"15,000",원,크리에이츠 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=7&offset=652799&length=16274&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"200 15,000 21,000,00",
+62,"18,000원",원,크리에이츠 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260928000196&dcmNo=11592112&eleId=13&offset=812368&length=44945&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 18,000원 중 최저가액입니",
+63,10월 20일,일,티앤이코리아 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 20일 종료일 2026,
+64,10월 21일,일,티앤이코리아 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 21일 일반투자자 개시,
+65,10월 23일,일,티앤이코리아 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일 주1) 주당 모,
+66,20주 이상,주,티앤이코리아 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+67,청약금액의 50%,%,티앤이코리아 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+68,"12,600원",원,티앤이코리아 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=7&offset=1187729&length=16540&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 12,600원 ~ 15,300",
+69,"15,300원",원,티앤이코리아 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260923000255&dcmNo=11590275&eleId=13&offset=1332637&length=44362&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 15,300원 중 최저가액입니",
+70,10월 20일,일,한화플러스제6호기업인수목적 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=11&offset=139673&length=39520&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 20일 종료일 2026,
+71,10월 21일,일,한화플러스제6호기업인수목적 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=11&offset=139673&length=39520&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 21일 일반투자자 개시,
+72,10월 23일,일,한화플러스제6호기업인수목적 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=11&offset=139673&length=39520&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일 주1) 주당 모,
+73,청약금액의 100%,%,한화플러스제6호기업인수목적 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=11&offset=139673&length=39520&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 100%로 합니다.,
+74,"2,000",원,한화플러스제6호기업인수목적 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=5&offset=20859&length=15789&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"100 2,000 12,000,000",
+75,10월 21일,일,인텔리빅스 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 21일(수) 종료일 2,
+76,10월 22일,일,인텔리빅스 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일(목) 일반청약자,
+77,10월 26일,일,인텔리빅스 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 26일(월) 주1) 주,
+78,20주 이상,주,인텔리빅스 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+79,청약금액의 50%,%,인텔리빅스 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+80,"7,600",원,인텔리빅스 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=5&offset=58683&length=15862&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"100 7,600 19,000,000",
+81,"9,000원",원,인텔리빅스 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260916000544&dcmNo=11582435&eleId=11&offset=225188&length=43617&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 9,000원 중 최저가액인 7",
+82,10월 22일,일,래블업 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일 (목) 종료일,
+83,10월 23일,일,래블업 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일 (금) 일반투자,
+84,10월 27일,일,래블업 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 27일 (화) 주1),
+85,10주 이상,주,래블업 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+86,청약금액의 50%,%,래블업 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+87,"19,000원",원,래블업 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=7&offset=1981666&length=16338&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 19,000원 ~ 22,000",
+88,"22,000원",원,래블업 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000390&dcmNo=11587449&eleId=13&offset=2141195&length=49427&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 22,000원 중 최저가액인",
+89,10월 22일,일,영광 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=11&offset=188874&length=44650&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일(목) 종료일 2,
+90,10월 23일,일,영광 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=11&offset=188874&length=44650&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일(금) 일반투자자,
+91,10월 27일,일,영광 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=11&offset=188874&length=44650&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 27일(화) 주1) 주,
+92,20주 이상,주,영광 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=11&offset=188874&length=44650&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+93,청약금액의 50%,%,영광 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=11&offset=188874&length=44650&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+94,"14,000원",원,영광 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=5&offset=60804&length=16244&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 14,000원 ~ 17,000",
+95,"17,000원",원,영광 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000332&dcmNo=11587212&eleId=5&offset=60804&length=16244&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"원 ~ 17,000원 중 최저가인 1",
+96,10월 22일,일,이에스티 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=11&offset=204959&length=46429&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 22일(목) 종료일 2,
+97,10월 23일,일,이에스티 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=11&offset=204959&length=46429&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 23일(금) 일반투자자,
+98,10월 27일,일,이에스티 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=11&offset=204959&length=46429&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 27일(화) 주1) 주,
+99,20주 이상,주,이에스티 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=11&offset=204959&length=46429&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+100,청약금액의 50%,%,이에스티 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=11&offset=204959&length=46429&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+101,"10,600",원,이에스티 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=5&offset=58315&length=15874&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"500 10,600 23,320,00",
+102,"12,400원",원,이에스티 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000211&dcmNo=11586779&eleId=9&offset=89583&length=40038&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.2,2026-10-05,"원 ~ 12,400원 중 최저가액인",
+103,10월 26일,일,아이엠기업인수목적1호 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 26일(월) 대표주관회,
+104,10월 27일,일,아이엠기업인수목적1호 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,) ~ 10월 27일(화) 10:00,
+105,10월 29일,일,아이엠기업인수목적1호 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 29일(목) 대표주관회,
+106,10주 이상,주,아이엠기업인수목적1호 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+107,청약금액의 100%,%,아이엠기업인수목적1호 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 100%로 합니다.,
+108,"2,000원",원,아이엠기업인수목적1호 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=5&offset=30473&length=27142&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"망가액 2,000원 기준입니다. 2.",
+109,10월 26일,일,에이엘로봇 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=11&offset=187403&length=46518&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 26일(월) 종료일 2,
+110,10월 27일,일,에이엘로봇 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=11&offset=187403&length=46518&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 27일(화) 일반투자자,
+111,10월 29일,일,에이엘로봇 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=11&offset=187403&length=46518&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 29일(목) 주1) 주,
+112,10주 이상,주,에이엘로봇 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=11&offset=187403&length=46518&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 10주 이상 ~ 100주 이하,
+113,청약금액의 50%,%,에이엘로봇 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=11&offset=187403&length=46518&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+114,"15,700원",원,에이엘로봇 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=5&offset=40384&length=16436&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 15,700원 ~ 17,600",
+115,"17,600원",원,에이엘로봇 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921000209&dcmNo=11586744&eleId=5&offset=40384&length=16436&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"원 ~ 17,600원 중 최저가액인",
+116,10월 28일,일,엠비디 청약 시작일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 28일(수) 종료일 2,
+117,10월 29일,일,엠비디 청약 마감일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 10월 29일(목) 일반투자자,
+118,11월 02일,일,엠비디 환불일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,26년 11월 02일(월) 주1) 주,
+119,20주 이상,주,엠비디 최소 청약 수량,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 20주 이상 ~ 100주 이하,
+120,청약금액의 50%,%,엠비디 일반청약자 증거금률,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 청약증거금 제1부 Ⅰ.4,2026-10-05,거금은 청약금액의 50%로 합니다.,
+121,"9,600원",원,엠비디 희망공모가 하단(스팩은 공모가),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=7&offset=1803827&length=17081&dtd=dart4.xsd,증권신고서 요약정보 2,2026-10-05,"가액인 9,600원 ~ 11,700원",
+122,"11,700원",원,엠비디 희망공모가 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260918000439&dcmNo=11585558&eleId=13&offset=1953654&length=40134&dtd=dart4.xsd,증권신고서 제1부 Ⅰ.4,2026-10-05,"원 ~ 11,700원 중 최저가액 기",
+123,100주 이하 10주,주,한화플러스제6호기업인수목적 최소 청약 수량(100주 이하 10주 단위),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000365&dcmNo=11584068&eleId=11&offset=139673&length=39520&dtd=dart4.xsd,증권신고서 청약단위 제1부 Ⅰ.4,2026-10-05,약단위 100주 이하 10주 100주,
+124,"277,750주",주,엘리스그룹 균등방식 배정 예정물량 하단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 라.(2) 제1부 Ⅰ.4,2026-10-05,"물량은 277,750주 이상 333,",
+125,"333,300주",주,엘리스그룹 균등방식 배정 예정물량 상단,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 라.(2) 제1부 Ⅰ.4,2026-10-05,"이상 333,300주 이하입니다.",
+126,50% 이상을 최소,%,일반청약자 배정 물량 중 균등 비율(이상),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 라.(2) — 인수규정 제9조⑪ 제1부 Ⅰ.4,2026-10-05,다)의 50% 이상을 최소 청약증거금,
+127,25% 이상,%,일반청약자 배정 비율(이상),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 라.(1)⑤ — 인수규정 제9조①3 제1부 Ⅰ.4,2026-10-05,주식의 25% 이상을 배정합니다. ⑥,
+128,2021년 6월 20일,일,중복청약 금지 시작(신고서 제출분),https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 다.(2) 제1부 Ⅰ.4,2026-10-05,니다. 2021년 6월 20일 이후,
+129,10월 12일(월) 16:00,일,균등 추가납입 기한,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 가. 주7) 제1부 Ⅰ.4,2026-10-05,26년 10월 12일(월) 16:00,
+130,10월 06일(화),일,엘리스그룹 공모가 확정 공고일,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 나.(1) 제1부 Ⅰ.4,2026-10-05,26년 10월 06일(화) 인터넷 공,
+131,"0원 (단, Bronze 등급 2,000원)",원,미래에셋증권 온라인 청약수수료,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 다.(3) 제1부 Ⅰ.4,2026-10-05,"0원 (단, Bronze 등급 2,0",
+132,"건당 5,000원",원,미래에셋증권 영업점 청약수수료,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 다.(3) 제1부 Ⅰ.4,2026-10-05,"50% 건당 5,000원 제한사항 청",
+133,"무료 2,000원",원,삼성증권 일반 등급 온라인 수수료,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260929000656&dcmNo=11595320&eleId=13&offset=368992&length=58343&dtd=dart4.xsd,증권신고서 다.(3) 제1부 Ⅰ.4,2026-10-05,"무료 무료 2,000원 Off-Li",
+134,"청약 2,000원",원,아이엠증권 온라인 청약수수료,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 다. 제1부 Ⅰ.4,2026-10-05,"ARS 청약 2,000원 우대 고객",
+135,"5,000원",원,아이엠증권 영업점 청약수수료,https://dart.fss.or.kr/report/viewer.do?rcpNo=20260917000220&dcmNo=11583327&eleId=11&offset=189259&length=35117&dtd=dart4.xsd,증권신고서 다. 제1부 Ⅰ.4,2026-10-05,"화청약 5,000원 온라인(HTS,",
+136,24,건,10월 청약 달력 전체 건수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_ALL
+137,18,건,신규·이전상장 공모 건수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_IPO
+138,3,건,스팩 수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_SPAC
+139,4,건,유상증자 건수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_RIGHTS
+140,2,건,투자계약증권 건수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_CONTRACT
+141,6,건,공모주가 아닌 건수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_ALL-N_IPO
+142,11,곳,최소 10주 회사 수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_10
+143,7,곳,최소 20주 회사 수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_20
+144,15,곳,10/12 이후 청약 회사 수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,N_LATER
+145,5,곳,10/20 동시 청약 수,계산,DART 청약 달력 집계·calc.py,2026-10-05,,draw.count
+146,2,일,묶이는 날 최소,계산,DART 청약 달력 집계·calc.py,2026-10-05,,locked
+147,5,일,묶이는 날 최대,계산,DART 청약 달력 집계·calc.py,2026-10-05,,locked
+148,53500,원,멜콘 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+149,61500,원,멜콘 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+150,5,일,멜콘 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+151,97500,원,진코스텍 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+152,117500,원,진코스텍 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+153,2,일,진코스텍 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+154,704000,원,엘리스그룹 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+155,905000,원,엘리스그룹 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+156,5,일,엘리스그룹 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+157,34000,원,엠에스바이오 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+158,39000,원,엠에스바이오 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+159,2,일,엠에스바이오 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+160,85000,원,디티에스 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+161,92500,원,디티에스 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+162,2,일,디티에스 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+163,20000,원,에스케이증권제14호기업인수목적 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+164,3,일,에스케이증권제14호기업인수목적 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+165,61500,원,다비오 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+166,83000,원,다비오 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+167,2,일,다비오 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+168,105000,원,유캐스트 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+169,130000,원,유캐스트 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+170,2,일,유캐스트 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+171,150000,원,크리에이츠 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+172,180000,원,크리에이츠 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+173,2,일,크리에이츠 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+174,126000,원,티앤이코리아 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+175,153000,원,티앤이코리아 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+176,2,일,티앤이코리아 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+177,20000,원,한화플러스제6호기업인수목적 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+178,2,일,한화플러스제6호기업인수목적 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+179,76000,원,인텔리빅스 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+180,90000,원,인텔리빅스 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+181,4,일,인텔리빅스 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+182,95000,원,래블업 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+183,110000,원,래블업 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+184,4,일,래블업 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+185,140000,원,영광 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+186,170000,원,영광 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+187,4,일,영광 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+188,106000,원,이에스티 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+189,124000,원,이에스티 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+190,4,일,이에스티 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+191,20000,원,아이엠기업인수목적1호 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+192,2,일,아이엠기업인수목적1호 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+193,78500,원,에이엘로봇 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+194,88000,원,에이엘로봇 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+195,2,일,에이엘로봇 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+196,96000,원,엠비디 최소 증거금(하단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+197,117000,원,엠비디 최소 증거금(상단),계산,공모가×최소수량×증거금률,2026-10-05,,min_dep
+198,4,일,엠비디 마감→환불 날수,계산,환불일−마감일,2026-10-05,,locked
+199,3,주,"균등 300,000주·100,000건 1건당 몫(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL//n
+200,1,주,"균등 300,000주·300,000건 1건당 몫(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL//n
+201,0,주,"균등 300,000주·600,000건 1건당 몫(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL//n
+202,50,%,"균등 추첨 당첨 비율 600,000건(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL*100//n
+203,0,주,"균등 300,000주·1,200,000건 1건당 몫(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL//n
+204,25,%,"균등 추첨 당첨 비율 1,200,000건(가정)",계산,균등 물량÷청약 건수,2026-10-05,,EQ_POOL*100//n
+205,150000,원,예시 증거금(가정),계산,증거금−배정금액−수수료,2026-10-05,,EX_*
+206,15000,원,예시 1주 금액(가정),계산,증거금−배정금액−수수료,2026-10-05,,EX_*
+207,2000,원,예시 수수료(가정),계산,증거금−배정금액−수수료,2026-10-05,,EX_*
+208,133000,원,예시 돌려받는 돈(가정),계산,증거금−배정금액−수수료,2026-10-05,,EX_*
+209,제3조,조,"대체공휴일 규정(개천절 10/3 토 → 10/5 월, 한글날 10/9)",https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=285779&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,관공서공휴일규정 제3조①1,2026-10-05,다음의 첫 번째 비공휴일,
