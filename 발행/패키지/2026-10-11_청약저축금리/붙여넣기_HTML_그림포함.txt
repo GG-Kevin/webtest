@@ -74,7 +74,7 @@
 </tbody></table></div>
 <p style="margin:0 0 19px;line-height:1.85;">같은 월 10만원, 2년이라도 일반 과세 통장의 세후 이자와 비과세 요건을 갖춘 청년 통장의 이자는 46,935원 차이가 납니다. 위 표의 청년 통장 두 줄은 2년 동안 무주택이 이어졌다는 전제입니다.</p>
 <p style="margin:0 0 19px;line-height:1.85;">이자 말고 청약통장에 붙는 혜택으로는 연말정산 소득공제가 있습니다. 총급여 7천만원 이하인 무주택 세대의 세대주(또는 그 배우자)가 대상이고, <a href="https://www.law.go.kr/법령/조세특례제한법/제87조" target="_blank" rel="noopener" style="color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;text-decoration:none;padding-bottom:1px;">조세특례제한법 제87조</a>는 연 300만원까지 넣은 금액의 40%를 근로소득에서 빼 준다고 정합니다. 같은 연말정산에서 세액공제로 돌려받는 연금계좌는 공제 방식이 달라서 <a href="https://moneyproducer.co.kr/18" style="color:#0a6350;font-weight:600;border-bottom:2px solid #8fd0bb;text-decoration:none;padding-bottom:1px;">연금저축 세액공제 계산 글</a>에서 따로 셈해 두었습니다.</p>
-<!-- 같은 묶음: B1006-1/2 · 해지하면 소득공제를 받은 금액이 추징되는지는 해지 글에서 따로 다룹니다 -->
+<p style="margin:0 0 19px;line-height:1.85;">해지하면 소득공제를 받은 금액이 추징되는지는 해지 글에서 따로 다룹니다: <a href="https://moneyproducer.co.kr/40">주택청약 해지 추징 글</a></p>
 <h2 id="q8" style="margin:52px 0 18px;font-size:1.34em;line-height:1.45;font-weight:800;color:#16212e;">이율과 계산은 어떤 원문으로 맞춰 봤나요</h2>
 <p style="margin:0 0 19px;line-height:1.85;">2026년 10월 6일(한국 시각) 주택도시기금 누리집에서 주택청약종합저축 상품안내, 같은 상품의 자주하는질문 네 쪽(32문항), 청년 주택드림 청약통장 상품안내를 열어 이율 칸과 문구를 옮겼습니다. 기금 공지사항(2024년 6월~2025년 12월 글)에서는 청약통장 이율 변경 공지를 찾지 못했습니다.</p>
 <p style="margin:0 0 19px;line-height:1.85;">세율과 청약 인정 금액은 국가법령정보센터에서 소득세법 제129조(2026년 1월 1일 시행판), 지방세법 제103조의13, 조세특례제한법 제87조·제88조의2, 주택공급에 관한 규칙 제10조의 조문 본문을 열어 확인했습니다. 표 네 개의 금액은 이 공식을 분수로 옮긴 파이썬 계산을 다시 돌려 같은 숫자인지 봤습니다.</p>
