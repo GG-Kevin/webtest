@@ -66,7 +66,7 @@
 <h2 id="q8" style="margin:52px 0 18px;font-size:1.34em;line-height:1.45;font-weight:800;color:#16212e;">이 글의 숫자는 어디서 확인했나요</h2>
 <p style="margin:0 0 19px;line-height:1.85;">숫자는 모두 2026년 10월 3일에 열어 옮겼습니다. 법령은 주택공급에 관한 규칙(2026년 6월 15일 시행판) 제10조·제27조·제28조, 조세특례제한법 제87조, 같은 법 시행령 제81조의 조문 본문입니다. 이율·예치기준금액·추징 안내는 같은 날 주택도시기금 상품안내 두 쪽에서, 세율은 국세청 세율표에서 확인했습니다. 표의 계산은 모두 정수로 하고 원 미만은 마지막에 한 번 버렸습니다.</p>
 <p style="margin:0 0 19px;line-height:1.85;">이 글은 기준일의 공개 원문을 정리한 일반 정보이며, 개인의 사정에 따라 결과가 달라질 수 있습니다.</p>
-<!-- 같은 묶음: B1006-1/1 · 집을 살 때 대출 소득 기준은 같은 묶음의 보금자리론 신혼부부 글에서 이어집니다 -->
+<p style="margin:0 0 19px;line-height:1.85;">집을 살 때 대출 소득 기준은 보금자리론 신혼부부 글에서 이어집니다: <a href="https://moneyproducer.co.kr/38">보금자리론 신혼부부 글</a></p>
 <div class="author-box" id="author" style="margin:44px 0 8px;padding:16px 18px;border-top:2px solid #16212e;background:#f7f8f9;font-size:.95em;line-height:1.8;color:#3d4852;">
 <p style="margin:0 0 6px;"><b>글쓴이 · <a href="https://moneyproducer.co.kr/pages/머니프로듀서를-소개합니다#저자" style="color:#0a6350;">머니프로듀서(Kevin Song)</a></b></p>
 <p style="margin:0;">플랜트 설비 검사와 위험기반검사(RBI) 엔지니어로 일해 왔고, 20년 동안 국내 주식을 개인 투자자로 지켜보며 ETF로 투자해 왔습니다. 이 블로그는 투자 조언이 아니라 법령·세법·공시 원문을 직접 열어 기준일과 함께 옮기는 곳입니다. <a href="https://moneyproducer.co.kr/pages/머니프로듀서를-소개합니다#저자" style="color:#0a6350;font-weight:600;">저자 소개 보기</a></p>
