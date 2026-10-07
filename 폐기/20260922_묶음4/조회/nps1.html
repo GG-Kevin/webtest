@@ -1,0 +1,49 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/egovframework/sample.css" />
+<title>404 Not Found</title>
+</head>
+
+<body>
+    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="100%" height="100%" align="center" valign="middle" style="padding-top: 150px;"><table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="error_en">
+                            <span style="font-family: Tahoma; font-weight: bold; color: #000000; line-height: 150%; width: 440px; height: 70px;"></span>
+                        	404 Not Found 
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <script type="text/javascript">
+		window.onload = function(){
+			let esLink = window.location.href;
+			if(esLink.indexOf(".jsp") > 0){
+				if(esLink.indexOf("signLanguage.jsp") > 0){
+					location.href="https://www.nps.or.kr/comm/footer/getOHAH0002M0.do";
+				}else if (esLink.indexOf("easy_02_04.jsp?tabOrder=5") > 0){
+					location.href="/pnsinfo/ntpsklg/getOHAF0021M0.do?menuId=MN24001109&tab=tab5";
+				}else if (esLink.indexOf("/jsppage/china/main.jsp") > 0){							// 중국어
+					location.href="/chn/main.do";
+				}else if (esLink.indexOf("/jsppage/int/indonesia/main.jsp") > 0){					// 인도네시아
+					location.href="/ind/main.do";
+				}else if (esLink.indexOf("/jsppage/thai/main.jsp") > 0){							// 태국
+					location.href="/tha/main.do";
+				} else {
+					location.href="https://www.nps.or.kr/";
+				}
+			}
+		}
+	</script>
+</body>
+</html>

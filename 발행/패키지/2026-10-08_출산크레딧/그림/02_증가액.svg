@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#ffffff"/>
+<text x="40" y="54" font-size="30" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추가 가입기간이 늘리는 월 연금(2026년 A값 기준)</text>
+<text x="40" y="90" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 증가 = 1.29 × (A값 + 크레딧 소득) × 개월 수 ÷ 2,880 · 본인 소득과 관계없음 · 오늘 돈 기준</text>
+<text x="246" y="171.2" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 1명 · 12개월</text>
+<rect x="260" y="142.3" width="110.1" height="43.7" fill="#0a6350"/>
+<text x="380.1" y="171.2" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 34,330원</text>
+<text x="246" y="239.5" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 2명 · 24개월</text>
+<rect x="260" y="210.6" width="220.3" height="43.7" fill="#0a6350"/>
+<text x="490.3" y="239.5" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 68,660원</text>
+<text x="246" y="307.8" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 3명 · 42개월</text>
+<rect x="260" y="279.0" width="385.5" height="43.7" fill="#0a6350"/>
+<text x="655.5" y="307.8" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 120,155원</text>
+<text x="246" y="376.2" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 4명 · 60개월</text>
+<rect x="260" y="347.3" width="550.7" height="43.7" fill="#0a6350"/>
+<text x="820.7" y="376.2" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 171,651원</text>
+<text x="246" y="444.5" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 5명 · 78개월</text>
+<rect x="260" y="415.6" width="715.9" height="43.7" fill="#0a6350"/>
+<text x="985.9" y="444.5" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 223,146원</text>
+<text x="246" y="512.8" font-size="19" text-anchor="end" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">군 복무 12개월(참고)</text>
+<rect x="260" y="484.0" width="82.6" height="43.7" fill="#9aa5b1"/>
+<text x="352.6" y="512.8" font-size="19" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 25,747원</text>
+</svg>

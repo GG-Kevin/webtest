@@ -1,0 +1,27 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,12,개월,자녀 1명마다 추가 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제19조①1호,2026-10-05,자녀 1명마다 12개월,MONTH_EACH
+2,24,개월,첫째·둘째 합계,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제19조①2호,2026-10-05,인정되는 24개월,TWO_KIDS
+3,18,개월,셋째부터 1명마다,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제19조①2호,2026-10-05,1명마다 18개월,THIRD_ON
+4,50,개월,종전 상한(폐지),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0104M0.do?menuId=MN25059919,공단 연금개혁 문답(출산크레딧),2026-10-05,50개월 상한 폐지,OLD_CAP
+5,12,개월,군 복무 추가 산입 최대,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0018&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제18조①,2026-10-05,12개월로 한다,MIL_MAX
+6,6,개월,군 복무 최소·종전 인정,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0104M0.do?menuId=MN25059919,공단 연금개혁 문답(군복무),2026-10-05,기존 6개월,-
+7,1천290,천분의,기본연금액 비율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조①,2026-10-05,1천분의 1천290,RATIO
+8,50,천분의,20년 초과 1년마다 가산,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조①,2026-10-05,1천분의 50,-
+9,20,년,기본연금액 가산 기준 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조①,2026-10-05,20년을 초과하면,-
+10,10,년,노령연금 최소 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제61조①,2026-10-05,가입기간이 10년 이상,-
+11,"3,193,511",원,2026년 A값,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,공단 노령연금 안내 주1),2026-10-05,"2026년 기준 3,193,511원",A
+12,"450,800",원,예상연금월액표 B 100만원·20년,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,공단 노령연금 예상연금월액표,2026-10-05,"450,800",-
+13,"676,200",원,예상연금월액표 B 100만원·30년,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,공단 노령연금 예상연금월액표,2026-10-05,"676,200",-
+14,"1,000,000",원,예상연금월액표 B값 행,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,공단 노령연금 예상연금월액표,2026-10-05,"1,000,000",-
+15,"2,861",원,출산 1개월당 월 증가(약),계산,calc.py gain_month(1),2026-10-05,-,per_month
+16,"34,330",원,12개월 월 증가,계산,calc.py,2026-10-05,-,gain12
+17,"411,960",원,12개월 연 증가,계산,calc.py,2026-10-05,-,gain12*12
+18,"68,660",원,24개월 월 증가,계산,calc.py,2026-10-05,-,gain24
+19,"120,155",원,42개월 월 증가,계산,calc.py,2026-10-05,-,gain42
+20,"17,165",원,6개월 월 증가,계산,calc.py,2026-10-05,-,gain_month(6)
+21,"25,747",원,군 복무 12개월 월 증가,계산,calc.py,2026-10-05,-,mil12
+22,"558,302",원,B 200만원 20년 월 연금,계산,calc.py pension_month,2026-10-05,-,pension_month
+23,"592,632",원,B 200만원 20년+12개월 월 연금,계산,calc.py pension_month,2026-10-05,-,pension_month
+24,42,개월,자녀 3명 추가 가입기간,계산,calc.py months_new(3),2026-10-05,-,months_new
+25,66,개월,혼합 경우 5명,계산,calc.py months_old_raw(5),2026-10-05,-,months_old_raw
+26,"1,029.9",만원,1명 25년 합계,계산,calc.py,2026-10-05,-,gain12*12*25

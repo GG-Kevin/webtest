@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="10월과 11월 금통위 회의일, 이슈분석 게시일, 의사록 게시일을 한 줄씩 이은 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="520" fill="#ffffff"/>
+<text x="60" y="60" font-size="30" font-weight="700" fill="#13294b">회의 하나에 따라오는 공개 날짜</text>
+<text x="60" y="98" font-size="20" fill="#3b4a5c">한국은행 게시 규칙(이슈분석 D+7 · 의사록 2주 경과 후 첫 화요일)으로 계산</text>
+<text x="60" y="178" font-size="22" font-weight="700" fill="#13294b">10월</text>
+<line x1="150" y1="170" x2="1100" y2="170" stroke="#c4ccd6" stroke-width="8" stroke-linecap="round"/>
+<circle cx="150" cy="170" r="14" fill="#13294b"/>
+<text x="150" y="144" font-size="20" font-weight="700" text-anchor="middle" fill="#13294b">결정회의</text>
+<text x="150" y="214" font-size="20" text-anchor="middle" fill="#3b4a5c">10월 22일(목)</text>
+<circle cx="500" cy="170" r="14" fill="#2a7f62"/>
+<text x="500" y="144" font-size="20" font-weight="700" text-anchor="middle" fill="#2a7f62">이슈분석</text>
+<text x="500" y="214" font-size="20" text-anchor="middle" fill="#3b4a5c">10월 29일(목)</text>
+<circle cx="1100" cy="170" r="14" fill="#d1495b"/>
+<text x="1100" y="144" font-size="20" font-weight="700" text-anchor="middle" fill="#d1495b">의사록</text>
+<text x="1100" y="214" font-size="20" text-anchor="middle" fill="#3b4a5c">11월 10일(화)</text>
+<text x="1100" y="244" font-size="17" text-anchor="end" fill="#7a8796">회의 뒤 19일</text>
+<text x="60" y="348" font-size="22" font-weight="700" fill="#13294b">11월</text>
+<line x1="150" y1="340" x2="1100" y2="340" stroke="#c4ccd6" stroke-width="8" stroke-linecap="round"/>
+<circle cx="150" cy="340" r="14" fill="#13294b"/>
+<text x="150" y="314" font-size="20" font-weight="700" text-anchor="middle" fill="#13294b">결정회의</text>
+<text x="150" y="384" font-size="20" text-anchor="middle" fill="#3b4a5c">11월 26일(목)</text>
+<circle cx="500" cy="340" r="14" fill="#2a7f62"/>
+<text x="500" y="314" font-size="20" font-weight="700" text-anchor="middle" fill="#2a7f62">이슈분석</text>
+<text x="500" y="384" font-size="20" text-anchor="middle" fill="#3b4a5c">12월 3일(목)</text>
+<circle cx="1100" cy="340" r="14" fill="#d1495b"/>
+<text x="1100" y="314" font-size="20" font-weight="700" text-anchor="middle" fill="#d1495b">의사록</text>
+<text x="1100" y="384" font-size="20" text-anchor="middle" fill="#3b4a5c">12월 15일(화)</text>
+<text x="1100" y="414" font-size="17" text-anchor="end" fill="#7a8796">회의 뒤 19일</text>
+<text x="60" y="500" font-size="16" fill="#7a8796">2026년 10월 4일 한국은행 통화정책방향 결정회의 일정·기준금리 원문 기준 · 머니프로듀서</text>
+</svg>

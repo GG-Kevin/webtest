@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="대출금 1억 2,000만원부터 3억 2,000만원까지 연 2.5%와 연 4.0%일 때 한 달 이자를 나란히 놓은 막대그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="560" fill="#ffffff"/>
+<text x="60" y="56" font-size="30" font-weight="700" fill="#16212e">대출금별 한 달 이자(만기 일시상환, 원 미만 버림)</text>
+<rect x="760" y="80" width="22" height="22" fill="#9aa5b1"/><text x="790" y="98" font-size="20" fill="#16212e">연 2.5%(버팀목 금리 범위 하단)</text>
+<rect x="760" y="112" width="22" height="22" fill="#0a6350"/><text x="790" y="130" font-size="20" fill="#16212e">연 4.0%(가정)</text>
+<rect x="110" y="402" width="70" height="68" fill="#9aa5b1"/>
+<text x="145" y="394" font-size="16" fill="#16212e" text-anchor="middle">25만</text>
+<rect x="190" y="361" width="70" height="109" fill="#0a6350"/>
+<text x="225" y="353" font-size="16" fill="#16212e" text-anchor="middle">40만</text>
+<text x="185" y="504" font-size="20" font-weight="700" fill="#16212e" text-anchor="middle">1억 2,000만원</text>
+<rect x="320" y="385" width="70" height="85" fill="#9aa5b1"/>
+<text x="355" y="377" font-size="16" fill="#16212e" text-anchor="middle">31만 2,500</text>
+<rect x="400" y="334" width="70" height="136" fill="#0a6350"/>
+<text x="435" y="326" font-size="16" fill="#16212e" text-anchor="middle">50만</text>
+<text x="395" y="504" font-size="20" font-weight="700" fill="#16212e" text-anchor="middle">1억 5,000만원</text>
+<rect x="530" y="357" width="70" height="113" fill="#9aa5b1"/>
+<text x="565" y="349" font-size="16" fill="#16212e" text-anchor="middle">41만 6,666</text>
+<rect x="610" y="289" width="70" height="181" fill="#0a6350"/>
+<text x="645" y="281" font-size="16" fill="#16212e" text-anchor="middle">66만 6,666</text>
+<text x="605" y="504" font-size="20" font-weight="700" fill="#16212e" text-anchor="middle">2억원</text>
+<rect x="740" y="328" width="70" height="142" fill="#9aa5b1"/>
+<text x="775" y="320" font-size="16" fill="#16212e" text-anchor="middle">52만 833</text>
+<rect x="820" y="243" width="70" height="227" fill="#0a6350"/>
+<text x="855" y="235" font-size="16" fill="#16212e" text-anchor="middle">83만 3,333</text>
+<text x="815" y="504" font-size="20" font-weight="700" fill="#16212e" text-anchor="middle">2억 5,000만원</text>
+<rect x="950" y="289" width="70" height="181" fill="#9aa5b1"/>
+<text x="985" y="281" font-size="16" fill="#16212e" text-anchor="middle">66만 6,666</text>
+<rect x="1030" y="180" width="70" height="290" fill="#0a6350"/>
+<text x="1065" y="172" font-size="16" fill="#16212e" text-anchor="middle">106만 6,666</text>
+<text x="1025" y="504" font-size="20" font-weight="700" fill="#16212e" text-anchor="middle">3억 2,000만원</text>
+<line x1="90" y1="470" x2="1150" y2="470" stroke="#16212e" stroke-width="2"/>
+<text x="60" y="540" font-size="18" fill="#5b6b7a">단위: 원(막대 위 숫자는 「만」 단위로 줄여 적음) · 2026년 10월 5일 원문 기준 직접 계산</text>
+</svg>

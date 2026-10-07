@@ -1,0 +1,97 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,1/2,비율,신청 기한 — 계약기간의 절반,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증신청기한,2026-10-05,전세계약기간의 1/2,
+2,6,개월,미분양관리지역 특례 기한(만료 전),https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,미분양관리지역 특례지원,2026-10-05,만료일 6개월 이전까지,
+3,90,%,담보인정비율,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증한도,2026-10-05,담보인정비율(90%),LTV
+4,140,%,공시가격 환산 배수,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,주택가격 산정기준,2026-10-05,의 140%에 해당하는,PUBLIC_MULT
+5,126,%,공시가격 대비 상한(140%×90%),계산,-,2026-10-05,-,PUBLIC_MULT*LTV
+6,6,개월,감정평가서 유효기간,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,감정평가서 이용 시,2026-10-05,6개월이 경과되지 아니,
+7,700000000,원,보증금 상한 수도권,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증대상 전세보증금,2026-10-05,수도권 7억원,CAP_METRO
+8,500000000,원,보증금 상한 그 외 지역,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증대상 전세보증금,2026-10-05,그외 지역 5억원,CAP_OTHER
+9,60,%,선순위채권 상한(주택가액 대비),https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,등기부등본상 확인사항②,2026-10-05,주택가액의 60% 이내,SENIOR_CAP
+10,80,%,단독·다가구 선순위+다른 세입자 상한,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,단독·다중·다가구 추가 확인,2026-10-05,주택가액의 80% 이내,
+11,9천만,원,원문 예시 — 주택가격 1억 한도,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증조건 Ex),2026-10-05,보증한도 9천만원,
+12,5천5백만,원,원문 예시 — 선순위채권,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증조건 Ex),2026-10-05,선순위채권 5천5백만원,
+13,4천만,원,원문 예시 — 보증금,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증조건 Ex),2026-10-05,전세보증금 4천만원,
+14,1,년,계약기간 최소,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,전세계약서상 확인사항①,2026-10-05,1년 이상일 것,
+15,0.097,%,최저 보증료율(1억 이하 아파트 70% 이하),https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.097%,RATES
+16,0.211,%,최고 보증료율(5억 초과 기타 80% 초과),https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.211%,RATES
+17,0.124,%,1~2억 아파트 80% 이하,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.124%,RATES
+18,0.131,%,2~5억 아파트 80% 이하,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.131%,RATES
+19,0.154,%,2~5억 아파트 80% 초과,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.154%,RATES
+20,0.197,%,2~5억 기타 80% 초과,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.197%,RATES
+21,0.172,%,1억 이하 기타 80% 초과,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,연 0.172%,RATES
+22,70,%,부채비율 구간,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료율 표,2026-10-05,70% 이하,
+23,365,일,보증료 공식 분모,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료,2026-10-05,전세계약기간/365,DAYS
+24,50,%,할증 기준(선순위/주택가액),https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,부채비율 할증,2026-10-05,주택가액의 50%를 초과,SURCHARGE_LINE
+25,10,%,할증률,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,부채비율 할증,2026-10-05,보증료의 10%를 할증,SURCHARGE
+26,60,%,기준소득 이하 가구 할인,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,60%,DISC_LOW_INCOME
+27,5천만,원,기준소득 연소득 상한,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,연소득이 5천만원 이하,
+28,40,%,신혼부부 할인,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,40%,DISC_NEWLYWED
+29,6천만,원,신혼부부 합산 연소득 상한,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,합산 연소득 6천만원,
+30,7,년,신혼부부 혼인기간,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,혼인기간이 7년 이내,
+31,3,개월,결혼 예정 포함 기간,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,3개월 이내 결혼예정자,
+32,65,세,고령자 가구,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,만 65세 이상,
+33,3,인,다자녀 가구,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,3인 이상인 가구,
+34,3,%,전자계약 할인,https://www.khug.or.kr/hug/web/ig/dr/igdr000001.jsp,보증료할인,2026-10-05,전자계약 할인 3%,
+35,6.5,%,전월세전환율,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=37801,공지 2026-06-24,2026-10-05,변경 6.5%,CONV_RATE
+36,6.4,%,종전 전월세전환율,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=37801,공지 2026-06-24,2026-10-05,기존 6.4%,
+37,2026.7.1.,날,전환율 적용일,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=37801,공지 2026-06-24,2026-10-05,2026.7.1.(수),
+38,2026-06-24,날,전환율 공지 작성일,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=37801,작성일,2026-10-05,2026-06-24,
+39,2026-09-09,날,제도개선 공지 작성일,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=38384,작성일,2026-10-05,2026-09-09,
+40,’26.10.30,날,사전한도심사·전액보증·상품명 변경 적용,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=38384,공지,2026-10-05,’26. 10. 30 보증신청,
+41,’26.10.1,날,보증3사 미반환 임대인 보증금지 적용,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=38384,공지,2026-10-05,’26. 10. 1 신규,
+42,19,세,미성년 임대인 기준,https://khug.or.kr/hug/web/cs/no/csno000001.jsp?id=16&mode=S&currentPage=1&articleId=38384,미성년 임대인 연대보증,2026-10-05,만 19세 미만,
+43,0.04,%,HF LTV 70% 이하 요율,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,보증료율,2026-10-05,LTV 70% 이하 : 연 0.04%,HF_RATES
+44,0.11,%,HF LTV 80% 이하 요율,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,보증료율,2026-10-05,연 0.11%,HF_RATES
+45,0.18,%,HF LTV 90% 이하 요율,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,보증료율,2026-10-05,연 0.18%,HF_RATES
+46,1200000000,원,HF 주택가격 상한,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,보증대상 목적물,2026-10-05,12억원 이하,
+47,700000000,원,HF 보증금 상한,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,보증대상 임대차계약,2026-10-05,7억원 이하,
+48,’24.7.10,날,HF 채권양도 적용,https://www.hf.go.kr/ko/sub02/sub02_05_01.do,채권보전조치,2026-10-05,’24.7.10 이후,
+49,12,%,보험료 세액공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,제59조의4①,2026-10-05,100분의 12,TAX_CREDIT
+50,100만,원,보험료별 연 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,제59조의4①,2026-10-05,연 100만원,TAX_CAP
+51,2026.1.1.,날,소득세법 시행일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,머리,2026-10-05,시행 2026. 1. 1.,
+52,3억,원,반환보증 보증료 공제 보증금 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0118&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,제118조의4②6,2026-10-05,3억원을 초과하는,TAX_DEPOSIT_CAP
+53,2026.10.1.,날,소득세법 시행령 시행일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0118&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,머리,2026-10-05,시행 2026. 10. 1.,
+54,"1억 8,900만원",,공시 1.5억 빌라 최대 보증금,계산,calc.py 출력,2026-10-05,-,main()
+55,"2억 1,000만원",,공시 1.5억 주택가격,계산,calc.py 출력,2026-10-05,-,main()
+56,"2억 8,000만원",,공시 2억 주택가격,계산,calc.py 출력,2026-10-05,-,main()
+57,"2억 5,200만원",,공시 2억 최대 보증금,계산,calc.py 출력,2026-10-05,-,main()
+58,"3억 5,000만원",,공시 2.5억 주택가격,계산,calc.py 출력,2026-10-05,-,main()
+59,"3억 1,500만원",,공시 2.5억 최대,계산,calc.py 출력,2026-10-05,-,main()
+60,"2억 7,000만원",,시세 3억 주택가액,계산,calc.py 출력,2026-10-05,-,main()
+61,4억 500만원,,시세 4.5억 주택가액,계산,calc.py 출력,2026-10-05,-,main()
+62,"1억 8,461만원",,월 100만원 환산분,계산,calc.py 출력,2026-10-05,-,main()
+63,"3억 8,461만원",,환산 보증금,계산,calc.py 출력,2026-10-05,-,main()
+64,"2억 2,153만원",,월 120만원 환산분,계산,calc.py 출력,2026-10-05,-,main()
+65,"5억 2,153만원",,환산 보증금,계산,calc.py 출력,2026-10-05,-,main()
+66,"2억 7,692만원",,월 150만원 환산분,계산,calc.py 출력,2026-10-05,-,main()
+67,"6억 7,692만원",,환산 보증금,계산,calc.py 출력,2026-10-05,-,main()
+68,"1,846,153원",,월세 1만원 환산(약 185만원),계산,calc.py 출력,2026-10-05,-,main()
+69,"1,440만원",,월세 120만원 1년,계산,calc.py 출력,2026-10-05,-,main()
+70,74.1%,,경우 A·B 부채비율,계산,calc.py 출력,2026-10-05,-,main()
+71,86.4%,,경우 C,계산,calc.py 출력,2026-10-05,-,main()
+72,95.2%,,경우 D·E,계산,calc.py 출력,2026-10-05,-,main()
+73,"496,000원",,A 2년,계산,calc.py 출력,2026-10-05,-,main()
+74,"248,000원",,A 1년,계산,calc.py 출력,2026-10-05,-,main()
+75,"20,666원",,A 한 달,계산,calc.py 출력,2026-10-05,-,main()
+76,"786,000원",,B 2년,계산,calc.py 출력,2026-10-05,-,main()
+77,"32,750원",,B 한 달,계산,calc.py 출력,2026-10-05,-,main()
+78,"770,000원",,C 2년,계산,calc.py 출력,2026-10-05,-,main()
+79,"32,083원",,C 한 달,계산,calc.py 출력,2026-10-05,-,main()
+80,"1,182,000원",,D 2년,계산,calc.py 출력,2026-10-05,-,main()
+81,"49,250원",,D 한 달,계산,calc.py 출력,2026-10-05,-,main()
+82,"378,400원",,E 2년(할증 포함),계산,calc.py 출력,2026-10-05,-,main()
+83,"15,766원",,E 한 달,계산,calc.py 출력,2026-10-05,-,main()
+84,"16,000원",,B−C 차이,계산,calc.py 출력,2026-10-05,-,main()
+85,"1억 2,600만원",,E 주택가액 50%,계산,calc.py 출력,2026-10-05,-,main()
+86,"1억 5,120만원",,E 주택가액 60%,계산,calc.py 출력,2026-10-05,-,main()
+87,"198,400원",,A 할인 60%,계산,calc.py 출력,2026-10-05,-,main()
+88,"297,600원",,A 신혼부부 40%,계산,calc.py 출력,2026-10-05,-,main()
+89,"160,000원",,A HF,계산,calc.py 출력,2026-10-05,-,main()
+90,66.7%,,A HF LTV,계산,calc.py 출력,2026-10-05,-,main()
+91,"59,520원",,A 세액공제,계산,calc.py 출력,2026-10-05,-,main()
+92,0.323,,HF÷HUG(3분의 1 수준),계산,calc.py 출력,2026-10-05,-,main()
+93,2027-11-16,,신청 기한 예(2년),계산,calc.py 출력,2026-10-05,-,main()
+94,2027-05-16,,신청 기한 예(1년),계산,calc.py 출력,2026-10-05,-,main()
+95,12,,개월 — 2년 계약 신청 구간,계산,calc.py 출력,2026-10-05,-,main()
+96,730,,일 — 2년 가정,계산,calc.py 출력,2026-10-05,-,main()

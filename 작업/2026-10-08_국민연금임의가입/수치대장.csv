@@ -1,0 +1,45 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,18,세,임의가입 하한 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제10조①,2026-10-05,18세 이상 60세 미만인 자,AGE_MIN
+2,60,세,임의가입 상한 나이(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제10조①,2026-10-05,18세 이상 60세 미만인 자,AGE_MAX
+3,27,세,학생·군복무 지역가입 제외 나이(미만),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0009&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제9조 3호,2026-10-05,18세 이상 27세 미만인 자,
+4,"96,230",원,2026년 임의가입 최저 월 보험료,계산,"공식: 1,013,000×95/1000, 10원 미만 버림",2026-10-05,"96,230","premium(MEDIAN_2026,2026)"
+5,"96,230",원,같은 값 공단 예상연금월액표,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 예상연금월액표 8번 줄,2026-10-05,"96,230",
+6,9.5,%,2026년 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,지역가입자 보험료율·예시,2026-10-05,보험료율 9.5%로 부과,rate_permil(2026)
+7,"1,013,000",원,2026.4.~ 중위수 기준소득월액(최저),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 8번 줄,2026-10-05,"1,013,000",MEDIAN_2026
+8,101.3,만원,중위수 기준소득월액 '26.4.,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0032M0.do?menuId=MN24001111,연도별 기준소득월액 표,2026-10-05,101.3만원,MEDIAN_2026
+9,100,만원,중위수 기준소득월액 '18.4.~'25.4.,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0032M0.do?menuId=MN24001111,연도별 기준소득월액 표,2026-10-05,100만원,MEDIAN_2025
+10,100,만원,임의가입자 쪽 표의 마지막 값('25.4.),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0029M0.do?menuId=MN24001110,연도별 기준소득월액 표,2026-10-05,100만원,
+11,"95,000",원,100만원×9.5% 월 보험료,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 7번 줄,2026-10-05,"95,000",p_min_25
+12,"1,230",원,101.3만원과 100만원의 보험료 차이,계산,"96,230−95,000",2026-10-05,"1,230원",p_min_26-p_min_25
+13,1천290,1천분의,기본연금액 계수 1.29,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0051&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제51조①,2026-10-05,1천분의 1천290을 곱한,BASE_MULT_PERMIL
+14,1.29,배,기본연금액 계수(공단 산식),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 유의사항 1,2026-10-05,1.29(A+B),BASE_MULT_PERMIL
+15,"226,090",원,최저선 10년 월 노령연금,계산,"1.29×(A+B)×50%÷12, 10원 미만 버림",2026-10-05,"226,090","monthly_pension(MEDIAN_2026,10)"
+16,"226,090",원,같은 값 공단 예상연금월액표,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 8번 줄 10년,2026-10-05,"226,090",
+17,659,만원,기준소득월액 상한 2026.7.~2027.6.,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,기준소득월액 상한액과 하한액,2026-10-05,(최고) 659만원,UPPER
+18,637,만원,기준소득월액 상한 2025.7.~2026.6.,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,기준소득월액 상한액과 하한액,2026-10-05,(최고) 637만원,
+19,0.5,%p,해마다 보험료율 인상폭,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,지역가입자의 보험료율,2026-10-05,매년 0.5%p씩,rate_permil
+20,13,%,2033년부터 보험료율,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,지역가입자의 보험료율,2026-10-05,13%의 보험료율,rate_permil(2033)
+21,130,1천분의,최종 보험료율(지역·임의),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0088&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제88조④,2026-10-05,기준소득월액의 1천분의 130,FINAL_RATE_PERMIL
+22,"6,590,000",원,최고 기준소득월액(표),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 64번 줄,2026-10-05,"6,590,000",UPPER
+23,"626,050",원,최고 월 보험료 2026,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 64번 줄,2026-10-05,"626,050",p_max_26
+24,"525,860",원,최고 10년 월 연금,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 64번 줄,2026-10-05,"525,860","monthly_pension(UPPER,10)"
+25,115,만원,"최저 12개월 보험료(1,154,760원) 반올림",계산,"96,230×12",2026-10-05,약 115만원,premium*12
+26,10,년,노령연금 최소 가입기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제61조①,2026-10-05,가입기간이 10년 이상인,
+27,"3,193,511",원,2026년 적용 A값,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 유의사항 3,2026-10-05,"3,193,511원",A_2026
+28,50,%,10년 지급률,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 산식 주,2026-10-05,10년 기준 50%,pay_rate_pct(10)
+29,5,%,10년 초과 1년마다 지급률 가산,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 산식 주,2026-10-05,1년마다 5%를 가산,pay_rate_pct
+30,"225,400",원,공단 표 100만원 10년 월 연금(검산),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,예상연금월액표 7번 줄,2026-10-05,"225,400","monthly_pension(MEDIAN_2025,10)"
+31,65,세,1969년생 이후 노령연금 지급개시연령,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 지급연령 표,2026-10-05,1969년생 이후 65세,
+32,"14,526,240",원,2027년부터 10년 최저 보험료 합계,계산,표 3 합계,2026-10-05,"14,526,240원",total
+33,"1,452.6",만원,같은 합계 만원 환산,계산,"14,526,240÷10,000",2026-10-05,"약 1,452.6만원",total
+34,64.2,개월,합계÷월 연금,계산,"14,526,240÷226,090",2026-10-05,64.2개월,total/pen
+35,65,개월,연금 누적이 합계를 넘는 달,계산,올림(64.2),2026-10-05,65개월째,months
+36,5.4,년,65개월의 연 환산,계산,65÷12,2026-10-05,약 5.4년,months/12
+37,"101,300",원,2027년 최저 월 보험료(요율 10%·중위수 고정 가정),계산,"1,013,000×100/1000",2026-10-05,"101,300원","premium(MEDIAN_2026,2027)"
+38,1355,번,공단 고객센터 번호,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0029M0.do?menuId=MN24001110,담당,2026-10-05,국민연금 고객센터 (1355),
+39,10,일,보험료 납부기한(다음 달 10일),https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113,보험료 납부기한,2026-10-05,다음 달 10일,
+40,6,개월,직권 탈퇴 체납 기간,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0029M0.do?menuId=MN24001110,임의가입자의 탈퇴,2026-10-05,6개월 이상 계속하여,
+41,65,세,임의계속가입 상한 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0013&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제13조①,2026-10-05,65세가 될 때까지,AGE_CONT_MAX
+42,10,년,반환일시금: 가입기간 10년 미만 60세,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0077&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제77조①1호,2026-10-05,가입기간이 10년 미만인 자,
+43,60,세,임의가입 자격 상실(60세가 된 때),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제12조③4호,2026-10-05,60세가 된 때,
+44,8,년,100만원이 유지된 햇수('18.4.~'25.4.),계산,연도별 표 8칸 셈,2026-10-05,8년,

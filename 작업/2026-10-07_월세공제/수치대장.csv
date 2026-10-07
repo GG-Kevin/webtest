@@ -1,0 +1,45 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,8천만,원,총급여 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,총급여액이 8천만원 이하,WAGE_HIGH
+2,7천만,원,종합소득금액 제외선(15%),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,7천만원을 초과하는 사람,INCOME_HIGH
+3,5천500만,원,17% 총급여선,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,총급여액이 5천500만원 이하,WAGE_LOW
+4,4천500만,원,종합소득금액 제외선(17%),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,4천500만원을 초과하는,INCOME_LOW
+5,100분의 15,비율,기본 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,그 금액의 100분의 15,RATE_HIGH
+6,100분의 17,비율,총급여 5천500만 이하 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①,2026-10-05,경우에는 100분의 17,RATE_LOW
+7,1천만,원,월세액 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2①단서,2026-10-05,월세액이 1천만원을 초과,CAP
+8,1천만,원,세대주+배우자 합계 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284389&joNo=0095&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,조특법 제95조의2②(신설 2025. 12. 23.),2026-10-05,합계액이 1천만원을 초과,CAP
+9,100,제곱미터,자녀·손자녀 3명 이상 면적 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제95조②1호가목(개정 2026. 2. 27.),2026-10-05,100제곱미터 이하인 주택,
+10,3,명,다자녀 기준 자녀·손자녀 수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제95조②1호가목,2026-10-05,손자녀가 3명 이상인 경우,
+11,4억,원,기준시가 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288915&joNo=0095&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,조특령 제95조②1호나목,2026-10-05,기준시가 4억원 이하인 주택,
+12,85,제곱미터,국민주택규모,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289171&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,주택법 제2조6호,2026-10-05,1세대당 85제곱미터 이하,
+13,100,제곱미터,읍·면 국민주택규모,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289171&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,주택법 제2조6호,2026-10-05,100제곱미터 이하인 주택,
+14,13만,원,표준세액공제(근로자),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4⑨1호,2026-10-05,경우: 연 13만원,STD_CREDIT
+15,5,년,경정청구 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0045&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,국세기본법 제45조의2①⑤,2026-10-05,지난 후 5년 이내,
+16,2,개월,경정청구 통지 기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0045&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,국세기본법 제45조의2③,2026-10-05,받은 날부터 2개월 이내,
+17,5월 1일,날,종합소득 확정신고 시작,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제70조①,2026-10-05,다음 연도 5월 1일부터,
+18,5월 31일,날,종합소득 확정신고 끝,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제70조①,2026-10-05,5월 31일까지,
+19,2026년 1월 1일,날,배우자 추가 공제 적용 시작(지급분),https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=284389&efYd=20260918&chrClsCd=010202&ancYnChk=0,부칙 법률 제21223호 제1조·제17조(법령 전문),2026-10-05,2026년 1월 1일부터 시행,
+20,85,제곱미터,국민주택규모(국세청 설명),PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=d68280b905b4d057a1b8ea26039cd832,책자 3~4쪽(pdftotext),2026-10-05,주거전용면적이 85㎡,
+21,4억,원,기준시가 판단일 = 계약 체결일,PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=d68280b905b4d057a1b8ea26039cd832,책자 해석사례 19 · 상담사례 Q1(서면-2023-법규소득-2540),2026-10-05,임대차계약 체결일 기준,
+22,20만,원,지자체 월세 지원 예시(책자 사실관계),PDF:https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=d68280b905b4d057a1b8ea26039cd832,책자 해석사례 23(서면-2024-법규소득-0214),2026-10-05,월 20만원의 월세 지원금,
+23,170만,원,17% 1년 최대 공제액,계산,표1,2026-10-05,,credit(CAP·RATE_LOW)
+24,150만,원,15% 1년 최대 공제액,계산,표1,2026-10-05,,credit(CAP·RATE_HIGH)
+25,14.2만,원,17% 최대 공제의 월 환산,계산,표1,2026-10-05,,table_rates
+26,12.5만,원,15% 최대 공제의 월 환산,계산,표1,2026-10-05,,table_rates
+27,833333,원,한도에 닿는 월세(약 83만원),계산,본문,2026-10-05,,CAP/12
+28,102만,원,월 50만원·17% 공제액,계산,표2·첫 문단,2026-10-05,,m50_low
+29,90만,원,월 50만원·15% 공제액,계산,표2·첫 문단,2026-10-05,,m50_high
+30,85000,원,월 50만원·17%의 월 환산(약 8만5천원),계산,본문,2026-10-05,,m50_low/12
+31,75000,원,월 50만원·15%의 월 환산(약 7만5천원),계산,본문,2026-10-05,,m50_high/12
+32,122.4만,원,월 60만원·17% 공제액,계산,표2,2026-10-05,,m60_low
+33,108만,원,월 60만원·15% 공제액,계산,표2,2026-10-05,,m60_high
+34,89만,원,월 50만원·17%에서 13만원 뺀 값,계산,표2,2026-10-05,,m50_low-STD_CREDIT
+35,3020519,원,7월 1일 입주 공제대상 월세,계산,표3,2026-10-05,,prorate
+36,513488,원,7월 1일 입주 공제액,계산,표3,2026-10-05,,c1
+37,731,일,2026-07-01~2028-06-30 계약 일수,계산,표3,2026-10-05,,prorate.cdays
+38,184,일,2026년 임차일수,계산,표3,2026-10-05,,prorate.ydays
+39,612000,원,지원금 월 20만원 받은 경우 공제액(61.2만원),계산,표3,2026-10-05,,c2
+40,408000,원,지원금으로 줄어드는 공제액(40.8만원),계산,본문,2026-10-05,,m50_low-c2
+41,280만,원,배우자 공제대상 월세,계산,표3,2026-10-05,,sp_base
+42,1224000,원,세대주 월 60만원 공제액,계산,표3,2026-10-05,,c3h
+43,476000,원,배우자 공제액,계산,표3,2026-10-05,,c3s
+44,320만,원,합계 초과분(배우자 몫에서 뺌),계산,표3,2026-10-05,,head+sp-CAP

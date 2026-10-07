@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#ffffff"/>
+<text x="60" y="50" font-size="28" font-weight="700" fill="#16212e" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3% 문턱은 공제율이 낮은 의료비부터 채웁니다</text>
+<text x="60" y="86" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">총급여 5,000만원 · 문턱 150만원 · 배우자 50만 → 본인 100만 → 난임시술비 400만 순서</text>
+<rect x="60.0" y="140" width="98.2" height="70" fill="#9ca3af"/>
+<text x="109.1" y="235" font-size="18" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">배우자 50만</text>
+<rect x="158.2" y="140" width="196.4" height="70" fill="#6b7280"/>
+<text x="256.4" y="235" font-size="18" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">본인 100만</text>
+<rect x="354.5" y="140" width="785.5" height="70" fill="#0a6350"/>
+<text x="747.3" y="235" font-size="18" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">난임시술비 400만</text>
+<rect x="60.0" y="130" width="294.5" height="90" fill="none" stroke="#c2410c" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="60.0" y="120" font-size="18" fill="#c2410c" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">문턱 150만원이 여기서 빠짐</text>
+<text x="60" y="300" font-size="22" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">난임시술비 400만원 전부에 30% → 소득세 공제 120만원</text>
+<text x="60" y="340" font-size="18" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">문턱을 난임시술비에서 먼저 뺀다고 놓으면 97.5만원 — 조문 순서가 22.5만원 더 큽니다</text>
+</svg>

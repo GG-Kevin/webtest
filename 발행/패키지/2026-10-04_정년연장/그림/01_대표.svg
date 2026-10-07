@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="원문에서 확인된 것과 확인되지 않은 것을 두 칸으로 나눈 정년연장 판정판" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="64" fill="#16212e"/>
+<text x="60" y="42" font-size="24" font-weight="700" fill="#ffffff">정년연장 법제화 · 2026년 10월 4일 원문 기준</text>
+<text x="60" y="122" font-size="38" font-weight="700" fill="#16212e">지금 법정 정년은 60세, 65세 법안은 국회 심사 중</text>
+<rect x="60" y="160" width="520" height="390" rx="14" fill="#e8f3ef" stroke="#0a6350" stroke-width="3"/>
+<rect x="60" y="160" width="520" height="66" rx="14" fill="#0a6350"/>
+<rect x="60" y="200" width="520" height="26" fill="#0a6350"/>
+<text x="320" y="205" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">원문에서 확인된 것</text>
+<circle cx="94" cy="281" r="7" fill="#0a6350"/>
+<text x="114" y="290" font-size="23" fill="#16212e">법정 정년 60세 이상(제19조)</text>
+<circle cx="94" cy="347" r="7" fill="#0a6350"/>
+<text x="114" y="356" font-size="23" fill="#16212e">정부: 세대 상생형 정년연장 법제화 추진</text>
+<circle cx="94" cy="413" r="7" fill="#0a6350"/>
+<text x="114" y="422" font-size="23" fill="#16212e">의안 2213470: 정년 65세 안, 의결 전</text>
+<circle cx="94" cy="479" r="7" fill="#0a6350"/>
+<text x="114" y="488" font-size="23" fill="#16212e">공무원 정년 60세는 국가공무원법</text>
+<rect x="620" y="160" width="520" height="390" rx="14" fill="#fbf1e1" stroke="#9a5b00" stroke-width="3"/>
+<rect x="620" y="160" width="520" height="66" rx="14" fill="#9a5b00"/>
+<rect x="620" y="200" width="520" height="26" fill="#9a5b00"/>
+<text x="880" y="205" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">확인되지 않은 것</text>
+<circle cx="654" cy="281" r="7" fill="#9a5b00"/>
+<text x="674" y="290" font-size="23" fill="#16212e">시행 연도</text>
+<circle cx="654" cy="347" r="7" fill="#9a5b00"/>
+<text x="674" y="356" font-size="23" fill="#16212e">내 출생연도에 적용되는지</text>
+<circle cx="654" cy="413" r="7" fill="#9a5b00"/>
+<text x="674" y="422" font-size="23" fill="#16212e">정부가 국회에 낸 법안</text>
+<circle cx="654" cy="479" r="7" fill="#9a5b00"/>
+<text x="674" y="488" font-size="23" fill="#16212e">임금 조정·재고용 방식</text>
+<text x="1140" y="600" font-size="16" text-anchor="end" fill="#8a96a3">2026년 10월 4일 국가법령정보센터·고용노동부·국회 의안 원문 기준 · 머니프로듀서</text>
+</svg>

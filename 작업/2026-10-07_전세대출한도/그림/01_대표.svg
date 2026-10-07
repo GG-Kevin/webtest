@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="수도권 전세보증금 4억원일 때 1주택자 2억원, 신혼부부 버팀목 2억 5,000만원, HUG 일반 3억 2,000만원, HUG 신혼·청년 3억 6,000만원으로 계산한 전세대출 한도 막대그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="64" fill="#16212e"/>
+<text x="60" y="42" font-size="24" font-weight="700" fill="#ffffff">전세대출 한도 · 수도권 전세보증금 4억원 기준 직접 계산</text>
+<text x="60" y="118" font-size="36" font-weight="700" fill="#16212e">같은 4억 전세라도 상품마다 2억~3억 6,000만원까지</text>
+<text x="60" y="160" font-size="22" fill="#3d4852">무주택·심사 통과 가정 · 2026년 10월 5일 주택도시기금·HF·HUG·금융위원회 원문 기준</text>
+<line x1="1040" y1="203" x2="1040" y2="583" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="1040" y="195" font-size="18" fill="#c0392b" text-anchor="middle">보증금 4억원</text>
+<text x="384" y="253" font-size="22" fill="#16212e" text-anchor="end">1주택자(수도권·규제지역)</text>
+<rect x="400" y="215" width="320" height="60" rx="6" fill="#9aa5b1"/>
+<text x="708" y="253" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">2억원</text>
+<text x="384" y="345" font-size="22" fill="#16212e" text-anchor="end">신혼부부 버팀목</text>
+<rect x="400" y="307" width="400" height="60" rx="6" fill="#5b6b7a"/>
+<text x="788" y="345" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">2억 5,000만원</text>
+<text x="384" y="437" font-size="22" fill="#16212e" text-anchor="end">HUG 안심대출(일반)</text>
+<rect x="400" y="399" width="512" height="60" rx="6" fill="#0a6350"/>
+<text x="900" y="437" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">3억 2,000만원</text>
+<text x="384" y="529" font-size="22" fill="#16212e" text-anchor="end">HUG 안심대출(신혼·청년)</text>
+<rect x="400" y="491" width="576" height="60" rx="6" fill="#0a6350"/>
+<text x="964" y="529" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">3억 6,000만원</text>
+<text x="60" y="612" font-size="18" fill="#5b6b7a">한도 = 상품 상한과 보증금 × 비율 중 작은 값 · 1주택자는 보증기관과 관계없이 2억원 · HF는 원문 기준 확인 뒤 별도</text>
+</svg>

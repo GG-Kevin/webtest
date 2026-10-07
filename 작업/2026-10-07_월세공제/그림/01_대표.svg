@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="110" y="52" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월세별 1년 세액공제액</text>
+<text x="110" y="88" font-size="20" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12개월 낸 경우 · 월세 합계 1,000만원까지만 계산 · 2026년 10월 5일 조세특례제한법 제95조의2 기준</text>
+<line x1="110" y1="565.0" x2="1160" y2="565.0" stroke="#e5e7eb"/>
+<text x="98" y="571.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="110" y1="490.8" x2="1160" y2="490.8" stroke="#e5e7eb"/>
+<text x="98" y="496.8" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30만</text>
+<line x1="110" y1="416.7" x2="1160" y2="416.7" stroke="#e5e7eb"/>
+<text x="98" y="422.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60만</text>
+<line x1="110" y1="342.5" x2="1160" y2="342.5" stroke="#e5e7eb"/>
+<text x="98" y="348.5" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">90만</text>
+<line x1="110" y1="268.3" x2="1160" y2="268.3" stroke="#e5e7eb"/>
+<text x="98" y="274.3" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">120만</text>
+<line x1="110" y1="194.2" x2="1160" y2="194.2" stroke="#e5e7eb"/>
+<text x="98" y="200.2" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">150만</text>
+<line x1="110" y1="120.0" x2="1160" y2="120.0" stroke="#e5e7eb"/>
+<text x="98" y="126.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">180만</text>
+<rect x="131.0" y="363.3" width="60.5" height="201.7" fill="#2563eb"/>
+<text x="161.2" y="355.3" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">81.6만원</text>
+<rect x="197.5" y="387.0" width="60.5" height="178.0" fill="#93c5fd"/>
+<text x="227.8" y="379.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">72만원</text>
+<text x="197.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 40만원</text>
+<rect x="306.0" y="312.8" width="60.5" height="252.2" fill="#2563eb"/>
+<text x="336.2" y="304.8" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">102만원</text>
+<rect x="372.5" y="342.5" width="60.5" height="222.5" fill="#93c5fd"/>
+<text x="402.8" y="334.5" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">90만원</text>
+<text x="372.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 50만원</text>
+<rect x="481.0" y="262.4" width="60.5" height="302.6" fill="#2563eb"/>
+<text x="511.2" y="254.4" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">122.4만원</text>
+<rect x="547.5" y="298.0" width="60.5" height="267.0" fill="#93c5fd"/>
+<text x="577.8" y="290.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">108만원</text>
+<text x="547.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 60만원</text>
+<rect x="656.0" y="212.0" width="60.5" height="353.0" fill="#2563eb"/>
+<text x="686.2" y="204.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">142.8만원</text>
+<rect x="722.5" y="253.5" width="60.5" height="311.5" fill="#93c5fd"/>
+<text x="752.8" y="245.5" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">126만원</text>
+<text x="722.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 70만원</text>
+<rect x="831.0" y="161.5" width="60.5" height="403.5" fill="#2563eb"/>
+<text x="861.2" y="153.5" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">163.2만원</text>
+<rect x="897.5" y="209.0" width="60.5" height="356.0" fill="#93c5fd"/>
+<text x="927.8" y="201.0" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">144만원</text>
+<text x="897.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 80만원</text>
+<rect x="1006.0" y="144.7" width="60.5" height="420.3" fill="#2563eb"/>
+<text x="1036.2" y="136.7" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">170만원</text>
+<rect x="1072.5" y="194.2" width="60.5" height="370.8" fill="#93c5fd"/>
+<text x="1102.8" y="186.2" font-size="14" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">150만원</text>
+<text x="1072.5" y="597" font-size="20" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 90만원</text>
+<line x1="110" y1="144.7" x2="1160" y2="144.7" stroke="#dc2626" stroke-dasharray="8 6"/>
+<text x="1160" y="134.7" font-size="17" text-anchor="end" fill="#dc2626" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">17% 상한 170만원(월세 1,000만원)</text>
+<rect x="110" y="623" width="22" height="22" fill="#2563eb"/>
+<text x="142" y="641" font-size="19" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">총급여 5,500만원 이하 17%</text>
+<rect x="440" y="623" width="22" height="22" fill="#93c5fd"/>
+<text x="472" y="641" font-size="19" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">총급여 5,500만원 초과 8,000만원 이하 15%</text>
+</svg>

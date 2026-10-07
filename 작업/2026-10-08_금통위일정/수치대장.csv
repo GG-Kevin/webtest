@@ -1,0 +1,35 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,8,회,2026년 결정회의 날짜 수(일정 화면 2026년 칸),"https://www.bok.or.kr/portal/singl/crncyPolicyDrcMtg/listYear.do?mtgSe=A&menuNo=200755&pYear=2026",2026년 칸,2026-10-04,01월 15일(목)~11월 26일(목),N_MEETINGS
+2,8,회,기준금리 결정 연 8회,"https://www.bok.or.kr/portal/main/contents.do?menuNo=200293",통화정책의 실제운영,2026-10-04,연 8회 금융통화위원회,MEETINGS_PER_YEAR
+3,6,번,기준일까지 끝난 회의 수,계산,-,2026-10-04,-,N_DONE
+4,2,번,남은 회의 수,계산,-,2026-10-04,-,N_LEFT
+5,3.00,%,지금 기준금리(2026-08-27 변경),"https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643",기준금리 추이 표,2026-10-04,08월 27일 3.00,CUR_RATE
+6,2.75,%,2026-07-16 변경 기준금리,"https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643",기준금리 추이 표,2026-10-04,07월 16일 2.75,RATE_CHANGES
+7,2.50,%,2025-05-29 변경 기준금리,"https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643",기준금리 추이 표,2026-10-04,05월 29일 2.50,RATE_CHANGES
+8,0.25,%p,7월·8월 각 인상 폭,계산,-,2026-10-04,-,RATE_CHANGES
+9,0.50,%p,2.50%에서 3.00%까지 오른 폭,계산,-,2026-10-04,-,RISE_2026
+10,9,시,본회의 통상 시작 시각,"https://www.bok.or.kr/portal/main/contents.do?menuNo=200293",통화정책의 실제운영,2026-10-04,통상 오전 9시에 열리며,MEETING_HOUR
+11,7,일,이슈분석 게시 D+7,"https://www.bok.or.kr/portal/singl/crncyPolicyDrcMtg/listYear.do?mtgSe=A&menuNo=200755&pYear=2026",각주 1),2026-10-04,결정회의 D+7일,ISSUE_LAG
+12,2,주,의사록 게시 2주 경과 후 첫 화요일,"https://www.bok.or.kr/portal/singl/crncyPolicyDrcMtg/listYear.do?mtgSe=A&menuNo=200755&pYear=2026",각주 1),2026-10-04,2주 경과 후 첫 화요일,MINUTES_LAG
+13,19,일,목요일 회의에서 의사록 게시까지 일수,계산,-,2026-10-04,-,minutes_day
+14,2,인,임시회의 요구 위원 수,"https://www.bok.or.kr/portal/main/contents.do?menuNo=201696",금융통화위원회의 운영,2026-10-04,2인 이상의 위원이 요구,-
+15,5,인,의결 출석 위원 수,"https://www.bok.or.kr/portal/main/contents.do?menuNo=201696",금융통화위원회의 운영,2026-10-04,5인 이상의 출석,-
+16,2,%,물가안정목표(소비자물가 상승률),"https://www.bok.or.kr/portal/main/contents.do?menuNo=200291",물가안정목표제,2026-10-04,기준 2% 이다,-
+17,250000,원,1억원 대출 0.25%p 연 이자 차이,계산,-,2026-10-04,-,interest
+18,20833,원,1억원 대출 0.25%p 월 차이,계산,-,2026-10-04,-,interest
+19,500000,원,1억원 0.50%p·2억원 0.25%p 연 차이,계산,-,2026-10-04,-,interest
+20,41666,원,월 차이(1억 0.50%p·2억 0.25%p),계산,-,2026-10-04,-,interest
+21,750000,원,3억원 0.25%p 연 차이,계산,-,2026-10-04,-,interest
+22,62500,원,3억원 0.25%p 월 차이,계산,-,2026-10-04,-,interest
+23,1000000,원,2억원 0.50%p 연 차이,계산,-,2026-10-04,-,interest
+24,83333,원,2억원 0.50%p 월 차이,계산,-,2026-10-04,-,interest
+25,1500000,원,3억원 0.50%p 연 차이,계산,-,2026-10-04,-,interest
+26,125000,원,3억원 0.50%p 월 차이,계산,-,2026-10-04,-,interest
+27,25000,원,예금 1천만원 0.25%p 연 차이(세전),계산,-,2026-10-04,-,interest
+28,2083,원,예금 1천만원 0.25%p 월,계산,-,2026-10-04,-,interest
+29,50000,원,예금 1천만원 0.50%p 연,계산,-,2026-10-04,-,interest
+30,4166,원,예금 1천만원 0.50%p 월,계산,-,2026-10-04,-,interest
+31,75000,원,예금 3천만원 0.25%p 연,계산,-,2026-10-04,-,interest
+32,6250,원,예금 3천만원 0.25%p 월,계산,-,2026-10-04,-,interest
+33,150000,원,예금 3천만원 0.50%p 연,계산,-,2026-10-04,-,interest
+34,12500,원,예금 3천만원 0.50%p 월,계산,-,2026-10-04,-,interest

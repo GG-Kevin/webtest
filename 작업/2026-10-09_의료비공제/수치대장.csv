@@ -1,0 +1,43 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,100분의 3,비율,의료비 공제 문턱(총급여 대비),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②1,2026-10-05,총급여액에 100분의 3을 곱하여,THRESHOLD_PCT
+2,700만,원,제1호 의료비 연 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②1단서,2026-10-05,연 700만원으로 한다,GENERAL_CAP
+3,100분의 15,비율,기본 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②,2026-10-05,금액의 100분의 15,RATE_BASE
+4,100분의 20,비율,미숙아·선천성이상아 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②,2026-10-05,제3호의 경우에는 100분의 20,RATE_PRETERM
+5,100분의 30,비율,난임시술비 공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②,2026-10-05,제4호의 경우에는 100분의 30,RATE_IVF
+6,6세,세,한도 없는 어린 자녀 나이(개시일 현재),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②2나,2026-10-05,개시일 현재 6세 이하,AGE_YOUNG
+7,65세,세,한도 없는 고령 나이(종료일 현재),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제59조의4②2다,2026-10-05,종료일 현재 65세 이상,AGE_OLD
+8,50만,원,안경·콘택트렌즈 1명당 연 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0118&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제118조의5①4,2026-10-05,1명당 연 50만원 이내,GLASSES_CAP
+9,200만,원,산후조리원 출산 1회당 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0118&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제118조의5①7,2026-10-05,출산 1회당 200만원 이내,POSTNATAL_CAP
+10,2025. 12. 30.,날짜,중증질환자 범위 항 개정일,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0118&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제118조의5④,2026-10-05,<개정 … 2025. 12. 30.>,
+11,100분의 10,비율,개인지방소득세 특별징수율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=282559&joNo=0103&joBrNo=13&docCls=jo&urlMode=lsScJoRltInfoR,지방세법 제103조의13①,2026-10-05,소득세의 100분의 10,LOCAL_PCT
+12,2월분,날짜,공제 서류 제출 기한(다음 연도 2월분 급여 받는 날),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290841&joNo=0113&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 시행령 제113조①1,2026-10-05,다음 연도 2월분의 급여,
+13,5월 1일부터 5월 31일,날짜,종합소득 확정신고 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0070&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,소득세법 제70조①,2026-10-05,5월 1일부터 5월 31일까지,
+14,5년,년,경정청구 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289999&joNo=0045&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,국세기본법 제45조의2①⑤,2026-10-05,지난 후 5년 이내,
+15,700만,원,일반 기본공제대상자 의료비 한도(국세청 표),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6595&cntntsId=7874,국세청 원천세 근로소득 특별세액공제,2026-10-05,연 700만원 한도,GENERAL_CAP
+16,200만,원,산후조리원 한도(국세청 표),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6595&cntntsId=7874,국세청 원천세 근로소득 특별세액공제,2026-10-05,출산 1회당 200만원 한도,POSTNATAL_CAP
+17,120만,원,총급여 4천만원 3% 문턱,계산,calc.py credit(),2026-10-05,,threshold
+18,180만,원,총급여 4천만원·의료비 300만원 공제 대상(또는 6천만원 문턱),계산,calc.py credit(),2026-10-05,,제1호
+19,270000,원,총급여 4천만원·의료비 300만원 소득세 공제,계산,calc.py credit(),2026-10-05,,소득세
+20,297000,원,같은 경우 지방소득세 포함,계산,calc.py credit(),2026-10-05,,합계
+21,570000,원,총급여 4천만원·의료비 500만원 소득세 공제,계산,calc.py credit(),2026-10-05,,소득세
+22,627000,원,같은 경우 지방소득세 포함,계산,calc.py credit(),2026-10-05,,합계
+23,180000,원,총급여 6천만원·의료비 300만원 소득세 공제,계산,calc.py credit(),2026-10-05,,소득세
+24,198000,원,같은 경우 지방소득세 포함,계산,calc.py credit(),2026-10-05,,합계
+25,480000,원,총급여 6천만원·의료비 500만원 소득세 공제,계산,calc.py credit(),2026-10-05,,소득세
+26,528000,원,같은 경우 지방소득세 포함,계산,calc.py credit(),2026-10-05,,합계
+27,2.5만,원,4천만원·300만원 한 달 환산,계산,calc.py table_examples(),2026-10-05,,합계/12
+28,1.6만,원,6천만원·300만원 한 달 환산,계산,calc.py table_examples(),2026-10-05,,합계/12
+29,105만,원,일반 부양가족 몫 최대 소득세 공제,계산,calc.py table_lines(),2026-10-05,,GENERAL_CAP*RATE_BASE
+30,"790만·820만·850만·880만·940만·1,000만",원,총급여별 한도 도달 지출(3%+700만),계산,calc.py table_lines(),2026-10-05,,threshold+GENERAL_CAP
+31,"90만·120만·150만·180만·240만·300만",원,총급여별 공제 시작선,계산,calc.py table_lines(),2026-10-05,,threshold
+32,150만,원,혼합 예 소득세 공제(또는 5천만원 문턱),계산,calc.py mixed(),2026-10-05,,소득세
+33,165만,원,혼합 예 지방소득세 포함,계산,calc.py mixed(),2026-10-05,,합계
+34,120만,원,혼합 예 한도로 잘린 배우자 의료비,계산,calc.py mixed(),2026-10-05,,general-문턱-제1호
+35,1200000,원,난임 예 조문 순서 공제액,계산,calc.py table_order(),2026-10-05,,소득세
+36,975000,원,난임 예 순서를 잘못 놓은 값,계산,calc.py table_order(),2026-10-05,,wrong
+37,225000,원,두 값의 차이,계산,calc.py table_order(),2026-10-05,,소득세-wrong
+38,132만,원,난임 예 지방소득세 포함,계산,calc.py table_order(),2026-10-05,,합계
+39,200만,원,실손 예 계산에 넣는 의료비,계산,calc.py insurance(),2026-10-05,,paid-insurance
+40,80만,원,실손 예 공제 대상,계산,calc.py insurance(),2026-10-05,,제1호
+41,120000,원,실손 예 소득세 공제,계산,calc.py insurance(),2026-10-05,,소득세
+42,132000,원,실손 예 지방소득세 포함,계산,calc.py insurance(),2026-10-05,,합계

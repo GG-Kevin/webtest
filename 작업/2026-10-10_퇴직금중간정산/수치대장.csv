@@ -1,0 +1,47 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,1,년,퇴직금 산정 단위 계속근로기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,퇴직급여법 제8조①,2026-10-06,계속근로기간 1년에 대하여,
+2,30,일,1년당 평균임금 일수(최저),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284455&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,퇴직급여법 제8조①,2026-10-06,30일분 이상의 평균임금,
+3,36220,호,시행령 현행 대통령령 번호,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,법령 머리,2026-10-06,대통령령 제36220호,
+4,6,개월,의료비 사유 요양 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①3,2026-10-06,6개월 이상 요양을,CARE_MONTHS
+5,125,1천분의,의료비 부담 문턱,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①3,2026-10-06,1천분의 125를 초과하여,MED_NUM
+6,5,년,파산·회생 거꾸로 계산 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①4·5,2026-10-06,거꾸로 계산하여 5년 이내,LOOKBACK_YEARS
+7,1,회,전세금 사유 횟수,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①2,2026-10-06,1회로 한정한다,JEONSE_TIMES
+8,1,시간,하루 단축 시간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①6의2,2026-10-06,1일 1시간,CUT_DAY_HOURS
+9,5,시간,주 단축 시간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①6의2,2026-10-06,1주 5시간 이상 단축,CUT_WEEK_HOURS
+10,3,개월,단축 뒤 계속 근로,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①6의2,2026-10-06,3개월 이상 계속 근로,CUT_KEEP_MONTHS
+11,15513,호,근로시간 단축 근로기준법 개정 법률 번호,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조①6의3,2026-10-06,법률 제15513호,LAW_15513
+12,5,년,증명 서류 보존 기간(퇴직 후),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0003&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제3조②,2026-10-06,퇴직한 후 5년이 되는 날,LOOKBACK_YEARS
+13,125,1천분의,DC 중도인출 의료비 문턱,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0014&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제14조①1의2,2026-10-06,1천분의 125를 초과하여,MED_NUM
+14,5,년,DC 중도인출 파산·회생 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284693&joNo=0014&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,시행령 제14조①2·3,2026-10-06,거꾸로 계산하여 5년 이내,LOOKBACK_YEARS
+15,60,개월,국세청 사례 중간정산 근속 월수,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6445&cntntsId=7881,국세청 세액정산 사례,2026-10-06,60개월,
+16,63,개월,국세청 사례 최종 근속 월수,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6445&cntntsId=7881,국세청 세액정산 사례,2026-10-06,63개월,
+17,6,년,국세청 사례 정산 근속연수,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6445&cntntsId=7881,국세청 세액정산 사례,2026-10-06,63개월(6년),
+18,9,개,중간정산 사유 호 수,계산,calc.py 출력,2026-10-06,,REASONS
+19,12.5,%,의료비 문턱 백분율,계산,calc.py 출력,2026-10-06,,MED_NUM/MED_DEN
+20,3750000,원,임금총액 3천만원 의료비 문턱,계산,calc.py 출력,2026-10-06,,medical_line
+21,5000000,원,임금총액 4천만원 의료비 문턱,계산,calc.py 출력,2026-10-06,,medical_line
+22,6250000,원,임금총액 5천만원 의료비 문턱,계산,calc.py 출력,2026-10-06,,medical_line
+23,7500000,원,임금총액 6천만원 의료비 문턱,계산,calc.py 출력,2026-10-06,,medical_line
+24,10000000,원,임금총액 8천만원 의료비 문턱,계산,calc.py 출력,2026-10-06,,medical_line
+25,4000000,원,가정 5년차 30일분 평균임금,계산,calc.py 출력,2026-10-06,,AVG30_EARLY
+26,5000000,원,가정 10년차 30일분 평균임금,계산,calc.py 출력,2026-10-06,,AVG30_LATE
+27,50000000,원,중간정산 없음 퇴직금,계산,calc.py 출력,2026-10-06,,a_pay
+28,45000000,원,중간정산 시 퇴직금 합계,계산,calc.py 출력,2026-10-06,,b1_pay+b2_pay
+29,20000000,원,중간정산분,계산,calc.py 출력,2026-10-06,,b1_pay
+30,25000000,원,퇴직분,계산,calc.py 출력,2026-10-06,,b2_pay
+31,748000,원,중간정산 없음 세금 합계,계산,calc.py 출력,2026-10-06,,a
+32,308000,원,중간정산분 세금(지방 포함),계산,calc.py 출력,2026-10-06,,b1
+33,522500,원,퇴직분 따로 세금,계산,calc.py 출력,2026-10-06,,b2
+34,830500,원,따로 계산 세금 합계,계산,calc.py 출력,2026-10-06,,b1+b2
+35,616000,원,합산 정산 누계 세액(지방 포함),계산,calc.py 출력,2026-10-06,,c_all
+36,214500,원,따로·합산 세금 차이,계산,calc.py 출력,2026-10-06,,b_tax-c_tax
+37,5000000,원,중간정산 여부 퇴직금 차이,계산,calc.py 출력,2026-10-06,,a_pay-b_pay
+38,36000000,원,중간정산분 환산급여,계산,calc.py 출력,2026-10-06,,b1
+39,11200000,원,중간정산분 과세표준,계산,calc.py 출력,2026-10-06,,b1
+40,280000,원,중간정산분 퇴직소득세,계산,calc.py 출력,2026-10-06,,b1
+41,24477500,원,퇴직분 따로 손에 쥐는 몫,계산,calc.py 출력,2026-10-06,,b2
+42,24692000,원,퇴직분 합산 정산 손에 쥐는 몫,계산,calc.py 출력,2026-10-06,,c2
+43,49252000,원,중간정산 없음 세금 뺀 금액,계산,calc.py 출력,2026-10-06,,a
+44,44169500,원,따로 계산 세금 뺀 금액,계산,calc.py 출력,2026-10-06,,b
+45,44384000,원,합산 정산 세금 뺀 금액,계산,calc.py 출력,2026-10-06,,c
+46,5000000,원,중간정산분 근속연수공제(5년 × 100만원),계산,calc.py 출력,2026-10-06,,b1

@@ -1,0 +1,48 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,2억,원,기초공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0018&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제18조,2026-10-06,과세가액에서 2억원을 공제,BASIC
+2,5천만,원,자녀 1명 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제20조①1,2026-10-06,1명에 대해서는 5천만원,CHILD
+3,1천만,원,미성년자 1년당 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제20조①2,2026-10-06,1천만원에 19세가 될,MINOR_PER_YEAR
+4,19,세,미성년자 공제 기준 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제20조①2,2026-10-06,19세가 될 때까지의 연수,MINOR_AGE
+5,65,세,연로자 공제 나이,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0020&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제20조①3,2026-10-06,65세 이상인 사람,ELDER
+6,5억,원,일괄공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0021&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제21조①,2026-10-06,합친 금액과 5억원 중,LUMP
+7,5억,원,배우자공제 최소,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제19조④,2026-10-06,5억원 미만이면,SPOUSE_MIN
+8,30억,원,배우자공제 상한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제19조①2,2026-10-06,2. 30억원,SPOUSE_CAP
+9,9,개월,배우자상속재산분할기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제19조②,2026-10-06,다음날부터 9개월이 되는 날,
+10,6,개월,국세청 화면의 분할 신고기한 표기,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956,국세청 상속공제 항목별 설명,2026-10-06,다음날부터 6개월이 되는,
+11,2천만,원,금융재산공제 하한·전액 기준,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0022&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제22조①,2026-10-06,2천만원 중 큰 금액,FIN_FLOOR
+12,20,%,금융재산공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0022&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제22조①1,2026-10-06,100분의 20,FIN_RATE
+13,2억,원,금융재산공제 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0022&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제22조①,2026-10-06,2억원을 초과하면,FIN_CAP
+14,6억,원,동거주택 상속공제 한도,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0023&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제23조의2①,2026-10-06,6억원을 한도로,HOUSE_CAP
+15,10,년,동거 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0023&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제23조의2①1,2026-10-06,10년 이상,
+16,5억,원,제24조 3호 적용 과세가액,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0024&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제24조,2026-10-06,5억원을 초과하는 경우,
+17,10,년,상속인 사전증여 합산 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0013&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제13조①1,2026-10-06,전 10년 이내,
+18,50만,원,과세최저한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0025&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제25조②,2026-10-06,50만원 미만이면,
+19,6,개월,상속세 신고기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0067&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제67조①,2026-10-06,말일부터 6개월 이내,
+20,9,개월,국외 주소 신고기한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0067&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제67조④,2026-10-06,9개월로 한다,
+21,3,%,신고세액공제율,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0069&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제69조①,2026-10-06,100분의 3,FILE_CREDIT
+22,5,할,배우자 상속분 가산,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=284415&joNo=1009&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,민법 제1009조②,2026-10-06,5할을 가산,
+23,10,%,세율 1억원 이하,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,세 율 10%,BRACKETS
+24,20,%,세율 5억원 이하,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,20%,BRACKETS
+25,30,%,세율 10억원 이하,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,30%,BRACKETS
+26,40,%,세율 30억원 이하,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,40%,BRACKETS
+27,50,%,세율 30억원 초과,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,50%,BRACKETS
+28,1천만,원,누진공제 20% 구간,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720,국세청 세액계산흐름도,2026-10-06,누진공제액 없음 1천만원,BRACKETS
+29,14,일,사전증여재산 정보 신청 마감(만료 전),https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2328&cntntsId=7722,국세청 상속세 신고시 유의사항,2026-10-06,만료 14일 전까지,
+30,7,일,사전증여재산 정보 알림,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2328&cntntsId=7722,국세청 상속세 신고시 유의사항,2026-10-06,7일 이내,
+31,300억,원,가업상속공제 한도 하단,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956,국세청 상속공제 항목별 설명,2026-10-06,300억원~600억원 한도,
+32,600억,원,가업상속공제 한도 상단,https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956,국세청 상속공제 항목별 설명,2026-10-06,300억원~600억원 한도,
+33,"642,857,142",원,15억원 배우자 법정상속분·배우자공제,계산,calc.py,2026-10-06,,spouse_share
+34,"297,142,858",원,15억원 A 과세표준,계산,calc.py,2026-10-06,,과세표준
+35,"49,428,571",원,15억원 A 산출세액,계산,calc.py,2026-10-06,,산출세액
+36,"47,945,714",원,15억원 A 납부세액,계산,calc.py,2026-10-06,,납부세액
+37,"75,660,000",원,15억원 B 납부세액,계산,calc.py,2026-10-06,,납부세액
+38,"215,340,000",원,15억원 C 납부세액,계산,calc.py,2026-10-06,,납부세액
+39,"1,598만",원,A 1인당,계산,calc.py,2026-10-06,,납부세액//3
+40,70억,원,배우자 상한 도달 상속재산,계산,calc.py,2026-10-06,,SPOUSE_CAP/spouse_share
+41,"21억 4,285만",원,50억원 배우자 법정분,계산,calc.py,2026-10-06,,spouse_share
+42,"1억 5,000만",원,무신고 시 덜 받는 공제,계산,calc.py,2026-10-06,,lump-LUMP
+43,"3억 5,000만",원,제24조 한도 예,계산,calc.py,2026-10-06,,lim
+44,"5억 6,000만",원,배우자 없음 공제 합계,계산,calc.py,2026-10-06,,공제합계
+45,"6억 5,000만",원,자녀4·미성년2 인적+기초,계산,calc.py,2026-10-06,,lump
+46,"1억 4,000만",원,5세 미성년 공제,계산,calc.py,2026-10-06,,personal
+47,"1억 1,000만",원,8세 미성년 공제,계산,calc.py,2026-10-06,,personal

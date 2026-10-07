@@ -1,0 +1,20 @@
+=== law.go.kr fetch run start 2026-09-24T12:13:07Z ===
+curl: (35) Recv failure: Connection reset by peer
+[1] 12:13:07 UTC | R1-소득세법55조 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0055&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 000, 0B -> R1_소득세법_55조_law.go.kr.html
+curl: (35) Recv failure: Connection reset by peer
+[2] 12:13:18 UTC | R1-소득세법55조-재시도 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0055&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 000, 0B -> R1_소득세법_55조_law.go.kr.html
+curl: (35) Recv failure: Connection reset by peer
+[3] 12:13:29 UTC | R2-소득세법59의3조 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 000, 0B -> R2_소득세법_59의3조_law.go.kr.html
+[4] 12:13:41 UTC | R2-소득세법59의3조-재시도 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0059&joBrNo=03&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 200, 76090B -> R2_소득세법_59의3조_law.go.kr.html
+[5] 12:13:42 UTC | R4-소득세법137조 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0137&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 200, 75892B -> R4_소득세법_137조_law.go.kr.html
+ATTEMPTS_SO_FAR=5
+[6] 12:14:45 UTC | R1-소득세법55조-재시도2 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0055&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 200, 74483B -> R1_소득세법_55조_law.go.kr.html
+[7] 12:14:47 UTC | R3후보-소득세법60조 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0060&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 200, 73424B -> R3cand_소득세법_60조_law.go.kr.html
+curl: (35) Recv failure: Connection reset by peer
+[8] 12:14:48 UTC | R3후보-소득세법61조 | https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280405&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR => HTTP 000, 0B -> R3cand_소득세법_61조_law.go.kr.html
+ATTEMPTS_SO_FAR=8
+[9] 12:15:18 UTC | R3후보-소득세법61조-재시도 | => HTTP 200, 77925B
+[10] 12:15:33 UTC | R6-조특법부칙-frame | => HTTP 000, 0B
+curl: (35) Recv failure: Connection reset by peer
+[11] 12:15:51 UTC | R6-조특법부칙-frame-재시도 | => HTTP 000, 0B
+[12] 12:16:08 UTC | R6-조특법부칙-frame-최종시도 | => HTTP 200, 1273B (12/12 상한 소진)

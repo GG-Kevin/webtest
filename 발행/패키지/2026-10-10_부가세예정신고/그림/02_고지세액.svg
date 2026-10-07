@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="1기 납부세액 다섯 경우의 10월 예정고지세액과 50만원 선을 견준 막대 그림" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<rect width="1000" height="520" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#16212e">1기 납부세액별 10월 고지세액(우리 계산)</text>
+<text x="40" y="78" font-size="17" fill="#5b6773">절반을 1천원 단위로 버린 뒤 50만원에 못 미치면 고지하지 않습니다</text>
+<line x1="338" y1="90" x2="338" y2="440" stroke="#b3261e" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="344" y="106" font-size="16" fill="#b3261e">50만원 선</text>
+<text x="216" y="146" font-size="18" text-anchor="end" fill="#16212e">1기 납부 800,000원</text>
+<rect x="230" y="120" width="87" height="38" rx="4" fill="#b9c3cd"/>
+<text x="327" y="146" font-size="18" fill="#16212e">400,000원, 고지 없음</text>
+<text x="216" y="210" font-size="18" text-anchor="end" fill="#16212e">1기 납부 999,000원</text>
+<rect x="230" y="184" width="108" height="38" rx="4" fill="#b9c3cd"/>
+<text x="348" y="210" font-size="18" fill="#16212e">499,000원, 고지 없음</text>
+<text x="216" y="274" font-size="18" text-anchor="end" fill="#16212e">1기 납부 1,000,000원</text>
+<rect x="230" y="248" width="108" height="38" rx="4" fill="#1f4e8c"/>
+<text x="348" y="274" font-size="18" fill="#16212e">500,000원 고지</text>
+<text x="216" y="338" font-size="18" text-anchor="end" fill="#16212e">1기 납부 2,345,678원</text>
+<rect x="230" y="312" width="254" height="38" rx="4" fill="#1f4e8c"/>
+<text x="494" y="338" font-size="18" fill="#16212e">1,172,000원 고지</text>
+<text x="216" y="402" font-size="18" text-anchor="end" fill="#16212e">1기 납부 6,000,000원</text>
+<rect x="230" y="376" width="650" height="38" rx="4" fill="#1f4e8c"/>
+<text x="890" y="402" font-size="18" fill="#16212e">3,000,000원 고지</text>
+<text x="970" y="504" font-size="14" text-anchor="end" fill="#8a96a3">2026년 10월 4일 국세청·국가법령정보센터 원문 기준 · 머니프로듀서</text>
+</svg>

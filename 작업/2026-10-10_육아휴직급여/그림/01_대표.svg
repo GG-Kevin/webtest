@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="100" y="52" font-size="32" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 통상임금 300만원, 달마다 받는 육아휴직급여</text>
+<text x="100" y="88" font-size="19" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">고용보험법 시행령 제95조·제95조의3 · 2026년 10월 6일 국가법령정보센터 조문 기준</text>
+<rect x="100" y="108" width="22" height="16" fill="#94a3b8"/>
+<text x="130" y="122" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">혼자 쓰는 일반 육아휴직</text>
+<rect x="380" y="108" width="22" height="16" fill="#0f766e"/>
+<text x="410" y="122" font-size="18" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">부모가 각각 6개월 쓸 때(한 사람)</text>
+<line x1="100" y1="575.0" x2="1160" y2="575.0" stroke="#e5e7eb"/>
+<text x="88" y="581.0" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="100" y1="514.3" x2="1160" y2="514.3" stroke="#e5e7eb"/>
+<text x="88" y="520.3" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">50만</text>
+<line x1="100" y1="453.6" x2="1160" y2="453.6" stroke="#e5e7eb"/>
+<text x="88" y="459.6" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">100만</text>
+<line x1="100" y1="392.9" x2="1160" y2="392.9" stroke="#e5e7eb"/>
+<text x="88" y="398.9" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">150만</text>
+<line x1="100" y1="332.1" x2="1160" y2="332.1" stroke="#e5e7eb"/>
+<text x="88" y="338.1" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200만</text>
+<line x1="100" y1="271.4" x2="1160" y2="271.4" stroke="#e5e7eb"/>
+<text x="88" y="277.4" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250만</text>
+<line x1="100" y1="210.7" x2="1160" y2="210.7" stroke="#e5e7eb"/>
+<text x="88" y="216.7" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300만</text>
+<line x1="100" y1="150.0" x2="1160" y2="150.0" stroke="#e5e7eb"/>
+<text x="88" y="156.0" font-size="16" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">350만</text>
+<rect x="112.4" y="271.4" width="27.8" height="303.6" fill="#94a3b8"/>
+<text x="126.3" y="264.4" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<rect x="144.2" y="271.4" width="27.8" height="303.6" fill="#0f766e"/>
+<text x="158.1" y="264.4" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<text x="144.2" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">1개월째</text>
+<rect x="200.7" y="271.4" width="27.8" height="303.6" fill="#94a3b8"/>
+<text x="214.6" y="264.4" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<rect x="232.5" y="271.4" width="27.8" height="303.6" fill="#0f766e"/>
+<text x="246.4" y="264.4" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<text x="232.5" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2개월째</text>
+<rect x="289.0" y="271.4" width="27.8" height="303.6" fill="#94a3b8"/>
+<text x="302.9" y="264.4" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">250</text>
+<rect x="320.8" y="210.7" width="27.8" height="364.3" fill="#0f766e"/>
+<text x="334.7" y="203.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300</text>
+<text x="320.8" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">3개월째</text>
+<rect x="377.4" y="332.1" width="27.8" height="242.9" fill="#94a3b8"/>
+<text x="391.3" y="325.1" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200</text>
+<rect x="409.2" y="210.7" width="27.8" height="364.3" fill="#0f766e"/>
+<text x="423.1" y="203.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300</text>
+<text x="409.2" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">4개월째</text>
+<rect x="465.7" y="332.1" width="27.8" height="242.9" fill="#94a3b8"/>
+<text x="479.6" y="325.1" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200</text>
+<rect x="497.5" y="210.7" width="27.8" height="364.3" fill="#0f766e"/>
+<text x="511.4" y="203.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300</text>
+<text x="497.5" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5개월째</text>
+<rect x="554.0" y="332.1" width="27.8" height="242.9" fill="#94a3b8"/>
+<text x="567.9" y="325.1" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200</text>
+<rect x="585.8" y="210.7" width="27.8" height="364.3" fill="#0f766e"/>
+<text x="599.7" y="203.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300</text>
+<text x="585.8" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">6개월째</text>
+<rect x="642.4" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="656.3" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="674.2" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="688.1" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="674.2" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">7개월째</text>
+<rect x="730.7" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="744.6" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="762.5" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="776.4" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="762.5" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">8개월째</text>
+<rect x="819.0" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="832.9" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="850.8" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="864.7" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="850.8" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">9개월째</text>
+<rect x="907.4" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="921.3" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="939.2" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="953.1" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="939.2" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10개월째</text>
+<rect x="995.7" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="1009.6" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="1027.5" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="1041.4" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="1027.5" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">11개월째</text>
+<rect x="1084.0" y="380.7" width="27.8" height="194.3" fill="#94a3b8"/>
+<text x="1097.9" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<rect x="1115.8" y="380.7" width="27.8" height="194.3" fill="#0f766e"/>
+<text x="1129.7" y="373.7" font-size="13" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">160</text>
+<text x="1115.8" y="603" font-size="17" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12개월째</text>
+<text x="100" y="647" font-size="20" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">12개월 합계: 일반 2,310만원 · 부모 각 6개월 2,660만원 (막대 위 숫자 단위 만원)</text>
+</svg>

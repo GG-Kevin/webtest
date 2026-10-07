@@ -1,0 +1,90 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,2,년,출산 요건 기간,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출대상 3(출산),2026-10-05,대출접수일 기준 2년 내 출산,
+2,1.3억,원,부부합산 연소득 상한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출대상 6(소득),2026-10-05,연간 1.3억원 이하,
+3,2억,원,맞벌이 합산 소득 상한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출대상 6(소득),2026-10-05,합산 총소득이 2억원 이하,
+4,5.11억,원,구입자금 순자산 상한(2026년도),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출대상 7(자산),2026-10-05,2026년도 기준 5.11억원,
+5,4.88억,원,변경 전 구입자금 순자산 기준,https://nhuf.molit.go.kr/FP/FP08/FP0804/FP080402.jsp?id=3&mode=S&currentPage=1&articleId=1298,순자산기준 변경 비교표,2026-10-05,4.88억원,
+6,3.45억,원,전세자금 순자산 상한(2026년도),https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출대상 6(자산),2026-10-05,2026년도 기준 3.45억원,
+7,85,㎡,전용면적 상한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대상주택,2026-10-05,85㎡,
+8,9억,원,구입 담보주택 평가액 상한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대상주택,2026-10-05,평가액이 9억원 이하,
+9,5억,원,전세 보증금 상한(수도권),https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대상주택 2(임차보증금),2026-10-05,수도권 5억원,
+10,4억,원,전세 보증금 상한(수도권 외),https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대상주택 2(임차보증금),2026-10-05,수도권외 4억원,
+11,4억,원,구입 최대 한도,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출 한도 1,2026-10-05,4억원 이내,
+12,70,%,LTV,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출 한도 1,2026-10-05,LTV : 70%,
+13,80,%,생애최초 LTV,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출 한도 1,2026-10-05,생애최초 주택구입자 LTV 80%,
+14,60,%,DTI,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출 한도 1,2026-10-05,DTI : 60% 이내,
+15,2.4억,원,전세 최대 한도,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출 한도 1,2026-10-05,2.4억원 이내,
+16,80,%,전세 보증금 대비 비율,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출 한도 2,2026-10-05,전세금액의 80% 이내,
+17,5억,원,구입 한도(25.6.27 이전 계약),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출 한도 1,2026-10-05,5억원 이내 적용,
+18,3억,원,전세 한도(25.6.27 이전 계약),https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출 한도 1,2026-10-05,3억원 이내 적용,
+19,1.8,%,구입 금리 하단,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,요약,2026-10-05,1.8% ~ 4.5%,
+20,4.5,%,구입 금리 상단,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,요약,2026-10-05,1.8% ~ 4.5%,
+21,1.3,%,전세 금리 하단,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,요약,2026-10-05,연 1.3%~4.3%,
+22,4.3,%,전세 금리 상단,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,요약,2026-10-05,연 1.3%~4.3%,
+23,5,년,구입 특례금리 기본 기간,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출금리 1,2026-10-05,기본 5년,
+24,15,년,구입 특례금리 최장,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출금리 1,2026-10-05,최장 15년간,
+25,4,년,전세 특례금리 기본 기간,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출금리 1,2026-10-05,기본 4년,
+26,12,년,전세 특례금리 최장,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출금리 1,2026-10-05,최장 12년간,
+27,1.2,%,구입 우대 뒤 하한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ※,2026-10-05,연 1.2%로 적용,
+28,1.0,%,전세 우대 뒤 하한,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,우대금리 ※,2026-10-05,연 1.0%로 적용,
+29,0.5,%,우대 적용 상한(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ※,2026-10-05,상한은 0.5%p,
+30,0.2,%,지방 주택 금리 인하(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,대출금리 1,2026-10-05,0.2%p 인하,
+31,0.3,%,청약 5년·60회 우대(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ①,2026-10-05,60회차 이상 납입한 경우 : 연 0.3%p,
+32,0.4,%,청약 10년·120회 우대(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ①,2026-10-05,연 0.4%p,
+33,0.1,%,전자계약 우대(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ②,2026-10-05,연 0.1%p,
+34,40,%,중도상환 우대 기준,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ⑥,2026-10-05,대출원금의 40% 이상,
+35,30,%,저액 신청 우대 기준,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,우대금리 ⑤,2026-10-05,30% 이하인 경우,
+36,0.6,%,중도상환수수료 한도,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,중도상환수수료,2026-10-05,0.6% 한도,
+37,3,개월,등기 뒤 신청 기한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,신청시기,2026-10-05,3개월 이내까지 신청,
+38,6,개월,추가주택 처분 기한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,1주택유지 의무,2026-10-05,6개월 이내 추가주택 미처분,
+39,1,개월,전입 기한,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp,실거주의무제도,2026-10-05,1개월 내에 대출받은 주택에 전입,
+40,3,개월,전세 신청 기한,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,신청시기,2026-10-05,3개월이내까지 신청,
+41,2.05,%,구입 2천 이하 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE3,2026-10-05,2.05,BUY_RATES
+42,2.40,%,구입 2~4천 30년·4~6천 10년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE7·8,2026-10-05,2.40,BUY_RATES
+43,2.65,%,구입 4~6천 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE11,2026-10-05,2.65,BUY_RATES
+44,2.90,%,구입 6~8.5천 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE15,2026-10-05,2.90,BUY_RATES
+45,3.20,%,구입 8.5천~1억 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE19,2026-10-05,3.20,BUY_RATES
+46,3.50,%,구입 1~1.3억 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE23,2026-10-05,3.50,BUY_RATES
+47,3.80,%,구입 1.3~1.5억 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE27,2026-10-05,3.80,BUY_RATES
+48,4.15,%,구입 1.5~1.7억 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE31,2026-10-05,4.15,BUY_RATES
+49,4.50,%,구입 1.7~2억 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=S,LOANRATE35,2026-10-05,4.50,BUY_RATES
+50,3.80,%,일반 디딤돌 4~7천 30년,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouse&productgb=F,LOANRATE11,2026-10-05,3.80,DID_RATES
+51,0.3,%,일반 디딤돌 1자녀 우대(%p),https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp,금리우대 ⑥,2026-10-05,1자녀가구 연 0.3%p,DID_CHILD_PREF
+52,3.2억,원,일반 디딤돌 신혼가구 한도,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp,요약,2026-10-05,3.2억원 이내,DID_CAP_NEWLY
+53,2.55,%,신혼부부 구입자금 최저,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030601.jsp,요약,2026-10-05,연 2.55%,NEWLYWED_BUY_MIN
+54,1.9,%,신혼부부 전세자금 최저,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05020401.jsp,요약,2026-10-05,연 1.9%,NEWLYWED_RENT_MIN
+55,8.5천만,원,종료 뒤 금리 소득 구분선,https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030808.jsp,특례금리 적용 종료시 금리,2026-10-05,8.5천만원 이하,
+56,4.55,%,2026년 10월 접수 종료 뒤 금리(수도권),https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?StdGb=B,2026.10 NEW_LOANRATE1,2026-10-05,4.55,AFTER_2026_10_CAPITAL
+57,4.70,%,2026년 10월 2억 이하 30년(수도권),https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?StdGb=B,2026.10 NEW_LOANRATE20,2026-10-05,4.70,AFTER_2026_10_CAPITAL
+58,4.40,%,2026년 9월 접수 종료 뒤 금리,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?StdGb=B,2026.09 STDRATE,2026-10-05,4.40,AFTER_STDRATE
+59,4.26,%,2026년 8월 접수 종료 뒤 금리,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?StdGb=B,2026.08 STDRATE,2026-10-05,4.26,AFTER_STDRATE
+60,2.20,%,전세 4~6천·보증금 1.5억 초과,https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp?newBabyGetBuySelect=newMearryHouseRent&productgb=S,LOANRATE11,2026-10-05,2.20,RENT_RATES
+61,7.5천만,원,전세 종료 뒤 금리 소득 구분선,https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05021401.jsp,대출금리 2,2026-10-05,7.5천만원 이하,
+62,1억,원,출산 증여재산 공제,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제53조의2②,2026-10-05,1억원을 증여세 과세가액에서 공제,
+63,2,년,출산 증여공제 기간,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=276123&joNo=0053&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR,상증법 제53조의2②,2026-10-05,출생일 ... 2년 이내,
+64,0.75,%,구입 종료 뒤 가산폭(%p),계산,,2026-10-05,,gap
+65,"1,289,484",원,특례 처음 5년 월 상환액,계산,,2026-10-05,,plan.m1
+66,"1,436,943",원,일반 디딤돌 처음 5년 월 상환액,계산,,2026-10-05,,plan.m1
+67,"40,021,512",원,특례 5년 이자,계산,,2026-10-05,,plan.int5
+68,"53,247,212",원,일반 5년 이자,계산,,2026-10-05,,plan.int5
+69,"1,399,911",원,특례 6년차부터 월 상환액,계산,,2026-10-05,,plan.m2
+70,"1,483,536",원,일반 6년차부터 월 상환액,계산,,2026-10-05,,plan.m2
+71,"177,342,396",원,특례 30년 이자,계산,,2026-10-05,,plan.int_total
+72,"211,277,577",원,일반 30년 이자,계산,,2026-10-05,,plan.int_total
+73,"147,459",원,처음 5년 월 차이,계산,,2026-10-05,,dm1
+74,"1,323만",원,5년 이자 차이,계산,,2026-10-05,,d5
+75,"83,625",원,6년차부터 월 차이,계산,,2026-10-05,,dm2
+76,"3,394만",원,30년 이자 차이,계산,,2026-10-05,,dt
+77,3.5억,원,평가액 5억 특례 한도,계산,,2026-10-05,,lim_nb
+78,"1,410,373",원,3.5억 처음 5년 월 상환액,계산,,2026-10-05,,m_full
+79,2.25,%,우대 0.4%p 뒤 금리,계산,,2026-10-05,,pr
+80,"1,223,187",원,우대 뒤 월 상환액,계산,,2026-10-05,,m_pr
+81,"66,297",원,우대로 줄어든 월 상환액,계산,,2026-10-05,,m_pr
+82,2.15,%,우대 상한 적용 금리,계산,,2026-10-05,,pr2
+83,1.6억,원,전세 예 대출금,계산,,2026-10-05,,rent_loan
+84,"293,333",원,전세 월 이자,계산,,2026-10-05,,mi
+85,2.80,%,전세 종료 뒤 금리,계산,,2026-10-05,,rr_after
+86,"373,333",원,전세 종료 뒤 월 이자,계산,,2026-10-05,,mi_after
+87,"80,000",원,전세 월 이자 증가,계산,,2026-10-05,,mi_after
+88,0.25~0.30,%,10년→30년 금리 차이(%p),계산,,2026-10-05,,calc_spread
+89,"282,652,464",원,특례 5년 뒤 남은 원금,계산,,2026-10-05,,plan.bal5

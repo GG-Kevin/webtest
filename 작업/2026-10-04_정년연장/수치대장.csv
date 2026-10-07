@@ -1,0 +1,34 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,60,세,법정 정년 하한,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=243057&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제19조①,2026-10-04,정년을 60세 이상으로,LEGAL_MIN
+2,60,세,60세 미만으로 정하면 60세로 봄,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=243057&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,제19조②,2026-10-04,정년을 60세로 정한 것으로,LEGAL_MIN
+3,18921,호,고령자고용법 현행 법률 번호(시행 2022. 6. 10.),https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=243057&joNo=0019&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,법령 머리,2026-10-04,법률 제18921호,LAW_NO
+4,65,세,의안 2213470 개정 정년,https://pal.assembly.go.kr/napal/lgsltpa/lgsltpaDone/view.do?lgsltPaId=PRC_W2V5V0T9U2C4A1B0Z5A3Y2Z8O6O0N3,제안이유 및 주요내용,2026-10-04,법적 정년을 65세로 연장,BILL_TARGET
+5,2213470,,의안번호,https://likms.assembly.go.kr/bill/bi/billDetailPage.do?billId=PRC_W2V5V0T9U2C4A1B0Z5A3Y2Z8O6O0N3,의안 머리,2026-10-04,[2213470],BILL_NO
+6,13,명,의안 2213470 발의 의원 수,https://likms.assembly.go.kr/bill/bi/billDetailPage.do?billId=PRC_W2V5V0T9U2C4A1B0Z5A3Y2Z8O6O0N3,의안 머리,2026-10-04,윤종오의원 등 13인,
+7,65,세,연금 수급 개시 연령 2033년 기준(제안이유),https://pal.assembly.go.kr/napal/lgsltpa/lgsltpaDone/view.do?lgsltPaId=PRC_W2V5V0T9U2C4A1B0Z5A3Y2Z8O6O0N3,제안이유 및 주요내용,2026-10-04,2033년 기준 65세,
+8,63,세,의안 부칙 제2조 시행일~2027년 정년,https://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=8F1ABFFC-8C00-4536-1846-97FC98E22BAE&type=1,부칙 제2조 1호(3쪽),2026-10-04,2027년까지는 63세,bill_age
+9,64,세,의안 부칙 제2조 2028~2032년 정년,https://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=8F1ABFFC-8C00-4536-1846-97FC98E22BAE&type=1,부칙 제2조 2호(3쪽),2026-10-04,2032년까지는 64세,bill_age
+10,65,세,의안 부칙 제2조 2033년부터 정년,https://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=8F1ABFFC-8C00-4536-1846-97FC98E22BAE&type=1,부칙 제2조 3호(3쪽),2026-10-04,2033년부터는 65세,bill_age
+11,6,개월,의안 2213470 시행일(공포 후),https://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=8F1ABFFC-8C00-4536-1846-97FC98E22BAE&type=1,부칙 제1조(3쪽),2026-10-04,공포 후 6개월이 경과한,
+12,2215313,,의안번호(김소희의원 등 11인),https://pal.assembly.go.kr/napal/lgsltpa/lgsltpaDone/view.do?lgsltPaId=PRC_S2T5R1S2Q1R6Z0Z9X2Y2X4V8V2R0R0,입법예고 머리,2026-10-04,[2215313],
+13,11,명,의안 2215313 발의 의원 수,https://pal.assembly.go.kr/napal/lgsltpa/lgsltpaDone/view.do?lgsltPaId=PRC_S2T5R1S2Q1R6Z0Z9X2Y2X4V8V2R0R0,입법예고 머리,2026-10-04,김소희의원 등 11인,
+14,1,년,의안 2215313 시행일(공포 후),https://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=01E27279-6E38-3E08-5AC8-437B9B3D459E&type=1,부칙(3쪽),2026-10-04,공포 후 1년이 경과한,
+15,"1,000",인,재취업지원서비스 의무 사업장(현재),https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19740,보도자료 중장년 단락,2026-10-04,現 1000인,
+16,500,인,재취업지원서비스 의무 사업장(2027년),https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19740,보도자료 중장년 단락,2026-10-04,'27년 500인,
+17,300,인,재취업지원서비스 의무 사업장(2029년),https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19740,보도자료 중장년 단락,2026-10-04,'29년 300인 이상,
+18,63,세,1961~64년생 노령연금 지급개시연령,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 지급연령 상향조정 표,2026-10-04,1961-64년생 63세,pension_age
+19,64,세,1965~68년생 노령연금 지급개시연령,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 지급연령 상향조정 표,2026-10-04,1965-68년생 64세,pension_age
+20,65,세,1969년생 이후 노령연금 지급개시연령,https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118,노령연금 지급연령 상향조정 표,2026-10-04,1969년생 이후 65세,pension_age
+21,10,년,노령연금 가입기간 요건,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280269&joNo=0061&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국민연금법 제61조①,2026-10-04,가입기간이 10년 이상,
+22,60,세,공무원 정년,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290755&joNo=0074&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국가공무원법 제74조①,2026-10-04,60세로 한다,CIVIL_AGE
+23,30,일,공무원 1~6월 정년 도달 시 6월 30일 당연퇴직,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290755&joNo=0074&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국가공무원법 제74조④,2026-10-04,6월 30일에,
+24,31,일,공무원 7~12월 정년 도달 시 12월 31일 당연퇴직,https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=290755&joNo=0074&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR,국가공무원법 제74조④,2026-10-04,12월 31일에,
+25,2028,년,1968년생 60세 되는 해,계산,표 2,2026-10-04,birth_year + retire_age_eff,retire_year
+26,2029,년,1969년생 60세 되는 해,계산,표 2,2026-10-04,birth_year + retire_age_eff,retire_year
+27,4,년,1965~68년생 공백(정년 60세),계산,표 2,2026-10-04,pension_age - retire_age_eff,gap_years
+28,5,년,1969~72년생 공백(정년 60세),계산,표 2,2026-10-04,pension_age - retire_age_eff,gap_years
+29,3,년,1964년생 공백(정년 60세),계산,표 2,2026-10-04,pension_age - retire_age_eff,gap_years
+30,60,개월,1969년생 공백 5년을 달로,계산,본문(표 2 아래),2026-10-04,gap_years × 12,gap_years
+31,2032,년,1968년생 의안 부칙대로라면 정년 해(64세),계산,표 4,2026-10-04,bill_retire(1968),bill_retire
+32,2034,년,1969년생 의안 부칙대로라면 정년 해(65세),계산,표 4,2026-10-04,bill_retire(1969),bill_retire
+33,0,년,의안 부칙대로라면 1968~72년생 공백,계산,표 4,2026-10-04,pension_year - bill_retire,bill_retire

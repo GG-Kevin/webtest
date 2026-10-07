@@ -1,0 +1,83 @@
+번호,숫자,단위,뜻,원문URL,조항또는쪽,기준일,원문표현,calc변수
+1,7천만,원,일반 소득 기준(부부 합산),https://www.hf.go.kr/ko/sub01/sub01_01_01.do,소득 요건,2026-10-03,연소득 7천만원 이하,
+2,8천5백만,원,신혼부부 소득 기준,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,소득 요건,2026-10-03,8천5백만원 이하,
+3,85백만,원,신혼가구 소득 기준(업무처리기준 표기),https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제2장 1 소득요건(4쪽),2026-10-03,신혼가구 85백만원,
+4,9천만,원,미성년 1자녀 가구 소득 기준,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,소득 요건,2026-10-03,1자녀 9천만원,
+5,1억,원,다자녀가구 소득 기준,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,소득 요건,2026-10-03,다자녀가구 1억원,
+6,6억,원,주택가격 상한,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,대출요건,2026-10-03,6억원 이하 공부상 주택,
+7,3.6억,원,대출한도,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조,2026-10-03,대출한도 최대 3.6억원,
+8,4억,원,다자녀가구 대출한도,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조,2026-10-03,다자녀 · 전세사기피해자 4억원,
+9,4.2억,원,생애최초 대출한도,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조,2026-10-03,생애최초 4.2억원,
+10,70,%,아파트 LTV 상한,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조 LTV,2026-10-03,아파트기준 최대 70%,
+11,65,%,기타주택 LTV,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조 LTV,2026-10-03,기타주택은 65% 이내,
+12,10%p,,규제지역 LTV·DTI 차감폭,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,상품구조 LTV·DTI,2026-10-03,10%p씩 차감하여 적용,
+13,60,%,DTI 상한,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제5장 1 DTI,2026-10-03,60% 이내,
+14,7년,,신혼가구 혼인 기간,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제1장 3 용어의 정의(2쪽),2026-10-03,신청일로부터 7년 이내,
+15,3개월,,결혼예정 인정 기간,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제1장 3 용어의 정의(2쪽),2026-10-03,신청일로부터 3개월 이내,
+16,0.3%p,,신혼가구 우대금리,https://www.hf.go.kr/ko/sub01/sub01_01_04.do,우대금리 표,2026-10-03,0.3%p,
+17,0.2%p,,신생아 출산가구 우대금리,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,금리우대,2026-10-03,신생아출산가구(0.2%p),
+18,0.1%p,,저소득청년 우대금리,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,금리우대,2026-10-03,저소득청년(0.1%p),
+19,1.0%p,,우대금리 합계 한도,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,금리우대,2026-10-03,최대 1.0%p 적용 가능,
+20,7천만,원,우대금리 소득선(신혼·신생아·청년),https://www.hf.go.kr/ko/sub01/sub01_01_04.do,우대금리 표,2026-10-03,부부합산 연소득 7천만원 이하,
+21,70백만,원,소득요건 기본선(업무처리기준 표기),https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제2장 1 소득요건(4쪽),2026-10-03,부부 합산 연소득 70백만원 이하,
+22,5.10,%,아낌e보금자리론 30년 기준금리(2026-10-01 공시),https://www.hf.go.kr/ko/sub01/sub01_01_04.do,금리안내 표,2026-10-03,아낌e보금자리론 5.10,
+23,5.15,%,아낌e보금자리론 40년 기준금리,https://www.hf.go.kr/ko/sub01/sub01_01_04.do,금리안내 표,2026-10-03,5.15,
+24,5.20,%,아낌e보금자리론 50년 기준금리,https://www.hf.go.kr/ko/sub01/sub01_01_04.do,금리안내 표,2026-10-03,5.20,
+25,0.1%p,,u방식 가산(비대면),https://www.hf.go.kr/ko/sub01/sub01_01_04.do,금리안내 주석,2026-10-03,0.1%p 가산,
+26,0.2%p,,규제지역 가산금리,https://www.hf.go.kr/ko/sub01/sub01_01_01.do,가산금리,2026-10-03,0.2%p 가산금리 부과,
+27,80,%,생애최초 LTV,https://www.hf.go.kr/ko/sub01/sub01_01_02.do,생애최초 보금자리론,2026-10-03,최대 LTV 80%,
+28,70,%,생애최초 수도권·규제지역 LTV,https://www.hf.go.kr/ko/sub01/sub01_01_02.do,생애최초 보금자리론,2026-10-03,규제지역에 소재하는 경우 70% 이내,
+29,40,세,40년 만기 나이(일반),https://www.hf.go.kr/ko/sub01/sub01_01_01.do,대출만기,2026-10-03,만 40세 미만,
+30,50,세,40년 만기 나이(신혼가구),https://www.hf.go.kr/ko/sub01/sub01_01_01.do,대출만기,2026-10-03,만 50세 미만 신혼가구,
+31,35,세,50년 만기 나이(일반),https://www.hf.go.kr/ko/sub01/sub01_01_01.do,대출만기,2026-10-03,만 35세 미만,
+32,20,%,2개년 소득 변동 판정선,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제6장 2 3)(20쪽),2026-10-03,20% 초과 여부,
+33,10,%,1년 이하 소득 연환산 차감,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제6장 2 5)(21쪽),2026-10-03,연환산 후 10% 차감,
+34,5천만,원,인정소득 연소득 한도,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제6장 5 5)(25쪽),2026-10-03,5천만원을 한도로 함,
+35,95,%,인정소득 추정 비율,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제6장 5 3)(25쪽),2026-10-03,× 12월 × 95%,
+36,1백만,원,대출 취급 단위,https://www.hf.go.kr/cms/etcResourceDown.do?site=$cms$NYeyA&key=$cms$AwRg+sBsHgTJwDsBmEA6ADgEwGZA,제4장 1 1)(13쪽),2026-10-03,1백만원 단위로 취급,
+37,"8,500",만원,2024년 개편 신혼부부 소득 기준,https://www.fsc.go.kr/no010101/81571,보도자료 본문,2026-10-03,"신혼부부는 연소득 8,500만원",
+38,8,천만원,2024년 개편 1자녀 소득 기준,https://www.fsc.go.kr/no010101/81571,보도자료 표,2026-10-03,1자녀 8천만원,
+39,20,bp,2024년 개편 신혼가구 우대폭,https://www.fsc.go.kr/no010101/81571,보도자료 표,2026-10-03,우대폭 20bp,
+40,"1,500",만원,우대 없이 대출만 되는 소득 폭,계산,calc.py gap,2026-10-03,,gap
+41,4.70,%,신혼+청년 우대 적용 금리,계산,calc.py table_income,2026-10-03,,table_income
+42,4.80,%,신혼 우대 적용 금리,계산,calc.py table_payment,2026-10-03,,table_payment
+43,"1,085,899",원,2억 5.10% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+44,"190,923,640",원,2억 5.10% 30년 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+45,"1,049,330",원,2억 4.80% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+46,"177,758,800",원,2억 4.80% 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+47,"36,569",원,2억 신혼 우대 월 차이,계산,calc.py table_payment,2026-10-03,,table_payment
+48,"1,037,275",원,2억 4.70% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+49,"173,419,000",원,2억 4.70% 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+50,"48,624",원,2억 신혼+청년 월 차이,계산,calc.py table_payment,2026-10-03,,table_payment
+51,"1,628,849",원,3억 5.10% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+52,"286,385,640",원,3억 5.10% 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+53,"1,573,996",원,3억 4.80% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+54,"266,638,560",원,3억 4.80% 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+55,"54,853",원,3억 신혼 우대 월 차이,계산,calc.py table_payment,2026-10-03,,table_payment
+56,"1,555,913",원,3억 4.70% 월 상환액,계산,calc.py table_payment,2026-10-03,,table_payment
+57,"260,128,680",원,3억 4.70% 총이자,계산,calc.py table_payment,2026-10-03,,table_payment
+58,"72,936",원,3억 신혼+청년 월 차이,계산,calc.py table_payment,2026-10-03,,table_payment
+59,"658,236",원,3억 신혼 우대 연 환산 차이,계산,calc.py main,2026-10-03,,main
+60,"19,747,080",원,3억 신혼 우대 30년 총이자 차이,계산,calc.py main,2026-10-03,,main
+61,"2억 1,000만",원,3억원 주택 일반·수도권 생애최초 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+62,"2억 4,000만",원,3억원 주택 생애최초 비수도권 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+63,"2억 8,000만",원,4억원 주택 일반 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+64,"3억 2,000만",원,4억원 주택 생애최초 비수도권 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+65,"3억 5,000만",원,5억원 주택 일반 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+66,4억,원,5억원 주택 생애최초 비수도권 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+67,"3억 6,000만",원,6억원 주택 일반 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+68,"4억 2,000만",원,6억원 주택 생애최초 한도,계산,calc.py table_limit,2026-10-03,,table_limit
+69,"1,140,194",원,2.1억 월 상환액,계산,calc.py table_limit,2026-10-03,,table_limit
+70,"1,520,259",원,2.8억 월 상환액,계산,calc.py table_limit,2026-10-03,,table_limit
+71,"1,900,324",원,3.5억 월 상환액,계산,calc.py table_limit,2026-10-03,,table_limit
+72,"1,954,619",원,3.6억 월 상환액,계산,calc.py table_limit,2026-10-03,,table_limit
+73,"2,281",만원,DTI 60% 최소 연소득(3억 주택),계산,calc.py table_limit,2026-10-03,,table_limit
+74,"3,041",만원,DTI 60% 최소 연소득(4억 주택),계산,calc.py table_limit,2026-10-03,,table_limit
+75,"3,801",만원,DTI 60% 최소 연소득(5억 주택),계산,calc.py table_limit,2026-10-03,,table_limit
+76,"3,910",만원,DTI 60% 최소 연소득(6억 주택),계산,calc.py table_limit,2026-10-03,,table_limit
+77,23.3,%,"변동률 3,000/2,300",계산,calc.py table_twoyear,2026-10-03,,table_twoyear
+78,30.4,%,"변동률 2,300/3,000",계산,calc.py table_twoyear,2026-10-03,,table_twoyear
+79,13.3,%,"변동률 3,000/2,600",계산,calc.py table_twoyear,2026-10-03,,table_twoyear
+80,"2,650",만원,2개년 평균 소득,계산,calc.py table_twoyear,2026-10-03,,table_twoyear
+81,"6,850",만원,부부 합산(평균 적용),계산,calc.py table_twoyear,2026-10-03,,table_twoyear
+82,"7,200",만원,부부 합산(최근년도),계산,calc.py table_twoyear,2026-10-03,,table_twoyear

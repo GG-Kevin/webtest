@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="110" y="56" font-size="34" font-weight="700" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">국민연금 임의가입: 내는 돈과 10년 뒤 받는 돈</text>
+<text x="110" y="94" font-size="20" fill="#4b5563" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2026년 월 보험료(9.5%)와 10년 납부 뒤 월 연금 · A값 3,193,511원 가정</text>
+<rect x="110" y="112" width="18" height="18" fill="#94a3b8"/>
+<text x="136" y="127" font-size="18" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">월 보험료</text>
+<rect x="250" y="112" width="18" height="18" fill="#0a6350"/>
+<text x="276" y="127" font-size="18" fill="#374151" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10년 납부 월 연금</text>
+<line x1="110" y1="555.0" x2="1160" y2="555.0" stroke="#e5e7eb"/>
+<text x="98" y="561.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0만</text>
+<line x1="110" y1="497.1" x2="1160" y2="497.1" stroke="#e5e7eb"/>
+<text x="98" y="503.1" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10만</text>
+<line x1="110" y1="439.3" x2="1160" y2="439.3" stroke="#e5e7eb"/>
+<text x="98" y="445.3" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">20만</text>
+<line x1="110" y1="381.4" x2="1160" y2="381.4" stroke="#e5e7eb"/>
+<text x="98" y="387.4" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">30만</text>
+<line x1="110" y1="323.6" x2="1160" y2="323.6" stroke="#e5e7eb"/>
+<text x="98" y="329.6" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">40만</text>
+<line x1="110" y1="265.7" x2="1160" y2="265.7" stroke="#e5e7eb"/>
+<text x="98" y="271.7" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">50만</text>
+<line x1="110" y1="207.9" x2="1160" y2="207.9" stroke="#e5e7eb"/>
+<text x="98" y="213.9" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">60만</text>
+<line x1="110" y1="150.0" x2="1160" y2="150.0" stroke="#e5e7eb"/>
+<text x="98" y="156.0" font-size="17" text-anchor="end" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">70만</text>
+<rect x="145.7" y="499.3" width="63.0" height="55.7" fill="#94a3b8"/>
+<text x="177.2" y="491.3" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">9.6만</text>
+<rect x="214.7" y="424.2" width="63.0" height="130.8" fill="#0a6350"/>
+<text x="246.2" y="416.2" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">22.6만</text>
+<text x="215.0" y="587" font-size="19" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">101.3만원</text>
+<rect x="355.7" y="472.6" width="63.0" height="82.4" fill="#94a3b8"/>
+<text x="387.2" y="464.6" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">14.2만</text>
+<rect x="424.7" y="409.0" width="63.0" height="146.0" fill="#0a6350"/>
+<text x="456.2" y="401.0" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">25.2만</text>
+<text x="425.0" y="587" font-size="19" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">150만원</text>
+<rect x="565.7" y="445.1" width="63.0" height="109.9" fill="#94a3b8"/>
+<text x="597.2" y="437.1" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">19.0만</text>
+<rect x="634.7" y="393.5" width="63.0" height="161.5" fill="#0a6350"/>
+<text x="666.2" y="385.5" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">27.9만</text>
+<text x="635.0" y="587" font-size="19" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">200만원</text>
+<rect x="775.7" y="390.1" width="63.0" height="164.9" fill="#94a3b8"/>
+<text x="807.2" y="382.1" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">28.5만</text>
+<rect x="844.7" y="362.4" width="63.0" height="192.6" fill="#0a6350"/>
+<text x="876.2" y="354.4" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">33.3만</text>
+<text x="845.0" y="587" font-size="19" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">300만원</text>
+<rect x="985.7" y="192.8" width="63.0" height="362.2" fill="#94a3b8"/>
+<text x="1017.2" y="184.8" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">62.6만</text>
+<rect x="1054.7" y="250.8" width="63.0" height="304.2" fill="#0a6350"/>
+<text x="1086.2" y="242.8" font-size="16" text-anchor="middle" fill="#111827" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">52.6만</text>
+<text x="1055.0" y="587" font-size="19" text-anchor="middle" fill="#1f2937" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">659만원</text>
+<text x="635.0" y="621" font-size="18" text-anchor="middle" fill="#6b7280" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">기준소득월액 · 101.3만원이 최저선 · 2026년 10월 5일 원문 기준</text>
+</svg>

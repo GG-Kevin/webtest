@@ -1,0 +1,53 @@
+[
+ {
+  "query": "금융소득 피부양자",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "금융소득 피부양자",
+   "금융소득 1000만원 건보료 피부양자",
+   "금융소득 1000만원 피부양자"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "달러 ETF 달러 예금",
+  "n_base": 0,
+  "n_expanded": 0,
+  "top": [],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "TQQQ QQQ 비교",
+  "n_base": 4,
+  "n_expanded": 4,
+  "top": [
+   "tqqq qqq 비교",
+   "qqq qld tqqq 비교",
+   "qqq tqqq 수익률 비교"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "SCHD JEPI 비교",
+  "n_base": 3,
+  "n_expanded": 3,
+  "top": [
+   "schd jepi 비교",
+   "schd jepi jepq 비교",
+   "jepi vs schd 비교"
+  ],
+  "date": "2026-10-02"
+ },
+ {
+  "query": "KODEX 미국달러선물",
+  "n_base": 10,
+  "n_expanded": 10,
+  "top": [
+   "kodex 미국달러선물",
+   "kodex 미국달러선물인버스",
+   "kodex 미국달러선물레버리지"
+  ],
+  "date": "2026-10-02"
+ }
+]

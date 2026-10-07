@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="#ffffff"/>
+<text x="60" y="56" font-size="30" font-weight="700" fill="#1f2937" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">특례금리는 몇 년 가나 (구입자금)</text>
+<text x="60" y="92" font-size="19" font-weight="400" fill="#4b5563" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추가 출산 1명당 5년씩 늘고 최장 15년 · 그 뒤는 소득 구간별 종료 뒤 금리</text>
+<text x="120" y="140" font-size="20" font-weight="700" fill="#111827" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">자녀 1명</text>
+<rect x="120" y="150" width="250.0" height="40" fill="#0a6350" rx="4"/>
+<text x="245.0" y="177" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">특례금리 5년</text>
+<rect x="370.0" y="150" width="750.0" height="40" fill="#e5e7eb" rx="4"/>
+<text x="384.0" y="177" font-size="18" font-weight="400" fill="#374151" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">종료 뒤 금리</text>
+<text x="120" y="235" font-size="20" font-weight="700" fill="#111827" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">2년 내 추가 출산 1명</text>
+<rect x="120" y="245" width="500.0" height="40" fill="#0a6350" rx="4"/>
+<text x="370.0" y="272" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">특례금리 10년</text>
+<rect x="620.0" y="245" width="500.0" height="40" fill="#e5e7eb" rx="4"/>
+<text x="634.0" y="272" font-size="18" font-weight="400" fill="#374151" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">종료 뒤 금리</text>
+<text x="120" y="330" font-size="20" font-weight="700" fill="#111827" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">추가 출산 2명</text>
+<rect x="120" y="340" width="750.0" height="40" fill="#0a6350" rx="4"/>
+<text x="495.0" y="367" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">특례금리 15년</text>
+<rect x="870.0" y="340" width="250.0" height="40" fill="#e5e7eb" rx="4"/>
+<text x="884.0" y="367" font-size="18" font-weight="400" fill="#374151" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">종료 뒤 금리</text>
+<line x1="120.0" y1="440" x2="120.0" y2="450" stroke="#6b7280"/>
+<text x="120.0" y="474" font-size="17" font-weight="400" fill="#6b7280" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">0년</text>
+<line x1="370.0" y1="440" x2="370.0" y2="450" stroke="#6b7280"/>
+<text x="370.0" y="474" font-size="17" font-weight="400" fill="#6b7280" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">5년</text>
+<line x1="620.0" y1="440" x2="620.0" y2="450" stroke="#6b7280"/>
+<text x="620.0" y="474" font-size="17" font-weight="400" fill="#6b7280" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">10년</text>
+<line x1="870.0" y1="440" x2="870.0" y2="450" stroke="#6b7280"/>
+<text x="870.0" y="474" font-size="17" font-weight="400" fill="#6b7280" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">15년</text>
+<line x1="1120.0" y1="440" x2="1120.0" y2="450" stroke="#6b7280"/>
+<text x="1120.0" y="474" font-size="17" font-weight="400" fill="#6b7280" text-anchor="middle" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">20년</text>
+<text x="120" y="505" font-size="16" font-weight="400" fill="#6b7280" text-anchor="start" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">대출 실행일부터 센 햇수 · 2026년 10월 5일 신생아 특례 디딤돌대출 화면 기준</text>
+</svg>
